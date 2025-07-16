@@ -4,18 +4,18 @@
 **Goal**: Establish development environment and project structure
 
 ### Week 1
-- [ ] **Day 1-2**: Install Ubuntu 22.04 in virtual environment
-- [ ] **Day 3-4**: Install ROS2 Humble and development tools
-- [ ] **Day 5**: Set up ROS2 workspace structure
-- [ ] **Day 6-7**: Install Gazebo, RViz, and simulation tools
+- [ ] **Day 1-2**: Set up RPi with ROS2 and X11 forwarding
+- [ ] **Day 3-4**: Install Cursor IDE and Remote-SSH extension
+- [ ] **Day 5**: Test X11 forwarding and RViz visualization
+- [ ] **Day 6-7**: Set up development workspace and test robot model
 
 ### Week 2
-- [ ] **Day 1-2**: Create project repository structure
-- [ ] **Day 3-4**: Set up development environment (IDE, debugging tools)
-- [ ] **Day 5-6**: Create initial robot description package
-- [ ] **Day 7**: Test basic ROS2 installation and tools
+- [ ] **Day 1-2**: Create project repository structure on RPi
+- [ ] **Day 3-4**: Set up development environment with Cursor remote SSH
+- [ ] **Day 5-6**: Create initial robot description package and test visualization
+- [ ] **Day 7**: Test basic ROS2 installation and X11 forwarding
 
-**Milestone 1**: Functional ROS2 environment with basic workspace
+**Milestone 1**: Functional ROS2 environment with X11 forwarding and visualization
 
 ## Phase 2: Simulation & Design (Week 3-6)
 **Goal**: Create simulation environment and robot description

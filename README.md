@@ -68,6 +68,6 @@ robot_arm_control/
 ## Next Steps
 1. Set up RPi with ROS2 (run `./scripts/setup_direct_rpi_dev.sh`)
 2. Install Cursor IDE and Remote-SSH extension
-3. Connect to RPi via SSH and open workspace
-4. Test robot model in RViz
-5. Begin hardware interface development
+3. Connect to RPi via SSH with X11 forwarding: `ssh -X pi@raspberry-pi-ip`
+4. Test robot model in RViz (appears on your main computer)
+5. Begin hardware interface development with full visualization support

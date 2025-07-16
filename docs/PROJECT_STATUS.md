@@ -127,15 +127,15 @@
 ## Weekly Updates
 
 ### Week 1 (Current)
-**Focus**: Environment Setup
+**Focus**: RPi Environment Setup with X11 Forwarding
 **Goals**:
-- [ ] Set up virtual environment
-- [ ] Install ROS2 Humble
-- [ ] Create basic workspace
-- [ ] Test basic functionality
+- [ ] Set up RPi with ROS2 and X11 forwarding
+- [ ] Install Cursor IDE and Remote-SSH extension
+- [ ] Test X11 forwarding and RViz visualization
+- [ ] Set up development workspace on RPi
 
 **Challenges**: None identified yet
-**Next Week**: Complete environment setup and begin robot description
+**Next Week**: Complete RPi setup and begin robot description with visualization
 
 ## Notes and Decisions
 

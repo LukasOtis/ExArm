@@ -36,13 +36,19 @@ This script will:
    - Search for "Remote - SSH"
    - Install the extension
 
-3. **Connect to RPi**
+3. **Connect to RPi with X11 Forwarding**
    ```bash
    # In Cursor, press Ctrl+Shift+P
    # Type: "Remote-SSH: Connect to Host"
    # Add new SSH target:
-   ssh pi@raspberry-pi-ip
+   ssh -X pi@raspberry-pi-ip
    ```
+   
+   **X11 Forwarding Benefits:**
+   - ✅ **RViz windows** appear on your main computer
+   - ✅ **Gazebo simulation** displays on your main computer
+   - ✅ **Joint State Publisher GUI** works on your main computer
+   - ✅ **All ROS2 GUI tools** work normally
 
 4. **Open workspace on RPi**
    ```bash
@@ -66,6 +72,11 @@ cd ~/robot_arm_ws
 source install/setup.bash
 ros2 launch robot_arm_description display.launch.py
 ```
+
+**You should see:**
+- **RViz window** appears on your main computer (via X11 forwarding)
+- **Joint State Publisher GUI** with sliders (appears on your main computer)
+- **Real-time visualization** of your robot arm model
 
 ## 🔄 **Option 2: Hybrid Development (VM + RPi)**
 
@@ -174,11 +185,12 @@ Given your requirements:
 
 ### **Daily Process (Direct RPi)**
 ```bash
-# 1. Connect to RPi via Cursor remote SSH
+# 1. Connect to RPi via Cursor remote SSH with X11 forwarding
 # 2. Edit code directly on RPi
 # 3. Build: colcon build
 # 4. Test: ros2 launch robot_arm_description display.launch.py
-# 5. Hardware testing: Immediate
+# 5. See RViz window on your main computer (via X11 forwarding)
+# 6. Hardware testing: Immediate (no deployment needed)
 ```
 
 ### **Testing Strategy**
@@ -216,6 +228,10 @@ Given your requirements:
    
    # Test SSH connection
    ssh pi@raspberry-pi-ip "echo 'Connection successful'"
+   
+   # Test X11 forwarding
+   ssh -X pi@raspberry-pi-ip "xeyes"
+   # Should show a small GUI window on your main computer
    ```
 
 ## 📋 **Next Steps**
@@ -230,7 +246,8 @@ Given your requirements:
 
 You have successfully set up the environment when:
 - [ ] RPi has ROS2 installed and working
-- [ ] Cursor can connect to RPi via SSH
-- [ ] Robot arm model displays in RViz
+- [ ] Cursor can connect to RPi via SSH with X11 forwarding
+- [ ] Robot arm model displays in RViz (on your main computer)
 - [ ] Code builds successfully on RPi
 - [ ] Hardware testing is possible immediately
+- [ ] X11 forwarding works (test with `xeyes` command)

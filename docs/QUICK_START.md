@@ -65,7 +65,7 @@ colcon build
    - Search for "Remote - SSH"
    - Install the extension
 
-### Connect to RPi
+### Connect to RPi with X11 Forwarding
 ```bash
 # In Cursor, press Ctrl+Shift+P
 # Type: "Remote-SSH: Connect to Host"
@@ -73,7 +73,11 @@ colcon build
 ssh -X pi@raspberry-pi-ip
 ```
 
-**Note**: The `-X` flag enables X11 forwarding for GUI applications like RViz and Gazebo.
+**X11 Forwarding Benefits:**
+- ✅ **RViz windows** appear on your main computer
+- ✅ **Gazebo simulation** displays on your main computer
+- ✅ **Joint State Publisher GUI** works on your main computer
+- ✅ **All ROS2 GUI tools** work normally
 
 ### Open Workspace on RPi
 ```bash
@@ -108,9 +112,10 @@ ros2 launch robot_arm_description display.launch.py
 ```
 
 You should see:
-- RViz window with the robot arm model
-- Joint State Publisher GUI with sliders
-- Ability to move joints using the GUI
+- **RViz window** appears on your main computer (via X11 forwarding)
+- **Joint State Publisher GUI** with sliders (appears on your main computer)
+- **Ability to move joints** using the GUI
+- **Real-time visualization** of your robot arm model
 
 ## Step 5: Verify Installation (5 minutes)
 
@@ -124,11 +129,12 @@ ros2 run demo_nodes_py listener &
 
 ### Daily Development Process
 ```bash
-# 1. Connect to RPi via Cursor remote SSH
+# 1. Connect to RPi via Cursor remote SSH with X11 forwarding
 # 2. Edit code directly on RPi
 # 3. Build: colcon build
 # 4. Test: ros2 launch robot_arm_description display.launch.py
-# 5. Hardware testing: Immediate (no deployment needed)
+# 5. See RViz window on your main computer (via X11 forwarding)
+# 6. Hardware testing: Immediate (no deployment needed)
 ```
 
 ### Testing Strategy
@@ -150,6 +156,10 @@ ping raspberry-pi-ip
 
 # Check SSH key setup
 ssh-copy-id pi@raspberry-pi-ip
+
+# Test X11 forwarding
+ssh -X pi@raspberry-pi-ip "echo \$DISPLAY"
+# Should show something like: :10.0
 ```
 
 ### Issue: RViz doesn't show robot model
@@ -186,6 +196,10 @@ hostname -I
 # Verify SSH is enabled
 sudo systemctl enable ssh
 sudo systemctl start ssh
+
+# Test X11 forwarding
+ssh -X pi@raspberry-pi-ip "xeyes"
+# Should show a small GUI window on your main computer
 ```
 
 ## Next Steps
@@ -209,11 +223,15 @@ ros2 topic echo /joint_states
 # Check robot description
 ros2 param get /robot_state_publisher robot_description
 
-# Launch RViz manually
+# Launch RViz manually (appears on main computer via X11)
 ros2 run rviz2 rviz2
 
-# Launch Gazebo simulation
+# Launch Gazebo simulation (appears on main computer via X11)
 ros2 launch gazebo_ros gazebo.launch.py
+
+# Test X11 forwarding
+xeyes
+xclock
 
 # Check RPi system info
 htop
@@ -255,10 +273,11 @@ sudo dphys-swapfile swapon
 
 You have successfully set up the environment when:
 - [ ] RPi has ROS2 installed and working
-- [ ] Cursor can connect to RPi via SSH
-- [ ] Robot arm model displays in RViz
+- [ ] Cursor can connect to RPi via SSH with X11 forwarding
+- [ ] Robot arm model displays in RViz (on your main computer)
 - [ ] Code builds successfully on RPi
 - [ ] Hardware testing is possible immediately
+- [ ] X11 forwarding works (test with `xeyes` command)
 
 Once these are complete, you're ready to begin Phase 2: Simulation & Design!
 

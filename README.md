@@ -66,7 +66,8 @@ robot_arm_control/
 - Project structure planning
 
 ## Next Steps
-1. Set up ROS2 development environment
-2. Create basic robot description
-3. Implement simulation environment
-4. Design hardware interface architecture
+1. Set up RPi with ROS2 (run `./scripts/setup_direct_rpi_dev.sh`)
+2. Install Cursor IDE and Remote-SSH extension
+3. Connect to RPi via SSH and open workspace
+4. Test robot model in RViz
+5. Begin hardware interface development

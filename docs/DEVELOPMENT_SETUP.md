@@ -1,31 +1,36 @@
 # Development Environment Setup Guide
 
 ## Overview
-This guide covers setting up Cursor IDE for both virtual machine development and Raspberry Pi deployment.
+This guide covers setting up Cursor IDE for ROS2 robot arm development. **Option 1 (Direct RPi Development) is recommended** as it eliminates VM overhead and provides direct hardware access.
 
-## Option 1: Remote Development (Recommended)
+## 🎯 **Option 1: Direct RPi Development (RECOMMENDED)**
 
-### Step 1: Set up RPi for Remote Development
+### **Why This Approach?**
+- ✅ **No VM needed** - develop directly on RPi
+- ✅ **Direct hardware access** - immediate testing
+- ✅ **Faster development** - no virtualization overhead
+- ✅ **Simpler setup** - single environment
+- ✅ **Real-time feedback** - see hardware response instantly
+
+### **Step 1: Set up RPi for Direct Development**
 
 ```bash
 # On Raspberry Pi
-sudo apt update
-sudo apt install openssh-server
-sudo systemctl enable ssh
-sudo systemctl start ssh
-
-# Get RPi IP address
-hostname -I
-
-# Install ROS2 on RPi (same as VM setup)
-sudo apt install ros-humble-desktop
-echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+chmod +x scripts/setup_direct_rpi_dev.sh
+./scripts/setup_direct_rpi_dev.sh
 ```
 
-### Step 2: Configure Cursor for Remote Development
+This script will:
+- Install ROS2 Humble on RPi
+- Enable SSH for remote access
+- Create development workspace
+- Install all necessary tools
+- Configure VS Code settings
 
-1. **Install Cursor on your VM**
-2. **Install Remote Development Extension**
+### **Step 2: Configure Cursor for Remote Development**
+
+1. **Install Cursor on your main computer** (Windows/Mac/Linux)
+2. **Install Remote-SSH Extension**
    - Open Cursor
    - Go to Extensions (Ctrl+Shift+X)
    - Search for "Remote - SSH"
@@ -36,177 +41,123 @@ echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
    # In Cursor, press Ctrl+Shift+P
    # Type: "Remote-SSH: Connect to Host"
    # Add new SSH target:
-   ssh username@raspberry-pi-ip
+   ssh pi@raspberry-pi-ip
    ```
 
-4. **Set up workspace on RPi**
+4. **Open workspace on RPi**
    ```bash
-   # On RPi via Cursor remote connection
-   mkdir -p ~/robot_arm_ws/src
+   # Navigate to workspace
    cd ~/robot_arm_ws
-   colcon build
    ```
 
-### Step 3: Install ROS2 Extensions on RPi
+### **Step 3: Install ROS2 Extensions on RPi**
+
+In Cursor connected to RPi, install these extensions:
+- **ROS2** (by Microsoft)
+- **Python**
+- **C/C++**
+- **CMake Tools**
+
+### **Step 4: Test the Setup**
 
 ```bash
-# In Cursor connected to RPi
-# Install these extensions:
-# - ROS2 (by Microsoft)
-# - Python
-# - C/C++
-# - CMake Tools
+# On RPi via Cursor remote connection
+cd ~/robot_arm_ws
+source install/setup.bash
+ros2 launch robot_arm_description display.launch.py
 ```
 
-## Option 2: Cross-Platform Development
+## 🔄 **Option 2: Hybrid Development (VM + RPi)**
 
-### Step 1: VM Development Environment
+### **When to Use This Approach**
+- You need **simulation testing** (Gazebo)
+- Your **RPi is underpowered** for development
+- You want **offline development** capability
+- You need **faster compilation** on VM
+
+### **Setup Process**
 
 ```bash
-# On VM - Development workspace
-mkdir -p ~/robot_arm_dev/src
-cd ~/robot_arm_dev
+# On VM
+./scripts/setup_hybrid_dev.sh
 
-# Install ROS2 and development tools
-sudo apt install ros-humble-desktop
-sudo apt install python3-colcon-common-extensions
+# On RPi
+./scripts/setup_rpi.sh
+
+# Deploy from VM to RPi
+./scripts/deploy_to_rpi.sh
 ```
 
-### Step 2: RPi Production Environment
+## 🚀 **Quick Start: Direct RPi Development**
 
+### **1. RPi Setup (One-time)**
 ```bash
-# On RPi - Production workspace
-mkdir -p ~/robot_arm_prod/src
-cd ~/robot_arm_prod
+# Copy setup script to RPi
+scp scripts/setup_direct_rpi_dev.sh pi@raspberry-pi-ip:~/
 
-# Install ROS2 (minimal for production)
-sudo apt install ros-humble-ros-base
-sudo apt install python3-colcon-common-extensions
+# On RPi
+chmod +x setup_direct_rpi_dev.sh
+./setup_direct_rpi_dev.sh
 ```
 
-### Step 3: Synchronization Script
-
-Create a deployment script to sync code from VM to RPi:
-
+### **2. Cursor Setup**
 ```bash
-#!/bin/bash
-# scripts/deploy_to_rpi.sh
-
-RPI_USER="pi"
-RPI_HOST="192.168.1.100"  # Change to your RPi IP
-DEV_DIR="~/robot_arm_dev"
-PROD_DIR="~/robot_arm_prod"
-
-echo "Deploying to Raspberry Pi..."
-
-# Build on VM
-cd ~/robot_arm_dev
-colcon build
-
-# Sync to RPi
-rsync -avz --delete \
-    --exclude='build/' \
-    --exclude='install/' \
-    --exclude='log/' \
-    --exclude='.git/' \
-    $DEV_DIR/ $RPI_USER@$RPI_HOST:$PROD_DIR/
-
-# Build on RPi
-ssh $RPI_USER@$RPI_HOST "cd $PROD_DIR && colcon build"
-
-echo "Deployment complete!"
+# Install Cursor on your main computer
+# Install Remote-SSH extension
+# Connect to RPi: ssh pi@raspberry-pi-ip
+# Open workspace: ~/robot_arm_ws
 ```
 
-## Option 3: Hybrid Approach (Best of Both)
-
-### Development Workflow
-
-1. **VM for Development**
-   - Faster compilation
-   - Better debugging tools
-   - Simulation testing
-   - Code editing and version control
-
-2. **RPi for Testing**
-   - Hardware integration testing
-   - Real-world performance testing
-   - Production deployment
-
-### Setup Scripts
-
+### **3. Development Workflow**
 ```bash
-# scripts/setup_hybrid_dev.sh
-#!/bin/bash
-
-echo "Setting up hybrid development environment..."
-
-# VM Development Setup
-echo "Setting up VM development environment..."
-mkdir -p ~/robot_arm_dev/src
-cd ~/robot_arm_dev
-
-# Install development tools
-sudo apt install ros-humble-desktop
-sudo apt install python3-colcon-common-extensions
-sudo apt install ros-humble-gazebo-ros-pkgs
-sudo apt install ros-humble-rviz2
-
-# Create deployment script
-cat > scripts/deploy_to_rpi.sh << 'EOF'
-#!/bin/bash
-RPI_USER="pi"
-RPI_HOST="192.168.1.100"
-DEV_DIR="~/robot_arm_dev"
-PROD_DIR="~/robot_arm_prod"
-
-echo "Deploying to Raspberry Pi..."
-
-# Build on VM
-cd ~/robot_arm_dev
-colcon build
-
-# Sync to RPi
-rsync -avz --delete \
-    --exclude='build/' \
-    --exclude='install/' \
-    --exclude='log/' \
-    --exclude='.git/' \
-    $DEV_DIR/ $RPI_USER@$RPI_HOST:$PROD_DIR/
-
-# Build on RPi
-ssh $RPI_USER@$RPI_HOST "cd $PROD_DIR && colcon build"
-
-echo "Deployment complete!"
-EOF
-
-chmod +x scripts/deploy_to_rpi.sh
-
-echo "Hybrid development environment setup complete!"
+# Edit code directly on RPi via Cursor
+# Build: colcon build
+# Test: ros2 launch robot_arm_description display.launch.py
+# Hardware testing: Immediate
 ```
 
-## Cursor IDE Configuration
+## 📊 **Comparison of Approaches**
 
-### Recommended Extensions
+| Feature | Direct RPi | Hybrid (VM+RPi) |
+|---------|------------|------------------|
+| **Setup Complexity** | ⭐ Simple | ⭐⭐⭐ Complex |
+| **Hardware Access** | ⭐⭐⭐ Direct | ⭐⭐ Deployed |
+| **Compilation Speed** | ⭐⭐ Fast | ⭐⭐⭐ Faster |
+| **Simulation** | ⭐ Limited | ⭐⭐⭐ Full |
+| **Offline Development** | ❌ No | ✅ Yes |
+| **Resource Usage** | ⭐ Low | ⭐⭐ Medium |
 
+## 🎯 **Recommended for Your Project**
+
+Given your requirements:
+- **5-6 DOF excavator-style arm**
+- **Stepper motors with encoders**
+- **20 hours/week development**
+- **Hardware testing needed**
+
+**Direct RPi Development is ideal** because:
+1. **Immediate hardware feedback** - test motor control instantly
+2. **No deployment delays** - code changes take effect immediately
+3. **Simpler workflow** - single environment to maintain
+4. **Real-time debugging** - see hardware issues immediately
+
+## 🔧 **Cursor IDE Configuration**
+
+### **Recommended Extensions**
 ```json
-// .vscode/extensions.json
 {
     "recommendations": [
         "ms-vscode.cpptools",
         "ms-python.python",
         "ms-vscode.cmake-tools",
         "ms-iot-vscode.vscode-ros",
-        "ms-vscode-remote.remote-ssh",
-        "ms-vscode-remote.remote-containers",
-        "ms-vscode.remote-explorer"
+        "ms-vscode-remote.remote-ssh"
     ]
 }
 ```
 
-### Workspace Settings
-
+### **Workspace Settings**
 ```json
-// .vscode/settings.json
 {
     "cmake.configureOnOpen": true,
     "cmake.buildDirectory": "${workspaceFolder}/build",
@@ -215,76 +166,38 @@ echo "Hybrid development environment setup complete!"
         "**/build": true,
         "**/install": true,
         "**/log": true
-    },
-    "search.exclude": {
-        "**/build": true,
-        "**/install": true,
-        "**/log": true
     }
 }
 ```
 
-## Development Workflow
+## 🚀 **Development Workflow**
 
-### Daily Development Process
+### **Daily Process (Direct RPi)**
+```bash
+# 1. Connect to RPi via Cursor remote SSH
+# 2. Edit code directly on RPi
+# 3. Build: colcon build
+# 4. Test: ros2 launch robot_arm_description display.launch.py
+# 5. Hardware testing: Immediate
+```
 
-1. **VM Development**
-   ```bash
-   # On VM
-   cd ~/robot_arm_dev
-   source install/setup.bash
-   
-   # Edit code in Cursor
-   # Test in simulation
-   colcon build
-   ```
-
-2. **Deploy to RPi**
-   ```bash
-   # Deploy changes
-   ./scripts/deploy_to_rpi.sh
-   ```
-
-3. **Test on RPi**
-   ```bash
-   # SSH to RPi or use Cursor remote
-   cd ~/robot_arm_prod
-   source install/setup.bash
-   ros2 launch robot_arm_description display.launch.py
-   ```
-
-### Testing Strategy
-
-- **Unit Tests**: Run on VM
+### **Testing Strategy**
+- **Unit Tests**: Run on RPi
 - **Integration Tests**: Run on RPi
-- **Simulation Tests**: Run on VM
-- **Hardware Tests**: Run on RPi
+- **Hardware Tests**: Run on RPi (immediate)
+- **Simulation Tests**: Run on RPi (limited Gazebo)
 
-## Performance Considerations
+## 🛠️ **Troubleshooting**
 
-### VM Development
-- **Pros**: Faster compilation, better debugging
-- **Cons**: No hardware access
-
-### RPi Development
-- **Pros**: Direct hardware access, real-world testing
-- **Cons**: Slower compilation, limited resources
-
-### Hybrid Approach
-- **Pros**: Best of both worlds
-- **Cons**: More complex setup, synchronization overhead
-
-## Troubleshooting
-
-### Common Issues
+### **Common Issues**
 
 1. **SSH Connection Failed**
    ```bash
    # Check RPi SSH service
    sudo systemctl status ssh
    
-   # Check firewall
-   sudo ufw status
+   # Check network connectivity
+   ping raspberry-pi-ip
    ```
 
 2. **Build Errors on RPi**
@@ -296,22 +209,28 @@ echo "Hybrid development environment setup complete!"
    rosdep install --from-paths src --ignore-src -r -y
    ```
 
-3. **Sync Issues**
+3. **Cursor Remote Issues**
    ```bash
-   # Check rsync installation
-   sudo apt install rsync
+   # Check SSH key setup
+   ssh-copy-id pi@raspberry-pi-ip
    
-   # Test connection
+   # Test SSH connection
    ssh pi@raspberry-pi-ip "echo 'Connection successful'"
    ```
 
-## Recommended Setup for Your Project
+## 📋 **Next Steps**
 
-Given your requirements (VM development, RPi deployment), I recommend:
+1. **Choose your approach**: Direct RPi (recommended) or Hybrid
+2. **Set up RPi**: Run the appropriate setup script
+3. **Configure Cursor**: Install Remote-SSH extension
+4. **Connect and test**: Verify everything works
+5. **Start development**: Begin coding your robot arm!
 
-1. **Start with Option 1 (Remote Development)** for initial setup
-2. **Move to Option 3 (Hybrid)** as project grows
-3. **Use VM for simulation and development**
-4. **Use RPi for hardware testing and deployment**
+## 🎯 **Success Criteria**
 
-This gives you the best balance of development speed and hardware access.
+You have successfully set up the environment when:
+- [ ] RPi has ROS2 installed and working
+- [ ] Cursor can connect to RPi via SSH
+- [ ] Robot arm model displays in RViz
+- [ ] Code builds successfully on RPi
+- [ ] Hardware testing is possible immediately

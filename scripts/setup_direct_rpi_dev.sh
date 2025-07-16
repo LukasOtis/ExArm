@@ -56,10 +56,24 @@ if [ ! -f /etc/ros/rosdep/sources.list.d/20-default.list ]; then
 fi
 rosdep update
 
-# Enable SSH
-echo -e "${YELLOW}Enabling SSH...${NC}"
+# Enable SSH with X11 forwarding
+echo -e "${YELLOW}Configuring SSH for X11 forwarding...${NC}"
 sudo systemctl enable ssh
 sudo systemctl start ssh
+
+# Configure SSH for X11 forwarding
+if ! grep -q "X11Forwarding yes" /etc/ssh/sshd_config; then
+    echo "X11Forwarding yes" | sudo tee -a /etc/ssh/sshd_config
+fi
+if ! grep -q "X11DisplayOffset 10" /etc/ssh/sshd_config; then
+    echo "X11DisplayOffset 10" | sudo tee -a /etc/ssh/sshd_config
+fi
+sudo systemctl restart ssh
+
+# Install visualization tools
+echo -e "${YELLOW}Installing visualization tools...${NC}"
+sudo apt install -y x11-apps xauth
+sudo apt install -y tightvncserver xrdp
 
 # Create workspace
 echo -e "${YELLOW}Creating workspace...${NC}"
@@ -138,28 +152,48 @@ echo ""
 echo "RPi Configuration:"
 echo "- IP Address: $RPI_IP"
 echo "- SSH Enabled: Yes"
+echo "- X11 Forwarding: Enabled"
 echo "- ROS2 Installed: Yes"
 echo "- Workspace: $WORKSPACE_DIR"
+echo ""
+echo "Visualization Options:"
+echo ""
+echo "1. X11 Forwarding (Recommended for development):"
+echo "   ssh -X pi@$RPI_IP"
+echo "   # Then run: ros2 launch robot_arm_description display.launch.py"
+echo ""
+echo "2. VNC Server (Better performance):"
+echo "   # On RPi: vncserver :1 -geometry 1920x1080 -depth 24"
+echo "   # Connect via VNC viewer to $RPI_IP:5901"
+echo ""
+echo "3. Remote Desktop (Best performance):"
+echo "   # Connect via RDP to $RPI_IP"
 echo ""
 echo "Next Steps:"
 echo "1. Install Cursor on your main computer"
 echo "2. Install Remote-SSH extension in Cursor"
-echo "3. Connect to RPi: ssh pi@$RPI_IP"
+echo "3. Connect to RPi: ssh -X pi@$RPI_IP"
 echo "4. Open workspace: $WORKSPACE_DIR"
 echo ""
 echo "Cursor Setup Instructions:"
 echo "1. Open Cursor"
 echo "2. Press Ctrl+Shift+P"
 echo "3. Type: 'Remote-SSH: Connect to Host'"
-echo "4. Add new SSH target: ssh pi@$RPI_IP"
+echo "4. Add new SSH target: ssh -X pi@$RPI_IP"
 echo "5. Navigate to: $WORKSPACE_DIR"
 echo ""
 echo "Development Workflow:"
-echo "1. Connect to RPi via Cursor remote SSH"
+echo "1. Connect to RPi via Cursor remote SSH with X11 forwarding"
 echo "2. Edit code directly on RPi"
 echo "3. Build: colcon build"
 echo "4. Test: ros2 launch robot_arm_description display.launch.py"
 echo "5. Hardware testing: Immediate (no deployment needed)"
+echo ""
+echo "Visualization Tips:"
+echo "- Use X11 forwarding for RViz and Gazebo"
+echo "- Use VNC for better performance with complex simulations"
+echo "- Use Remote Desktop for full desktop access"
+echo "- Ensure both devices are on same network for best performance"
 echo ""
 echo "Benefits:"
 echo "- No VM overhead"
@@ -167,3 +201,4 @@ echo "- Direct hardware access"
 echo "- Real-time testing"
 echo "- Single development environment"
 echo "- Faster compilation"
+echo "- Full visualization support"

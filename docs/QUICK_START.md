@@ -70,8 +70,10 @@ colcon build
 # In Cursor, press Ctrl+Shift+P
 # Type: "Remote-SSH: Connect to Host"
 # Add new SSH target:
-ssh pi@raspberry-pi-ip
+ssh -X pi@raspberry-pi-ip
 ```
+
+**Note**: The `-X` flag enables X11 forwarding for GUI applications like RViz and Gazebo.
 
 ### Open Workspace on RPi
 ```bash
@@ -268,3 +270,4 @@ Once these are complete, you're ready to begin Phase 2: Simulation & Design!
 - ✅ **Simpler setup** - single environment
 - ✅ **No deployment delays** - code changes take effect immediately
 - ✅ **Cost effective** - no additional VM resources needed
+- ✅ **Full visualization support** - RViz and Gazebo work via X11 forwarding

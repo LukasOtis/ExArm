@@ -25,7 +25,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <time.h>
-#include <malloc.h>
+#include <stdlib.h>
 
 #include "pico/time.h"
 #include "pico/bootrom.h"

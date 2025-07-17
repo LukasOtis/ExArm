@@ -1,377 +1,259 @@
-# Building and Flashing grblHAL for Robot Arm
+# grblHAL Robot Arm - Build Instructions
 
-This guide shows how to build and flash grblHAL firmware for the 5-6 DOF robot arm project using Raspberry Pi Pico 2 (RP2350).
+This document provides complete instructions for building the minimal grblHAL firmware for robot arm control on both host systems (for testing) and the Raspberry Pi Pico 2 (RP2350) target.
+
+## Overview
+
+Our minimal grblHAL implementation provides two build systems:
+
+1. **Host Build (Makefile)** - For testing grblHAL core functionality
+2. **RP2350 Build (CMake + Pico SDK)** - For actual robot arm hardware
 
 ## Prerequisites
 
-### Required Tools
-- **Git** for cloning repositories
-- **CMake** (version 3.13 or later)
-- **ARM GCC toolchain** (version 10.3 or later)
-- **VS Code** with Pico extension (recommended)
-- **Python 3** for build scripts
+### For Host Build (Testing)
+```bash
+# Required tools
+gcc
+make
 
-### Hardware Required
-- **Raspberry Pi Pico 2** (RP2350)
-- **USB cable** (USB-A to USB-C)
-- **Computer** (Windows, macOS, or Linux)
+# On Ubuntu/Debian
+sudo apt update
+sudo apt install build-essential
 
-## Setup Development Environment
+# On macOS
+xcode-select --install
+```
 
-### Option 1: VS Code with Pico Extension (Recommended)
+### For RP2350 Build (Target Hardware)
+```bash
+# Required tools
+cmake (>= 3.13)
+gcc-arm-none-eabi
+git
 
-1. **Install VS Code**: Download from [code.visualstudio.com](https://code.visualstudio.com/)
+# On Ubuntu/Debian
+sudo apt update
+sudo apt install cmake gcc-arm-none-eabi build-essential git
 
-2. **Install Pico Extension**:
-   - Open VS Code
-   - Go to Extensions (Ctrl+Shift+X)
-   - Search "Raspberry Pi Pico"
-   - Install the official extension
+# On macOS
+brew install cmake gcc-arm-embedded git
+```
 
-3. **Configure Extension**: The extension will auto-configure paths and toolchain
+## Build System 1: Host Testing (Makefile)
 
-### Option 2: Manual Toolchain Setup
+Use this for testing grblHAL core compilation and functionality without hardware.
 
-1. **Install ARM GCC Toolchain**:
-   ```bash
-   # Ubuntu/Debian
-   sudo apt update
-   sudo apt install gcc-arm-none-eabi cmake build-essential
-   
-   # macOS (with Homebrew)
-   brew install arm-none-eabi-gcc cmake
-   
-   # Windows (use MSYS2 or install from ARM website)
-   # Download from: https://developer.arm.com/downloads/-/gnu-rm
-   ```
+### Quick Start
+```bash
+cd grblhal_integration/firmware
 
-2. **Install Pico SDK**:
-   ```bash
-   git clone https://github.com/raspberrypi/pico-sdk.git
-   cd pico-sdk
-   git submodule update --init
-   export PICO_SDK_PATH=/path/to/pico-sdk
-   ```
+# Test compilation (expects driver errors - that's normal)
+make
 
-## Obtain grblHAL Source Code
+# View build information
+make info
 
-### Option 1: Fork and Clone (Recommended for Development)
+# Clean build artifacts
+make clean
+```
 
-1. **Fork the repository**: Go to [github.com/grblHAL/RP2040](https://github.com/grblHAL/RP2040) and click "Fork"
+### What This Tests
+✅ **grblHAL Core Compilation**: All 36 core files compile successfully  
+✅ **Dependency Resolution**: All headers and libraries link correctly  
+✅ **Configuration Validation**: Robot arm config applied correctly  
+❌ **Driver Compilation**: Expected to fail (needs Pico SDK)  
 
-2. **Clone your fork**:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/RP2040.git grblhal-rp2040
-   cd grblhal-rp2040
-   git submodule update --init --recursive
-   ```
+### Expected Output
+```
+grblHAL core files: 36
+Driver files: 7  
+Total files: 43
 
-### Option 2: Direct Clone
+✅ grblHAL core compiles successfully (warnings normal)
+❌ Driver fails: needs Pico SDK (expected)
+```
+
+## Build System 2: RP2350 Target (CMake)
+
+Use this for building actual firmware for Raspberry Pi Pico 2 hardware.
+
+### Step 1: Install Pico SDK
 
 ```bash
-git clone https://github.com/grblHAL/RP2040.git grblhal-rp2040
-cd grblhal-rp2040
-git submodule update --init --recursive
+# Create development directory
+mkdir -p ~/pico
+cd ~/pico
+
+# Clone Pico SDK
+git clone https://github.com/raspberrypi/pico-sdk.git
+cd pico-sdk
+git submodule update --init
+
+# Set environment variable (add to ~/.bashrc for permanent)
+export PICO_SDK_PATH=~/pico/pico-sdk
 ```
 
-## Configure for Robot Arm
-
-### 1. Copy Configuration Files
-
-Copy our custom configuration files to the grblHAL source:
+### Step 2: Build for RP2350
 
 ```bash
-# Copy main configuration
-cp ../grblhal_config.h ./Inc/my_machine.h
+cd grblhal_integration/firmware
 
-# Copy board mapping
-cp ../board_map.h ./Inc/robot_arm_map.h
+# Create build directory
+mkdir build
+cd build
+
+# Configure for RP2350 (Pico 2)
+cmake -DPICO_BOARD=pico2 ..
+
+# Build firmware
+make -j4
+
+# View size information
+make size
 ```
 
-### 2. Select Board Configuration
-
-Edit `CMakeLists.txt` to select our robot arm configuration:
-
-```cmake
-# Around line 15-20, change:
-set(BOARD_NAME "robot_arm_map.h")
-# or
-add_compile_definitions(BOARD_FILE="robot_arm_map.h")
-```
-
-### 3. Enable Required Features
-
-In `my_machine.h`, ensure these features are enabled:
-```c
-#define N_AXIS 6                    // 6-axis support
-#define ENABLE_SERVO_CONTROL        // PWM servo control
-#define ENABLE_SAFETY_DOOR_INPUT    // Safety features
-#define ENABLE_LIMITS_INPUT         // Limit switches
-```
-
-## Build Process
-
-### Using VS Code (Recommended)
-
-1. **Open Project**: Open the grblhal-rp2040 folder in VS Code
-
-2. **Select Board**: 
-   - Press Ctrl+Shift+P
-   - Type "Pico: Configure"
-   - Select "Raspberry Pi Pico 2" (RP2350)
-
-3. **Select Configuration**:
-   - Choose "Release" for production build
-   - Choose "Debug" for development
-
-4. **Build**:
-   - Press Ctrl+Shift+P
-   - Type "Pico: Compile"
-   - Wait for build to complete
-
-### Using Command Line
-
-1. **Create Build Directory**:
-   ```bash
-   mkdir build
-   cd build
-   ```
-
-2. **Configure CMake**:
-   ```bash
-   # For Pico 2 (RP2350)
-   cmake -DPICO_BOARD=pico2 -DCMAKE_BUILD_TYPE=Release ..
-   
-   # Alternative with specific board file
-   cmake -DBOARD_FILE=robot_arm_map.h -DCMAKE_BUILD_TYPE=Release ..
-   ```
-
-3. **Build Firmware**:
-   ```bash
-   make -j4  # Use 4 cores for faster build
-   ```
-
-4. **Verify Build**:
-   ```bash
-   ls *.uf2  # Should show grblHAL.uf2 file
-   ```
-
-## Flash Firmware to Pico 2
-
-### Method 1: Drag and Drop (Easiest)
-
-1. **Enter Bootloader Mode**:
-   - Hold **BOOTSEL** button on Pico 2
-   - Connect USB cable to computer
-   - Release **BOOTSEL** button
-   - Pico 2 appears as USB drive "RPI-RP2"
-
-2. **Copy Firmware**:
-   - Drag `grblHAL.uf2` file to the RPI-RP2 drive
-   - Pico 2 will automatically reboot with new firmware
-
-### Method 2: Using picotool
-
-1. **Install picotool**:
-   ```bash
-   # Build from source (recommended)
-   git clone https://github.com/raspberrypi/picotool.git
-   cd picotool
-   mkdir build && cd build
-   cmake .. && make
-   sudo make install
-   ```
-
-2. **Flash Firmware**:
-   ```bash
-   # Put Pico in bootloader mode first
-   picotool load grblHAL.uf2 -f
-   picotool reboot
-   ```
-
-### Method 3: VS Code Integration
-
-1. **Select Target**: Choose "Upload to Pico" from command palette
-2. **Connect Pico**: Follow prompts to connect in bootloader mode
-3. **Flash**: Extension handles the flashing process automatically
-
-## Verify Installation
-
-### 1. Check USB Connection
-
-After flashing, the Pico 2 should appear as a serial device:
+### Step 3: Flash to Pico 2
 
 ```bash
-# Linux/macOS
-ls /dev/tty* | grep -E "(ACM|USB)"
-# Should show something like /dev/ttyACM0
+# Install picotool (if not installed)
+cd ~/pico
+git clone https://github.com/raspberrypi/picotool.git
+cd picotool
+mkdir build && cd build
+cmake ..
+make -j4
+sudo make install
 
-# Windows (PowerShell)
-Get-WmiObject -Class Win32_SerialPort | Select-Object Name,DeviceID
+# Flash firmware to Pico 2
+# 1. Hold BOOTSEL while connecting Pico 2 to USB
+# 2. Release BOOTSEL - Pico appears as USB drive
+make flash
+
+# Or manually copy UF2 file
+cp grblhal_robot_arm.uf2 /media/RPI-RP2/
 ```
 
-### 2. Test Serial Communication
+## Build Outputs
 
-Using a terminal program (PuTTY, screen, minicom):
+### Host Build (Makefile)
+- `grblhal_robot_arm` - Host executable (testing only)
+- `*.o` - Object files for analysis
 
-```bash
-# Linux/macOS
-screen /dev/ttyACM0 115200
+### RP2350 Build (CMake)  
+- `grblhal_robot_arm.elf` - ELF firmware file
+- `grblhal_robot_arm.uf2` - UF2 file for flashing  
+- `grblhal_robot_arm.bin` - Raw binary firmware
+- `grblhal_robot_arm.hex` - Intel hex firmware
+- `grblhal_robot_arm.map` - Memory map for debugging
 
-# Or using minicom
-minicom -D /dev/ttyACM0 -b 115200
-```
+## Configuration
 
-Expected response:
-```
-Grbl 1.1h ['$' for help]
-```
+### Robot Arm Settings
+Configuration is automatically applied through:
+- `grblhal_config.h` - Main robot arm hardware config
+- `grbl/robot_arm_config.h` - grblHAL core overrides  
+- `my_machine.h` - RP2350 pin assignments
 
-### 3. Basic Commands Test
+### Key Features Enabled
+- 6-axis control (5 steppers + 1 servo)
+- Robot arm motion planning
+- Safety systems (limits, e-stop)
+- Real-time status reporting
+- USB/UART communication
 
-In the terminal, type:
-```gcode
-$$                  # Show settings
-?                   # Request status  
-$X                  # Unlock (if alarmed)
-G1 X10 F100        # Test movement command
-```
+### Key Features Disabled  
+- Laser control
+- Plasma cutting
+- Automatic tool changes
+- CNC machining features
+- Network interfaces
 
 ## Troubleshooting
 
-### Build Errors
+### Common Issues
 
-**Error**: "PICO_SDK_PATH not set"
+**"malloc.h not found"**
 ```bash
+# Solution: Use stdlib.h instead (already fixed in our build)
+```
+
+**"pico/time.h not found"**
+```bash
+# Solution: Use CMake build with Pico SDK for RP2350 target
 export PICO_SDK_PATH=/path/to/pico-sdk
 ```
 
-**Error**: "arm-none-eabi-gcc not found"
-- Install ARM GCC toolchain
-- Check PATH environment variable
-
-**Error**: CMake version too old
-- Install CMake 3.13 or later
-- Use `cmake --version` to check
-
-### Flash Errors
-
-**Problem**: Pico not detected as USB drive
-- Try different USB cable
-- Hold BOOTSEL longer
-- Check USB port
-
-**Problem**: .uf2 file not copied
-- Ensure file is valid (check size > 0)
-- Try copying manually
-- Use different file manager
-
-### Communication Errors
-
-**Problem**: No serial device appears
-- Check if firmware flashed correctly
-- Try different USB port
-- Verify driver installation (Windows)
-
-**Problem**: "Permission denied" on Linux
+**"N_AXIS redefinition"**
 ```bash
-sudo usermod -a -G dialout $USER
-# Logout and login again
+# Solution: Robot arm config properly overrides (already handled)
 ```
 
-**Problem**: Garbled output
-- Check baud rate (should be 115200)
-- Verify correct serial port
-- Try different terminal program
-
-## Custom Configuration
-
-### Modifying Pin Assignments
-
-Edit `robot_arm_map.h`:
-```c
-// Change step pins
-#define X_STEP_PIN      2    // Change to your pin
-#define Y_STEP_PIN      4    // Change to your pin
-// etc.
-```
-
-### Adjusting Motor Settings
-
-Edit `my_machine.h`:
-```c
-// Change steps per unit
-#define DEFAULT_X_STEPS_PER_UNIT 200.0    // Adjust for your motor
-#define DEFAULT_Y_STEPS_PER_UNIT 200.0    // Adjust for your motor
-// etc.
-```
-
-### Adding Custom G-codes
-
-In `my_machine.h`:
-```c
-// Enable custom M-codes
-#define ENABLE_CUSTOM_GCODE_M10     // Your custom function
-```
-
-Then implement in the source code.
-
-## Advanced Options
-
-### Debug Build
-
-For development and debugging:
+### Memory Usage Verification
 ```bash
-cmake -DCMAKE_BUILD_TYPE=Debug -DPICO_BOARD=pico2 ..
-make -j4
+# Check firmware size fits RP2350
+cd build
+arm-none-eabi-size grblhal_robot_arm.elf
+
+# Expected output should show:
+#   text    data     bss     dec     hex
+#  <200KB   <8KB   <32KB   <240KB  (fits in 512KB flash + 264KB RAM)
 ```
 
-### Optimize for Size
-
-For minimal flash usage:
+### Serial Communication Test
 ```bash
-cmake -DCMAKE_BUILD_TYPE=MinSizeRel -DPICO_BOARD=pico2 ..
-make -j4
+# Connect via USB (adjust device as needed)
+minicom -D /dev/ttyACM0 -b 115200
+
+# Test grblHAL communication
+> $$ 
+[Shows grblHAL settings]
+
+> ?
+<Idle|MPos:0.000,0.000,0.000,0.000,0.000,0.000|FS:0,0>
 ```
 
-### Enable Debugging
+## Development Workflow
 
-Add to `my_machine.h`:
-```c
-#define ENABLE_DEBUG_OUTPUT
-#define DEBUGOUT 1              // Enable debug messages
-```
+### Recommended Process
+1. **Host Testing**: Use Makefile to verify core compilation
+2. **Configuration**: Adjust `grblhal_config.h` for hardware setup  
+3. **RP2350 Build**: Use CMake to build for target hardware
+4. **Hardware Test**: Flash and test with actual robot arm
+5. **ROS2 Integration**: Connect via UART to Raspberry Pi
 
-## Updating Firmware
-
-### Update grblHAL Core
-
+### Quick Development Cycle
 ```bash
-cd grblhal-rp2040
-git pull origin master
-git submodule update --recursive
-# Rebuild and reflash
+# Make changes to source files
+vim grblhal_config.h
+
+# Test host compilation
+make clean && make
+
+# Build for RP2350
+cd build && make -j4
+
+# Flash and test
+make flash && make monitor
 ```
 
-### Apply Configuration Changes
+## Integration with ROS2
 
-1. Modify configuration files
-2. Rebuild firmware
-3. Flash to Pico 2
-4. Verify operation
+The compiled firmware provides a grblHAL-compatible interface for ROS2 integration:
 
-## Next Steps
+- **Communication**: USB CDC or UART at 115200 baud
+- **Protocol**: Standard grblHAL G-code commands
+- **Real-time**: 4Hz status reports for ROS2 feedback
+- **Safety**: Hardware limits and emergency stops
 
-After successful firmware installation:
+See the ROS2 workspace documentation for bridge implementation details.
 
-1. **Configure ROS2 Bridge**: Set up the ROS2 communication package
-2. **Calibrate Motors**: Run motor calibration procedures
-3. **Test Safety Systems**: Verify emergency stops and limits
-4. **Tune Parameters**: Adjust acceleration and feed rates
+## Success Criteria
 
-## Support Resources
+✅ **Host Build Success**: grblHAL core compiles with warnings only  
+✅ **RP2350 Build Success**: Firmware builds to UF2 file  
+✅ **Size Verification**: Firmware fits in RP2350 memory  
+✅ **Communication Test**: grblHAL responds to commands  
+✅ **Robot Arm Ready**: 6-axis control functional  
 
-- **grblHAL Documentation**: [github.com/grblHAL/core/wiki](https://github.com/grblHAL/core/wiki)
-- **Pico SDK Guide**: [raspberrypi.github.io/pico-sdk-doxygen](https://raspberrypi.github.io/pico-sdk-doxygen/)
-- **Community Forum**: Join grblHAL discussions for help
-- **Our Project Issues**: Report bugs in the robot arm repository
+This build system provides a complete path from source code to working robot arm controller firmware. 

@@ -41,7 +41,38 @@
 #define C_MOTOR_TYPE MOTOR_TYPE_SERVO
 
 // ============================================================================
-// PIN ASSIGNMENTS (RP2350)
+// STEPPER MOTOR SETTINGS
+// ============================================================================
+
+// Default steps per unit (steps/degree for rotational, steps/mm for linear)
+// Assuming 1.8° stepper (200 steps/rev) with 1/16 microstepping = 3200 steps/rev
+#define DEFAULT_X_STEPS_PER_UNIT 17.78     // Base rotation: 3200 steps/rev ÷ 180° = 17.78 steps/degree
+#define DEFAULT_Y_STEPS_PER_UNIT 17.78     // Shoulder: 3200 steps/rev ÷ 180° = 17.78 steps/degree
+#define DEFAULT_Z_STEPS_PER_UNIT 17.78     // Elbow: 3200 steps/rev ÷ 180° = 17.78 steps/degree  
+#define DEFAULT_A_STEPS_PER_UNIT 800.0     // Linear actuator 1: 3200 steps/rev ÷ 4mm/rev = 800 steps/mm
+#define DEFAULT_B_STEPS_PER_UNIT 800.0     // Linear actuator 2: 3200 steps/rev ÷ 4mm/rev = 800 steps/mm
+
+// Maximum feed rates (units/minute) - Conservative values for 5V steppers
+#define DEFAULT_X_MAX_RATE 1800.0          // degrees/min (30 deg/sec max)
+#define DEFAULT_Y_MAX_RATE 1800.0          // degrees/min (30 deg/sec max)
+#define DEFAULT_Z_MAX_RATE 1800.0          // degrees/min (30 deg/sec max)
+#define DEFAULT_A_MAX_RATE 600.0           // mm/min (10 mm/sec max)
+#define DEFAULT_B_MAX_RATE 600.0           // mm/min (10 mm/sec max)
+
+// Acceleration (units/sec^2) - Start conservative, tune later
+#define DEFAULT_X_ACCELERATION 60.0        // degrees/sec^2
+#define DEFAULT_Y_ACCELERATION 60.0        // degrees/sec^2
+#define DEFAULT_Z_ACCELERATION 60.0        // degrees/sec^2
+#define DEFAULT_A_ACCELERATION 30.0        // mm/sec^2
+#define DEFAULT_B_ACCELERATION 30.0        // mm/sec^2
+
+// Stepper timing for 5V drivers
+#define STEP_PULSE_DELAY 10                // Step pulse delay in microseconds (for 5V drivers)
+#define STEP_PULSE_TIME 10                 // Step pulse width in microseconds
+#define DIRECTION_DELAY 20                 // Direction signal setup time (microseconds)
+
+// ============================================================================
+// PIN ASSIGNMENTS (RP2350) - Updated for 5V Logic Level
 // ============================================================================
 
 // Stepper motor step pins
@@ -58,13 +89,20 @@
 #define A_DIRECTION_PIN 9
 #define B_DIRECTION_PIN 11
 
-// Stepper motor enable pin (shared)
+// Stepper motor enable pin (shared) - IMPORTANT: May need level shifter for 5V
 #define STEPPERS_ENABLE_PIN 12
 
-// Servo PWM pin
+// NOTE: 3.3V to 5V Level Shifting Required!
+// The RP2350 outputs 3.3V logic, but your stepper drivers expect 5V
+// Options:
+// 1. Use 74HCT245 or similar level shifter IC
+// 2. Use stepper drivers that accept 3.3V input (check datasheet)
+// 3. Use pull-up resistors to 5V on driver inputs
+
+// Servo PWM pin (3.3V is usually fine for servo signal)
 #define C_SERVO_PIN     13
 
-// Limit switch pins
+// Limit switch pins (with pull-up resistors for mechanical switches)
 #define X_LIMIT_PIN     14
 #define Y_LIMIT_PIN     15
 #define Z_LIMIT_PIN     16
@@ -82,33 +120,57 @@
 #define STATUS_LED_PIN      25  // Built-in LED
 #define ALARM_LED_PIN       24
 
-// Serial communication (USB)
-// GPIO 0 and 1 are used for UART by default
+// Power control pins (NEW - for 5V power management)
+#define STEPPER_POWER_PIN   26  // Control 5V power to steppers
+#define SERVO_POWER_PIN     27  // Control 5V power to servo (if needed)
 
 // ============================================================================
-// STEPPER MOTOR SETTINGS
+// LIMIT SWITCH CONFIGURATION
 // ============================================================================
 
-// Default steps per unit (steps/degree for rotational, steps/mm for linear)
-#define DEFAULT_X_STEPS_PER_UNIT 200.0    // Base rotation (steps/degree)
-#define DEFAULT_Y_STEPS_PER_UNIT 200.0    // Shoulder (steps/degree)
-#define DEFAULT_Z_STEPS_PER_UNIT 200.0    // Elbow (steps/degree)  
-#define DEFAULT_A_STEPS_PER_UNIT 80.0     // Linear actuator 1 (steps/mm)
-#define DEFAULT_B_STEPS_PER_UNIT 80.0     // Linear actuator 2 (steps/mm)
+// Mechanical limit switches configuration
+#define LIMITS_INVERT_MASK          0       // Normal high (pulled up)
+#define LIMIT_SWITCH_DEBOUNCE_MS    50      // Debounce time for mechanical switches
+#define ENABLE_LIMITS_INPUT                 // Enable limit switch inputs
 
-// Maximum feed rates (units/minute)
-#define DEFAULT_X_MAX_RATE 3000.0         // degrees/min
-#define DEFAULT_Y_MAX_RATE 3000.0         // degrees/min
-#define DEFAULT_Z_MAX_RATE 3000.0         // degrees/min
-#define DEFAULT_A_MAX_RATE 1000.0         // mm/min
-#define DEFAULT_B_MAX_RATE 1000.0         // mm/min
+// Pull-up configuration for mechanical switches
+#define LIMITS_PULLUP_DISABLE_MASK  0       // Enable pull-ups on all limit pins
 
-// Acceleration (units/sec^2)
-#define DEFAULT_X_ACCELERATION 100.0      // degrees/sec^2
-#define DEFAULT_Y_ACCELERATION 100.0      // degrees/sec^2
-#define DEFAULT_Z_ACCELERATION 100.0      // degrees/sec^2
-#define DEFAULT_A_ACCELERATION 50.0       // mm/sec^2
-#define DEFAULT_B_ACCELERATION 50.0       // mm/sec^2
+// Homing configuration for mechanical switches
+#define HOMING_INIT_LOCK                    // Require unlocking before homing
+#define HOMING_FORCE_SET_ORIGIN             // Set origin after successful homing
+
+// ============================================================================
+// SAFETY AND LIMITS - Updated for 4mm/rev lead screws
+// ============================================================================
+
+// Soft limits (in machine coordinates)
+#define X_MAX_TRAVEL 360.0      // Base: full rotation capability
+#define X_MIN_TRAVEL -360.0
+#define Y_MAX_TRAVEL 180.0      // Shoulder: 0-180 degrees
+#define Y_MIN_TRAVEL 0.0
+#define Z_MAX_TRAVEL 180.0      // Elbow: 0-180 degrees  
+#define Z_MIN_TRAVEL 0.0
+#define A_MAX_TRAVEL 120.0      // Linear actuator 1: 0-120mm (30 revolutions × 4mm)
+#define A_MIN_TRAVEL 0.0
+#define B_MAX_TRAVEL 120.0      // Linear actuator 2: 0-120mm (30 revolutions × 4mm)
+#define B_MIN_TRAVEL 0.0
+#define C_MAX_TRAVEL 180.0      // End effector: ±90 degrees
+#define C_MIN_TRAVEL -180.0
+
+// Updated homing settings for your configuration
+#define HOMING_CYCLE_0 (1<<A_AXIS)                    // Home linear actuators first (safest)
+#define HOMING_CYCLE_1 (1<<B_AXIS)                    // Then second linear actuator  
+#define HOMING_CYCLE_2 (1<<Z_AXIS)                    // Then elbow
+#define HOMING_CYCLE_3 (1<<Y_AXIS)                    // Then shoulder
+#define HOMING_CYCLE_4 (1<<X_AXIS)                    // Base last (heaviest load)
+#define HOMING_CYCLE_5 (1<<C_AXIS)                    // Servo last (if limit switch present)
+
+// Homing speeds and distances
+#define DEFAULT_HOMING_SEEK_RATE    600.0   // Fast homing speed (mm/min or deg/min)
+#define DEFAULT_HOMING_FEED_RATE    60.0    // Slow homing speed for precision
+#define DEFAULT_HOMING_DEBOUNCE     250     // Homing switch debounce time (ms)
+#define DEFAULT_HOMING_PULLOFF      2.0     // Distance to back off after homing (mm or deg)
 
 // ============================================================================
 // SERVO MOTOR SETTINGS
@@ -123,64 +185,6 @@
 // Servo range mapping
 #define SERVO_MIN_ANGLE     -90.0          // Minimum servo angle (degrees)
 #define SERVO_MAX_ANGLE     90.0           // Maximum servo angle (degrees)
-
-// ============================================================================
-// SAFETY AND LIMITS
-// ============================================================================
-
-// Soft limits (in machine coordinates)
-#define X_MAX_TRAVEL 360.0      // Base: full rotation
-#define X_MIN_TRAVEL -360.0
-#define Y_MAX_TRAVEL 180.0      // Shoulder: 0-180 degrees
-#define Y_MIN_TRAVEL 0.0
-#define Z_MAX_TRAVEL 180.0      // Elbow: 0-180 degrees  
-#define Z_MIN_TRAVEL 0.0
-#define A_MAX_TRAVEL 100.0      // Linear actuator 1: 0-100mm
-#define A_MIN_TRAVEL 0.0
-#define B_MAX_TRAVEL 100.0      // Linear actuator 2: 0-100mm
-#define B_MIN_TRAVEL 0.0
-#define C_MAX_TRAVEL 180.0      // End effector: ±90 degrees
-#define C_MIN_TRAVEL -180.0
-
-// Homing settings
-#define HOMING_CYCLE_0 (1<<Z_AXIS)                    // Home Z first (elbow)
-#define HOMING_CYCLE_1 (1<<Y_AXIS)                    // Then Y (shoulder)
-#define HOMING_CYCLE_2 (1<<X_AXIS)                    // Then X (base)
-#define HOMING_CYCLE_3 ((1<<A_AXIS)|(1<<B_AXIS))     // Linear actuators together
-#define HOMING_CYCLE_4 (1<<C_AXIS)                    // Servo last (if limit switch)
-
-// Safety features
-#define ENABLE_SAFETY_DOOR_INPUT
-#define ENABLE_LIMITS_INPUT
-#define ENABLE_CONTROL_INPUT
-
-// ============================================================================
-// COMMUNICATION SETTINGS
-// ============================================================================
-
-// Serial settings
-#define BAUD_RATE 115200
-
-// Status report mask (what to include in status reports)
-#define STATUS_REPORT_MASK (BITFLAG_RT_STATUS_POSITION_TYPE | \
-                           BITFLAG_RT_STATUS_BUFFER_STATE | \
-                           BITFLAG_RT_STATUS_LINE_NUMBERS | \
-                           BITFLAG_RT_STATUS_FEED_SPEED)
-
-// Real-time report interval
-#define STATUS_REPORT_INTERVAL_MS 100
-
-// ============================================================================
-// PERFORMANCE SETTINGS
-// ============================================================================
-
-// Stepper interrupt frequency
-#define STEPPER_TIMER_RATE 30000    // 30kHz stepper interrupt rate
-
-// Motion control settings
-#define SEGMENT_BUFFER_SIZE 32      // Number of segments in buffer
-#define ARC_ANGULAR_TRAVEL_EPSILON 5E-7
-#define N_ARC_CORRECTION 12
 
 // ============================================================================
 // FEATURES ENABLE/DISABLE

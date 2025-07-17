@@ -209,15 +209,21 @@ Multiple emergency stop methods available:
 
 ## Units and Scaling
 
-### Angular Units (Rotational Joints)
-- **Native units**: Degrees
-- **Resolution**: Depends on stepper motor and gearing
-- **Example**: 200 steps/rev motor with 1:1 gearing = 1.8°/step
-
 ### Linear Units (Linear Actuators)  
 - **Native units**: Millimeters
-- **Resolution**: Depends on lead screw pitch and microstepping
-- **Example**: 2mm lead screw with 1/16 microstepping = 0.00625mm/step
+- **Lead screw pitch**: 4mm/revolution
+- **Microstepping**: 1/16 (typical)
+- **Steps per mm**: 800 steps/mm (3200 steps/rev ÷ 4mm/rev)
+- **Resolution**: 0.00125mm/step (excellent precision!)
+- **Example**: 2mm move = 1600 steps
+
+### Angular Units (Rotational Joints)
+- **Native units**: Degrees
+- **Motor**: 200 steps/rev (1.8° per step)
+- **Microstepping**: 1/16 
+- **Steps per degree**: 8.89 steps/degree (3200 steps/rev ÷ 360°)
+- **Resolution**: 0.1125°/step (very good precision)
+- **Example**: 45° rotation = 400 steps
 
 ### Servo Units (End Effector)
 - **Position units**: Degrees (-180° to +180°)

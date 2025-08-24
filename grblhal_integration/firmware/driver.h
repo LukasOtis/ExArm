@@ -64,7 +64,9 @@
 #endif
 #endif
 
-#include "grbl/driver_opts.h"
+#include "GRBL/driver_opts.h"
+#include "GRBL/hal.h"
+// I/O port system disabled - using direct GPIO control instead
 
 #if ETHERNET_ENABLE && WIFI_ENABLE
 #error "WiFi and Ethernet cannot be enabled at the same time!"
@@ -257,7 +259,7 @@ typedef struct {
     pin_group_t group;
     uint32_t port;
     volatile bool active;
-    ioport_interrupt_callback_ptr interrupt_callback;
+    // I/O port system disabled - using direct GPIO control instead
     const char *description;
 } input_signal_t;
 
@@ -294,9 +296,7 @@ void board_init (void);
 void spi_reset_out (bool on);
 #endif
 
-void ioports_init (pin_group_pins_t *aux_inputs, pin_group_pins_t *aux_outputs);
-void ioports_init_analog (pin_group_pins_t *aux_inputs, pin_group_pins_t *aux_outputs);
-void ioports_event (input_signal_t *input);
+// I/O port system disabled - using direct GPIO control instead
 void pinEnableIRQ (const input_signal_t *input, pin_irq_mode_t irq_mode);
 
 /**

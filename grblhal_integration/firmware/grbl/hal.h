@@ -37,7 +37,7 @@
 #include "stepper.h"
 #include "nvs.h"
 #include "probe.h"
-#include "ioports.h"
+// #include "ioports.h"  // I/O port system removed for Phase 1
 #include "rgb.h"
 #include "plugins.h"
 
@@ -653,7 +653,7 @@ typedef struct {
     tool_ptrs_t tool;                       //!< Optional handlers for tool changes.
     timer_ptrs_t timer;                     //!< Optional handlers for claiming and controlling timers.
     rtc_ptrs_t rtc;                         //!< Optional handlers for real time clock (RTC).
-    io_port_t port;                         //!< Optional handlers for axuillary I/O (adds support for M62-M66).
+    // io_port_t port;                         //!< Optional handlers for axuillary I/O (adds support for M62-M66).
     rgb_ptr_t rgb0;                         //!< Optional handler for RGB output to LEDs (neopixels) or lamps.
     rgb_ptr_t rgb1;                         //!< Optional handler for RGB output to LEDs (neopixels) or lamps.
     periph_port_t periph_port;              //!< Optional handlers for peripheral pin registration.

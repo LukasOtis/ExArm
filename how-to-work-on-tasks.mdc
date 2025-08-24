@@ -1,0 +1,13 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+look at the task list.
+take the next unchecked task.
+start working on it.
+let the user know when you are done.
+check the task off on the list.
+do not move on to next ask without consent. 
+user can enter y or yes to give you consent to move on to next task.
+

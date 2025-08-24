@@ -840,7 +840,8 @@ const char *help_pins (const char *cmd)
 
 const char *help_pin_state (const char *cmd)
 {
-    return ioports_can_do().io ? "output auxiliary pin states" : NULL;
+    // I/O port functionality disabled for basic 3-axis control
+    return NULL; // Command not available
 }
 
 #endif

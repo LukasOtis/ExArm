@@ -1100,22 +1100,23 @@ void report_build_info (char *line, bool extended)
         hal.stream.write("]" ASCII_EOL);
 #endif
 
-        uint8_t digital_in = ioports_unclaimed(Port_Digital, Port_Input),
-                digital_out = ioports_unclaimed(Port_Digital, Port_Output),
-                analog_in = ioports_unclaimed(Port_Analog, Port_Input),
-                analog_out = ioports_unclaimed(Port_Analog, Port_Output);
+        // I/O port functionality disabled for basic 3-axis control
+        // uint8_t digital_in = ioports_unclaimed(Port_Digital, Port_Input),
+        //         digital_out = ioports_unclaimed(Port_Digital, Port_Output),
+        //         analog_in = ioports_unclaimed(Port_Analog, Port_Input),
+        //         analog_out = ioports_unclaimed(Port_Analog, Port_Output);
 
-        if(digital_in || digital_out || analog_in || analog_out) {
-            hal.stream.write("[AUX IO:");
-            hal.stream.write(uitoa(digital_in));
-            hal.stream.write(",");
-            hal.stream.write(uitoa(digital_out));
-            hal.stream.write(",");
-            hal.stream.write(uitoa(analog_in));
-            hal.stream.write(",");
-            hal.stream.write(uitoa(analog_out));
-            hal.stream.write("]" ASCII_EOL);
-        }
+        // if(digital_in || digital_out || analog_in || analog_out) {
+        //     hal.stream.write("[AUX IO:");
+        //     hal.stream.write(uitoa(digital_in));
+        //     hal.stream.write(",");
+        //     hal.stream.write(uitoa(digital_out));
+        //     hal.stream.write(",");
+        //     hal.stream.write(uitoa(analog_in));
+        //     hal.stream.write(",");
+        //     hal.stream.write(uitoa(analog_out));
+        //     hal.stream.write("]" ASCII_EOL);
+        // }
 
         grbl.on_report_options(false);
     }
@@ -2477,10 +2478,11 @@ static bool print_aux_aout (xbar_t *port, uint8_t pnum, void *data)
 
 status_code_t report_pin_states (sys_state_t state, char *args)
 {
-    ioports_enumerate(Port_Digital, Port_Input, (pin_cap_t){}, print_aux_din, NULL);
-    ioports_enumerate(Port_Digital, Port_Output, (pin_cap_t){}, print_aux_dout, NULL);
-    ioports_enumerate(Port_Analog, Port_Input, (pin_cap_t){}, print_aux_ain, NULL);
-    ioports_enumerate(Port_Analog, Port_Output, (pin_cap_t){}, print_aux_aout, NULL);
+    // I/O port functionality disabled for basic 3-axis control
+    // ioports_enumerate(Port_Digital, Port_Input, (pin_cap_t){}, print_aux_din, NULL);
+    // ioports_enumerate(Port_Digital, Port_Output, (pin_cap_t){}, print_aux_dout, NULL);
+    // ioports_enumerate(Port_Analog, Port_Input, (pin_cap_t){}, print_aux_ain, NULL);
+    // ioports_enumerate(Port_Analog, Port_Output, (pin_cap_t){}, print_aux_aout, NULL);
 
     return Status_OK;
 }

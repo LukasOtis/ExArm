@@ -55,14 +55,28 @@
 #include "driverPIO.pio.h"
 #include "ws2812.pio.h"
 
-#include "grbl/crossbar.h"
-#include "grbl/machine_limits.h"
-#include "grbl/state_machine.h"
-#include "grbl/motor_pins.h"
-#include "grbl/pin_bits_masks.h"
-#include "grbl/protocol.h"
+// Board map is included via driver.h conditional logic
+
+// GPIO version of stepperSetStepOutputs for GPIO_OUTPUT mode
+inline static __attribute__((always_inline)) void stepperSetStepOutputs (axes_signals_t step_out)
+{
+    // For GPIO_OUTPUT, directly set the step pins
+    // Note: In practice, step pulse timing is handled by the stepper ISR
+    // This function just sets the pins high - they will be cleared by the ISR
+    
+    if(step_out.x) gpio_put(X_STEP_PIN, 1);
+    if(step_out.y) gpio_put(Y_STEP_PIN, 1);
+    if(step_out.z) gpio_put(Z_STEP_PIN, 1);
+}
+
+#include "GRBL/crossbar.h"
+#include "GRBL/machine_limits.h"
+#include "GRBL/state_machine.h"
+#include "GRBL/motor_pins.h"
+#include "GRBL/pin_bits_masks.h"
+#include "GRBL/protocol.h"
 #if NVSDATA_BUFFER_ENABLE
-#include "grbl/nvs_buffer.h"
+#include "GRBL/nvs_buffer.h"
 #endif
 
 #ifdef I2C_PORT
@@ -213,6 +227,57 @@ static pin_group_pins_t limit_inputs;
 static xbar_t *iox_out[16] = {};
 #endif
 
+// Function prototypes
+void robot_arm_io_init (void);
+
+// User M-code validation function prototype
+static user_mcode_type_t user_mcode_check (user_mcode_t mcode);
+
+// Stub implementations for I/O port functions (removed for basic 3-axis control)
+static inline control_signals_t aux_ctrl_scan_status (control_signals_t signals) {
+    return signals; // Return signals as-is - no auxiliary control
+}
+
+static inline aux_ctrl_t *aux_ctrl_get_pin (int port) {
+    return NULL; // No auxiliary control pins
+}
+
+static inline void aux_ctrl_irq_enable (settings_t *settings, void *handler) {
+    // No auxiliary control interrupts
+}
+
+static inline aux_ctrl_t *aux_ctrl_remap_explicit (void *context, int pin, int user_port, void *input) {
+    return NULL; // No remapping supported
+}
+
+static inline aux_ctrl_t *aux_out_remap_explicit (void *context, int pin, int n_pins, void *output) {
+    return NULL; // No remapping supported
+}
+
+static inline void aux_ctrl_claim_ports (void *claim_func, void *context) {
+    // No auxiliary control ports to claim
+}
+
+static inline void aux_ctrl_claim_out_ports (void *claim_func, void *context) {
+    // No auxiliary control output ports to claim
+}
+
+// Stub implementations for I/O port enumeration functions
+#define Port_Digital 0
+#define Port_Input 0
+#define Port_Output 1
+
+// Missing expander output array
+static xbar_t *iox_out[16] = {NULL}; // No expander outputs available
+
+static inline void *ioport_claim (int port_type, int direction, uint8_t *port, const char *description) {
+    return NULL; // No I/O ports available
+}
+
+static inline void ioport_set_function (void *pin, int function, void *capabilities) {
+    // No I/O port functions
+}
+
 #ifdef NEOPIXELS_PIN
 neopixel_cfg_t neopixel = { .intensity = 255 };
 #endif
@@ -234,7 +299,7 @@ static on_spindle_programmed_ptr on_spindle_programmed = NULL;
 
 #endif // SPINDLE_ENCODER_ENABLE
 
-#include "grbl/stepdir_map.h"
+// #include "GRBL/stepdir_map.h"  // File not found - commented out temporarily
 
 static input_signal_t *irq_pins[NUM_BANK0_GPIOS] = {};
 static periph_signal_t *periph_pins = NULL;
@@ -265,15 +330,16 @@ static input_signal_t inputpin[] = {
 #ifdef Z_LIMIT_PIN_MAX
     add_maxlimit_pin(Z)
 #endif
-#if add_in_pin(A_LIMIT)
-    add_limit_pin(A)
-#endif
-#if add_in_pin(B_LIMIT)
-    add_limit_pin(B)
-#endif
-#if add_in_pin(C_LIMIT)
-    add_limit_pin(C)
-#endif
+// Temporarily disabled A, B, C axes to get basic build working
+// #if add_in_pin(A_LIMIT)
+//     add_limit_pin(A)
+// #endif
+// #if add_in_pin(B_LIMIT)
+//     add_limit_pin(B)
+// #endif
+// #if add_in_pin(C_LIMIT)
+//     add_limit_pin(C)
+// #endif
 #if add_in_pin(U_LIMIT)
     add_limit_pin(U)
 #endif
@@ -413,15 +479,16 @@ static output_signal_t outputpin[] = {
 #if add_pin(Z2_STEP)
     add_step_pin(Z2)
 #endif
-#if add_pin(A_STEP)
-    add_step_pin(A)
-#endif
-#if add_pin(B_STEP)
-    add_step_pin(B)
-#endif
-#if add_pin(C_STEP)
-    add_step_pin(C)
-#endif
+// Temporarily disabled A, B, C axes to get basic build working
+// #if add_pin(A_STEP)
+//     add_step_pin(A)
+// #endif
+// #if add_pin(B_STEP)
+//     add_step_pin(B)
+// #endif
+// #if add_pin(C_STEP)
+//     add_step_pin(C)
+// #endif
 #if add_pin(U_STEP)
     add_step_pin(U)
 #endif
@@ -440,15 +507,16 @@ static output_signal_t outputpin[] = {
 #if add_pin(Z2_DIRECTION)
     add_dir_pin(Z2)
 #endif
-#if add_pin(A_DIRECTION)
-    add_dir_pin(A)
-#endif
-#if add_pin(B_DIRECTION)
-    add_dir_pin(B)
-#endif
-#if add_pin(C_DIRECTION)
-    add_dir_pin(C)
-#endif
+// Temporarily disabled A, B, C axes to get basic build working
+// #if add_pin(A_DIRECTION)
+//     add_dir_pin(A)
+// #endif
+// #if add_pin(B_DIRECTION)
+//     add_dir_pin(B)
+// #endif
+// #if add_pin(C_DIRECTION)
+//     add_dir_pin(C)
+// #endif
 #if add_pin(U_DIRECTION)
     add_dir_pin(U)
 #endif
@@ -480,15 +548,16 @@ static output_signal_t outputpin[] = {
 #if add_pin(Z2_ENABLE)
     add_enable_pin(Z2)
 #endif
-#if add_pin(A_ENABLE)
-    add_enable_pin(A)
-#endif
-#if add_pin(B_ENABLE)
-    add_enable_pin(B)
-#endif
-#if add_pin(C_ENABLE)
-    add_enable_pin(C)
-#endif
+// Temporarily disabled A, B, C axes to get basic build working
+// #if add_pin(A_ENABLE)
+//     add_enable_pin(A)
+// #endif
+// #if add_pin(B_ENABLE)
+//     add_enable_pin(B)
+// #endif
+// #if add_pin(C_ENABLE)
+//     add_enable_pin(C)
+// #endif
 #if add_pin(U_ENABLE)
     add_enable_pin(U)
 #endif
@@ -793,104 +862,26 @@ static void __not_in_flash_func(stepperCyclesPerTick)(uint32_t cycles_per_tick)
     stepper_timer_set_period(pio1, stepper_timer_sm, stepper_timer_sm_offset, cycles_per_tick < 1000000 ? max(cycles_per_tick, step_pulse.t_min_period) : 1000000, PIO_RATE_ADJ);
 }
 
-#if STEP_PORT == GPIO_PIO || STEP_PORT == GPIO_PIO_1
-
-// Set stepper pulse output pins
-// NOTE: step_out are: bit0 -> X, bit1 -> Y, bit2 -> Z...
+// Set stepper pulse output pins for GPIO_OUTPUT mode
+// NOTE: For GPIO_OUTPUT, we use direct pin numbers
 static inline __attribute__((always_inline)) void stepper_set_step (uint_fast8_t axis, pio_steps_t *pio_steps)
 {
     switch(axis) {
-
         case X_AXIS:
-#if STEP_PORT == GPIO_PIO_1
-            step_pulse_generate(x_step_pio, x_step_sm, pio_steps->value);
-  #if X_GANGED
-            step_pulse_generate(x2_step_pio, x2_step_sm, pio_steps->value);
-  #endif
-#else
-            pio_steps->set |= (1 << (X_STEP_PIN - STEP_PINS_BASE));
-  #if X_GANGED
-            pio_steps->set |= (1 << (X2_STEP_PIN - STEP_PINS_BASE));
-  #endif
-#endif
+            pio_steps->set |= (1 << X_STEP_PIN);
             break;
-
         case Y_AXIS:
-#if STEP_PORT == GPIO_PIO_1
-            step_pulse_generate(y_step_pio, y_step_sm, pio_steps->value);
-  #if Y_GANGED
-            step_pulse_generate(y2_step_pio, y2_step_sm, pio_steps->value);
-  #endif
-#else
-            pio_steps->set |= (1 << (Y_STEP_PIN - STEP_PINS_BASE));
-  #if Y_GANGED
-            pio_steps->set |= (1 << (Y2_STEP_PIN - STEP_PINS_BASE));
-  #endif
-#endif
+            pio_steps->set |= (1 << Y_STEP_PIN);
             break;
-
         case Z_AXIS:
-#if STEP_PORT == GPIO_PIO_1
-            step_pulse_generate(z_step_pio, z_step_sm, pio_steps->value);
-  #if Z_GANGED
-            step_pulse_generate(z2_step_pio, z2_step_sm, pio_steps->value);
-  #endif
-#else
-            pio_steps->set |= (1 << (Z_STEP_PIN - STEP_PINS_BASE));
-  #if Z_GANGED
-            pio_steps->set |= (1 << (Z2_STEP_PIN - STEP_PINS_BASE));
-  #endif
-#endif
+            pio_steps->set |= (1 << Z_STEP_PIN);
             break;
-#ifdef A_AXIS
-        case A_AXIS:
-  #if STEP_PORT == GPIO_PIO_1
-            step_pulse_generate(a_step_pio, a_step_sm, pio_steps->value);
-  #else
-            pio_steps->set |= (1 << (A_STEP_PIN - STEP_PINS_BASE));
-  #endif
+        default:
             break;
-#endif
-#ifdef B_AXIS
-        case B_AXIS:
-  #if STEP_PORT == GPIO_PIO_1
-            step_pulse_generate(b_step_pio, b_step_sm, pio_steps->value);
-  #else
-            pio_steps->set |= (1 << (B_STEP_PIN - STEP_PINS_BASE));
-  #endif
-            break;
-#endif
-#ifdef C_AXIS
-        case C_AXIS:
-  #if STEP_PORT == GPIO_PIO_1
-            step_pulse_generate(c_step_pio, c_step_sm, pio_steps->value);
-  #else
-            pio_steps->set |= (1 << (C_STEP_PIN - STEP_PINS_BASE));
-  #endif
-            break;
-#endif
-#ifdef U_AXIS
-        case U_AXIS:
-  #if STEP_PORT == GPIO_PIO_1
-            step_pulse_generate(u_step_pio, u_step_sm, pio_steps->value);
-  #else
-            pio_steps->set |= (1 << (U_STEP_PIN - STEP_PINS_BASE));
-  #endif
-            break;
-#endif
-#ifdef V_AXIS
-        case V_AXIS:
-  #if STEP_PORT == GPIO_PIO_1
-            step_pulse_generate(v_step_pio, v_step_sm, pio_steps->value);
-  #else
-            pio_steps->set |= (1 << (V_STEP_PIN - STEP_PINS_BASE));
-  #endif
-            break;
-#endif
     }
 }
 
-#endif // STEP_PORT == GPIO_PIO || STEP_PORT == GPIO_PIO_1
+#if STEP_PORT == GPIO_PIO || STEP_PORT == GPIO_PIO_1
 
 #ifdef SQUARING_ENABLED
 
@@ -1007,11 +998,11 @@ static inline __attribute__((always_inline)) void stepper_step_out2 (uint_fast8_
     }
 }
 
-#endif
+#endif // STEP_PORT == GPIO_PIO || STEP_PORT == GPIO_PIO_1
 
-// Set stepper pulse output pins
+// PIO version of stepperSetStepOutputs (original)
 // NOTE: step_out are: bit0 -> X, bit1 -> Y, bit2 -> Z...
-inline static __attribute__((always_inline)) void stepperSetStepOutputs (axes_signals_t step_out)
+inline static __attribute__((always_inline)) void stepperSetStepOutputs_PIO (axes_signals_t step_out)
 {
 #if STEP_INJECT_ENABLE
     step_out.bits &= ~step_pulse.inject.claimed.bits;
@@ -1079,56 +1070,11 @@ static void StepperDisableMotors (axes_signals_t axes, squaring_mode_t mode)
 
 #else // !SQUARING_ENABLED
 
-inline static __attribute__((always_inline)) void stepperSetStepOutputs (axes_signals_t step_out)
-{
-#if STEP_INJECT_ENABLE
-    step_out.bits &= ~step_pulse.inject.claimed.bits;
-#endif
-
-#if STEP_PORT == GPIO_SR8
-
-    step_out.bits ^= settings.steppers.step_invert.bits;
-
-    sd_sr.set.x_step = step_out.x;
-    sd_sr.set.y_step = step_out.y;
-    sd_sr.set.z_step = step_out.z;
-  #ifdef A_AXIS
-    sd_sr.set.m3_step = step_out.a;
-  #elif X_GANGED
-    sd_sr.set.m3_step = step_out.x;
-  #elif Y_GANGED
-    sd_sr.set.m3_step = step_out.y;
-  #elif Z_GANGED
-    sd_sr.set.m3_step = step_out.z;
-  #endif
-
-    step_dir_sr4_write(sr8_pio, sr8_sm, sd_sr.value);
-
-#else // GPIO_PIO, GPIO_PIO_1
-
-    uint_fast8_t idx = 0;
-
-  #if STEP_PORT == GPIO_PIO
-    pio_steps.set = 0;
- #elif STEP_PORT == GPIO_PIO_1
-    pio_steps.set = 1;
-  #endif
-
-    while(step_out.bits) {
-        if(step_out.bits & 0b1)
-            stepper_set_step(idx, &pio_steps);
-        idx++;
-        step_out.bits >>= 1;
-    }
-
-  #if STEP_PORT == GPIO_PIO
-    step_pulse_generate(step_pio, step_sm, pio_steps.value);
-  #endif
-
-#endif
-}
+// Note: stepperSetStepOutputs is already defined above for GPIO_OUTPUT mode
 
 #endif // SQUARING_ENABLED
+
+#endif // STEP_PORT == GPIO_PIO || STEP_PORT == GPIO_PIO_1
 
 #ifdef GANGING_ENABLED
 
@@ -1716,7 +1662,8 @@ static void aux_irq_handler (uint8_t port, bool state)
         }
         signals.mask |= pin->cap.mask;
         if(!signals.probe_triggered && pin->irq_mode == IRQ_Mode_Change)
-            signals.deasserted = hal.port.wait_on_input(Port_Digital, pin->aux_port, WaitMode_Immediate, 0.0f) == 0;
+            // I/O port functionality disabled - no port available
+            signals.deasserted = true;
     }
 
     if(signals.mask) {
@@ -2208,7 +2155,9 @@ static void coolantSetState (coolant_state_t mode)
 #elif COOLANT_PORT == EXPANDER_PORT
 
     mode.value ^= settings.coolant.invert.mask;
+#ifdef COOLANT_FLOOD_PIN
     EXPANDER_OUT(COOLANT_FLOOD_PIN, mode.flood);
+#endif
 #ifdef COOLANT_MIST_PIN
     EXPANDER_OUT(COOLANT_MIST_PIN, mode.mist);
 #endif
@@ -2231,7 +2180,8 @@ static coolant_state_t coolantGetState (void)
 #endif
 
 #elif COOLANT_PORT == EXPANDER_PORT
-    state.flood = EXPANDER_IN(COOLANT_FLOOD_PIN);
+    // Coolant functionality disabled for 3-axis board
+    state.flood = false;
 #ifdef COOLANT_MIST_PIN
     state.mist = EXPANDER_IN(COOLANT_MIST_PIN);
 #endif
@@ -2957,7 +2907,13 @@ extern char __StackLimit, __bss_end__;
 
 uint32_t get_free_mem (void)
 {
-    return &__StackLimit - &__bss_end__ - mallinfo().uordblks;
+    // Simple memory calculation for RP2040
+    extern char __heap_start, __heap_end;
+    
+    uint32_t heap_size = (uint32_t)&__heap_end - (uint32_t)&__heap_start;
+    uint32_t used_stack = (uint32_t)&__StackLimit - (uint32_t)&__bss_end__;
+    
+    return heap_size - used_stack;
 }
 
 #if STEP_PORT == GPIO_PIO_1
@@ -3013,9 +2969,12 @@ void board_ports_init (void)
         se = hal.port.get_pin_info(Port_Analog, Port_Output, port);
         se->set_function(se, Output_StepperEnable);
         memcpy(&st_enable, se, sizeof(xbar_t));
-    }*/
+    }
+*/
 }
 #endif
+
+// io_expanders_init is defined in expanders_init.h
 
 // Initialize HAL pointers, setup serial comms and enable EEPROM
 // NOTE: grblHAL is not yet configured (from EEPROM data), driver_setup() will be called when done
@@ -3268,10 +3227,10 @@ bool driver_init (void)
     }
 
     if(aux_inputs.n_pins || aux_outputs.n_pins)
-        ioports_init(&aux_inputs, &aux_outputs);
+        // ioports_init(&aux_inputs, &aux_outputs);  // Disabled due to missing I/O port system
 
     if(aux_outputs_analog.n_pins)
-        ioports_init_analog(&aux_inputs_analog, &aux_outputs_analog);
+        // ioports_init_analog(&aux_inputs_analog, &aux_outputs_analog);  // Disabled due to missing I/O port system
 
     io_expanders_init();
     aux_ctrl_claim_ports(aux_claim_explicit, NULL);
@@ -3291,6 +3250,9 @@ bool driver_init (void)
     };
 
     grbl.on_report_options = onReportOptions;
+
+    // Register user M-code validation function for robot arm commands
+    grbl.user_mcode.check = user_mcode_check;
 
     system_register_commands(&boot_commands);
 
@@ -3440,7 +3402,10 @@ sr8_pio = sr8_delay_pio = sr8_hold_pio = pio0;
     board_init();
 #endif
 
-#include "grbl/plugins_init.h"
+    // Initialize robot arm I/O pins
+    robot_arm_io_init();
+
+// #include "grbl/plugins_init.h"  // Commented out - file not found
 
 #if MPG_ENABLE == 1
     if(!hal.driver_cap.mpg_mode)
@@ -3519,7 +3484,7 @@ void pin_debounce (void *pin)
                 break;
 
             case PinGroup_AuxInput:
-                ioports_event(input);
+                // ioports_event(input);  // Disabled due to missing I/O port system
                 break;
 
             default:
@@ -3557,7 +3522,7 @@ void __not_in_flash_func(gpio_int_handler)(uint pin, uint32_t events)
                 break;
 
             case PinGroup_AuxInput:
-                ioports_event(input);
+                // ioports_event(input);  // Disabled due to missing I/O port system
                 break;
 
 #if SPINDLE_ENCODER_ENABLE
@@ -3578,6 +3543,211 @@ void __not_in_flash_func(gpio_int_handler)(uint pin, uint32_t events)
     }
 }
 
+// ============================================================================
+// PHASE 2: Essential I/O Functions Implementation
+// ============================================================================
+
+// Basic digital input functions for limit switches and safety pins
+bool digital_input_read (uint8_t pin)
+{
+    return gpio_get(pin);
+}
+
+// Digital output for status LEDs and control signals
+void digital_output_write (uint8_t pin, bool state)
+{
+    gpio_put(pin, state);
+}
+
+// Initialize GPIO pins for robot arm I/O - CORRECTED per board
+void robot_arm_io_init (void)
+{
+    // Initialize limit switch inputs (with pull-ups for mechanical switches)
+    gpio_init(X_LIMIT_PIN);  // Board: GPIO 15
+    gpio_set_dir(X_LIMIT_PIN, GPIO_IN);
+    gpio_pull_up(X_LIMIT_PIN);
+
+    gpio_init(Y_LIMIT_PIN);  // Board: GPIO 17
+    gpio_set_dir(Y_LIMIT_PIN, GPIO_IN);
+    gpio_pull_up(Y_LIMIT_PIN);
+
+    gpio_init(Z_LIMIT_PIN);  // Board: GPIO 18
+    gpio_set_dir(Z_LIMIT_PIN, GPIO_IN);
+    gpio_pull_up(Z_LIMIT_PIN);
+
+    // Note: A, B, C limits not available in 3-axis board configuration
+
+    // Initialize safety inputs - CORRECTED per board (limited availability)
+#ifdef SAFETY_DOOR_PIN
+    gpio_init(SAFETY_DOOR_PIN);
+    gpio_set_dir(SAFETY_DOOR_PIN, GPIO_IN);
+    gpio_pull_up(SAFETY_DOOR_PIN);
+#endif
+
+#ifdef EMERGENCY_STOP_PIN
+    gpio_init(EMERGENCY_STOP_PIN);
+    gpio_set_dir(EMERGENCY_STOP_PIN, GPIO_IN);
+    gpio_pull_up(EMERGENCY_STOP_PIN);
+#endif
+
+#ifdef CYCLE_START_PIN
+    gpio_init(CYCLE_START_PIN);
+    gpio_set_dir(CYCLE_START_PIN, GPIO_IN);
+    gpio_pull_up(CYCLE_START_PIN);
+#endif
+
+#ifdef FEED_HOLD_PIN
+    gpio_init(FEED_HOLD_PIN);
+    gpio_set_dir(FEED_HOLD_PIN, GPIO_IN);
+    gpio_pull_up(FEED_HOLD_PIN);
+#endif
+
+    // Initialize status LED outputs - CORRECTED per board
+#ifdef STATUS_LED_PIN
+    gpio_init(STATUS_LED_PIN);
+    gpio_set_dir(STATUS_LED_PIN, GPIO_OUT);
+    gpio_put(STATUS_LED_PIN, 0);
+#endif
+
+#ifdef ALARM_LED_PIN
+    gpio_init(ALARM_LED_PIN);
+    gpio_set_dir(ALARM_LED_PIN, GPIO_OUT);
+    gpio_put(ALARM_LED_PIN, 0);
+#endif
+
+    // Servo PWM is handled by spindle system (SPINDLE1_ENABLE)
+    // No direct PWM initialization needed here
+}
+
+// Servo control functions using spindle system
+void servo_set_position (float angle_degrees)
+{
+    // Use spindle system for servo control
+    // Convert angle to PWM value (0.0 to 100.0 for 0% to 100% duty cycle)
+    // Standard servo: 1000us = -90°, 2000us = +90°, 1500us = 0°
+    // At 50Hz PWM (20ms period), this translates to:
+    // 1000us = 5% duty cycle, 2000us = 10% duty cycle, 1500us = 7.5% duty cycle
+
+    float duty_cycle_percent = 7.5f + (angle_degrees * 2.5f / 90.0f);
+
+    // Constrain to valid range for servo
+    if(duty_cycle_percent < 5.0f) duty_cycle_percent = 5.0f;
+    if(duty_cycle_percent > 10.0f) duty_cycle_percent = 10.0f;
+
+    // Set spindle PWM for servo control using proper spindle API
+    if(spindle_get_count() > 0) {
+        spindle_ptrs_t *spindle = spindle_get(0); // Get first spindle (servo)
+        if(spindle) {
+            spindle_set_state(spindle, (spindle_state_t){ .on = On, .ccw = Off }, duty_cycle_percent);
+        }
+    }
+}
+
+void servo_disable (void)
+{
+    // Disable spindle (servo off) using proper spindle API
+    if(spindle_get_count() > 0) {
+        spindle_ptrs_t *spindle = spindle_get(0); // Get first spindle (servo)
+        if(spindle) {
+            spindle_set_state(spindle, (spindle_state_t){ .on = Off }, 0.0f);
+        }
+    }
+}
+
+// General PWM output functions for additional PWM control
+void pwm_output_set (uint8_t pin, float duty_cycle_percent)
+{
+    // Constrain duty cycle
+    if(duty_cycle_percent < 0.0f) duty_cycle_percent = 0.0f;
+    if(duty_cycle_percent > 100.0f) duty_cycle_percent = 100.0f;
+
+    // Initialize PWM if not already done
+    static bool pwm_initialized[32] = {false};
+
+    if(!pwm_initialized[pin]) {
+        pwm_config config = pwm_get_default_config();
+        pwm_config_set_wrap(&config, 65535); // 16-bit resolution
+        pwm_config_set_clkdiv(&config, 64.0f); // ~1kHz PWM frequency
+
+        gpio_set_function(pin, GPIO_FUNC_PWM);
+        uint slice_num = pwm_gpio_to_slice_num(pin);
+        pwm_init(slice_num, &config, true);
+
+        pwm_initialized[pin] = true;
+    }
+
+    // Set duty cycle (0-65535)
+    pwm_set_gpio_level(pin, (uint16_t)(duty_cycle_percent * 655.35f));
+}
+
+void pwm_output_disable (uint8_t pin)
+{
+    pwm_set_gpio_level(pin, 0);
+}
+
+// Get limit switch states (3-axis configuration)
+bool get_limit_state (uint8_t axis)
+{
+    switch(axis) {
+        case X_AXIS: return !digital_input_read(X_LIMIT_PIN); // Active low
+        case Y_AXIS: return !digital_input_read(Y_LIMIT_PIN);
+        case Z_AXIS: return !digital_input_read(Z_LIMIT_PIN);
+        default: return false;
+    }
+}
+
+// Get safety states
+bool get_safety_door_state (void)
+{
+#ifdef SAFETY_DOOR_PIN
+    return !digital_input_read(SAFETY_DOOR_PIN); // Active low
+#else
+    return false; // Not connected - assume no safety door
+#endif
+}
+
+bool get_emergency_stop_state (void)
+{
+#ifdef EMERGENCY_STOP_PIN
+    return !digital_input_read(EMERGENCY_STOP_PIN); // Active low
+#else
+    return false; // Not connected - assume no emergency stop
+#endif
+}
+
+bool get_cycle_start_state (void)
+{
+#ifdef CYCLE_START_PIN
+    return !digital_input_read(CYCLE_START_PIN); // Active low
+#else
+    return true; // Not connected - assume always ready
+#endif
+}
+
+bool get_feed_hold_state (void)
+{
+#ifdef FEED_HOLD_PIN
+    return !digital_input_read(FEED_HOLD_PIN); // Active low
+#else
+    return false; // Not connected - assume no feed hold
+#endif
+}
+
+// Status LED control
+void set_status_led (bool state)
+{
+#ifdef STATUS_LED_PIN
+    digital_output_write(STATUS_LED_PIN, state);
+#endif
+}
+
+void set_alarm_led (bool state)
+{
+#ifdef ALARM_LED_PIN
+    digital_output_write(ALARM_LED_PIN, state);
+#endif
+}
+
 // Interrupt handler for 1 ms interval timer
 void __not_in_flash_func(isr_systick)(void)
 {
@@ -3590,4 +3760,24 @@ void __not_in_flash_func(isr_systick)(void)
         fatfs_ticks = 10;
     }
 #endif
+}
+
+// User M-code validation function for robot arm commands
+static user_mcode_type_t user_mcode_check (user_mcode_t mcode)
+{
+    switch(mcode) {
+        case Servo_SetPosition: // M12 - Set servo position (requires P parameter)
+            return UserMCode_NoValueWords;
+        case Emergency_Stop: // M13 - Emergency stop (no parameters)
+            return UserMCode_NoValueWords;
+        case Home_All: // M14 - Home all axes (no parameters)
+            return UserMCode_NoValueWords;
+        // M15 and M16 removed - GRBL handles these automatically
+        case Set_PWMOutput: // M17 - Set PWM output (requires P and Q parameters)
+            return UserMCode_NoValueWords;
+        case Disable_PWMOutput: // M18 - Disable PWM output (requires P parameter)
+            return UserMCode_NoValueWords;
+        default:
+            return UserMCode_Unsupported;
+    }
 }

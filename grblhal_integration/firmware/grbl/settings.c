@@ -628,7 +628,7 @@ static status_code_t set_probe_invert (setting_id_t id, uint_fast16_t int_value)
     if(hal.driver_cap.probe2)
         settings.probe.invert_probe2_input = !!(int_value & 0b100);
 
-    ioport_setting_changed(id);
+    // ioport_setting_changed(id); // I/O port system disabled
 
     hal.probe.configure(false, false);
 
@@ -700,7 +700,7 @@ static status_code_t set_control_invert (setting_id_t id, uint_fast16_t int_valu
 {
     settings.control_invert.mask = (int_value & hal.signals_cap.mask) | limits_override.mask;
 
-    ioport_setting_changed(id);
+    // ioport_setting_changed(id); // I/O port system disabled
     system_init_switches();
 
     return Status_OK;
@@ -785,7 +785,7 @@ static status_code_t set_control_disable_pullup (setting_id_t id, uint_fast16_t 
 {
     settings.control_disable_pullup.mask = int_value & (hal.signals_cap.mask & ~limits_override.mask);
 
-    ioport_setting_changed(id);
+    // ioport_setting_changed(id); // I/O port system disabled
 
     return Status_OK;
 }
@@ -803,7 +803,7 @@ static status_code_t set_probe_disable_pullup (setting_id_t id, uint_fast16_t in
  //   if(hal.driver_cap.probe2)
  //       settings.probe.disable_probe2_pullup = !!(int_value & 0b100);
 
-    ioport_setting_changed(id);
+    // ioport_setting_changed(id); // I/O port system disabled
 
     return Status_OK;
 }

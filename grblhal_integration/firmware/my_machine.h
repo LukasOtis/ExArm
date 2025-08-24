@@ -21,7 +21,7 @@
 
 // NOTE: Only one board may be enabled!
 // If none is enabled pin mappings from generic_map.h will be used.
-//#define BOARD_PICO_CNC
+//#define BOARD_PICO_CNC         // Testing with known good configuration first
 //#define BOARD_RP23U5XBB
 //#define BOARD_PICOBOB
 //#define BOARD_PICOBOB_G540
@@ -33,7 +33,7 @@
 //#define BOARD_CITOH_CX6000    // C.ITOH CX-6000 HPGL plotter
 //#define BOARD_GENERIC_4AXIS
 //#define BOARD_GENERIC_8AXIS
-//#define BOARD_MY_MACHINE      // Add my_machine_map.h before enabling this!
+#define BOARD_MY_MACHINE      // Use working_robot_arm_map.h for ExArm Robot Arm
 
 // Configuration
 // Uncomment to enable.
@@ -48,10 +48,12 @@
 // If none are specified the default PWM spindle is instantiated.
 // Spindle definitions can be found in grbl/spindle_control.h.
 // More here https://github.com/grblHAL/Plugins_spindle
-//#define SPINDLE0_ENABLE         SPINDLE_HUANYANG1
-//#define SPINDLE1_ENABLE         SPINDLE_PWM0
-//#define SPINDLE2_ENABLE         SPINDLE_NONE 
-//#define SPINDLE2_ENABLE         SPINDLE_NONE
+
+// Multi-Spindle Configuration for Robot Arm (3 spindles on RP2350A) - CORRECTED per board
+#define SPINDLE0_ENABLE         SPINDLE_PWM0      // Servo PWM - GPIO 13 (PWM A on board)
+#define SPINDLE1_ENABLE         SPINDLE_PWM1      // Spindle/Laser PWM - GPIO 14 (PWM B on board)
+#define SPINDLE2_ENABLE         SPINDLE_PWM2      // Fan/Coolant PWM - GPIO 16 (PWM C on board)
+
 //#define SPINDLE_OFFSET          1 // Set to 1 to add offset move when switching between laser and spindle
 // **********************
 //#define MODBUS_ENABLE           1 // Set to 1 for auto direction, 2 for direction signal on auxiliary output pin.
@@ -96,11 +98,12 @@
 //#define MCP3221_ENABLE          1 // MCP3221 I2C ADC input, default address is 0x9A (MCP3221_ADDRESS).
 //#define MCP4725_ENABLE          1 // MCP3221 I2C ADC input, default address is 0xC0 (MCP3221_ADDRESS).
 //#define PCA9654E_ENABLE         1 // PCA9654E I2C digital I/O, default address is 0x40 (PCA9654E_ADDRESS).
+//#define THCAD2_ENABLE           1 // Mesa THCAD2 analog to frequency converter. Not yet completed!
 
 // Optional control signals:
 // These will be assigned to aux input pins. Use the $pins command to check which pins are assigned.
 // NOTE: If not enough pins are available assignment will silently fail.
-//#define PROBE_ENABLE            0 // Default enabled, remove comment to disable probe input.
+#define PROBE_ENABLE            0 // Default enabled, remove comment to disable probe input.
 //#define PROBE2_ENABLE           1 // Enable second regular probe input, depending on the board the input assigned may be predefined.
 //#define TOOLSETTER_ENABLE       1 // Enable toolsetter input, depending on the board the input assigned may be predefined.
 //#define SAFETY_DOOR_ENABLE      1

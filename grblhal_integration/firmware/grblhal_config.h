@@ -16,9 +16,13 @@
 #define BOARD_URL "https://github.com/your-repo/robot_arm_control"
 
 // Number of axes
-#define N_AXIS 6                    // Total axes (5 steppers + 1 servo)
-#define N_STEPPER_MOTORS 5          // Number of stepper motors
-#define N_SERVO_MOTORS 1            // Number of servo motors
+#define N_AXIS 3                    // Basic 3-axis control (X, Y, Z)
+#define N_STEPPER_MOTORS 3
+
+// Multiple spindle support for robot arm PWM control
+#define N_SPINDLE 3        // Support 3 spindles (servo, spindle/laser, fan)
+#define N_SYS_SPINDLE 3    // Allow all 3 spindles to be active simultaneously          // Number of stepper motors
+#define N_SERVO_MOTORS 1            // Number of servo motors (C axis via spindle)
 
 // ============================================================================
 // AXIS CONFIGURATION
@@ -99,26 +103,33 @@
 // 2. Use stepper drivers that accept 3.3V input (check datasheet)
 // 3. Use pull-up resistors to 5V on driver inputs
 
-// Servo PWM pin (3.3V is usually fine for servo signal)
-#define C_SERVO_PIN     13
+// Servo PWM controlled via spindle system (SPINDLE0_ENABLE on GPIO 13 - matches board)
+// #define C_SERVO_PIN     13  // Now handled by spindle system
 
-// Limit switch pins (with pull-up resistors for mechanical switches)
-#define X_LIMIT_PIN     14
-#define Y_LIMIT_PIN     15
-#define Z_LIMIT_PIN     16
-#define A_LIMIT_PIN     17
-#define B_LIMIT_PIN     18
-#define C_LIMIT_PIN     19  // Optional for servo
+// Limit switch pins (with pull-up resistors for mechanical switches) - CORRECTED per board
+#define X_LIMIT_PIN     15  // Board: GPIO 15, Pico pin 20
+#define Y_LIMIT_PIN     17  // Board: GPIO 17, Pico pin 22
+#define Z_LIMIT_PIN     18  // Board: GPIO 18, Pico pin 24
+// Note: A, B, C limits not physically connected in 3-axis configuration
+#define A_LIMIT_PIN     19  // Board: GPIO 19 (available for future use)
+#define B_LIMIT_PIN     20  // Board: GPIO 20 (available for future use)
+#define C_LIMIT_PIN     21  // Board: GPIO 21 (AUXINPUT0_PIN - C Input on board)
 
-// Safety pins
-#define SAFETY_DOOR_PIN     20
-#define EMERGENCY_STOP_PIN  21
-#define CYCLE_START_PIN     22
-#define FEED_HOLD_PIN       23
+// Safety pins - limited by 3-axis board design
+// Note: Safety features not fully implemented in basic 3-axis configuration
+#define SAFETY_DOOR_PIN     21  // Board: AUXINPUT0_PIN (C input) - can be used for safety
+#define EMERGENCY_STOP_PIN  22  // Board: RESET_PIN - emergency stop input
+// For 3-axis board, disable cycle start and feed hold (only one aux input available)
+#undef CYCLE_START_PIN
+#undef FEED_HOLD_PIN
 
-// Status pins
-#define STATUS_LED_PIN      25  // Built-in LED
-#define ALARM_LED_PIN       24
+// Coolant pins - disabled for 3-axis board
+#undef COOLANT_FLOOD_PIN
+#undef COOLANT_MIST_PIN
+
+// Status pins (using board map AUXOUTPUT pins)
+#define STATUS_LED_PIN      26  // Board: AUXOUTPUT0_PIN
+#define ALARM_LED_PIN       27  // Board: AUXOUTPUT1_PIN
 
 // Power control pins (NEW - for 5V power management)
 #define STEPPER_POWER_PIN   26  // Control 5V power to steppers

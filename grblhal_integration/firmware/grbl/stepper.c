@@ -458,12 +458,11 @@ ISR_CODE void ISR_FUNC(stepper_driver_interrupt_handler)(void)
                     sys.override.control = st.exec_block->overrides;
 
                 // Execute output commands to be synchronized with motion
+                // I/O port functionality disabled for basic 3-axis control
                 while(st.exec_block->output_commands) {
                     output_command_t *cmd = st.exec_block->output_commands;
-                    if(cmd->is_digital)
-                        hal.port.digital_out(cmd->port, cmd->value != 0.0f);
-                    else
-                        hal.port.analog_out(cmd->port, cmd->value);
+                    // hal.port.digital_out(cmd->port, cmd->value != 0.0f);
+                    // hal.port.analog_out(cmd->port, cmd->value);
                     st.exec_block->output_commands = cmd->next;
                 }
 

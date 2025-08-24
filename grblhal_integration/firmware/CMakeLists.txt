@@ -17,43 +17,44 @@ pico_sdk_init()
 
 # grblHAL core source files (minimal set for robot arm)
 set(GRBL_SOURCES
-    grbl/main.c
-    grbl/grbllib.c
-    grbl/gcode.c
-    grbl/motion_control.c
-    grbl/planner.c
-    grbl/stepper.c
-    grbl/protocol.c
-    grbl/settings.c
-    grbl/system.c
-    grbl/report.c
-    grbl/nuts_bolts.c
-    grbl/machine_limits.c
-    grbl/override.c
-    grbl/state_machine.c
-    grbl/crossbar.c
-    grbl/stream.c
-    grbl/coolant_control.c
-    grbl/spindle_control.c
-    grbl/pid.c
-    grbl/crc.c
-    grbl/nvs_buffer.c
-    grbl/ngc_params.c
-    grbl/ngc_expr.c
-    grbl/ngc_flowctrl.c
-    grbl/regex.c
-    grbl/strutils.c
-    grbl/sleep.c
-    grbl/tool_change.c
-    grbl/stepper2.c
-    grbl/modbus.c
-    grbl/modbus_rtu.c
-    grbl/stream_file.c
-    grbl/stream_passthru.c
-    grbl/vfs.c
-    grbl/errors.c
-    grbl/alarms.c
-    grbl/messages.c
+    GRBL/grbllib.c
+    GRBL/gcode.c
+    GRBL/motion_control.c
+    GRBL/planner.c
+    GRBL/stepper.c
+    GRBL/protocol.c
+    GRBL/settings.c
+    GRBL/system.c
+    GRBL/report.c
+    GRBL/nuts_bolts.c
+    GRBL/machine_limits.c
+    GRBL/override.c
+    GRBL/state_machine.c
+    GRBL/crossbar.c
+    GRBL/stream.c
+    GRBL/coolant_control.c
+    GRBL/spindle_control.c
+    GRBL/pid.c
+    GRBL/crc.c
+    GRBL/nvs_buffer.c
+    GRBL/ngc_params.c
+    GRBL/ngc_expr.c
+    GRBL/ngc_flowctrl.c
+    GRBL/regex.c
+    GRBL/strutils.c
+    GRBL/sleep.c
+    GRBL/tool_change.c
+    GRBL/stepper2.c
+    # GRBL/modbus.c                    # Disabled for basic 3-axis robot arm
+    # GRBL/modbus_rtu.c               # Disabled for basic 3-axis robot arm
+    GRBL/stream_file.c
+    # GRBL/stream_passthru.c          # Disabled for basic 3-axis robot arm
+    GRBL/vfs.c
+    GRBL/errors.c
+    GRBL/alarms.c
+    GRBL/messages.c
+    GRBL/flash.c
+    GRBL/canbus.c
 )
 
 # RP2350 driver source files  
@@ -61,15 +62,14 @@ set(DRIVER_SOURCES
     driver.c
     serial.c
     usb_serial.c
-    stdio_usb_descriptors.c
     i2c.c
     spi.c
-    ioports.c
 )
 
 # PIO sources for hardware timers and step generation
 set(PIO_SOURCES
     driverPIO.pio
+    ${CMAKE_CURRENT_LIST_DIR}/build/pico-sdk/src/rp2_common/pico_status_led/ws2812.pio
 )
 
 # ============================================================================
@@ -85,6 +85,7 @@ add_executable(grblhal_robot_arm
 
 # Generate PIO headers
 pico_generate_pio_header(grblhal_robot_arm ${CMAKE_CURRENT_LIST_DIR}/driverPIO.pio)
+pico_generate_pio_header(grblhal_robot_arm ${CMAKE_CURRENT_LIST_DIR}/build/pico-sdk/src/rp2_common/pico_status_led/ws2812.pio)
 
 # ============================================================================
 # INCLUDES AND DEFINITIONS
@@ -92,31 +93,51 @@ pico_generate_pio_header(grblhal_robot_arm ${CMAKE_CURRENT_LIST_DIR}/driverPIO.p
 
 # Include directories
 target_include_directories(grblhal_robot_arm PRIVATE
-    ${CMAKE_CURRENT_LIST_DIR}/grbl
+    ${CMAKE_CURRENT_LIST_DIR}/GRBL
     ${CMAKE_CURRENT_LIST_DIR}
     ${CMAKE_CURRENT_LIST_DIR}/boards
+    # Pico SDK headers
+    ${CMAKE_CURRENT_LIST_DIR}/build/pico-sdk/src/common/pico_base_headers/include
+    # ${CMAKE_CURRENT_LIST_DIR}/build/pico-sdk/src/common/pico_time/include  # Removed to avoid hardware_rtc dependency
+    ${CMAKE_CURRENT_LIST_DIR}/build/pico-sdk/src/rp2_common/hardware_base/include
+    ${CMAKE_CURRENT_LIST_DIR}/build/pico-sdk/src/rp2_common/hardware_gpio/include
+    ${CMAKE_CURRENT_LIST_DIR}/build/pico-sdk/src/common/pico_stdlib/include
+    ${CMAKE_CURRENT_LIST_DIR}/build/pico-sdk/src/common/pico_sync/include
+    ${CMAKE_CURRENT_LIST_DIR}/build/pico-sdk/src/rp2_common/pico_platform/include
+    ${CMAKE_CURRENT_LIST_DIR}/build/pico-sdk/src/rp2_common/hardware_sync/include
+    ${CMAKE_CURRENT_LIST_DIR}/build/pico-sdk/src/rp2_common/hardware_irq/include
+    ${CMAKE_CURRENT_LIST_DIR}/build/pico-sdk/src/rp2_common/hardware_timer/include
+    ${CMAKE_CURRENT_LIST_DIR}/build/pico-sdk/src/rp2_common/hardware_clocks/include
+    ${CMAKE_CURRENT_LIST_DIR}/build/pico-sdk/src/rp2_common/hardware_resets/include
+    ${CMAKE_CURRENT_LIST_DIR}/build/pico-sdk/src/rp2_common/hardware_pll/include
+    ${CMAKE_CURRENT_LIST_DIR}/build/pico-sdk/src/rp2_common/hardware_vreg/include
+    ${CMAKE_CURRENT_LIST_DIR}/build/pico-sdk/src/rp2_common/hardware_watchdog/include
+    ${CMAKE_CURRENT_LIST_DIR}/build/pico-sdk/src/rp2_common/hardware_xosc/include
+    ${CMAKE_CURRENT_LIST_DIR}/build/pico-sdk/src/rp2_common/hardware_rtc/include
 )
 
 # Compiler definitions for robot arm
 target_compile_definitions(grblhal_robot_arm PRIVATE
     # grblHAL platform identification
     GRBL_PLATFORM="RobotArm"
-    OVERRIDE_MY_MACHINE=1
+    BOARD_MY_MACHINE=1
     
-    # RP2350 specific
+    # RP2350 specific (Pico 2)
     PICO_BOARD="pico2"
+    RP_MCU=2350
     
-    # Robot arm configuration
-    N_AXIS=6
+    # Robot arm configuration - 3-axis for RP2040
+    N_AXIS=3
+    N_ABC_MOTORS=0
     ROBOT_ARM_BUILD=1
     
     # Hardware configuration
-    RP2350_BUILD=1
+    RP2040_BUILD=1
     USB_SERIAL_CDC=1
     
     # Performance optimizations
-    PICO_USE_STACK_GUARDS=1
-    PICO_STACK_SIZE=0x2000
+    PICO_USE_STACK_GUARDS=0
+    PICO_STACK_SIZE=0x1000
 )
 
 # ============================================================================
@@ -125,14 +146,12 @@ target_compile_definitions(grblhal_robot_arm PRIVATE
 
 # Link Pico SDK libraries
 target_link_libraries(grblhal_robot_arm
-    # Core Pico libraries
-    pico_stdlib
+    # Core Pico libraries (without time dependency)
     pico_platform
     pico_runtime
     
     # Hardware interface libraries
     pico_multicore
-    pico_pio
     hardware_pio
     hardware_dma
     hardware_uart
@@ -143,13 +162,16 @@ target_link_libraries(grblhal_robot_arm
     hardware_clocks
     hardware_timer
     hardware_watchdog
+    # hardware_rtc  # Temporarily disabled - library not available
+    # Add stub library for hardware_rtc
+    ${CMAKE_CURRENT_BINARY_DIR}/libhardware_rtc.a
     hardware_flash
     hardware_sync
     
-    # USB support for communication
+    # USB support for communication (without WiFi dependencies)
     pico_unique_id
     pico_stdio
-    pico_stdio_usb
+    # pico_stdio_usb  # Disabled due to cyw43 dependency issues
     pico_stdio_uart
     
     # Math libraries for robot kinematics
@@ -170,8 +192,8 @@ target_link_libraries(grblhal_robot_arm
 pico_enable_stdio_usb(grblhal_robot_arm 1)
 pico_enable_stdio_uart(grblhal_robot_arm 1)
 
-# Generate map file for debugging
-pico_set_linker_create_map_file(grblhal_robot_arm 1)
+# Generate map file for debugging (commented out for pico-sdk 2.2.0 compatibility)
+# pico_set_linker_create_map_file(grblhal_robot_arm 1)
 
 # Create bin/hex/uf2 outputs
 pico_add_extra_outputs(grblhal_robot_arm)
@@ -206,9 +228,9 @@ target_link_options(grblhal_robot_arm PRIVATE
 message(STATUS "=== grblHAL Robot Arm Build Configuration ===")
 message(STATUS "Target: Raspberry Pi Pico 2 (RP2350)")
 message(STATUS "Axes: 6-DOF (5 steppers + 1 servo)")
-message(STATUS "grblHAL core files: ${list_length(GRBL_SOURCES)}")
-message(STATUS "Driver files: ${list_length(DRIVER_SOURCES)}")
-message(STATUS "Total source files: ${list_length(GRBL_SOURCES + DRIVER_SOURCES)}")
+message(STATUS "grblHAL core files: ${GRBL_SOURCES}")
+message(STATUS "Driver files: ${DRIVER_SOURCES}")
+message(STATUS "Total source files: ${GRBL_SOURCES} ${DRIVER_SOURCES}")
 message(STATUS "============================================")
 
 # Custom targets for development

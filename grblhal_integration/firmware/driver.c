@@ -221,7 +221,8 @@ static spindle_pwm_t spindle_pwm;
 static pio_steps_t pio_steps = {.delay = 20, .length = 100};
 static uint stepper_timer_sm, stepper_timer_sm_offset;
 static bool IOInitDone = false;
-static status_code_t (*on_unknown_sys_command)(uint_fast16_t state, char *line, char *lcline);
+// Unused system command handler (commented out to reduce warnings)
+// static status_code_t (*on_unknown_sys_command)(uint_fast16_t state, char *line, char *lcline);
 static volatile uint32_t elapsed_ticks = 0;
 static pin_group_pins_t limit_inputs;
 
@@ -269,8 +270,8 @@ static inline void aux_ctrl_claim_out_ports (void *claim_func, void *context) {
 #define Port_Input 0
 #define Port_Output 1
 
-// Missing expander output array
-static xbar_t *iox_out[16] = {NULL}; // No expander outputs available
+// Missing expander output array (unused - commented out to reduce warnings)
+// static xbar_t *iox_out[16] = {NULL}; // No expander outputs available
 
 static inline void *ioport_claim (int port_type, int direction, uint8_t *port, const char *description) {
     return NULL; // No I/O ports available
@@ -659,7 +660,8 @@ static output_signal_t outputpin[] = {
 #define DEBOUNCE_DELAY 40 // ms
 #endif
 
-static pin_debounce_t debounce = {0};
+// Unused debounce structure (commented out to reduce warnings)
+// static pin_debounce_t debounce = {0};
 static void aux_irq_handler (uint8_t port, bool state);
 
 #if SD_SHIFT_REGISTER
@@ -685,7 +687,8 @@ static struct {
 #endif
 } step_pulse = {0};
 
-static void systick_handler(void);
+// Unused function declaration (commented out to reduce warnings)
+// static void systick_handler(void);
 static void stepper_int_handler(void);
 static void rpm_int_handler(void);
 static void gpio_int_handler(uint gpio, uint32_t events);
@@ -3181,7 +3184,7 @@ bool driver_init (void)
     input_signal_t *input;
     output_signal_t *output;
 
-    static pin_group_pins_t aux_inputs = {0}, aux_outputs = {0}, aux_inputs_analog = {0}, aux_outputs_analog = {0};
+    static pin_group_pins_t aux_inputs = {0}, aux_outputs = {0}; // Removed unused analog variables
 
     for(i = 0; i < sizeof(inputpin) / sizeof(input_signal_t); i++) {
         input = &inputpin[i];
@@ -3221,18 +3224,20 @@ bool driver_init (void)
 
             aux_outputs.n_pins++;
         } else if(output->group == PinGroup_AuxOutputAnalog) {
-            if(aux_outputs_analog.pins.outputs == NULL)
-                aux_outputs_analog.pins.outputs = output;
-            output->mode.analog = On;
-            output->id = Output_Analog_Aux0 + aux_outputs_analog.n_pins++;
+            // Analog outputs not supported in this build
+            // if(aux_outputs_analog.pins.outputs == NULL)
+            //     aux_outputs_analog.pins.outputs = output;
+            // output->mode.analog = On;
+            // output->id = Output_Analog_Aux0 + aux_outputs_analog.n_pins++;
         }
     }
 
     if(aux_inputs.n_pins || aux_outputs.n_pins)
         // ioports_init(&aux_inputs, &aux_outputs);  // Disabled due to missing I/O port system
 
-    if(aux_outputs_analog.n_pins)
-        // ioports_init_analog(&aux_inputs_analog, &aux_outputs_analog);  // Disabled due to missing I/O port system
+    // Analog outputs not supported in this build
+    // if(aux_outputs_analog.n_pins)
+    //     ioports_init_analog(&aux_inputs_analog, &aux_outputs_analog);  // Disabled due to missing I/O port system
 
     io_expanders_init();
     aux_ctrl_claim_ports(aux_claim_explicit, NULL);

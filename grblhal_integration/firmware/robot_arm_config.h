@@ -45,37 +45,24 @@
 // STEPPER MOTOR SETTINGS
 // ============================================================================
 
-// Default steps per unit (steps/degree for rotational joints, steps/mm for linear)
-// Assuming 1.8° stepper (200 steps/rev) with 1/16 microstepping = 3200 steps/rev
-#define DEFAULT_X_STEPS_PER_UNIT 17.78     // Base rotation: 3200 steps/rev ÷ 180° = 17.78 steps/degree
-#define DEFAULT_Y_STEPS_PER_UNIT 17.78     // Shoulder: 3200 steps/rev ÷ 90° = 35.56 steps/degree
-#define DEFAULT_Z_STEPS_PER_UNIT 17.78     // Elbow: 3200 steps/rev ÷ 120° = 26.67 steps/degree
-#define DEFAULT_A_STEPS_PER_UNIT 320.0     // Linear actuator 1: 3200 steps/rev ÷ 10mm/rev = 320 steps/mm
-#define DEFAULT_B_STEPS_PER_UNIT 320.0     // Linear actuator 2: 3200 steps/rev ÷ 10mm/rev = 320 steps/mm
+// ============================================================================
+// GENERIC AXIS CONFIGURATION (ROS2 handles motion planning)
+// ============================================================================
 
-// GRBL core expects these specific names for A and B axes
-#define DEFAULT_A_STEPS_PER_MM DEFAULT_A_STEPS_PER_UNIT
-#define DEFAULT_B_STEPS_PER_MM DEFAULT_B_STEPS_PER_UNIT
-
-// Maximum feed rates (units/minute)
-#define DEFAULT_A_MAX_RATE 600.0           // mm/min (10 mm/sec max)
-#define DEFAULT_B_MAX_RATE 600.0           // mm/min (10 mm/sec max)
-
-// Acceleration (units/sec^2)
-#define DEFAULT_A_ACCELERATION 30.0        // mm/sec^2
-#define DEFAULT_B_ACCELERATION 30.0        // mm/sec^2
-
-// Jerk (units/sec^3)
-#define DEFAULT_A_JERK 10.0                // mm/sec^3
-#define DEFAULT_B_JERK 10.0                // mm/sec^3
-
-// Maximum travel (units)
-#define DEFAULT_A_MAX_TRAVEL 100.0         // mm
-#define DEFAULT_B_MAX_TRAVEL 100.0         // mm
-
-// Homing cycle masks
-#define DEFAULT_HOMING_CYCLE_3 (bit(X_AXIS) | bit(Y_AXIS) | bit(Z_AXIS) | bit(A_AXIS))
-#define DEFAULT_HOMING_CYCLE_4 (bit(X_AXIS) | bit(Y_AXIS) | bit(Z_AXIS) | bit(A_AXIS) | bit(B_AXIS))
+/*
+ * Since ROS2 handles motion planning, kinematics, and step calculations,
+ * GRBL just needs reasonable defaults for GPIO testing and basic movement.
+ * 
+ * We use GRBL core defaults for all axis parameters to avoid conflicts.
+ * These can be customized via G-code commands or ROS2 motion planning.
+ * 
+ * GRBL Core Defaults:
+ * - Steps per unit: 250.0 (steps/mm or steps/degree)
+ * - Max rate: 500.0 (units/minute)
+ * - Acceleration: 10.0 (units/sec^2)
+ * - Jerk: 100.0 (units/sec^3)
+ * - Max travel: 200.0 (units)
+ */
 
 // ============================================================================
 // SERVO MOTOR SETTINGS

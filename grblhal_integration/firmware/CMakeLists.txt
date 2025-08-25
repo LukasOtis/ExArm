@@ -122,7 +122,6 @@ target_include_directories(grblhal_robot_arm PRIVATE
 target_compile_definitions(grblhal_robot_arm PRIVATE
     # grblHAL platform identification
     GRBL_PLATFORM="RobotArm"
-    BOARD_MY_MACHINE=1
     
     # RP2350 specific (Pico 2)
     PICO_BOARD="pico2"
@@ -130,7 +129,6 @@ target_compile_definitions(grblhal_robot_arm PRIVATE
     
     # Robot arm configuration - 5-axis for RP2350B
     N_AXIS=5
-    N_ABC_MOTORS=2
     ROBOT_ARM_BUILD=1
     
     # Hardware configuration

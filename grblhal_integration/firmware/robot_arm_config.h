@@ -57,6 +57,18 @@
 #define PWM_SERVO_RESOLUTION 12     // 12-bit resolution (0-4095)
 
 // ============================================================================
+// AUXILIARY OUTPUT SETTINGS
+// ============================================================================
+
+// Enable auxiliary output control plugin (M210-M215 commands)
+#define AUX_OUTPUT_ENABLE 1
+
+// Note: Pin definitions are already defined in my_machine_map.h:
+// AUXOUTPUT0_PIN = 26 (GPIO 26)
+// AUXOUTPUT1_PIN = 27 (GPIO 27) 
+// AUXOUTPUT2_PIN = 28 (GPIO 28)
+
+// ============================================================================
 // SAFETY AND LIMITS
 // ============================================================================
 

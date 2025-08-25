@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Darwin")
 set(CMAKE_HOST_SYSTEM_VERSION "24.6.0")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "arm64")
 
-include("/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m33_gcc.cmake")
+include("/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m33_gcc.cmake")
 
 set(CMAKE_SYSTEM "PICO")
 set(CMAKE_SYSTEM_NAME "PICO")

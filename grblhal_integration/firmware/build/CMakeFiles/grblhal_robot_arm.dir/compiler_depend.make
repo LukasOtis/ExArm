@@ -369,49 +369,49 @@ CMakeFiles/grblhal_robot_arm.dir/GRBL/flash.c.o: /Users/lukasnoll/Documents/buil
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/boards/my_machine_map.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
-  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
-  pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h \
-  pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/driver.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/expanders_init.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/driver_opts2.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/my_machine.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/robot_arm_config.h
 
 CMakeFiles/grblhal_robot_arm.dir/GRBL/gcode.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/gcode.c \
@@ -2172,75 +2172,75 @@ CMakeFiles/grblhal_robot_arm.dir/driver.c.o: /Users/lukasnoll/Documents/builds/R
   driverPIO.pio.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_time/include/pico/time.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/bootram.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/clocks.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pwm.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/spi.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/bootram.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/clocks.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/iobank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pwm.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/spi.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/systick.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
-  pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
-  pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
-  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
-  pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h \
-  pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
-  pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h \
-  pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
-  pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
-  pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
-  pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
   ws2812.pio.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/driver.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/expanders_init.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/driver_opts2.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/hal.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/my_machine.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/bootram.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/clocks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pwm.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/spi.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/bootram.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/clocks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/iobank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pwm.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/spi.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/systick.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/platform.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/plugins/pwm_servo_m280.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/robot_arm_config.h \
@@ -2320,55 +2320,6 @@ CMakeFiles/grblhal_robot_arm.dir/i2c.c.o: /Users/lukasnoll/Documents/builds/Robo
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/boards/my_machine_map.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_time/include/pico/time.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dma.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/i2c.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/dma.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/dma_debug.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/i2c.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
-  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
-  pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
-  pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h \
-  pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/driver.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/expanders_init.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/driver_opts2.h \
@@ -2376,6 +2327,55 @@ CMakeFiles/grblhal_robot_arm.dir/i2c.c.o: /Users/lukasnoll/Documents/builds/Robo
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/plugins.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/i2c.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/my_machine.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dma.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/i2c.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/dma.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/dma_debug.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/i2c.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/robot_arm_config.h
 
 CMakeFiles/grblhal_robot_arm.dir/main.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/main.c \
@@ -2388,7 +2388,7 @@ CMakeFiles/grblhal_robot_arm.dir/main.c.o: /Users/lukasnoll/Documents/builds/Rob
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/grbllib.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: pico-sdk/lib/tinyusb/src/class/audio/audio_device.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -2407,435 +2407,29 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_devi
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  pico-sdk/lib/tinyusb/src/tusb_option.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/inttypes.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/string.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/strings.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_locale.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/string.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdarg.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdbool.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stddef.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h \
-  pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
-  pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_common.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_private.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_types.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
-  pico-sdk/lib/tinyusb/src/device/usbd.h \
-  pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
-  pico-sdk/lib/tinyusb/src/osal/osal.h \
-  pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
-  pico-sdk/lib/tinyusb/src/tusb_option.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  pico-sdk/src/common/pico_time/include/pico/time.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
-
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdarg.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdbool.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stddef.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  pico-sdk/lib/tinyusb/src/tusb_option.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
-
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdarg.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdbool.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stddef.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  pico-sdk/lib/tinyusb/src/tusb_option.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
-
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: pico-sdk/lib/tinyusb/src/class/hid/hid_device.c \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdarg.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdbool.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stddef.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  pico-sdk/lib/tinyusb/src/tusb_option.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
-
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: pico-sdk/lib/tinyusb/src/class/midi/midi_device.c \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdarg.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdbool.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stddef.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  pico-sdk/lib/tinyusb/src/tusb_option.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
-
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: pico-sdk/lib/tinyusb/src/class/msc/msc_device.c \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdarg.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdbool.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stddef.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  pico-sdk/lib/tinyusb/src/tusb_option.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
-
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdarg.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdbool.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stddef.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  pico-sdk/lib/tinyusb/src/tusb_option.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
-
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: pico-sdk/lib/tinyusb/src/class/net/ncm_device.c \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdarg.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdbool.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stddef.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  pico-sdk/lib/tinyusb/src/tusb_option.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
-
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdarg.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdbool.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stddef.h \
-  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
-  generated/pico_base/pico/config_autogen.h \
-  generated/pico_base/pico/version.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  pico-sdk/lib/tinyusb/src/tusb_option.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
-
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -2865,54 +2459,55 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_de
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_common.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_private.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_types.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
-  pico-sdk/lib/tinyusb/src/device/usbd.h \
-  pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
-  pico-sdk/lib/tinyusb/src/osal/osal.h \
-  pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
-  pico-sdk/lib/tinyusb/src/tusb_option.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  pico-sdk/src/common/pico_time/include/pico/time.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_private.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: pico-sdk/lib/tinyusb/src/class/video/video_device.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -2931,29 +2526,316 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/video/video_devi
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  pico-sdk/lib/tinyusb/src/tusb_option.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: pico-sdk/lib/tinyusb/src/common/tusb_fifo.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdarg.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdbool.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stddef.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
+
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdarg.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdbool.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stddef.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
+
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdarg.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdbool.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stddef.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
+
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdarg.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdbool.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stddef.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
+
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdarg.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdbool.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stddef.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
+
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdarg.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdbool.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stddef.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
+
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdarg.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdbool.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stddef.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
+
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -2983,50 +2865,95 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: 
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_common.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_types.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
-  pico-sdk/lib/tinyusb/src/osal/osal.h \
-  pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
-  pico-sdk/lib/tinyusb/src/tusb_option.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  pico-sdk/src/common/pico_time/include/pico/time.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_private.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.o: pico-sdk/lib/tinyusb/src/device/usbd.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/video/video_device.c \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdarg.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdbool.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stddef.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
+
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -3056,58 +2983,50 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.o: pico-
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
-  pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
-  pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_common.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_private.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_types.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
-  pico-sdk/lib/tinyusb/src/device/dcd.h \
-  pico-sdk/lib/tinyusb/src/device/usbd.h \
-  pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
-  pico-sdk/lib/tinyusb/src/osal/osal.h \
-  pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
-  pico-sdk/lib/tinyusb/src/tusb.h \
-  pico-sdk/lib/tinyusb/src/tusb_option.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  pico-sdk/src/common/pico_time/include/pico/time.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: pico-sdk/lib/tinyusb/src/device/usbd_control.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/device/usbd.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -3137,58 +3056,58 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
-  pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
-  pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_common.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_private.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_types.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
-  pico-sdk/lib/tinyusb/src/device/dcd.h \
-  pico-sdk/lib/tinyusb/src/device/usbd.h \
-  pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
-  pico-sdk/lib/tinyusb/src/osal/osal.h \
-  pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
-  pico-sdk/lib/tinyusb/src/tusb.h \
-  pico-sdk/lib/tinyusb/src/tusb_option.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  pico-sdk/src/common/pico_time/include/pico/time.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_private.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/device/dcd.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/device/usbd_control.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -3218,64 +3137,145 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/r
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_common.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_types.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
-  pico-sdk/lib/tinyusb/src/device/dcd.h \
-  pico-sdk/lib/tinyusb/src/osal/osal.h \
-  pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
-  pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h \
-  pico-sdk/lib/tinyusb/src/tusb_option.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  pico-sdk/src/common/pico_time/include/pico/time.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/usb.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/usb.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/usb_dpram.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_private.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/device/dcd.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/inttypes.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/string.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/strings.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_locale.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/string.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdarg.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdbool.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stddef.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/device/dcd.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/usb_dpram.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
+
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/alloca.h \
@@ -3308,53 +3308,53 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/r
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_common.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_types.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
-  pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h \
-  pico-sdk/lib/tinyusb/src/tusb_option.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/usb.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/usb.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/usb_dpram.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/usb_dpram.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/tusb.c.o: pico-sdk/lib/tinyusb/src/tusb.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/tusb.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -3384,57 +3384,57 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/tusb.c.o: pico-sdk/lib
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
-  pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
-  pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_common.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_private.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_types.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
-  pico-sdk/lib/tinyusb/src/device/usbd.h \
-  pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
-  pico-sdk/lib/tinyusb/src/osal/osal.h \
-  pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
-  pico-sdk/lib/tinyusb/src/tusb.h \
-  pico-sdk/lib/tinyusb/src/tusb_option.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  pico-sdk/src/common/pico_time/include/pico/time.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_private.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/hardware_claim/claim.c.o: pico-sdk/src/common/hardware_claim/claim.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/hardware_claim/claim.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/hardware_claim/claim.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -3452,29 +3452,29 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/hardware_claim/claim.c.o: p
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/hardware_claim/include/hardware/claim.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/hardware_claim/include/hardware/claim.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/critical_section.c.o: pico-sdk/src/common/pico_sync/critical_section.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/critical_section.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/critical_section.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -3492,35 +3492,35 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/critical_section.
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  pico-sdk/src/common/pico_time/include/pico/time.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/lock_core.c.o: pico-sdk/src/common/pico_sync/lock_core.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/lock_core.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/lock_core.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -3538,34 +3538,34 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/lock_core.c.o: pi
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  pico-sdk/src/common/pico_time/include/pico/time.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/mutex.c.o: pico-sdk/src/common/pico_sync/mutex.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/mutex.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/mutex.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -3583,37 +3583,37 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/mutex.c.o: pico-s
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  pico-sdk/src/common/pico_time/include/pico/time.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
-  pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/sem.c.o: pico-sdk/src/common/pico_sync/sem.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/sem.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/sem.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -3631,35 +3631,35 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/sem.c.o: pico-sdk
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  pico-sdk/src/common/pico_time/include/pico/time.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_time/time.c.o: pico-sdk/src/common/pico_time/time.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_time/time.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/time.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/alloca.h \
@@ -3684,55 +3684,55 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_time/time.c.o: pico-sd
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  pico-sdk/src/common/pico_sync/include/pico/sync.h \
-  pico-sdk/src/common/pico_time/include/pico/time.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
-  pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
-  pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
-  pico-sdk/src/rp2_common/pico_time_adapter/include/pico/time_adapter.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_time_adapter/include/pico/time_adapter.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_time/timeout_helper.c.o: pico-sdk/src/common/pico_time/timeout_helper.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_time/timeout_helper.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/timeout_helper.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -3750,32 +3750,32 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_time/timeout_helper.c.
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_time/include/pico/time.h \
-  pico-sdk/src/common/pico_time/include/pico/timeout_helper.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/timeout_helper.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/datetime.c.o: pico-sdk/src/common/pico_util/datetime.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/datetime.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_util/datetime.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -3813,24 +3813,24 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/datetime.c.o: pic
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_util/include/pico/util/datetime.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_util/include/pico/util/datetime.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/pheap.c.o: pico-sdk/src/common/pico_util/pheap.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/pheap.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_util/pheap.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/alloca.h \
@@ -3858,24 +3858,24 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/pheap.c.o: pico-s
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_util/include/pico/util/pheap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_util/include/pico/util/pheap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/queue.c.o: pico-sdk/src/common/pico_util/queue.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/queue.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_util/queue.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/alloca.h \
@@ -3904,35 +3904,35 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/queue.c.o: pico-s
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  pico-sdk/src/common/pico_time/include/pico/time.h \
-  pico-sdk/src/common/pico_util/include/pico/util/queue.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_util/include/pico/util/queue.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2350/pico_platform/platform.c.o: pico-sdk/src/rp2350/pico_platform/platform.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2350/pico_platform/platform.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/platform.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -3950,27 +3950,27 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2350/pico_platform/platform.c.o:
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sysinfo.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sysinfo.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: pico-sdk/src/rp2_common/hardware_adc/adc.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_adc/adc.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -3988,47 +3988,47 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: p
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/adc.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/adc.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
-  pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/adc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/adc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -4046,33 +4046,33 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/bootram.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/bootram.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
-  pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/bootram.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/bootram.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: pico-sdk/src/rp2_common/hardware_clocks/clocks.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_clocks/clocks.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -4090,47 +4090,47 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/clocks.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pll.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/clocks.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pll.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
-  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
-  pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/clocks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pll.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/clocks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pll.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_divider/divider.c.o: pico-sdk/src/rp2_common/hardware_divider/divider.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_divider/divider.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_divider/divider.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -4148,24 +4148,24 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_divider/divide
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_divider/include/hardware/divider.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_divider/include/hardware/divider.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: pico-sdk/src/rp2_common/hardware_dma/dma.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_dma/dma.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -4190,35 +4190,35 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: p
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/hardware_claim/include/hardware/claim.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dma.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/dma.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/dma_debug.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/hardware_claim/include/hardware/claim.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dma.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/dma.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/dma_debug.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: pico-sdk/src/rp2_common/hardware_flash/flash.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_flash/flash.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -4244,43 +4244,43 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/bootram.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_qspi.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/qmi.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/bootram.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_qspi.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/qmi.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
-  pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/hardware_xip_cache/include/hardware/xip_cache.h \
-  pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
-  pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
-  pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
-  pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/bootram.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_qspi.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/qmi.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/bootram.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_qspi.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/qmi.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_xip_cache/include/hardware/xip_cache.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: pico-sdk/src/rp2_common/hardware_gpio/gpio.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/gpio.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -4298,43 +4298,43 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o:
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
-  pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: pico-sdk/src/rp2_common/hardware_i2c/i2c.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_i2c/i2c.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -4352,42 +4352,42 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: p
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_time/include/pico/time.h \
-  pico-sdk/src/common/pico_time/include/pico/timeout_helper.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/clocks.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/i2c.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/clocks.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/i2c.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
-  pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
-  pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/timeout_helper.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/clocks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/i2c.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/clocks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/i2c.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: pico-sdk/src/rp2_common/hardware_irq/irq.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_irq/irq.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -4405,44 +4405,44 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: p
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/hardware_claim/include/hardware/claim.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  pico-sdk/src/common/pico_time/include/pico/time.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
-  pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/hardware_claim/include/hardware/claim.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: pico-sdk/src/rp2_common/hardware_pio/pio.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pio/pio.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -4460,49 +4460,49 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: p
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/hardware_claim/include/hardware/claim.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
-  pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h \
-  pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/hardware_claim/include/hardware/claim.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: pico-sdk/src/rp2_common/hardware_pll/pll.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pll/pll.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -4520,35 +4520,35 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: p
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/clocks.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pll.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/clocks.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pll.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
-  pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h \
-  pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/clocks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pll.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/clocks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pll.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_spi/spi.c.o: pico-sdk/src/rp2_common/hardware_spi/spi.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_spi/spi.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_spi/spi.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -4566,36 +4566,36 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_spi/spi.c.o: p
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/clocks.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/spi.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/clocks.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/spi.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
-  pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/clocks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/spi.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/clocks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/spi.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: pico-sdk/src/rp2_common/hardware_sync/sync.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/sync.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -4613,29 +4613,29 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.o:
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/hardware_claim/include/hardware/claim.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/hardware_claim/include/hardware/claim.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -4653,32 +4653,32 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
-  pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: pico-sdk/src/rp2_common/hardware_ticks/ticks.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_ticks/ticks.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -4696,29 +4696,29 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/ticks.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/ticks.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/ticks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/ticks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: pico-sdk/src/rp2_common/hardware_timer/timer.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/timer.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -4736,39 +4736,39 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/hardware_claim/include/hardware/claim.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/hardware_claim/include/hardware/claim.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: pico-sdk/src/rp2_common/hardware_uart/uart.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_uart/uart.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -4786,40 +4786,40 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.o:
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/clocks.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/uart.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/clocks.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/uart.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
-  pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/clocks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/uart.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/clocks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/uart.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: pico-sdk/src/rp2_common/hardware_vreg/vreg.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_vreg/vreg.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -4837,29 +4837,29 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o:
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/powman.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/powman.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_vreg/include/hardware/vreg.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/powman.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/powman.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_vreg/include/hardware/vreg.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -4888,44 +4888,44 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_watchdog/watch
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/bootram.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/psm.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/ticks.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/watchdog.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/bootram.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/psm.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/ticks.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/watchdog.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h \
-  pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
-  pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
-  pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
-  pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
-  pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/bootram.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/psm.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/ticks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/watchdog.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/bootram.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/psm.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/ticks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/watchdog.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -4943,31 +4943,31 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/xip.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/xip.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/hardware_xip_cache/include/hardware/xip_cache.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/xip.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/xip.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_xip_cache/include/hardware/xip_cache.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: pico-sdk/src/rp2_common/hardware_xosc/xosc.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_xosc/xosc.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -4985,32 +4985,32 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o:
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/clocks.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/xosc.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/clocks.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/xosc.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
-  pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/clocks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/xosc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/clocks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/xosc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: pico-sdk/src/rp2_common/pico_atomic/atomic.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_atomic/atomic.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -5029,39 +5029,39 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o:
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  pico-sdk/src/common/pico_sync/include/pico/sync.h \
-  pico-sdk/src/common/pico_time/include/pico/time.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/pico_atomic/include/stdatomic.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_atomic/include/stdatomic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: pico-sdk/src/rp2_common/pico_bootrom/bootrom.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -5087,40 +5087,40 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h \
-  pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h \
-  pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/bootram.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/bootram.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
-  pico-sdk/src/rp2_common/hardware_rcp/include/hardware/rcp.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
-  pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
-  pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
-  pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/bootram.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/bootram.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_rcp/include/hardware/rcp.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -5138,36 +5138,36 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lo
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/bootram.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/bootram.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
-  pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
-  pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/bootram.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/bootram.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -5212,35 +5212,35 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_clib_interface/new
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_time/include/pico/time.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
-  pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
-  pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
-  pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/alloca.h \
@@ -5272,23 +5272,23 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_de
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o: pico-sdk/src/rp2_common/pico_divider/divider_compiler.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -5306,25 +5306,25 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_divider/divider_co
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_divider_headers/include/pico/divider.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_divider/include/hardware/divider.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_divider_headers/include/pico/divider.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_divider/include/hardware/divider.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.o: pico-sdk/src/rp2_common/pico_double/double_math.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_double/double_math.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -5347,25 +5347,25 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_math
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h \
-  pico-sdk/src/rp2_common/pico_double/include/pico/double.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_double/include/pico/double.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -5383,23 +5383,23 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_dev
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.o: pico-sdk/src/rp2_common/pico_flash/flash.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_flash/flash.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -5417,42 +5417,42 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.o: p
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  pico-sdk/src/common/pico_sync/include/pico/sync.h \
-  pico-sdk/src/common/pico_time/include/pico/time.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
-  pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.o: pico-sdk/src/rp2_common/pico_float/float_math.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_float/float_math.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -5476,25 +5476,25 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_math.c
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h \
-  pico-sdk/src/rp2_common/pico_float/include/pico/float.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_float/include/pico/float.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: pico-sdk/src/rp2_common/pico_malloc/malloc.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_malloc/malloc.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/alloca.h \
@@ -5519,36 +5519,36 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o:
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  pico-sdk/src/common/pico_time/include/pico/time.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/pico_malloc/include/pico/malloc.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_malloc/include/pico/malloc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: pico-sdk/src/rp2_common/pico_multicore/multicore.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_multicore/multicore.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -5566,52 +5566,52 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_multicore/multicor
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/hardware_claim/include/hardware/claim.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  pico-sdk/src/common/pico_sync/include/pico/sync.h \
-  pico-sdk/src/common/pico_time/include/pico/time.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/psm.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/psm.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
-  pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/hardware_claim/include/hardware/claim.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/psm.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/psm.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_common/common.c.o: pico-sdk/src/rp2_common/pico_platform_common/common.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_common/common.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/common.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -5629,27 +5629,27 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_common/co
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/tbman.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/tbman.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: pico-sdk/src/rp2_common/pico_platform_panic/panic.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/panic.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -5687,24 +5687,24 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_panic/pan
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.o: pico-sdk/src/rp2_common/pico_printf/printf.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_printf/printf.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -5730,24 +5730,24 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.o:
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: pico-sdk/src/rp2_common/pico_runtime/runtime.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime/runtime.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -5765,25 +5765,25 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
-  pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -5809,59 +5809,59 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runti
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/bootram.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/usb.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/bootram.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/usb.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/usb_dpram.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
-  pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
-  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
-  pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
-  pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
-  pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
-  pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
-  pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/bootram.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/bootram.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/usb_dpram.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -5879,47 +5879,47 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runti
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/clocks.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pll.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/powman.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/ticks.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/xosc.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/clocks.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pll.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/powman.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/ticks.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/xosc.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
-  pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h \
-  pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/hardware_vreg/include/hardware/vreg.h \
-  pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
-  pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/clocks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pll.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/powman.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/ticks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/xosc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/clocks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pll.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/powman.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/ticks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/xosc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_vreg/include/hardware/vreg.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -5937,24 +5937,24 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runti
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -5972,28 +5972,28 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_standard_binary_in
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
-  pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
-  pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
-  pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
-  pico-sdk/src/rp2350/boot_stage2/include/boot_stage2/config.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/boot_stage2/include/boot_stage2/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: pico-sdk/src/rp2_common/pico_stdio/stdio.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/stdio.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -6022,47 +6022,47 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: p
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  pico-sdk/src/common/pico_time/include/pico/time.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/uart.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/uart.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
-  pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h \
-  pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/uart.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/uart.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -6081,55 +6081,55 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_u
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
-  pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
-  pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
-  pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/uart.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/uart.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
-  pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h \
-  pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/uart.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/uart.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -6159,70 +6159,70 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_in
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
-  pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
-  pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_common.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_private.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_types.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
-  pico-sdk/lib/tinyusb/src/device/usbd.h \
-  pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
-  pico-sdk/lib/tinyusb/src/osal/osal.h \
-  pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
-  pico-sdk/lib/tinyusb/src/tusb.h \
-  pico-sdk/lib/tinyusb/src/tusb_option.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  pico-sdk/src/common/pico_time/include/pico/time.h \
-  pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/bootram.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/watchdog.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/bootram.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/watchdog.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
-  pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
-  pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
-  pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
-  pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_private.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/bootram.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/watchdog.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/bootram.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/watchdog.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -6252,68 +6252,68 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_us
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
-  pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
-  pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_common.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_private.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_types.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
-  pico-sdk/lib/tinyusb/src/device/usbd.h \
-  pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
-  pico-sdk/lib/tinyusb/src/osal/osal.h \
-  pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
-  pico-sdk/lib/tinyusb/src/tusb.h \
-  pico-sdk/lib/tinyusb/src/tusb_option.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
-  pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
-  pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
-  pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
-  pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  pico-sdk/src/common/pico_time/include/pico/time.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_private.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -6343,58 +6343,58 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_us
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
-  pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
-  pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_common.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_types.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
-  pico-sdk/lib/tinyusb/src/device/usbd.h \
-  pico-sdk/lib/tinyusb/src/osal/osal.h \
-  pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
-  pico-sdk/lib/tinyusb/src/tusb.h \
-  pico-sdk/lib/tinyusb/src/tusb_option.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  pico-sdk/src/common/pico_time/include/pico/time.h \
-  pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
-  pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h
 
-CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: pico-sdk/src/rp2_common/pico_unique_id/unique_id.c \
+CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -6420,36 +6420,36 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_i
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/bootram.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/bootram.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
-  pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
-  pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
-  pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
-  pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/bootram.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/bootram.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h
 
 CMakeFiles/grblhal_robot_arm.dir/plugins/pwm_servo_m280.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/plugins/pwm_servo_m280.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -6525,44 +6525,6 @@ CMakeFiles/grblhal_robot_arm.dir/plugins/pwm_servo_m280.c.o: /Users/lukasnoll/Do
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/boards/my_machine_map.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
-  pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h \
-  pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/driver.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/expanders_init.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/driver_opts2.h \
@@ -6570,6 +6532,50 @@ CMakeFiles/grblhal_robot_arm.dir/plugins/pwm_servo_m280.c.o: /Users/lukasnoll/Do
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/protocol.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/task.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/my_machine.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/clocks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pwm.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/clocks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pwm.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/robot_arm_config.h
 
 CMakeFiles/grblhal_robot_arm.dir/serial.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/serial.c \
@@ -6645,54 +6651,54 @@ CMakeFiles/grblhal_robot_arm.dir/serial.c.o: /Users/lukasnoll/Documents/builds/R
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/boards/my_machine_map.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/uart.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/uart.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
-  pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h \
-  pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
-  pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
-  pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/driver.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/expanders_init.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/driver_opts2.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/my_machine.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/uart.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/uart.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/platform.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/robot_arm_config.h
 
@@ -6766,48 +6772,48 @@ CMakeFiles/grblhal_robot_arm.dir/spi.c.o: /Users/lukasnoll/Documents/builds/Robo
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/boards/my_machine_map.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
-  pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h \
-  pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/driver.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/expanders_init.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/driver_opts2.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/my_machine.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/robot_arm_config.h
 
 CMakeFiles/grblhal_robot_arm.dir/usb_serial.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/usb_serial.c \
@@ -6860,76 +6866,6 @@ CMakeFiles/grblhal_robot_arm.dir/usb_serial.c.o: /Users/lukasnoll/Documents/buil
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/boards/my_machine_map.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
-  pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
-  pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
-  pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_common.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_types.h \
-  pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
-  pico-sdk/lib/tinyusb/src/device/usbd.h \
-  pico-sdk/lib/tinyusb/src/osal/osal.h \
-  pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
-  pico-sdk/lib/tinyusb/src/tusb.h \
-  pico-sdk/lib/tinyusb/src/tusb_option.h \
-  pico-sdk/src/boards/include/boards/pico2.h \
-  pico-sdk/src/common/pico_base_headers/include/pico.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
-  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
-  pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
-  pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
-  pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
-  pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
-  pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
-  pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
-  pico-sdk/src/common/pico_sync/include/pico/mutex.h \
-  pico-sdk/src/common/pico_sync/include/pico/sem.h \
-  pico-sdk/src/common/pico_time/include/pico/time.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
-  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
-  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
-  pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
-  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
-  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
-  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
-  pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
-  pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h \
-  pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
-  pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
-  pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
-  pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
-  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
-  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
-  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
-  pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
-  pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/driver.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/expanders_init.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/alarms.h \
@@ -6962,31 +6898,103 @@ CMakeFiles/grblhal_robot_arm.dir/usb_serial.c.o: /Users/lukasnoll/Documents/buil
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/task.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/vfs.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/my_machine.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/robot_arm_config.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/usb_serial.h
 
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/vfs.h:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/system.h:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/stream.h:
 
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/spindle_control.h:
+
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/rgb.h:
 
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/report.h:
-
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/planner.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/nvs.h:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/nuts_bolts.h:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/ngc_params.h:
 
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/grbl.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/messages.h:
 
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/gcode.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/crossbar.h:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/core_handlers.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/config.h:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/alarms.h:
 
@@ -6994,627 +7002,383 @@ CMakeFiles/grblhal_robot_arm.dir/usb_serial.c.o: /Users/lukasnoll/Documents/buil
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/task.h:
 
-pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c:
 
-pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/grbl.h:
 
-pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h:
 
-pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c:
 
-pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c:
 
-pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/pin_bits_masks.h:
 
-pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h:
 
-pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_printf/printf.c:
 
-pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h:
-
-pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/alarms.h:
-
-pico-sdk/src/rp2_common/pico_runtime/runtime.c:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/alarms.c:
-
-pico-sdk/src/rp2_common/pico_platform_panic/panic.c:
-
-pico-sdk/src/rp2_common/pico_platform_common/common.c:
-
-pico-sdk/src/rp2_common/pico_malloc/include/pico/malloc.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/crossbar.h:
-
-pico-sdk/src/rp2_common/pico_float/float_math.c:
-
-pico-sdk/src/rp2_common/pico_double/include/pico/double.h:
-
-pico-sdk/src/rp2_common/pico_flash/flash.c:
-
-pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h:
-
-pico-sdk/lib/tinyusb/src/osal/osal.h:
-
-pico-sdk/src/rp2_common/pico_double/double_math.c:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.3.1/pstl/pstl_config.h:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.3.1/cstdlib:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.3.1/arm-none-eabi/thumb/v8-m.main+fp/softfp/bits/os_defines.h:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.3.1/arm-none-eabi/thumb/v8-m.main+fp/softfp/bits/cpu_defines.h:
-
-pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/serial.h:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/unistd.h:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/unistd.h:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/stat.h:
-
-pico-sdk/src/rp2_common/hardware_rcp/include/hardware/rcp.h:
-
-pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_endian.h:
-
-pico-sdk/src/common/pico_util/include/pico/util/datetime.h:
-
-pico-sdk/src/rp2_common/pico_atomic/include/stdatomic.h:
-
-pico-sdk/src/rp2_common/pico_divider/divider_compiler.c:
-
-pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h:
-
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/xosc.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/stream.h:
-
-pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h:
-
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dma.h:
-
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/xosc.h:
-
-pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c:
-
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/xip.h:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/float.h:
-
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/psm.h:
-
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/psm.h:
-
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/usb.h:
-
-pico-sdk/src/common/pico_util/include/pico/util/pheap.h:
-
-pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/machine_limits.c:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/grbllib.h:
-
-pico-sdk/src/rp2_common/pico_stdio/stdio.c:
-
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/dma.h:
-
-pico-sdk/src/rp2_common/hardware_vreg/include/hardware/vreg.h:
-
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/powman.h:
-
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/uart.h:
-
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/ticks.h:
-
-pico-sdk/src/rp2_common/hardware_sync/sync.c:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/spindle_control.c:
-
-pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h:
-
-pico-sdk/src/rp2_common/hardware_gpio/gpio.c:
-
-pico-sdk/src/rp2_common/pico_multicore/multicore.c:
-
-pico-sdk/src/rp2_common/pico_unique_id/unique_id.c:
-
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/qmi.h:
-
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h:
-
-pico-sdk/src/rp2_common/hardware_flash/flash.c:
-
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/spi.h:
-
-pico-sdk/lib/tinyusb/src/class/net/ncm_device.c:
-
-pico-sdk/src/rp2_common/hardware_timer/timer.c:
-
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pll.h:
-
-pico-sdk/src/rp2_common/hardware_clocks/clocks.c:
-
-pico-sdk/src/rp2_common/hardware_xosc/xosc.c:
-
-pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c:
-
-pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h:
-
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/adc.h:
-
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/adc.h:
-
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pwm.h:
-
-pico-sdk/src/rp2350/pico_platform/platform.c:
-
-pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h:
-
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h:
-
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h:
-
-pico-sdk/src/common/pico_util/queue.c:
-
-pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c:
-
-pico-sdk/src/common/pico_util/pheap.c:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/state_machine.h:
-
-pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/time.h:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_time.h:
-
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_qspi.h:
-
-pico-sdk/src/common/pico_time/include/pico/timeout_helper.h:
-
-pico-sdk/src/rp2_common/hardware_xip_cache/include/hardware/xip_cache.h:
-
-pico-sdk/src/common/pico_time/timeout_helper.c:
-
-pico-sdk/src/rp2_common/hardware_uart/uart.c:
-
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/usb_dpram.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/stepper2.h:
-
-pico-sdk/src/common/pico_sync/include/pico/sync.h:
-
-pico-sdk/src/common/pico_time/time.c:
-
-pico-sdk/src/rp2350/boot_stage2/include/boot_stage2/config.h:
-
-pico-sdk/src/common/pico_sync/sem.c:
-
-pico-sdk/src/common/pico_sync/critical_section.c:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/alloca.h:
-
-pico-sdk/src/rp2_common/pico_malloc/malloc.c:
-
-pico-sdk/src/common/hardware_claim/include/hardware/claim.h:
-
-pico-sdk/src/common/hardware_claim/claim.c:
-
-pico-sdk/src/rp2_common/hardware_pll/pll.c:
-
-pico-sdk/lib/tinyusb/src/tusb.c:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/ngc_params.c:
-
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/usb.h:
-
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h:
-
-pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h:
-
-pico-sdk/lib/tinyusb/src/device/dcd.h:
-
-pico-sdk/lib/tinyusb/src/common/tusb_fifo.c:
-
-pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.3.1/arm-none-eabi/thumb/v8-m.main+fp/softfp/bits/c++config.h:
-
-pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c:
-
-pico-sdk/lib/tinyusb/src/class/msc/msc_device.c:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/tbman.h:
 
 /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_timespec.h:
 
 generated/pico_base/pico/version.h:
 
-pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_multicore/multicore.c:
 
-pico-sdk/src/common/pico_sync/include/pico/sem.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c:
 
-pico-sdk/src/common/pico_sync/include/pico/mutex.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c:
 
-pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/sem.h:
 
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_qspi.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_double/include/pico/double.h:
 
-pico-sdk/src/common/pico_sync/include/pico/critical_section.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c:
 
-pico-sdk/lib/tinyusb/src/osal/osal_pico.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_common.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/osal/osal.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c:
+
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.3.1/pstl/pstl_config.h:
+
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.3.1/cstdlib:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_time_adapter/include/pico/time_adapter.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_flash/flash.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/powman.h:
 
 /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.3.1/bits/std_abs.h:
 
-pico-sdk/src/rp2_common/hardware_vreg/vreg.c:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c:
 
-pico-sdk/src/rp2_common/hardware_divider/include/hardware/divider.h:
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.3.1/arm-none-eabi/thumb/v8-m.main+fp/softfp/bits/os_defines.h:
 
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/select.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/xip.h:
 
-pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_ticks/ticks.c:
 
-pico-sdk/lib/tinyusb/src/device/usbd_pvt.h:
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.3.1/arm-none-eabi/thumb/v8-m.main+fp/softfp/bits/cpu_defines.h:
 
-pico-sdk/lib/tinyusb/src/device/usbd.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_qspi.h:
 
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/vfs.h:
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.3.1/arm-none-eabi/thumb/v8-m.main+fp/softfp/bits/c++config.h:
 
-pico-sdk/lib/tinyusb/src/common/tusb_verify.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h:
 
-pico-sdk/lib/tinyusb/src/common/tusb_fifo.h:
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/times.h:
 
-pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c:
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/stat.h:
 
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c:
 
-pico-sdk/lib/tinyusb/src/common/tusb_debug.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp:
 
-pico-sdk/src/common/pico_sync/lock_core.c:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h:
 
-pico-sdk/lib/tinyusb/src/common/tusb_common.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_malloc/malloc.c:
 
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pio.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/main.c:
 
-pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h:
 
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/inttypes.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h:
 
-pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_atomic/include/stdatomic.h:
 
-pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h:
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/timespec.h:
 
-pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/canbus.h:
 
-pico-sdk/lib/tinyusb/src/tusb_option.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/xosc.h:
 
-pico-sdk/lib/tinyusb/src/class/video/video_device.c:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_xosc/xosc.c:
 
-pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_float/include/pico/float.h:
 
-pico-sdk/lib/tinyusb/src/common/tusb_mcu.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h:
 
-pico-sdk/lib/tinyusb/src/class/audio/audio_device.c:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/report.h:
 
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/i2c.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h:
 
-pico-sdk/lib/tinyusb/src/common/tusb_compiler.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/watchdog.h:
 
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/plugins.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/config.h:
 
-pico-sdk/src/rp2_common/hardware_irq/irq.c:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/psm.h:
 
-pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c:
 
-pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/timeout_helper.h:
 
-pico-sdk/src/rp2_common/hardware_spi/spi.c:
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/float.h:
 
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/i2c.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_vreg/include/hardware/vreg.h:
 
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/dma_debug.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c:
 
-pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_vreg/vreg.c:
 
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/i2c.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/sleep.c:
 
-pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h:
-
-pico-sdk/lib/tinyusb/src/class/cdc/cdc.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/i2c.c:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/pid.h:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/usb_serial.h:
 
-pico-sdk/src/common/pico_divider_headers/include/pico/divider.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/uart.h:
 
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/hal.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_uart/uart.c:
 
-pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h:
 
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/driver.c:
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/time.h:
 
-pico-sdk/src/rp2_common/hardware_ticks/ticks.c:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pll.h:
 
-pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/probe.h:
 
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/stdio.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/ticks.h:
 
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/messages.c:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/sync.c:
 
-pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_spi/spi.c:
 
-pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pio/pio.c:
 
-pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_irq/irq.c:
 
-pico-sdk/src/rp2_common/hardware_pio/pio.c:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h:
 
-pico-sdk/src/common/pico_base_headers/include/pico/types.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h:
 
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pio.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/gpio.c:
 
-pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_xip_cache/include/hardware/xip_cache.h:
 
-pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/hardware_claim/claim.c:
 
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/systick.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_qspi.h:
 
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pwm.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/override.h:
 
-pico-sdk/src/common/pico_sync/mutex.c:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/qmi.h:
 
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_divider_headers/include/pico/divider.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_dma/dma.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_divider/include/hardware/divider.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pll.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_clocks/clocks.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_adc/include/hardware/adc.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime/runtime.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/adc.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_util/queue.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/serial.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_util/include/pico/util/pheap.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_util/pheap.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_util/include/pico/util/datetime.h:
+
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_util/datetime.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/systick.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h:
+
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/alloca.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/timeout_helper.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_util/include/pico/util/queue.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/boot_stage2/include/boot_stage2/config.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/watchdog.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/sync.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pio.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/grbllib.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/mutex.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/lock_core.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/critical_section.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/usb_dpram.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/usb.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/platform.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_i2c/i2c.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/adc.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_private.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/device/dcd.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/stream.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/device/usbd.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/state_machine.h:
+
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/time.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/video/video_device.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/stepper.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/lock_core.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/plugins/pwm_servo_m280.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/crc.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/mutex.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_divider/divider.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/canbus.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h:
+
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/inttypes.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/qmi.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/stdio.c:
+
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/i2c.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pll/pll.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/i2c.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/plugins.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/motion_control.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/i2c.c:
+
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/unistd.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/serial.h:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/settings.h:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/platform.h:
 
-pico-sdk/src/common/pico_time/include/pico/time.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h:
 
-pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c:
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/string.h:
 
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/motor_pins.h:
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdatomic.h:
 
-pico-sdk/src/rp2_common/hardware_i2c/i2c.c:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h:
 
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/qmi.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h:
 
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/flash.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h:
 
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stddef.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/dma_debug.h:
 
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/tbman.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/config.h:
 
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/system.c:
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h:
 
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/time.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h:
 
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/probe.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/usb.h:
 
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h:
 
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h:
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h:
 
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/endian.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/timer.h:
 
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/protocol.c:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/xosc.h:
 
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/coolant_control.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/nuts_bolts.h:
 
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/strutils.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/spi.h:
 
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/expanders_init.h:
-
-ws2812.pio.h:
-
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/bootram.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/strutils.c:
-
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pll.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/stream.c:
-
-pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h:
-
-pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/plugins.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/stepper2.c:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/stepper.c:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/sleep.c:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/rgb.h:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdarg.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/planner.c:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/motion_control.c:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/pid.c:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/override.c:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/crc.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/nvs_buffer.c:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/ngc_expr.c:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/messages.h:
-
-pico-sdk/src/rp2350/pico_platform/include/pico/platform.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/override.h:
-
-pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/settings.c:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/nvs_buffer.h:
-
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/bootram.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/grbllib.c:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/stdlib.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/system.h:
-
-pico-sdk/lib/tinyusb/src/tusb.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/my_machine.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/planner.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/stream_file.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/driver.h:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/math.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/plugins/pwm_servo_m280.h:
-
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h:
-
-pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/motion_control.h:
-
-pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/types.h:
-
-pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h:
-
-pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/plugins/pwm_servo_m280.c:
-
-pico-sdk/src/rp2_common/hardware_dma/dma.c:
-
-pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h:
-
-pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/driver_opts2.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/nvs.h:
-
-pico-sdk/src/common/pico_util/datetime.c:
-
-pico-sdk/src/common/pico_util/include/pico/util/queue.h:
-
-pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h:
-
-pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h:
-
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/probe.h:
-
-pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h:
-
-pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h:
-
-pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h:
-
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/spi.h:
-
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/iobank0.h:
-
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/protocol.h:
-
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h:
-
-pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h:
-
-pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h:
-
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h:
-
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h:
-
-pico-sdk/src/rp2_common/pico_float/include/pico/float.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/robot_arm_config.h:
-
-pico-sdk/lib/tinyusb/src/class/hid/hid_device.c:
-
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h:
-
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/clocks.h:
-
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/watchdog.h:
-
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/machine_limits.h:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.3.1/cassert:
-
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/watchdog.h:
-
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/main.c:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/errors.h:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/spindle_control.h:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/times.h:
-
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/sleep.h:
-
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdbool.h:
-
-pico-sdk/src/common/pico_base_headers/include/pico.h:
-
-pico-sdk/src/boards/include/boards/pico2.h:
-
-pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h:
-
-generated/pico_base/pico/config_autogen.h:
-
-pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/tool_change.c:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h:
-
-pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/common.c:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/stepper.h:
-
-pico-sdk/src/common/pico_base_headers/include/pico/error.h:
 
 /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/ctype.h:
 
@@ -7622,97 +7386,349 @@ pico-sdk/src/common/pico_base_headers/include/pico/error.h:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/driver_opts.h:
 
-pico-sdk/lib/tinyusb/src/common/tusb_types.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pwm.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h:
+
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_timeval.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/clocks.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/errors.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/bootram.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/flash.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/driver.c:
+
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stddef.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/system.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/expanders_init.h:
+
+ws2812.pio.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/strutils.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_double/double_math.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/xip.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/stepper2.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/device/usbd_control.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/plugins.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/stepper2.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.h:
+
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/rgb.h:
+
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdarg.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/ticks.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/dma.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/sleep.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_rcp/include/hardware/rcp.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/coolant_control.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/strutils.h:
+
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/endian.h:
+
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/protocol.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/planner.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/panic.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sysinfo.h:
+
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_time.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/include/pico/time.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/motion_control.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/pid.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/override.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/i2c.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/hal.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/ngc_expr.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/messages.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/grbllib.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/machine_limits.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/spindle_control.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/settings.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/nvs_buffer.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h:
+
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/unistd.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/nvs_buffer.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/bootram.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/flash.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h:
+
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/select.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/pico_platform/include/pico/platform.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/sf_table.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/uart.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/protocol.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h:
+
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/motor_pins.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h:
+
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/osal/osal_pico.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/usb_serial.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/gcode.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/stepper.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/machine_limits.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/spi.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_types.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/clocks.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_malloc/include/pico/malloc.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_atomic/atomic.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h:
+
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h:
+
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/sched.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/types.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/my_machine.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/psm.h:
+
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/math.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/resets.h:
+
+generated/pico_base/pico/config_autogen.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/gcode.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/tool_change.c:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/report.c:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/crossbar.c:
 
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/ngc_params.c:
+
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/task.h:
 
-pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/errors.h:
 
-pico-sdk/src/rp2_common/hardware_adc/adc.c:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/spindle_control.h:
 
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/pin_bits_masks.h:
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/crossbar.h:
 
-pico-sdk/src/common/pico_sync/include/pico/lock_core.h:
-
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/nvs.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/stepper.h:
-
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sysinfo.h:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/boards/my_machine_map.h:
 
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/core_handlers.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h:
 
-pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h:
 
-pico-sdk/lib/tinyusb/src/device/usbd_control.c:
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/stdio.h:
 
-pico-sdk/src/rp2_common/pico_printf/printf.c:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/timespec.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/canbus.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_adc/adc.c:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/regex.c:
 
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h:
+
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/ngc_flowctrl.c:
 
-pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h:
-
-pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h:
-
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h:
-
-pico-sdk/lib/tinyusb/src/device/usbd.c:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_flash/flash.c:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/vfs.c:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/hal.h:
 
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h:
+
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/coolant_control.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/config.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_verify.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/vfs.h:
 
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/hardware_claim/include/hardware/claim.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dma.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/probe.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h:
+
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/tool_change.h:
 
-pico-sdk/src/rp2_common/pico_bootrom/bootrom.c:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/boards/include/boards/pico2.h:
 
-pico-sdk/src/rp2_common/hardware_divider/divider.c:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/robot_arm_config.h:
 
-pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_time/time.c:
 
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/powman.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/stream.h:
 
-pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/stream_file.h:
 
-pico-sdk/src/rp2_common/pico_time_adapter/include/pico/time_adapter.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/planner.h:
 
-pico-sdk/src/common/pico_base_headers/include/pico/config.h:
-
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/ticks.h:
-
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pwm.h:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/regex.h:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/pid.h:
 
-pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/common/tusb_debug.h:
 
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/nuts_bolts.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h:
+
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h:
+
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_endian.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/include/pico/critical_section.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/powman.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/ngc_params.h:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/messages.h:
 
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/driver.h:
+
 /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_pthreadtypes.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/error.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/core_handlers.h:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/errors.c:
 
@@ -7720,116 +7736,106 @@ pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/coolant_control.h:
 
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h:
 
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/machine_limits.h:
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/strings.h:
 
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h:
 
-pico-sdk/lib/tinyusb/src/common/tusb_private.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/system.h:
+
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/stdlib.h:
+
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdbool.h:
 
 /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/time.h:
 
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h:
+
 /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/types.h:
 
-pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/serial.c:
-
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/xip.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/alarms.h:
 
 /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/stream_file.c:
 
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/config.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c:
 
-pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h:
 
-pico-sdk/src/common/pico_base_headers/include/pico/assert.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_base_headers/include/pico/assert.h:
 
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/spindle_control.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h:
 
-pico-sdk/src/rp2_common/pico_atomic/atomic.c:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_float/float_math.c:
 
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/canbus.c:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pio.h:
 
-pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/device/usbd.h:
 
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/string.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/plugins/pwm_servo_m280.h:
 
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/sched.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_sync/sem.c:
 
-pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/driver_opts2.h:
 
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/alarms.c:
 
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/usb_serial.c:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/gcode.c:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/iobank0.h:
 
 /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/machine_limits.h:
+
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.3.1/cassert:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/report.h:
 
 /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h:
 
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/uart.h:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_timeval.h:
-
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/crc.c:
 
 /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/string.h:
-
-pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h:
 
 /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_sigset.h:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/grbl.h:
 
-pico-sdk/lib/tinyusb/src/class/midi/midi_device.c:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c:
 
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/ngc_params.h:
-
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/clocks.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h:
 
 driverPIO.pio.h:
 
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h:
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_timer/timer.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h:
 
 /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdlib.h:
 
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c:
+
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/nuts_bolts.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/tinyusb/src/tusb_option.h:
+
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/settings.h:
 
 /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_locale.h:
 
-pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdatomic.h:
-
-pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c:
-
 /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h:
 
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h:
-
-pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c:
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h:
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/state_machine.c:
 
-pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/resets.h:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h:
-
-pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h:
-
-pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c:
-
-/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/strings.h:
+/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/types.h:
 
 /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h:
-
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/errors.h:

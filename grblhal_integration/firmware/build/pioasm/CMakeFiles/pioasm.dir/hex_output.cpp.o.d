@@ -1,6 +1,6 @@
 CMakeFiles/pioasm.dir/hex_output.cpp.o: \
-  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/tools/pioasm/hex_output.cpp \
-  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/tools/pioasm/output_format.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/tools/pioasm/hex_output.cpp \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/tools/pioasm/output_format.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -770,7 +770,7 @@ CMakeFiles/pioasm.dir/hex_output.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/strip_signature.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__hash_table \
-  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/tools/pioasm/pio_enums.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/tools/pioasm/pio_enums.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \

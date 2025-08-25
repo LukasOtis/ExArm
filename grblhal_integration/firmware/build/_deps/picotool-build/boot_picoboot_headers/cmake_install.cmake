@@ -1,4 +1,4 @@
-# Install script for directory: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/common/boot_picoboot_headers
+# Install script for directory: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/boot_picoboot_headers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

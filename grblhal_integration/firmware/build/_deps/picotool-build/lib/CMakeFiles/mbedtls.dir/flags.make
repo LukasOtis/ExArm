@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DMBEDTLS_CONFIG_FILE=\"picotool_mbedtls_config.h\"
 
-C_INCLUDES = -I/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/_deps/picotool-src/lib/include -isystem /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/mbedtls/include
+C_INCLUDES = -I/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/_deps/picotool-src/lib/include -isystem /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/mbedtls/include
 
 C_FLAGSarm64 = -O3 -DNDEBUG -arch arm64
 

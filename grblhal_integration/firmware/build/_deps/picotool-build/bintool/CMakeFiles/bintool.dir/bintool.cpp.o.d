@@ -833,7 +833,7 @@ bintool/CMakeFiles/bintool.dir/bintool.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_inttypes.h \
-  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
@@ -845,26 +845,26 @@ bintool/CMakeFiles/bintool.dir/bintool.cpp.o: \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
-  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/mbedtls/include/mbedtls/private_access.h \
-  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/mbedtls/include/mbedtls/build_info.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/mbedtls/include/mbedtls/sha256.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/mbedtls/include/mbedtls/private_access.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/mbedtls/include/mbedtls/build_info.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
-  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h \
-  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
-  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_ssl.h \
-  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
-  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
-  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
-  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
-  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
-  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
-  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/mbedtls/include/mbedtls/md.h \
-  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h \
-  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
-  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
-  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
-  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/mbedtls/include/mbedtls/version.h \
-  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/mbedtls/include/mbedtls/config_adjust_ssl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/mbedtls/include/mbedtls/check_config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/mbedtls/include/mbedtls/ecdsa.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/mbedtls/include/mbedtls/ecp.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/mbedtls/include/mbedtls/platform_util.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/mbedtls/include/mbedtls/platform_time.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/mbedtls/include/mbedtls/bignum.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/mbedtls/include/mbedtls/md.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/mbedtls/include/mbedtls/ctr_drbg.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/mbedtls/include/mbedtls/aes.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/mbedtls/include/mbedtls/entropy.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/mbedtls/include/mbedtls/pk.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/mbedtls/include/mbedtls/version.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/lib/mbedtls/include/mbedtls/error.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/_deps/picotool-src/bintool/bintool.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/_deps/picotool-src/bintool/metadata.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \

@@ -325,7 +325,7 @@ PICOTOOL_FLAT_INSTALL:UNINITIALIZED=1
 PICOTOOL_NO_LIBUSB:UNINITIALIZED=1
 
 //No help, variable specified on the command line.
-PICO_SDK_PATH:FILEPATH=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk
+PICO_SDK_PATH:FILEPATH=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk
 
 //Value Computed by CMake
 nlohmann_json_BINARY_DIR:STATIC=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/_deps/picotool-build/lib/nlohmann_json

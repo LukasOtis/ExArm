@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/tools/pioasm -I/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/tools/pioasm/gen -I/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pioasm
+CXX_INCLUDES = -I/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/tools/pioasm -I/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/tools/pioasm/gen -I/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pioasm
 
 CXX_FLAGSarm64 = -O3 -DNDEBUG -std=gnu++11 -arch arm64
 

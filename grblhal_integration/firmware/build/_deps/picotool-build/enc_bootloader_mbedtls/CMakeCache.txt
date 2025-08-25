@@ -253,7 +253,7 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 PICO_DEBUG_INFO_IN_RELEASE:UNINITIALIZED=OFF
 
 //No help, variable specified on the command line.
-PICO_SDK_PATH:FILEPATH=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk
+PICO_SDK_PATH:FILEPATH=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk
 
 //No help, variable specified on the command line.
 USE_MBEDTLS:UNINITIALIZED=1

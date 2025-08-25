@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/_deps/picotool-src/elf2uf2 -I/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/_deps/picotool-src/elf -I/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/_deps/picotool-src/errors -isystem /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/common/boot_uf2_headers/include
+CXX_INCLUDES = -I/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/_deps/picotool-src/elf2uf2 -I/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/_deps/picotool-src/elf -I/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/_deps/picotool-src/errors -isystem /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/common/boot_uf2_headers/include
 
 CXX_FLAGSarm64 = -O3 -DNDEBUG -std=gnu++14 -arch arm64
 

@@ -70,7 +70,7 @@ set(DRIVER_SOURCES
 # PIO sources for hardware timers and step generation
 set(PIO_SOURCES
     driverPIO.pio
-    ${CMAKE_CURRENT_LIST_DIR}/build/pico-sdk/src/rp2_common/pico_status_led/ws2812.pio
+    ${CMAKE_CURRENT_LIST_DIR}/pico-sdk/src/rp2_common/pico_status_led/ws2812.pio
 )
 
 # ============================================================================
@@ -86,7 +86,7 @@ add_executable(grblhal_robot_arm
 
 # Generate PIO headers
 pico_generate_pio_header(grblhal_robot_arm ${CMAKE_CURRENT_LIST_DIR}/driverPIO.pio)
-pico_generate_pio_header(grblhal_robot_arm ${CMAKE_CURRENT_LIST_DIR}/build/pico-sdk/src/rp2_common/pico_status_led/ws2812.pio)
+pico_generate_pio_header(grblhal_robot_arm ${CMAKE_CURRENT_LIST_DIR}/pico-sdk/src/rp2_common/pico_status_led/ws2812.pio)
 
 # ============================================================================
 # INCLUDES AND DEFINITIONS
@@ -114,7 +114,7 @@ target_include_directories(grblhal_robot_arm PRIVATE
     ${CMAKE_CURRENT_LIST_DIR}/build/pico-sdk/src/rp2_common/hardware_vreg/include
     ${CMAKE_CURRENT_LIST_DIR}/build/pico-sdk/src/rp2_common/hardware_watchdog/include
     ${CMAKE_CURRENT_LIST_DIR}/build/pico-sdk/src/rp2_common/hardware_xosc/include
-    ${CMAKE_CURRENT_LIST_DIR}/build/pico-sdk/src/rp2_common/hardware_rtc/include
+    # ${CMAKE_CURRENT_LIST_DIR}/build/pico-sdk/src/rp2_common/hardware_rtc/include  # Not available for RP2350
 )
 
 # Compiler definitions for robot arm
@@ -163,9 +163,7 @@ target_link_libraries(grblhal_robot_arm
     hardware_clocks
     hardware_timer
     hardware_watchdog
-    # hardware_rtc  # Temporarily disabled - library not available
-    # Add stub library for hardware_rtc
-    ${CMAKE_CURRENT_BINARY_DIR}/libhardware_rtc.a
+    # hardware_rtc  # Not available for RP2350
     hardware_flash
     hardware_sync
     
@@ -181,7 +179,7 @@ target_link_libraries(grblhal_robot_arm
     hardware_divider
     
     # Memory and storage
-    hardware_rtc
+    # hardware_rtc  # Not available for RP2350
     hardware_adc
 )
 

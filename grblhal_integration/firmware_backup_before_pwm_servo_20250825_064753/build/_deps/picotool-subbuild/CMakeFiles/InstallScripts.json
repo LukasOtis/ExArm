@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/_deps/picotool-subbuild/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

@@ -2242,6 +2242,7 @@ CMakeFiles/grblhal_robot_arm.dir/driver.c.o: /Users/lukasnoll/Documents/builds/R
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/hal.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/my_machine.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/platform.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/plugins/pwm_servo_m280.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/robot_arm_config.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/serial.h \
   /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/usb_serial.h
@@ -6450,6 +6451,127 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_i
   pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
   pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h
 
+CMakeFiles/grblhal_robot_arm.dir/plugins/pwm_servo_m280.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/plugins/pwm_servo_m280.c \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/alloca.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_endian.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/endian.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/stdlib.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/time.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/types.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/math.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdlib.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/string.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/strings.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_locale.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_pthreadtypes.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_sigset.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_timespec.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_timeval.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/sched.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/select.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/string.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/timespec.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/types.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/time.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdarg.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdbool.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stddef.h \
+  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdint.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/alarms.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/config.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/coolant_control.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/core_handlers.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/crossbar.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/driver_opts.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/errors.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/gcode.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/grbl.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/hal.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/machine_limits.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/messages.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/ngc_params.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/nuts_bolts.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/nvs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/pid.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/planner.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/plugins.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/probe.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/report.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/rgb.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/settings.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/spindle_control.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/stepper.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/stream.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/system.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/vfs.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/boards/my_machine_map.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  pico-sdk/src/boards/include/boards/pico2.h \
+  pico-sdk/src/common/pico_base_headers/include/pico.h \
+  pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  pico-sdk/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
+  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/accessctrl.h \
+  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/addressmap.h \
+  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
+  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/intctrl.h \
+  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/io_bank0.h \
+  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/m33.h \
+  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pads_bank0.h \
+  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/pio.h \
+  pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/sio.h \
+  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/accessctrl.h \
+  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/interp.h \
+  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/io_bank0.h \
+  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/m33.h \
+  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/nvic.h \
+  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pads_bank0.h \
+  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/pio.h \
+  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/scb.h \
+  pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/sio.h \
+  pico-sdk/src/rp2350/pico_platform/include/pico/platform.h \
+  pico-sdk/src/rp2350/pico_platform/include/pico/platform/cpu_regs.h \
+  pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio_coproc.h \
+  pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h \
+  pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
+  pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/driver.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/expanders_init.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/driver_opts2.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/hal.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/protocol.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/task.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/my_machine.h \
+  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/robot_arm_config.h
+
 CMakeFiles/grblhal_robot_arm.dir/serial.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/serial.c \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
@@ -6868,9 +6990,9 @@ CMakeFiles/grblhal_robot_arm.dir/usb_serial.c.o: /Users/lukasnoll/Documents/buil
 
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/alarms.h:
 
-/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/task.h:
-
 /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/spi.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/task.h:
 
 pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h:
 
@@ -6881,6 +7003,8 @@ pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c:
 pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h:
 
 pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h:
+
+pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c:
 
 pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h:
 
@@ -7128,8 +7252,6 @@ pico-sdk/src/common/pico_sync/include/pico/critical_section.h:
 
 pico-sdk/lib/tinyusb/src/osal/osal_pico.h:
 
-pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c:
-
 /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.3.1/bits/std_abs.h:
 
 pico-sdk/src/rp2_common/hardware_vreg/vreg.c:
@@ -7368,6 +7490,8 @@ pico-sdk/lib/tinyusb/src/tusb.h:
 
 /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/math.h:
 
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/plugins/pwm_servo_m280.h:
+
 pico-sdk/src/rp2350/hardware_structs/include/hardware/structs/timer.h:
 
 pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h:
@@ -7381,6 +7505,8 @@ pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c:
 pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h:
 
 pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c:
+
+/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/plugins/pwm_servo_m280.c:
 
 pico-sdk/src/rp2_common/hardware_dma/dma.c:
 

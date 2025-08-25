@@ -193,6 +193,47 @@ Configuration is automatically applied through:
 - Safety systems (limits, e-stop)
 - Real-time status reporting
 - USB/UART communication
+- PWM Servo control via standard M280 command
+
+### PWM Servo Control (M280)
+The firmware uses the standard GRBLHAL PWM Servo plugin for servo control. This provides a Marlin-style M280 command:
+
+```gcode
+M280 [P<index>] [S<position>]
+
+    P<index>    - servo to set or get position for. Default is 0.
+    S<position> - set position in degrees, 0 - 180.
+                 If omitted the current position is reported.
+```
+
+### Relay Control (M62/M63)
+The firmware supports three relay outputs that can be controlled using standard M62 (ON) and M63 (OFF) commands:
+
+```gcode
+M62 P0    ; Turn ON relay 0 (GPIO 12)
+M63 P0    ; Turn OFF relay 0 (GPIO 12)
+
+M62 P1    ; Turn ON relay 1 (GPIO 26)
+M63 P1    ; Turn OFF relay 1 (GPIO 26)
+
+M62 P2    ; Turn ON relay 2 (GPIO 27)
+M63 P2    ; Turn OFF relay 2 (GPIO 27)
+```
+                 [Servo <index> position: <position> degrees]
+```
+
+Example commands:
+```gcode
+M280 P0 S90    ; Set servo 0 to 90 degrees
+M280 P0        ; Query current position of servo 0
+M280 P0 S0     ; Set servo 0 to 0 degrees (minimum)
+M280 P0 S180   ; Set servo 0 to 180 degrees (maximum)
+```
+
+Pin Assignments:
+- Servo 0 (PWM A): GPIO 13
+- Servo 1 (PWM B): GPIO 14
+- Servo 2 (PWM C): GPIO 16
 
 ### Key Features Disabled  
 - Laser control
@@ -364,6 +405,17 @@ minicom -D /dev/ttyACM0 -b 115200
 
 > ?
 <Idle|MPos:0.000,0.000,0.000,0.000,0.000,0.000|FS:0,0>
+
+# Test PWM Servo Control
+> M280 P0 S90    ; Set servo 0 to 90 degrees
+ok
+> M280 P0        ; Query current position
+[Servo 0 position: 90.000 degrees]
+ok
+> M280 P0 S0     ; Set to minimum position
+ok
+> M280 P0 S180   ; Set to maximum position
+ok
 ```
 
 ## Development Workflow

@@ -54,6 +54,7 @@
 #include "serial.h"
 #include "driverPIO.pio.h"
 #include "ws2812.pio.h"
+#include "plugins/pwm_servo_m280.h"  // PWM Servo plugin for M280 command
 
 // Board map is included via driver.h conditional logic
 
@@ -3405,6 +3406,11 @@ sr8_pio = sr8_delay_pio = sr8_hold_pio = pio0;
     // Initialize robot arm I/O pins
     robot_arm_io_init();
 
+    // Initialize PWM Servo plugin for M280 command
+#if PWM_SERVO_ENABLE == 1
+    pwm_servo_init();
+#endif
+
 // #include "grbl/plugins_init.h"  // Commented out - file not found
 
 #if MPG_ENABLE == 1
@@ -3766,16 +3772,7 @@ void __not_in_flash_func(isr_systick)(void)
 static user_mcode_type_t user_mcode_check (user_mcode_t mcode)
 {
     switch(mcode) {
-        case Servo_SetPosition: // M12 - Set servo position (requires P parameter)
-            return UserMCode_NoValueWords;
-        case Emergency_Stop: // M13 - Emergency stop (no parameters)
-            return UserMCode_NoValueWords;
-        case Home_All: // M14 - Home all axes (no parameters)
-            return UserMCode_NoValueWords;
-        // M15 and M16 removed - GRBL handles these automatically
-        case Set_PWMOutput: // M17 - Set PWM output (requires P and Q parameters)
-            return UserMCode_NoValueWords;
-        case Disable_PWMOutput: // M18 - Disable PWM output (requires P parameter)
+        case PWMServo_SetPosition: // M280 - Set servo position (standard PWM Servo plugin)
             return UserMCode_NoValueWords;
         default:
             return UserMCode_Unsupported;

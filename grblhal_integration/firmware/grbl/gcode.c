@@ -1817,82 +1817,9 @@ status_code_t gc_execute_block (char *block)
         }
     }
 
-    // [0.5. Robot Arm Custom M-codes ]:
-    // M12: Set servo position - M12 P<angle> (angle in degrees, -90 to +90)
-    // M13: Emergency stop - M13
-    // M14: Home all axes - M14
-    // M15: Read limit switches - M15
-    // M16: Read safety inputs - M16
-    // M17: Set PWM output - M17 P<pin> Q<duty_cycle_percent> (0-100)
-    // M18: Disable PWM output - M18 P<pin>
+    // Using standard PWM Servo plugin (M280) instead of custom M-codes
     if(command_words.M10 && gc_block.user_mcode) {
         switch((uint16_t)gc_block.user_mcode) {
-            // M12 - Set servo position - ANGLE-BASED (can't use standard S command)
-            case Servo_SetPosition: // M12 - Set servo position
-                if(gc_block.words.p) {
-                    float angle = gc_block.values.p;
-                    // Constrain angle to valid range
-                    if(angle < -90.0f) angle = -90.0f;
-                    if(angle > 90.0f) angle = 90.0f;
-                    servo_set_position(angle);
-                    gc_block.words.p = Off;
-                } else {
-                    FAIL(Status_GcodeValueWordMissing);
-                }
-                break;
-
-            case Emergency_Stop: // M13 - Emergency stop (could use M5 instead)
-                // Trigger emergency stop
-                system_set_exec_state_flag(EXEC_SAFETY_DOOR);
-                break;
-
-            // M14 - Home all axes - COULD USE $H command instead
-            case Home_All: // M14 - Home all axes
-                // Set homing sequence for all axes
-                settings.homing.flags.force_set_origin = On;
-                settings.homing.flags.single_axis_commands = On;
-                settings.homing.flags.manual = Off;
-                settings.homing.flags.override_locks = On;
-                system_set_exec_state_flag(EXEC_HOMING);
-                break;
-
-            // M15 and M16 REMOVED - GRBL handles limit switches and safety inputs automatically
-            // No need for custom commands when GRBL already manages these automatically
-
-            // PWM Control using multiple spindles
-            case Set_PWMOutput: // M17 P<spindle_id> Q<duty_percent> - Set spindle PWM
-                if(gc_block.words.p && gc_block.words.q) {
-                    uint8_t spindle_id = (uint8_t)gc_block.values.p;
-                    float duty_cycle_percent = gc_block.values.q;
-                    // Convert to 0-1000 RPM scale for spindle control
-                    float rpm = (duty_cycle_percent / 100.0f) * 1000.0f;
-                    if(spindle_id < spindle_get_count()) {
-                        spindle_ptrs_t *spindle = spindle_get(spindle_id);
-                        if(spindle) {
-                            spindle_set_state(spindle, (spindle_state_t){ .on = On, .ccw = Off }, rpm);
-                        }
-                    }
-                    gc_block.words.p = gc_block.words.q = Off;
-                } else {
-                    FAIL(Status_GcodeValueWordMissing);
-                }
-                break;
-
-            case Disable_PWMOutput: // M18 P<spindle_id> - Disable spindle PWM
-                if(gc_block.words.p) {
-                    uint8_t spindle_id = (uint8_t)gc_block.values.p;
-                    if(spindle_id < spindle_get_count()) {
-                        spindle_ptrs_t *spindle = spindle_get(spindle_id);
-                        if(spindle) {
-                            spindle_set_state(spindle, (spindle_state_t){ .on = Off }, 0.0f);
-                        }
-                    }
-                    gc_block.words.p = Off;
-                } else {
-                    FAIL(Status_GcodeValueWordMissing);
-                }
-                break;
-
             default:
                 // Let existing user M-code handler deal with it
                 break;

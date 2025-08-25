@@ -3075,6 +3075,30 @@ pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/grblhal_robot_arm.dir/build.make CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
+plugins/pwm_servo_m280.o: plugins/pwm_servo_m280.c.o
+.PHONY : plugins/pwm_servo_m280.o
+
+# target to build an object file
+plugins/pwm_servo_m280.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/grblhal_robot_arm.dir/build.make CMakeFiles/grblhal_robot_arm.dir/plugins/pwm_servo_m280.c.o
+.PHONY : plugins/pwm_servo_m280.c.o
+
+plugins/pwm_servo_m280.i: plugins/pwm_servo_m280.c.i
+.PHONY : plugins/pwm_servo_m280.i
+
+# target to preprocess a source file
+plugins/pwm_servo_m280.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/grblhal_robot_arm.dir/build.make CMakeFiles/grblhal_robot_arm.dir/plugins/pwm_servo_m280.c.i
+.PHONY : plugins/pwm_servo_m280.c.i
+
+plugins/pwm_servo_m280.s: plugins/pwm_servo_m280.c.s
+.PHONY : plugins/pwm_servo_m280.s
+
+# target to generate assembly for a file
+plugins/pwm_servo_m280.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/grblhal_robot_arm.dir/build.make CMakeFiles/grblhal_robot_arm.dir/plugins/pwm_servo_m280.c.s
+.PHONY : plugins/pwm_servo_m280.c.s
+
 serial.o: serial.c.o
 .PHONY : serial.o
 
@@ -3518,6 +3542,9 @@ help:
 	@echo "... pico-sdk/src/rp2_common/pico_unique_id/unique_id.o"
 	@echo "... pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
 	@echo "... pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
+	@echo "... plugins/pwm_servo_m280.o"
+	@echo "... plugins/pwm_servo_m280.i"
+	@echo "... plugins/pwm_servo_m280.s"
 	@echo "... serial.o"
 	@echo "... serial.i"
 	@echo "... serial.s"

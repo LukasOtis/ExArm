@@ -276,12 +276,7 @@ typedef enum {
     Trinamic_HomingSensitivity = 914,   //!< 914 - M914, Marlin format
     Trinamic_ChopperTiming = 919,       //!< 919 - M919, Marlin format
     Spindle_Select = UserMCode_Generic4, //!< Value to be assigned later!
-    // Robot Arm Custom M-codes
-    Servo_SetPosition = 12,              //!< 12 - M12 - Set servo position
-    Emergency_Stop = 13,                 //!< 13 - M13 - Emergency stop
-    Home_All = 14,                       //!< 14 - M14 - Home all axes
-    Set_PWMOutput = 17,                  //!< 17 - M17 - Set PWM output
-    Disable_PWMOutput = 18               //!< 18 - M18 - Disable PWM output
+    // Using standard PWM Servo plugin (M280) instead of custom M-codes
 } user_mcode_t;
 
 //! Data for M62, M63 and M67 commands when executed synchronized with motion.

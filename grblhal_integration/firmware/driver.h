@@ -283,6 +283,11 @@ typedef struct {
 
 bool driver_init (void);
 
+// PWM Servo plugin initialization
+#if PWM_SERVO_ENABLE == 1
+void pwm_servo_init (void);
+#endif
+
 #if OUT_SHIFT_REGISTER
 typedef struct {
     PIO pio;

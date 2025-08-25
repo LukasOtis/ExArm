@@ -646,10 +646,24 @@ CMakeFiles/grblhal_robot_arm.dir/spi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/grblhal_robot_arm.dir/spi.c.s"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/spi.c -o CMakeFiles/grblhal_robot_arm.dir/spi.c.s
 
+CMakeFiles/grblhal_robot_arm.dir/plugins/pwm_servo_m280.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
+CMakeFiles/grblhal_robot_arm.dir/plugins/pwm_servo_m280.c.o: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/plugins/pwm_servo_m280.c
+CMakeFiles/grblhal_robot_arm.dir/plugins/pwm_servo_m280.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/grblhal_robot_arm.dir/plugins/pwm_servo_m280.c.o"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/plugins/pwm_servo_m280.c.o -MF CMakeFiles/grblhal_robot_arm.dir/plugins/pwm_servo_m280.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/plugins/pwm_servo_m280.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/plugins/pwm_servo_m280.c
+
+CMakeFiles/grblhal_robot_arm.dir/plugins/pwm_servo_m280.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/grblhal_robot_arm.dir/plugins/pwm_servo_m280.c.i"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/plugins/pwm_servo_m280.c > CMakeFiles/grblhal_robot_arm.dir/plugins/pwm_servo_m280.c.i
+
+CMakeFiles/grblhal_robot_arm.dir/plugins/pwm_servo_m280.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/grblhal_robot_arm.dir/plugins/pwm_servo_m280.c.s"
+	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/plugins/pwm_servo_m280.c -o CMakeFiles/grblhal_robot_arm.dir/plugins/pwm_servo_m280.c.s
+
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2350/pico_platform/platform.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2350/pico_platform/platform.c.o: pico-sdk/src/rp2350/pico_platform/platform.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2350/pico_platform/platform.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2350/pico_platform/platform.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2350/pico_platform/platform.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2350/pico_platform/platform.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2350/pico_platform/platform.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2350/pico_platform/platform.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2350/pico_platform/platform.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2350/pico_platform/platform.c.i: cmake_force
@@ -663,7 +677,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2350/pico_platform/platform.c.s:
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_common/common.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_common/common.c.o: pico-sdk/src/rp2_common/pico_platform_common/common.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_common/common.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_common/common.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_common/common.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_common/common.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_common/common.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_common/common.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_platform_common/common.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_common/common.c.i: cmake_force
@@ -677,7 +691,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_common/co
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i: cmake_force
@@ -691,7 +705,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_panic/pan
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: pico-sdk/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -705,7 +719,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i: cmake_force
@@ -719,7 +733,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runti
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i: cmake_force
@@ -733,7 +747,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runti
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i: cmake_force
@@ -747,7 +761,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_runtime_init/runti
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -761,7 +775,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/hardware_claim/claim.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/hardware_claim/claim.c.o: pico-sdk/src/common/hardware_claim/claim.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/hardware_claim/claim.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/hardware_claim/claim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/hardware_claim/claim.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/hardware_claim/claim.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/hardware_claim/claim.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/hardware_claim/claim.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/common/hardware_claim/claim.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/hardware_claim/claim.c.i: cmake_force
@@ -775,7 +789,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/hardware_claim/claim.c.s: c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: pico-sdk/src/rp2_common/hardware_sync/sync.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -789,7 +803,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i: cmake_force
@@ -803,7 +817,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_sync_spin_lock
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -817,7 +831,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: pico-sdk/src/rp2_common/hardware_irq/irq.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -830,7 +844,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building ASM object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building ASM object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o   -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -844,7 +858,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_irq/irq_handle
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/sem.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/sem.c.o: pico-sdk/src/common/pico_sync/sem.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/sem.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/sem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/sem.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/sem.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/sem.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/sem.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -858,7 +872,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/sem.c.s: cmake_fo
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/lock_core.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/lock_core.c.o: pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/lock_core.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/lock_core.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/lock_core.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/lock_core.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/lock_core.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/lock_core.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -872,7 +886,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/lock_core.c.s: cm
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/mutex.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/mutex.c.o: pico-sdk/src/common/pico_sync/mutex.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/mutex.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/mutex.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/mutex.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/mutex.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/mutex.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/mutex.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -886,7 +900,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/critical_section.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/critical_section.c.o: pico-sdk/src/common/pico_sync/critical_section.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/critical_section.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/critical_section.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/critical_section.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/critical_section.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/critical_section.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/critical_section.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -900,7 +914,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_sync/critical_section.
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_time/time.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_time/time.c.o: pico-sdk/src/common/pico_time/time.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_time/time.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_time/time.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_time/time.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_time/time.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_time/time.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_time/time.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -914,7 +928,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_time/time.c.s: cmake_f
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_time/timeout_helper.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_time/timeout_helper.c.o: pico-sdk/src/common/pico_time/timeout_helper.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_time/timeout_helper.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_time/timeout_helper.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_time/timeout_helper.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_time/timeout_helper.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_time/timeout_helper.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_time/timeout_helper.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -928,7 +942,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_time/timeout_helper.c.
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: pico-sdk/src/rp2_common/hardware_timer/timer.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -942,7 +956,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/datetime.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/datetime.c.o: pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/datetime.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/datetime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/datetime.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/datetime.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/datetime.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/datetime.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -956,7 +970,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/datetime.c.s: cma
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/pheap.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/pheap.c.o: pico-sdk/src/common/pico_util/pheap.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/pheap.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/pheap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/pheap.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/pheap.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/pheap.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/pheap.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -970,7 +984,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/pheap.c.s: cmake_
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/queue.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/queue.c.o: pico-sdk/src/common/pico_util/queue.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/queue.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/queue.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/queue.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/queue.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/queue.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/queue.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -984,7 +998,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/common/pico_util/queue.c.s: cmake_
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: pico-sdk/src/rp2_common/hardware_pll/pll.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -998,7 +1012,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -1012,7 +1026,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -1026,7 +1040,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_watchdog/watch
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: pico-sdk/src/rp2_common/hardware_ticks/ticks.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i: cmake_force
@@ -1040,7 +1054,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -1054,7 +1068,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i: cmake_force
@@ -1068,7 +1082,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lo
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i: cmake_force
@@ -1082,7 +1096,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_boot_lock/boot
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.o: pico-sdk/src/rp2_common/pico_flash/flash.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_flash/flash.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.i: cmake_force
@@ -1096,7 +1110,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_flash/flash.c.s: c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -1110,7 +1124,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: pico-sdk/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -1123,7 +1137,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building ASM object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building ASM object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o   -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -1137,7 +1151,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_ae
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o: pico-sdk/src/rp2_common/pico_divider/divider_compiler.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_divider/divider_compiler.c.i: cmake_force
@@ -1151,7 +1165,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_divider/divider_co
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.o: pico-sdk/src/rp2_common/pico_double/double_math.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -1164,7 +1178,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_math
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o: pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building ASM object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building ASM object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.o   -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi_dcp.S.i: cmake_force
@@ -1177,7 +1191,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_aeab
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o: pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building ASM object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building ASM object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.o   -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_fma_dcp.S.i: cmake_force
@@ -1190,7 +1204,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_fma_
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o: pico-sdk/src/rp2_common/pico_double/double_sci_m33.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building ASM object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building ASM object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.o   -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_sci_m33.S.i: cmake_force
@@ -1203,7 +1217,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_sci_
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o: pico-sdk/src/rp2_common/pico_double/double_conv_m33.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building ASM object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building ASM object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.o   -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_conv_m33.S.i: cmake_force
@@ -1217,7 +1231,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_double/double_conv
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_divider/divider.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_divider/divider.c.o: pico-sdk/src/rp2_common/hardware_divider/divider.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_divider/divider.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_divider/divider.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_divider/divider.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_divider/divider.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_divider/divider.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_divider/divider.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/hardware_divider/divider.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_divider/divider.c.i: cmake_force
@@ -1231,7 +1245,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_divider/divide
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.o: pico-sdk/src/rp2_common/pico_float/float_math.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -1244,7 +1258,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o: pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building ASM object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building ASM object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.o   -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_conv32_vfp.S.i: cmake_force
@@ -1257,7 +1271,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_conv32
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o: pico-sdk/src/rp2_common/pico_float/float_common_m33.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building ASM object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building ASM object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.o   -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_float/float_common_m33.S
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_common_m33.S.i: cmake_force
@@ -1270,7 +1284,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_common
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o: pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building ASM object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building ASM object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.o   -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_sci_m33_vfp.S.i: cmake_force
@@ -1284,7 +1298,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_float/float_sci_m3
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: pico-sdk/src/rp2_common/pico_malloc/malloc.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_malloc/malloc.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i: cmake_force
@@ -1298,7 +1312,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_malloc/malloc.c.s:
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: pico-sdk/src/rp2_common/pico_atomic/atomic.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_atomic/atomic.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i: cmake_force
@@ -1312,7 +1326,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_atomic/atomic.c.s:
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
 	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i: cmake_force
@@ -1326,7 +1340,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_cxx_options/new_de
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i: cmake_force
@@ -1340,7 +1354,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_standard_binary_in
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.o: pico-sdk/src/rp2_common/pico_printf/printf.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -1353,7 +1367,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o: pico-sdk/src/rp2_common/pico_crt0/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building ASM object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building ASM object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o   -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_crt0/crt0.S
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i: cmake_force
@@ -1367,7 +1381,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_crt0/crt0.S.s: cma
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i: cmake_force
@@ -1381,7 +1395,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_clib_interface/new
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: pico-sdk/src/rp2_common/pico_multicore/multicore.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
@@ -1395,7 +1409,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_multicore/multicor
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: pico-sdk/src/rp2_common/hardware_pio/pio.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/hardware_pio/pio.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
@@ -1409,7 +1423,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_pio/pio.c.s: c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: pico-sdk/src/rp2_common/hardware_dma/dma.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/hardware_dma/dma.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
@@ -1423,7 +1437,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_dma/dma.c.s: c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
@@ -1437,7 +1451,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s: c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_spi/spi.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_spi/spi.c.o: pico-sdk/src/rp2_common/hardware_spi/spi.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_spi/spi.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_spi/spi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_spi/spi.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_spi/spi.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_spi/spi.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_spi/spi.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/hardware_spi/spi.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_spi/spi.c.i: cmake_force
@@ -1451,7 +1465,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_spi/spi.c.s: c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: pico-sdk/src/rp2_common/hardware_flash/flash.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -1465,7 +1479,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_flash/flash.c.
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i: cmake_force
@@ -1479,7 +1493,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_xip_cache/xip_
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -1493,7 +1507,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_i
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: pico-sdk/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -1507,7 +1521,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
@@ -1521,7 +1535,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_u
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
@@ -1535,7 +1549,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/reset_in
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
@@ -1549,7 +1563,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_us
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
@@ -1563,7 +1577,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_us
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -1577,7 +1591,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/r
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -1591,7 +1605,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/portable/raspberrypi/r
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.o: pico-sdk/lib/tinyusb/src/device/usbd.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -1605,7 +1619,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: pico-sdk/lib/tinyusb/src/device/usbd_control.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -1619,7 +1633,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/device/usbd_control.c.
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -1633,7 +1647,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/audio/audio_devi
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -1647,7 +1661,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -1661,7 +1675,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -1675,7 +1689,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_devic
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -1689,7 +1703,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -1703,7 +1717,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/midi/midi_device
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -1717,7 +1731,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -1731,7 +1745,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_de
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -1745,7 +1759,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -1759,7 +1773,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_de
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -1773,7 +1787,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/vendor/vendor_de
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: pico-sdk/lib/tinyusb/src/class/video/video_device.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -1787,7 +1801,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/class/video/video_devi
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/tusb.c.o: pico-sdk/lib/tinyusb/src/tusb.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/tusb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/tusb.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/tusb.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/tusb.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/tusb.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/tinyusb/src/tusb.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -1801,7 +1815,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -1815,7 +1829,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -1829,7 +1843,7 @@ CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_dev
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: CMakeFiles/grblhal_robot_arm.dir/flags.make
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: pico-sdk/src/rp2_common/hardware_adc/adc.c
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.o: CMakeFiles/grblhal_robot_arm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.o"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.o -MF CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.o.d -o CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.o -c /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/pico-sdk/src/rp2_common/hardware_adc/adc.c
 
 CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
@@ -1883,6 +1897,7 @@ grblhal_robot_arm_OBJECTS = \
 "CMakeFiles/grblhal_robot_arm.dir/usb_serial.c.o" \
 "CMakeFiles/grblhal_robot_arm.dir/i2c.c.o" \
 "CMakeFiles/grblhal_robot_arm.dir/spi.c.o" \
+"CMakeFiles/grblhal_robot_arm.dir/plugins/pwm_servo_m280.c.o" \
 "CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2350/pico_platform/platform.c.o" \
 "CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_common/common.c.o" \
 "CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o" \
@@ -2014,6 +2029,7 @@ grblhal_robot_arm.elf: CMakeFiles/grblhal_robot_arm.dir/serial.c.o
 grblhal_robot_arm.elf: CMakeFiles/grblhal_robot_arm.dir/usb_serial.c.o
 grblhal_robot_arm.elf: CMakeFiles/grblhal_robot_arm.dir/i2c.c.o
 grblhal_robot_arm.elf: CMakeFiles/grblhal_robot_arm.dir/spi.c.o
+grblhal_robot_arm.elf: CMakeFiles/grblhal_robot_arm.dir/plugins/pwm_servo_m280.c.o
 grblhal_robot_arm.elf: CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2350/pico_platform/platform.c.o
 grblhal_robot_arm.elf: CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_common/common.c.o
 grblhal_robot_arm.elf: CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o
@@ -2105,7 +2121,7 @@ grblhal_robot_arm.elf: pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_li
 grblhal_robot_arm.elf: libhardware_rtc.a
 grblhal_robot_arm.elf: pico-sdk/src/rp2_common/pico_crt0/rp2350/memmap_default.ld
 grblhal_robot_arm.elf: CMakeFiles/grblhal_robot_arm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Linking CXX executable grblhal_robot_arm.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Linking CXX executable grblhal_robot_arm.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/grblhal_robot_arm.dir/link.txt --verbose=$(VERBOSE)
 	/opt/homebrew/bin/arm-none-eabi-objdump -h /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/grblhal_robot_arm.elf > grblhal_robot_arm.dis
 	/opt/homebrew/bin/arm-none-eabi-objdump -d /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build/grblhal_robot_arm.elf >> grblhal_robot_arm.dis

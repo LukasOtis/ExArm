@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/build_pwm_servo/_deps/picotool-build/enc_bootloader/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -5,23 +5,23 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c99 -O2 -g -DGRBL_PLATFORM=\"RobotArm\" -DOVERRIDE_MY_MACHINE=1
 INCLUDES = -I./grbl -I. \
-	-I$(PICO_SDK_PATH)/src/common/pico_base_headers/include \
-	-I$(PICO_SDK_PATH)/src/common/pico_time/include \
-	-I$(PICO_SDK_PATH)/src/rp2_common/hardware_base/include \
-	-I$(PICO_SDK_PATH)/src/rp2_common/hardware_gpio/include \
-	-I$(PICO_SDK_PATH)/src/common/pico_stdlib/include \
-	-I$(PICO_SDK_PATH)/src/common/pico_sync/include \
-	-I$(PICO_SDK_PATH)/src/rp2_common/pico_platform/include \
-	-I$(PICO_SDK_PATH)/src/rp2_common/hardware_sync/include \
-	-I$(PICO_SDK_PATH)/src/rp2_common/hardware_irq/include \
-	-I$(PICO_SDK_PATH)/src/rp2_common/hardware_timer/include \
-	-I$(PICO_SDK_PATH)/src/rp2_common/hardware_clocks/include \
-	-I$(PICO_SDK_PATH)/src/rp2_common/hardware_resets/include \
-	-I$(PICO_SDK_PATH)/src/rp2_common/hardware_pll/include \
-	-I$(PICO_SDK_PATH)/src/rp2_common/hardware_vreg/include \
-	-I$(PICO_SDK_PATH)/src/rp2_common/hardware_watchdog/include \
-	-I$(PICO_SDK_PATH)/src/rp2_common/hardware_xosc/include \
-	-I$(PICO_SDK_PATH)/src/rp2_common/hardware_rtc/include
+	-I./pico-sdk/src/common/pico_base_headers/include \
+	-I./pico-sdk/src/common/pico_time/include \
+	-I./pico-sdk/src/rp2_common/hardware_base/include \
+	-I./pico-sdk/src/rp2_common/hardware_gpio/include \
+	-I./pico-sdk/src/common/pico_stdlib/include \
+	-I./pico-sdk/src/common/pico_sync/include \
+	-I./pico-sdk/src/rp2_common/pico_platform/include \
+	-I./pico-sdk/src/rp2_common/hardware_sync/include \
+	-I./pico-sdk/src/rp2_common/hardware_irq/include \
+	-I./pico-sdk/src/rp2_common/hardware_timer/include \
+	-I./pico-sdk/src/rp2_common/hardware_clocks/include \
+	-I./pico-sdk/src/rp2_common/hardware_resets/include \
+	-I./pico-sdk/src/rp2_common/hardware_pll/include \
+	-I./pico-sdk/src/rp2_common/hardware_vreg/include \
+	-I./pico-sdk/src/rp2_common/hardware_watchdog/include \
+	-I./pico-sdk/src/rp2_common/hardware_xosc/include \
+	-I./pico-sdk/src/rp2_common/hardware_rtc/include
 LIBS = -lm
 
 # Source files - Core grblHAL files

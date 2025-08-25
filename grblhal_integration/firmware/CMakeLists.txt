@@ -65,6 +65,7 @@ set(DRIVER_SOURCES
     i2c.c
     spi.c
     plugins/pwm_servo_m280.c  # PWM Servo plugin for M280 command
+    plugins/aux_output_m210.c  # Auxiliary Output plugin for M210-M215 commands
 )
 
 # PIO sources for hardware timers and step generation

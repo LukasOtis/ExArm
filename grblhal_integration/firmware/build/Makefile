@@ -3075,6 +3075,30 @@ pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/grblhal_robot_arm.dir/build.make CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
+plugins/aux_output_m210.o: plugins/aux_output_m210.c.o
+.PHONY : plugins/aux_output_m210.o
+
+# target to build an object file
+plugins/aux_output_m210.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/grblhal_robot_arm.dir/build.make CMakeFiles/grblhal_robot_arm.dir/plugins/aux_output_m210.c.o
+.PHONY : plugins/aux_output_m210.c.o
+
+plugins/aux_output_m210.i: plugins/aux_output_m210.c.i
+.PHONY : plugins/aux_output_m210.i
+
+# target to preprocess a source file
+plugins/aux_output_m210.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/grblhal_robot_arm.dir/build.make CMakeFiles/grblhal_robot_arm.dir/plugins/aux_output_m210.c.i
+.PHONY : plugins/aux_output_m210.c.i
+
+plugins/aux_output_m210.s: plugins/aux_output_m210.c.s
+.PHONY : plugins/aux_output_m210.s
+
+# target to generate assembly for a file
+plugins/aux_output_m210.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/grblhal_robot_arm.dir/build.make CMakeFiles/grblhal_robot_arm.dir/plugins/aux_output_m210.c.s
+.PHONY : plugins/aux_output_m210.c.s
+
 plugins/pwm_servo_m280.o: plugins/pwm_servo_m280.c.o
 .PHONY : plugins/pwm_servo_m280.o
 
@@ -3542,6 +3566,9 @@ help:
 	@echo "... pico-sdk/src/rp2_common/pico_unique_id/unique_id.o"
 	@echo "... pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
 	@echo "... pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
+	@echo "... plugins/aux_output_m210.o"
+	@echo "... plugins/aux_output_m210.i"
+	@echo "... plugins/aux_output_m210.s"
 	@echo "... plugins/pwm_servo_m280.o"
 	@echo "... plugins/pwm_servo_m280.i"
 	@echo "... plugins/pwm_servo_m280.s"

@@ -237,6 +237,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o.d"
   "CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
   "CMakeFiles/grblhal_robot_arm.dir/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d"
+  "CMakeFiles/grblhal_robot_arm.dir/plugins/aux_output_m210.c.o"
+  "CMakeFiles/grblhal_robot_arm.dir/plugins/aux_output_m210.c.o.d"
   "CMakeFiles/grblhal_robot_arm.dir/plugins/pwm_servo_m280.c.o"
   "CMakeFiles/grblhal_robot_arm.dir/plugins/pwm_servo_m280.c.o.d"
   "CMakeFiles/grblhal_robot_arm.dir/serial.c.o"

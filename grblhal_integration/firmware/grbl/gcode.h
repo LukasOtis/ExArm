@@ -277,6 +277,14 @@ typedef enum {
     Trinamic_ChopperTiming = 919,       //!< 919 - M919, Marlin format
     Spindle_Select = UserMCode_Generic4, //!< Value to be assigned later!
     // Using standard PWM Servo plugin (M280) instead of custom M-codes
+    
+    // Auxiliary Output Control M-codes (M210-M215)
+    AuxOutput0_On = 210,                 //!< 210 - M210, Aux0 ON
+    AuxOutput0_Off = 211,                //!< 211 - M211, Aux0 OFF
+    AuxOutput1_On = 212,                 //!< 212 - M212, Aux1 ON
+    AuxOutput1_Off = 213,                //!< 213 - M213, Aux1 OFF
+    AuxOutput2_On = 214,                 //!< 214 - M214, Aux2 ON
+    AuxOutput2_Off = 215,                //!< 215 - M215, Aux2 OFF
 } user_mcode_t;
 
 //! Data for M62, M63 and M67 commands when executed synchronized with motion.

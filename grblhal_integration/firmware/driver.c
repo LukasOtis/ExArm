@@ -55,6 +55,7 @@
 #include "driverPIO.pio.h"
 #include "ws2812.pio.h"
 #include "plugins/pwm_servo_m280.h"  // PWM Servo plugin for M280 command
+#include "plugins/aux_output_m210.h"  // Auxiliary Output plugin for M210-M215 commands
 
 // Board map is included via driver.h conditional logic
 
@@ -3409,6 +3410,11 @@ sr8_pio = sr8_delay_pio = sr8_hold_pio = pio0;
     // Initialize PWM Servo plugin for M280 command
 #if PWM_SERVO_ENABLE == 1
     pwm_servo_init();
+#endif
+
+    // Initialize Auxiliary Output plugin for M210-M215 commands
+#if AUX_OUTPUT_ENABLE == 1
+    aux_output_init();
 #endif
 
 // #include "grbl/plugins_init.h"  // Commented out - file not found

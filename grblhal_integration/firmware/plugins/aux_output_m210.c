@@ -92,12 +92,14 @@ static status_code_t aux_output_mcode_validate(parser_block_t *gc_block)
     } else
         state = Status_Unhandled;
 
+    // Chain with existing validation handler
     return state == Status_Unhandled && user_mcode.validate ? user_mcode.validate(gc_block) : state;
 }
 
 /// @brief M-code execution handler for auxiliary outputs
 static void aux_output_mcode_execute(uint_fast16_t state, parser_block_t *gc_block)
 {
+    // Handle our M-codes
     if(gc_block->user_mcode == AuxOutput0_On) {
         aux_output_set_state(0, true);
     } else if(gc_block->user_mcode == AuxOutput0_Off) {
@@ -111,6 +113,7 @@ static void aux_output_mcode_execute(uint_fast16_t state, parser_block_t *gc_blo
     } else if(gc_block->user_mcode == AuxOutput2_Off) {
         aux_output_set_state(2, false);
     } else if(user_mcode.execute) {
+        // Chain with existing execute handler
         user_mcode.execute(state, gc_block);
     }
 }
@@ -118,6 +121,7 @@ static void aux_output_mcode_execute(uint_fast16_t state, parser_block_t *gc_blo
 /// @brief M-code validation function
 static user_mcode_type_t aux_output_mcode_check(user_mcode_t mcode)
 {
+    // Check if this is one of our M-codes
     switch(mcode) {
         case AuxOutput0_On:
         case AuxOutput0_Off:
@@ -127,7 +131,8 @@ static user_mcode_type_t aux_output_mcode_check(user_mcode_t mcode)
         case AuxOutput2_Off:
             return UserMCode_Normal;
         default:
-            return UserMCode_Unsupported;
+            // Chain with existing check handler
+            return user_mcode.check ? user_mcode.check(mcode) : UserMCode_Unsupported;
     }
 }
 
@@ -157,14 +162,15 @@ void aux_output_init(void)
     // Initialize GPIO pins
     aux_output_init_pins();
     
-    // Register M-code handlers with GRBL
+    // Store existing M-code handlers to chain properly
     memcpy(&user_mcode, &grbl.user_mcode, sizeof(user_mcode_ptrs_t));
     
+    // Chain our handlers with existing ones
     grbl.user_mcode.check = aux_output_mcode_check;
     grbl.user_mcode.validate = aux_output_mcode_validate;
     grbl.user_mcode.execute = aux_output_mcode_execute;
     
-    // Register status reporting
+    // Register status reporting (chain with existing)
     on_report_options = grbl.on_report_options;
     grbl.on_report_options = aux_output_report_status;
     

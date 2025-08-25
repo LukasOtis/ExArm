@@ -1,12 +1,10 @@
 /*
-  my_machine_map.h - Board mapping for ExArm Pico2Breakout (RP2040)
+  my_machine_map.h - Board mapping for ExArm Pico2Breakout (RP2350B)
 
   Custom pin map aligned with hardware/pcb/controller_board README pinout.
   
-  NOTE: Limited to 3-axis for RP2040 due to PIO constraints.
-  For 5-axis operation, upgrade to RP2350B (Pico 2) in Phase 5.
-
-  Step/dir pairs are adjacent (step,dir) on GPIO: (2,3) (4,5) (6,7)
+  Full 5-axis support with RP2350B (Pico 2) PIO capabilities.
+  Step/dir pairs are adjacent (step,dir) on GPIO: (2,3) (4,5) (6,7) (8,9) (10,11)
   Shared enable on GPIO 12.
 
   Using GPIO_OUTPUT for steps since PIO requires consecutive pins.
@@ -22,10 +20,10 @@
 #error "This board map targets RP2040/RP2350 processors (Pico/Pico 2)."
 #endif
 
-#define BOARD_NAME "ExArm Pico2Breakout (3-Axis)"
+#define BOARD_NAME "ExArm Pico2Breakout (5-Axis)"
 
 // -----------------------------
-// Step/Dir/Enable (3-axis only)
+// Step/Dir/Enable (5-axis support)
 // -----------------------------
 
 #define STEP_PORT               GPIO_OUTPUT
@@ -33,6 +31,7 @@
 #define DIRECTION_OUTMODE       0
 #define ENABLE_PORT             GPIO_OUTPUT
 
+// Primary axes (X, Y, Z)
 #define X_STEP_PIN              2
 #define Y_STEP_PIN              4
 #define Z_STEP_PIN              6
@@ -40,6 +39,25 @@
 #define X_DIRECTION_PIN         3
 #define Y_DIRECTION_PIN         5
 #define Z_DIRECTION_PIN         7
+
+// Secondary axes (A, B) - mapped to M3 and M4 for GRBL compatibility
+#define M3_AVAILABLE                    // Enable M3 (A-axis) support
+#define M3_STEP_PIN             8      // A-axis step
+#define M3_DIRECTION_PIN        9      // A-axis direction
+#define M3_STEP_PORT           STEP_PORT
+#define M3_DIRECTION_PORT      DIRECTION_PORT
+
+#define M4_AVAILABLE                    // Enable M4 (B-axis) support
+#define M4_STEP_PIN             10     // B-axis step
+#define M4_DIRECTION_PIN        11     // B-axis direction
+#define M4_STEP_PORT           STEP_PORT
+#define M4_DIRECTION_PORT      DIRECTION_PORT
+
+// Alias for compatibility
+#define A_STEP_PIN              M3_STEP_PIN
+#define A_DIRECTION_PIN         M3_DIRECTION_PIN
+#define B_STEP_PIN              M4_STEP_PIN
+#define B_DIRECTION_PIN         M4_DIRECTION_PIN
 
 #define STEPPERS_ENABLE_PIN     12    // shared enable
 #define STEPPERS_ENABLE_PORT    GPIO_OUTPUT
@@ -51,6 +69,8 @@
 #define X_LIMIT_PIN             15
 #define Y_LIMIT_PIN             17
 #define Z_LIMIT_PIN             18
+#define A_LIMIT_PIN             19
+#define B_LIMIT_PIN             20
 #define LIMIT_INMODE            GPIO_MAP
 
 // General input (isolated)

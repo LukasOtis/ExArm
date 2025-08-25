@@ -128,9 +128,9 @@ target_compile_definitions(grblhal_robot_arm PRIVATE
     PICO_BOARD="pico2"
     RP_MCU=2350
     
-    # Robot arm configuration - 3-axis for RP2040
-    N_AXIS=3
-    N_ABC_MOTORS=0
+    # Robot arm configuration - 5-axis for RP2350B
+    N_AXIS=5
+    N_ABC_MOTORS=2
     ROBOT_ARM_BUILD=1
     
     # Hardware configuration

@@ -1,9 +1,13 @@
 #pragma once
 
-// Using generic board map - no custom board needed
+// Define board identifier for 3-axis configuration
+#define BOARD_GENERIC
 
-// Use the existing generic board map instead of our custom one
+// Use the 3-axis generic board map
 #include "boards/generic_map.h"
+
+// Set number of axes to 3 (X, Y, Z)
+#define N_AXIS                 3
 
 // Basic configuration
 #ifndef USB_SERIAL_CDC
@@ -24,18 +28,6 @@
 #define PWM_SERVO_ENABLE        0
 #define BLTOUCH_ENABLE          0
 #define EVENTOUT_ENABLE         0
-#define ESP_AT_ENABLE           0
-#define FEED_OVERRIDE_ENABLE    0
-#define HOMING_PULLOFF_ENABLE   0
-#define STEP_INJECT_ENABLE      0
-#define FANS_ENABLE             0
-#define EMBROIDERY_ENABLE       0
-#define TRINAMIC_ENABLE         0
-#define PLASMA_ENABLE           0
-#define LASER_COOLANT_ENABLE    0
-#define LASER_OVD_ENABLE        0
-#define LB_CLUSTERS_ENABLE      0
-#define ODOMETER_ENABLE         0
 
 // Optional control signals - disable for testing
 #define PROBE_ENABLE            0

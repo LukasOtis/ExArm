@@ -58,8 +58,9 @@ CMakeFiles/grblhal_robot_arm.dir/plugins/aux_output_m210.c.o: \
  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2350/hardware_regs/include/hardware/regs/dreq.h \
  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/my_machine.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/driver_opts.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/hal.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/boards/my_machine_map.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/driver_opts.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/hal.h \
  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/time.h \
  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h \
  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -79,41 +80,40 @@ CMakeFiles/grblhal_robot_arm.dir/plugins/aux_output_m210.c.o: \
  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/sched.h \
  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/types.h \
  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_locale.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/grbl.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/config.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/nuts_bolts.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/errors.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/grbl.h \
  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/robot_arm_config.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/core_handlers.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/system.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/gcode.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/coolant_control.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/spindle_control.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/pid.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/probe.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/alarms.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/messages.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/stream.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/vfs.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/config.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/nuts_bolts.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/errors.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/core_handlers.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/system.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/gcode.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/coolant_control.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/spindle_control.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/pid.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/probe.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/alarms.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/messages.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/stream.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/vfs.h \
  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdlib.h \
  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/machine/stdlib.h \
  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/alloca.h \
  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/string.h \
  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/strings.h \
  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/string.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/settings.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/plugins.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/nvs.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/report.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/ngc_params.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/planner.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/machine_limits.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/crossbar.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/stepper.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/rgb.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/settings.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/plugins.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/nvs.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/report.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/ngc_params.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/planner.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/machine_limits.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/crossbar.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/stepper.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/rgb.h \
  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/expanders_init.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/hal.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/boards/my_machine_map.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/hal.h \
  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/grbl/driver_opts2.h \
  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h \
  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdarg.h \

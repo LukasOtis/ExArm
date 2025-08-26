@@ -37,16 +37,13 @@
 #include "hardware/structs/systick.h"
 #include "hardware/structs/iobank0.h"
 #include "hardware/structs/sio.h"
-#if RP_MCU == 2040
-#include "hardware/rtc.h"
-#if defined(PICO_USE_FASTEST_SUPPORTED_CLOCK) && PICO_USE_FASTEST_SUPPORTED_CLOCK
+#include "hardware/pio.h"
+#include "hardware/gpio.h"
+#if RP_MCU == 2350
 #define PIO_STEP_ADJ 0.2f
-#else
-#define PIO_STEP_ADJ 0.29f
-#endif
 #define PIO_RATE_ADJ 16
 #else
-#define PIO_STEP_ADJ 0.2f
+#define PIO_STEP_ADJ 0.29f
 #define PIO_RATE_ADJ 14
 #endif
 
@@ -71,14 +68,14 @@ inline static __attribute__((always_inline)) void stepperSetStepOutputs (axes_si
     if(step_out.z) gpio_put(Z_STEP_PIN, 1);
 }
 
-#include "GRBL/crossbar.h"
-#include "GRBL/machine_limits.h"
-#include "GRBL/state_machine.h"
-#include "GRBL/motor_pins.h"
-#include "GRBL/pin_bits_masks.h"
-#include "GRBL/protocol.h"
+#include "grbl/crossbar.h"
+#include "grbl/machine_limits.h"
+#include "grbl/state_machine.h"
+#include "grbl/motor_pins.h"
+#include "grbl/pin_bits_masks.h"
+#include "grbl/protocol.h"
 #if NVSDATA_BUFFER_ENABLE
-#include "GRBL/nvs_buffer.h"
+#include "grbl/nvs_buffer.h"
 #endif
 
 #ifdef I2C_PORT
@@ -170,7 +167,9 @@ static uint b_step_sm;
 static PIO c_step_pio;
 static uint c_step_sm;
 #endif
-#endif // GPIO_PIO_1
+
+// Close STEP_PORT variant static declarations
+#endif
 
 #ifdef NEOPIXELS_PIN
 
@@ -333,13 +332,13 @@ static input_signal_t inputpin[] = {
 #ifdef Z_LIMIT_PIN_MAX
     add_maxlimit_pin(Z)
 #endif
-// Temporarily disabled A, B, C axes to get basic build working
-// #if add_in_pin(A_LIMIT)
-//     add_limit_pin(A)
-// #endif
-// #if add_in_pin(B_LIMIT)
-//     add_limit_pin(B)
-// #endif
+// A, B axes support for 5-axis robot arm
+#if add_in_pin(A_LIMIT)
+    add_limit_pin(A)
+#endif
+#if add_in_pin(B_LIMIT)
+    add_limit_pin(B)
+#endif
 // #if add_in_pin(C_LIMIT)
 //     add_limit_pin(C)
 // #endif
@@ -352,9 +351,7 @@ static input_signal_t inputpin[] = {
 #ifdef A_LIMIT_PIN_MAX
     { .id = Input_LimitA_Max,     .port = GPIO_INPUT, .pin = A_LIMIT_PIN_MAX,     .group = PinGroup_Limit },
 #endif
-#ifdef B_LIMIT_PIN
-    { .id = Input_LimitB,         .port = GPIO_INPUT, .pin = B_LIMIT_PIN,         .group = PinGroup_Limit },
-#endif
+// B_LIMIT_PIN is handled by add_limit_pin(B) above
 #ifdef B_LIMIT_PIN_MAX
     { .id = Input_LimitB_Max,     .port = GPIO_INPUT, .pin = B_LIMIT_PIN_MAX,     .group = PinGroup_Limit },
 #endif
@@ -483,12 +480,12 @@ static output_signal_t outputpin[] = {
     add_step_pin(Z2)
 #endif
 // Temporarily disabled A, B, C axes to get basic build working
-// #if add_pin(A_STEP)
-//     add_step_pin(A)
-// #endif
-// #if add_pin(B_STEP)
-//     add_step_pin(B)
-// #endif
+#if add_pin(A_STEP)
+    add_step_pin(A)
+#endif
+#if add_pin(B_STEP)
+    add_step_pin(B)
+#endif
 // #if add_pin(C_STEP)
 //     add_step_pin(C)
 // #endif
@@ -511,12 +508,12 @@ static output_signal_t outputpin[] = {
     add_dir_pin(Z2)
 #endif
 // Temporarily disabled A, B, C axes to get basic build working
-// #if add_pin(A_DIRECTION)
-//     add_dir_pin(A)
-// #endif
-// #if add_pin(B_DIRECTION)
-//     add_dir_pin(B)
-// #endif
+#if add_pin(A_DIRECTION)
+    add_dir_pin(A)
+#endif
+#if add_pin(B_DIRECTION)
+    add_dir_pin(B)
+#endif
 // #if add_pin(C_DIRECTION)
 //     add_dir_pin(C)
 // #endif
@@ -552,12 +549,12 @@ static output_signal_t outputpin[] = {
     add_enable_pin(Z2)
 #endif
 // Temporarily disabled A, B, C axes to get basic build working
-// #if add_pin(A_ENABLE)
-//     add_enable_pin(A)
-// #endif
-// #if add_pin(B_ENABLE)
-//     add_enable_pin(B)
-// #endif
+#if add_pin(A_ENABLE)
+    add_enable_pin(A)
+#endif
+#if add_pin(B_ENABLE)
+    add_enable_pin(B)
+#endif
 // #if add_pin(C_ENABLE)
 //     add_enable_pin(C)
 // #endif
@@ -900,6 +897,11 @@ static inline __attribute__((always_inline)) void stepper_step_out1 (uint_fast8_
 
         case X_AXIS:
 #if STEP_PORT == GPIO_PIO_1
+            // Debug: Signal that X-axis step is being triggered
+            static uint32_t x_step_count = 0;
+            if(++x_step_count < 10) {  // Only output first 10 steps to avoid spam
+                hal.stream.write("[MSG:X-axis step triggered]" ASCII_EOL);
+            }
             step_pulse_generate(x_step_pio, x_step_sm, pio_steps->value);
 #else
             pio_steps->set |= (1 << (X_STEP_PIN - STEP_PINS_BASE));
@@ -1328,7 +1330,7 @@ void stepperOutputStep (axes_signals_t step_out, axes_signals_t dir_out)
                 stepper_set_dir(idx, dir_out, &sd_sr);
 #else
                 stepper_set_dir(idx, dir_out);
-                stepper_set_step(idx, &steps);
+                stepper_step_out1(idx, &steps);
 #endif
             }
             idx--;
@@ -2923,14 +2925,25 @@ uint32_t get_free_mem (void)
 
 #if STEP_PORT == GPIO_PIO_1
 
+// Official grblHAL/RP2040 pattern for individual axis PIO state machines
 static bool assign_step_sm (PIO *pio, uint *sm, uint32_t pin)
 {
     static uint offset = 0;
 
     bool ok;
 
-    if((ok = pio_claim_free_sm_and_add_program_for_gpio_range(&step_pulse_program, pio, sm, &offset, pin, 1, false)))
+    if((ok = pio_claim_free_sm_and_add_program_for_gpio_range(&step_pulse_program, pio, sm, &offset, pin, 1, false))) {
         step_pulse_program_init(*pio, *sm, offset, pin, 1, pio_clk);
+        // Debug output to verify PIO assignment
+        hal.stream.write("[MSG:PIO assigned to pin ");
+        hal.stream.write(uitoa(pin));
+        hal.stream.write("]" ASCII_EOL);
+    } else {
+        // Debug output for failed assignment
+        hal.stream.write("[MSG:PIO assignment FAILED for pin ");
+        hal.stream.write(uitoa(pin));
+        hal.stream.write("]" ASCII_EOL);
+    }
 
     return ok;
 }
@@ -2956,6 +2969,8 @@ static void onReportOptions (bool newopt)
     if(!newopt)
         report_plugin("Bootloader Entry", "0.01");
 }
+
+
 
 #endif // USB_SERIAL_CDC
 
@@ -3291,6 +3306,7 @@ bool driver_init (void)
     irq_set_priority(PIO1_IRQ_0, PICO_HIGHEST_IRQ_PRIORITY);
 
 #if STEP_PORT == GPIO_PIO_1
+    // Official grblHAL/RP2040 pattern for individual axis PIO state machines
     assign_step_sm(&x_step_pio, &x_step_sm, X_STEP_PIN);
     assign_step_sm(&y_step_pio, &y_step_sm, Y_STEP_PIN);
     assign_step_sm(&z_step_pio, &z_step_sm, Z_STEP_PIN);
@@ -3324,8 +3340,17 @@ bool driver_init (void)
 
 #elif STEP_PORT == GPIO_PIO
 
-if(pio_claim_free_sm_and_add_program_for_gpio_range(&step_pulse_program, &step_pio, &step_sm, &pio_offset, STEP_PINS_BASE, N_AXIS + N_GANGED, false))
-   step_pulse_program_init(step_pio, step_sm, pio_offset, STEP_PINS_BASE, N_AXIS + N_GANGED, pio_clk);
+// Official grblHAL/RP2040 pattern for multi-axis PIO step generation
+if(pio_claim_free_sm_and_add_program_for_gpio_range(&step_pulse_program, &step_pio, &step_sm, &pio_offset, STEP_PINS_BASE, N_AXIS, false)) {
+    step_pulse_program_init(step_pio, step_sm, pio_offset, STEP_PINS_BASE, N_AXIS, pio_clk);
+    
+    // Initialize step timing parameters following official pattern
+    pio_steps.delay = 100;   // 100 cycles delay for reliable operation
+    pio_steps.length = 200;  // 200 cycles pulse width
+}
+
+
+
 
 #elif STEP_PORT == GPIO_SR8
 

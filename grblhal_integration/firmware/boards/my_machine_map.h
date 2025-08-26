@@ -7,7 +7,7 @@
   Step/dir pairs are adjacent (step,dir) on GPIO: (2,3) (4,5) (6,7) (8,9) (10,11)
   Shared enable on GPIO 12.
 
-  Using GPIO_OUTPUT for steps since PIO requires consecutive pins.
+  Using GPIO_PIO for steps for optimal performance and precise timing.
 */
 
 #ifndef MY_MACHINE_MAP_H
@@ -15,51 +15,48 @@
 
 #include "driver.h"
 
-// Support RP2040 (Pico) and RP2350 (Pico 2) - 3-axis for basic control
-#if RP_MCU != 2040 && RP_MCU != 2350
-#error "This board map targets RP2040/RP2350 processors (Pico/Pico 2)."
-#endif
 
-#define BOARD_NAME "ExArm Pico2Breakout (5-Axis)"
+#define BOARD_NAME "ExArm Pico2Breakout (5-Axis PIO)"
 
 // -----------------------------
-// Step/Dir/Enable (5-axis support)
+// Step/Dir/Enable (5-axis support) - Using individual PIO state machines for optimal performance
 // -----------------------------
 
-#define STEP_PORT               GPIO_OUTPUT
+#define STEP_PORT               GPIO_PIO      // Use single PIO state machine like reference
+#define STEP_PINS_BASE          2         // N_AXIS number of consecutive pins starting from GPIO 2
 #define DIRECTION_PORT          GPIO_OUTPUT
-#define DIRECTION_OUTMODE       0
+#define DIRECTION_OUTMODE       GPIO_SHIFT7   // Bit shift mode starting from X_DIRECTION_PIN (7)
 #define ENABLE_PORT             GPIO_OUTPUT
 
-// Primary axes (X, Y, Z)
-#define X_STEP_PIN              2
-#define Y_STEP_PIN              4
-#define Z_STEP_PIN              6
+// Step pins are automatically assigned by PIO using STEP_PINS_BASE:
+// Pin 2 = X-axis step (Base rotation stepper)
+// Pin 3 = Y-axis step (Shoulder stepper)  
+// Pin 4 = Z-axis step (Elbow stepper)
+// Pin 5 = A-axis step (Linear actuator 1)
+// Pin 6 = B-axis step (Linear actuator 2)
 
-#define X_DIRECTION_PIN         3
-#define Y_DIRECTION_PIN         5
-#define Z_DIRECTION_PIN         7
+// Direction pins - Individual definitions (like reference)
+#define X_DIRECTION_PIN         7      // GPIO 7 - Base rotation direction
+#define Y_DIRECTION_PIN         8      // GPIO 8 - Shoulder direction
+#define Z_DIRECTION_PIN         9      // GPIO 9 - Elbow direction
 
-// Secondary axes (A, B) - mapped to M3 and M4 for GRBL compatibility
+// M3/M4 pin definitions (required by GrblHAL core for A/B axes)
 #define M3_AVAILABLE                    // Enable M3 (A-axis) support
-#define M3_STEP_PIN             8      // A-axis step
-#define M3_DIRECTION_PIN        9      // A-axis direction
-#define M3_STEP_PORT           STEP_PORT
-#define M3_DIRECTION_PORT      DIRECTION_PORT
+#define M3_STEP_PIN             5      // A-axis step (GPIO 5 - Linear actuator 1)
+#define M3_DIRECTION_PIN        10     // A-axis direction (GPIO 10 - Linear actuator 1 direction)
+#define M3_STEP_PORT           GPIO_PIO
+#define M3_DIRECTION_PORT       GPIO_OUTPUT
 
 #define M4_AVAILABLE                    // Enable M4 (B-axis) support
-#define M4_STEP_PIN             10     // B-axis step
-#define M4_DIRECTION_PIN        11     // B-axis direction
-#define M4_STEP_PORT           STEP_PORT
-#define M4_DIRECTION_PORT      DIRECTION_PORT
+#define M4_STEP_PIN             6      // B-axis step (GPIO 6 - Linear actuator 2)
+#define M4_DIRECTION_PIN        11     // B-axis direction (GPIO 11 - Linear actuator 2 direction)
+#define M4_STEP_PORT           GPIO_PIO
+#define M4_DIRECTION_PORT       GPIO_OUTPUT
 
-// Alias for compatibility
-#define A_STEP_PIN              M3_STEP_PIN
-#define A_DIRECTION_PIN         M3_DIRECTION_PIN
-#define B_STEP_PIN              M4_STEP_PIN
-#define B_DIRECTION_PIN         M4_DIRECTION_PIN
+// Note: A/B axis pins are now defined via M3/M4 above for GrblHAL compatibility
 
-#define STEPPERS_ENABLE_PIN     12    // shared enable
+// Enable pin
+#define STEPPERS_ENABLE_PIN     12    // shared enable for all steppers
 #define STEPPERS_ENABLE_PORT    GPIO_OUTPUT
 
 // -----------------------------
@@ -92,6 +89,9 @@
 // Spindle / power PWM (1–25 kHz)
 #define SPINDLE_PORT            GPIO_OUTPUT
 #define SPINDLE_PWM_PIN         14    // pwm_b
+
+
+
 
 // Optional third PWM-capable channel (fan/coolant)
 #define AUXOUTPUT1_PWM_PIN      16    // pwm_c

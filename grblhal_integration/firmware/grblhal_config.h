@@ -79,22 +79,22 @@
 // PIN ASSIGNMENTS (RP2350) - Updated for 5V Logic Level
 // ============================================================================
 
-// Stepper motor step pins
-#define X_STEP_PIN      2
-#define Y_STEP_PIN      4  
-#define Z_STEP_PIN      6
-#define A_STEP_PIN      8
-#define B_STEP_PIN      10
+// Stepper motor step pins - DISABLED: Using my_machine_map.h instead
+// #define X_STEP_PIN      2
+// #define Y_STEP_PIN      4  
+// #define Z_STEP_PIN      6
+// #define A_STEP_PIN      8
+// #define B_STEP_PIN      10
 
-// Stepper motor direction pins
-#define X_DIRECTION_PIN 3
-#define Y_DIRECTION_PIN 5
-#define Z_DIRECTION_PIN 7
-#define A_DIRECTION_PIN 9
-#define B_DIRECTION_PIN 11
+// Stepper motor direction pins - DISABLED: Using my_machine_map.h instead
+// #define X_DIRECTION_PIN 3
+// #define Y_DIRECTION_PIN 5
+// #define Z_DIRECTION_PIN 7
+// #define A_DIRECTION_PIN 9
+// #define B_DIRECTION_PIN 11
 
-// Stepper motor enable pin (shared) - IMPORTANT: May need level shifter for 5V
-#define STEPPERS_ENABLE_PIN 12
+// Stepper motor enable pin (shared) - DISABLED: Using my_machine_map.h instead
+// #define STEPPERS_ENABLE_PIN 12
 
 // NOTE: 3.3V to 5V Level Shifting Required!
 // The RP2350 outputs 3.3V logic, but your stepper drivers expect 5V
@@ -106,14 +106,14 @@
 // Servo PWM controlled via spindle system (SPINDLE0_ENABLE on GPIO 13 - matches board)
 // #define C_SERVO_PIN     13  // Now handled by spindle system
 
-// Limit switch pins (with pull-up resistors for mechanical switches) - CORRECTED per board
-#define X_LIMIT_PIN     15  // Board: GPIO 15, Pico pin 20
-#define Y_LIMIT_PIN     17  // Board: GPIO 17, Pico pin 22
-#define Z_LIMIT_PIN     18  // Board: GPIO 18, Pico pin 24
+// Limit switch pins (with pull-up resistors for mechanical switches) - DISABLED: Using my_machine_map.h instead
+// #define X_LIMIT_PIN     15  // Board: GPIO 15, Pico pin 20
+// #define Y_LIMIT_PIN     17  // Board: GPIO 17, Pico pin 22
+// #define Z_LIMIT_PIN     18  // Board: GPIO 18, Pico pin 24
 // Note: A, B, C limits not physically connected in 3-axis configuration
-#define A_LIMIT_PIN     19  // Board: GPIO 19 (available for future use)
-#define B_LIMIT_PIN     20  // Board: GPIO 20 (available for future use)
-#define C_LIMIT_PIN     21  // Board: GPIO 21 (AUXINPUT0_PIN - C Input on board)
+// #define A_LIMIT_PIN     19  // Board: GPIO 19 (available for future use)
+// #define B_LIMIT_PIN     20  // Board: GPIO 20 (available for future use)
+// #define C_LIMIT_PIN     21  // Board: GPIO 21 (AUXINPUT0_PIN - C Input on board)
 
 // Safety pins - limited by 3-axis board design
 // Note: Safety features not fully implemented in basic 3-axis configuration

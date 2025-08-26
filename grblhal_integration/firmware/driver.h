@@ -64,8 +64,8 @@
 #endif
 #endif
 
-#include "GRBL/driver_opts.h"
-#include "GRBL/hal.h"
+#include "grbl/driver_opts.h"
+#include "grbl/hal.h"
 // I/O port system disabled - using direct GPIO control instead
 
 #if ETHERNET_ENABLE && WIFI_ENABLE
@@ -156,35 +156,9 @@
 #define CONTROL_ENABLE (CONTROL_HALT|CONTROL_FEED_HOLD|CONTROL_CYCLE_START)
 #endif
 
-#ifdef BOARD_CNC_BOOSTERPACK
-  #include "boards/cnc_boosterpack_map.h"
-#elif defined(BOARD_PICO_CNC)
-  #include "boards/pico_cnc_map.h"
-#elif defined(BOARD_RP23U5XBB)
-  #include "boards/RP2350B_5X_map.h"
-#elif defined(BOARD_PICOBOB)
-  #include "boards/picobob_map.h"
-#elif defined(BOARD_PICOBOB_G540)
-  #include "boards/picobob_g540_map.h"  
-#elif defined(BOARD_PICOBOB_DLX)
-  #include "boards/picobob_dlx_map.h" 
-#elif defined(BOARD_PICOBOB_DLX_G540)
-  #include "boards/picobob_dlx_g540_map.h"
-#elif defined(BOARD_PICOHAL)
-  #include "boards/picohal_map.h"        
-#elif defined(BOARD_BTT_SKR_PICO_10)
-  #include "boards/btt_skr_pico_10_map.h"
-#elif defined BOARD_CITOH_CX6000
-  #include "boards/citoh_cx6000_map.h"
-#elif defined(BOARD_MY_MACHINE)
-  #include "boards/my_machine_map.h"
-#elif defined(BOARD_GENERIC_4AXIS)
-  #include "boards/generic_map_4axis.h"
-#elif defined(BOARD_GENERIC_8AXIS)
-  #include "boards/generic_map_8axis.h"
-#else // default board
-  #include "boards/generic_map.h"
-#endif
+
+#include "boards/my_machine_map.h"
+
 
 #ifndef STEP_PULSE_TOFF_MIN
 #define STEP_PULSE_TOFF_MIN 2.0f
@@ -207,6 +181,8 @@
 #if defined(M5_AVAILABLE) && !defined(M5_STEP_PIN)
 #define M5_STEP_PIN STEP_PINS_BASE + 5
 #endif
+
+
 #if defined(M6_AVAILABLE) && !defined(M6_STEP_PIN)
 #define M6_STEP_PIN STEP_PINS_BASE + 6
 #endif

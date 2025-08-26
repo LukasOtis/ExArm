@@ -35,10 +35,10 @@ CMakeFiles/grblhal_robot_arm.dir/GRBL/sleep.c.o: \
  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
  /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include/stdbool.h \
+ /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/robot_arm_config.h \
  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/config.h \
  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/nuts_bolts.h \
  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/errors.h \
- /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/robot_arm_config.h \
  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/core_handlers.h \
  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/system.h \
  /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware/GRBL/gcode.h \

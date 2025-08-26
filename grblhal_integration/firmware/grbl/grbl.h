@@ -34,17 +34,17 @@
 #include <Arduino.h>
 #endif
 
-#include "config.h"
-
-// Robot arm configuration overlay (disables CNC features)
+// Robot arm configuration overlay 
 #include "robot_arm_config.h"
+
+#include "config.h"
 // grblHAL versioning system
 #if COMPATIBILITY_LEVEL == 0
 #define GRBL_VERSION "1.1f"
 #else
 #define GRBL_VERSION "1.1f"
 #endif
-#define GRBL_BUILD 25082504
+#define GRBL_BUILD 25082605
 
 #define GRBL_URL "https://github.com/grblHAL"
 

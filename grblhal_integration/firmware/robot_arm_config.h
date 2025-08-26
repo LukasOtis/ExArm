@@ -141,4 +141,24 @@
  * Ready for advanced robot arm applications!
  */
 
+// Additional axis defaults required by GrblHAL for 5-axis support
+#define DEFAULT_A_STEPS_PER_MM 40.0
+#define DEFAULT_A_MAX_RATE 1500.0
+#define DEFAULT_A_ACCELERATION 2000.0
+#define DEFAULT_A_JERK 1000.0
+#define DEFAULT_A_MAX_TRAVEL 200.0
+
+#define DEFAULT_B_STEPS_PER_MM 40.0
+#define DEFAULT_B_MAX_RATE 1500.0
+#define DEFAULT_B_ACCELERATION 2000.0
+#define DEFAULT_B_JERK 1000.0
+#define DEFAULT_B_MAX_TRAVEL 200.0
+
+#define DEFAULT_HOMING_CYCLE_3 bit(A_AXIS)
+#define DEFAULT_HOMING_CYCLE_4 bit(B_AXIS)
+
+// A and B axis bit definitions for system commands  
+#define A_AXIS_BIT bit(A_AXIS)
+#define B_AXIS_BIT bit(B_AXIS)
+
 #endif // ROBOT_ARM_CONFIG_H

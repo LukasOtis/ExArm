@@ -8,10 +8,13 @@
   https://github.com/wakass/grlbhal_servo
 
   Usage:
-    M280[P<id>][S<position>]
+    M280[P<id>][S<pwm_level>]
 
   If no words are specified all servo positions are reported.
   If no position is specified the specific servo position is returned.
+
+  S parameter: Direct PWM level (0-65535), no angle conversion.
+  ROS2 handles all calculations and sends appropriate PWM values.
 
   https://marlinfw.org/docs/gcode/M280.html
 
@@ -50,11 +53,11 @@
 #define DEFAULT_MAX_PULSE_WIDTH 2400e-6
 #define DEFAULT_PWM_FREQ        50.0f
 
-// PWM pins for servos (from my_machine.h)
+// PWM pins for servos (corrected from hardware README)
 static const uint8_t servo_pins[N_PWM_SERVOS] = {
-    13,  // GPIO 13 - PWM A
-    14,  // GPIO 14 - PWM B
-    16   // GPIO 16 - PWM C
+    13,  // GPIO 13 - PWM A: Servo PWM (End effector servo, 50Hz)
+    14,  // GPIO 14 - PWM B: Spindle/Laser PWM (Variable speed, 1-25kHz)
+    16   // GPIO 16 - PWM C: Fan/Coolant PWM (Independent frequency control)
 };
 
 typedef struct {
@@ -80,13 +83,10 @@ static bool pwm_servo_set_angle(uint8_t servo, float angle)
     if(servo < n_servos) {
         servos[servo].angle = angle;
 
-        // Convert angle to duty cycle
-        float duty = (angle - servos[servo].min_angle) / (servos[servo].max_angle - servos[servo].min_angle);
-        duty = duty * (DEFAULT_MAX_PULSE_WIDTH - DEFAULT_MIN_PULSE_WIDTH) + DEFAULT_MIN_PULSE_WIDTH;
-        duty = duty * DEFAULT_PWM_FREQ * 100.0f;  // Convert to percentage
-
-        // Set PWM duty cycle
-        pwm_set_chan_level(servos[servo].slice_num, servos[servo].chan, (uint16_t)(duty * 65535.0f));
+        // Direct PWM control - ROS2 handles calculations
+        // S parameter is directly used as PWM level (0-65535)
+        uint16_t pwm_level = (uint16_t)angle;
+        pwm_set_chan_level(servos[servo].slice_num, servos[servo].chan, pwm_level);
         return true;
     }
 
@@ -116,7 +116,7 @@ static status_code_t mcode_validate (parser_block_t *gc_block)
             else if(gc_block->words.p && ((uint8_t)gc_block->values.p >= n_servos))
                 state = Status_GcodeValueOutOfRange;
         }
-        if(gc_block->words.s && (gc_block->values.s < servos[(uint32_t)gc_block->values.p].min_angle || gc_block->values.s > servos[(uint32_t)gc_block->values.p].max_angle))
+        if(gc_block->words.s && (gc_block->values.s < 0 || gc_block->values.s > 65535))
             state = Status_GcodeValueOutOfRange;
         gc_block->words.s = gc_block->words.p = Off;
     } else

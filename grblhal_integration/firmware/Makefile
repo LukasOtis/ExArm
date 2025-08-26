@@ -5,13 +5,19 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c99 -O2 -g -DGRBL_PLATFORM=\"RobotArm\" -DOVERRIDE_MY_MACHINE=1
 INCLUDES = -I./grbl -I. \
+	-I./build/generated/pico_base \
 	-I./pico-sdk/src/common/pico_base_headers/include \
 	-I./pico-sdk/src/common/pico_time/include \
 	-I./pico-sdk/src/rp2_common/hardware_base/include \
 	-I./pico-sdk/src/rp2_common/hardware_gpio/include \
 	-I./pico-sdk/src/common/pico_stdlib/include \
 	-I./pico-sdk/src/common/pico_sync/include \
-	-I./pico-sdk/src/rp2_common/pico_platform/include \
+	-I./pico-sdk/src/rp2350/pico_platform/include \
+	-I./pico-sdk/src/rp2_common/pico_platform_compiler/include \
+	-I./pico-sdk/src/rp2350/hardware_regs/include \
+	-I./pico-sdk/src/rp2_common/pico_platform_sections/include \
+	-I./pico-sdk/src/rp2_common/pico_platform_panic/include \
+	-I./pico-sdk/src/rp2_common/pico_platform_common/include \
 	-I./pico-sdk/src/rp2_common/hardware_sync/include \
 	-I./pico-sdk/src/rp2_common/hardware_irq/include \
 	-I./pico-sdk/src/rp2_common/hardware_timer/include \

@@ -166,3 +166,6 @@
 #endif // WIFI_ENABLE
 
 /**/
+
+// Include the board-specific pin mapping
+#include "boards/my_machine_map.h"

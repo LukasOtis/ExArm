@@ -1284,7 +1284,11 @@ static void stepperGoIdle (bool clear_signals)
     
     if(clear_signals) {
         stepperSetDirOutputs((axes_signals_t){0});
+    #if (STEP_PORT == GPIO_PIO || STEP_PORT == GPIO_PIO_1) && defined(SQUARING_ENABLED)
+        stepperSetStepOutputs_PIO((axes_signals_t){0});
+    #else
         stepperSetStepOutputs((axes_signals_t){0});
+    #endif
     }
 }
 
@@ -1296,8 +1300,13 @@ static void __not_in_flash_func(stepperPulseStart)(stepper_t *stepper)
         stepperSetDirOutputs(stepper->dir_out);
     }
 
-    if(stepper->step_out.bits)
+    if(stepper->step_out.bits) {
+    #if (STEP_PORT == GPIO_PIO || STEP_PORT == GPIO_PIO_1) && defined(SQUARING_ENABLED)
+        stepperSetStepOutputs_PIO(stepper->step_out);
+    #else
         stepperSetStepOutputs(stepper->step_out);
+    #endif
+    }
 }
 
 #if STEP_INJECT_ENABLE
@@ -3306,49 +3315,50 @@ bool driver_init (void)
     irq_set_priority(PIO1_IRQ_0, PICO_HIGHEST_IRQ_PRIORITY);
 
 #if STEP_PORT == GPIO_PIO_1
+    // DISABLED: Individual axis PIO mode conflicts with GPIO_PIO configuration
     // Official grblHAL/RP2040 pattern for individual axis PIO state machines
-    assign_step_sm(&x_step_pio, &x_step_sm, X_STEP_PIN);
-    assign_step_sm(&y_step_pio, &y_step_sm, Y_STEP_PIN);
-    assign_step_sm(&z_step_pio, &z_step_sm, Z_STEP_PIN);
-
-#if N_ABC_MOTORS
-
-#if WIFI_ENABLE && N_ABC_MOTORS > 2
-#error "Max number of motors with WIFI_ENABLE is 5"
-#endif
-
-#ifdef X2_STEP_PIN
-    assign_step_sm(&x2_step_pio, &x2_step_sm, X2_STEP_PIN);
-#endif
-#ifdef Y2_STEP_PIN
-    assign_step_sm(&y2_step_pio, &y2_step_sm, Y2_STEP_PIN);
-#endif
-#ifdef Z2_STEP_PIN
-    assign_step_sm(&z2_step_pio, &z2_step_sm, Z2_STEP_PIN);
-#endif
-#ifdef A_STEP_PIN
-    assign_step_sm(&a_step_pio, &a_step_sm, A_STEP_PIN);
-#endif
-#ifdef B_STEP_PIN
-    assign_step_sm(&b_step_pio, &b_step_sm, B_STEP_PIN);
-#endif
-#ifdef C_STEP_PIN
-    assign_step_sm(&c_step_pio, &c_step_sm, C_STEP_PIN);
-#endif
-
-#endif // N_ABC_MOTORS
+    // assign_step_sm(&x_step_pio, &x_step_sm, X_STEP_PIN);
+    // assign_step_sm(&y_step_pio, &y_step_sm, Y_STEP_PIN);
+    // assign_step_sm(&z_step_pio, &z_step_sm, Z_STEP_PIN);
+    // 
+    // #if N_ABC_MOTORS
+    // 
+    // #if WIFI_ENABLE && N_ABC_MOTORS > 2
+    // #error "Max number of motors with WIFI_ENABLE is 5"
+    // #endif
+    // 
+    // #ifdef X2_STEP_PIN
+    //     assign_step_sm(&x2_step_pio, &x2_step_sm, X2_STEP_PIN);
+    // #endif
+    // #ifdef Y2_STEP_PIN
+    //     assign_step_sm(&y_step_pio, &y_step_sm, Y2_STEP_PIN);
+    // #endif
+    // #ifdef Z2_STEP_PIN
+    //     assign_step_sm(&z2_step_pio, &z2_step_sm, Z2_STEP_PIN);
+    // #endif
+    // #ifdef A_STEP_PIN
+    //     assign_step_sm(&a_step_pio, &a_step_sm, A_STEP_PIN);
+    // #endif
+    // #ifdef B_STEP_PIN
+    //     assign_step_sm(&b_step_pio, &b_step_sm, B_STEP_PIN);
+    // #endif
+    // #ifdef C_STEP_PIN
+    //     assign_step_sm(&c_step_pin, &c_step_sm, C_STEP_PIN);
+    // #endif
+    // 
+    // #endif // N_ABC_MOTORS
 
 #elif STEP_PORT == GPIO_PIO
 
 // Official grblHAL/RP2040 pattern for multi-axis PIO step generation
+
+
 if(pio_claim_free_sm_and_add_program_for_gpio_range(&step_pulse_program, &step_pio, &step_sm, &pio_offset, STEP_PINS_BASE, N_AXIS, false)) {
+    
     step_pulse_program_init(step_pio, step_sm, pio_offset, STEP_PINS_BASE, N_AXIS, pio_clk);
     
-    // Initialize step timing parameters following official pattern
-    pio_steps.delay = 100;   // 100 cycles delay for reliable operation
-    pio_steps.length = 200;  // 200 cycles pulse width
-}
 
+}
 
 
 

@@ -61,6 +61,24 @@ static user_mcode_ptrs_t user_mcode;
 static on_report_options_ptr on_report_options;
 static uint8_t n_servos = 0;
 static servo_t servos[N_PWM_SERVOS];
+static bool attached[N_PWM_SERVOS] = {0};
+static const uint8_t servo_gpio[N_PWM_SERVOS] = {
+#if N_PWM_SERVOS > 0
+    AUXOUTPUT0_PWM_PIN,
+#endif
+#if N_PWM_SERVOS > 1
+    AUXOUTPUT1_PWM_PIN,
+#endif
+#if N_PWM_SERVOS > 2
+    AUXOUTPUT2_PWM_PIN,
+#endif
+#if N_PWM_SERVOS > 3
+    AUXOUTPUT3_PWM_PIN,
+#endif
+};
+
+// Forward declaration for lazy attach
+static bool servo_attach (xbar_t *pwm_pin, uint8_t port, void *data);
 
 /// @brief 
 /// @param servo Servo number
@@ -96,14 +114,17 @@ static status_code_t mcode_validate (parser_block_t *gc_block)
     status_code_t state = Status_OK;
 
     if(gc_block->user_mcode == PWMServo_SetPosition) {
+        // Validate without relying on attached servos
         if(gc_block->words.p) {
             if(!isintf(gc_block->values.p))
                 state = Status_BadNumberFormat;
-            else if(gc_block->words.p && ((uint8_t)gc_block->values.p >= n_servos))
+            else if((uint8_t)gc_block->values.p >= N_PWM_SERVOS)
                 state = Status_GcodeValueOutOfRange;
         }
-        if(gc_block->words.s && (gc_block->values.s < servos[(uint32_t)gc_block->values.p].min_angle || gc_block->values.s > servos[(uint32_t)gc_block->values.p].max_angle))
-            state = Status_GcodeValueOutOfRange;
+        if(state == Status_OK && gc_block->words.s) {
+            if(gc_block->values.s < DEFAULT_MIN_ANGLE || gc_block->values.s > DEFAULT_MAX_ANGLE)
+                state = Status_GcodeValueOutOfRange;
+        }
         gc_block->words.s = gc_block->words.p = Off;
     } else
         state = Status_Unhandled;
@@ -114,8 +135,13 @@ static status_code_t mcode_validate (parser_block_t *gc_block)
 static void mcode_execute (uint_fast16_t state, parser_block_t *gc_block)
 {
     if(gc_block->user_mcode == PWMServo_SetPosition) {
-
         uint8_t servo = (uint8_t)gc_block->values.p;
+
+        // Attach only the addressed channel, leave others in analog mode
+        if(servo < N_PWM_SERVOS && !attached[servo]) {
+            uint8_t target = servo;
+            ioports_enumerate(Port_Analog, Port_Output, (pin_cap_t){ .pwm = On, .claimable = On }, servo_attach, &target);
+        }
 
         if(gc_block->words.s) {
 #ifdef DEBUGOUT
@@ -168,38 +194,43 @@ static bool servo_attach (xbar_t *pwm_pin, uint8_t port, void *data)
         "PWM Servo 2",
         "PWM Servo 3"
     };
+    // Expected target servo index passed via data
+    uint8_t target = data ? *(uint8_t *)data : 255;
+    if(target >= N_PWM_SERVOS)
+        return false;
 
-    if(n_servos < N_PWM_SERVOS && !pwm_pin->cap.servo_pwm) {
+    // Only attach when enumerated pin matches desired GPIO
+    if(!attached[target] && !pwm_pin->cap.servo_pwm && pwm_pin->pin == servo_gpio[target]) {
 
-        servos[n_servos].port = port;
+        servos[target].port = port;
 
-        if(init_servo_default(&servos[n_servos])) {
-
-            //Initialize default values, and properly configure the pwm
+        if(init_servo_default(&servos[target])) {
             pwm_config_t config = {
                 .freq_hz = DEFAULT_PWM_FREQ,
                 .min = DEFAULT_MIN_ANGLE,
                 .max = DEFAULT_MAX_ANGLE,
                 .off_value = -1.0f, // Never turn off
                 .min_value = DEFAULT_MIN_PULSE_WIDTH * DEFAULT_PWM_FREQ * 100.0f,
-                .max_value = DEFAULT_MAX_PULSE_WIDTH * DEFAULT_PWM_FREQ * 100.0f, //Percents of duty cycle
+                .max_value = DEFAULT_MAX_PULSE_WIDTH * DEFAULT_PWM_FREQ * 100.0f,
                 .invert = Off,
                 .servo_mode = On
             };
 
             if(pwm_pin->config(pwm_pin, &config, false)) {
-
                 if(pwm_pin->get_value)
-                    memcpy(&servos[n_servos].xport, pwm_pin, sizeof(xbar_t));
+                    memcpy(&servos[target].xport, pwm_pin, sizeof(xbar_t));
 
-                ioport_set_description(Port_Analog, Port_Output, port, descr[n_servos]);
+                ioport_set_description(Port_Analog, Port_Output, port, descr[target]);
 
-                pwm_servo_set_angle(n_servos++, 0.0f);
+                attached[target] = true;
+                n_servos++;
+                pwm_servo_set_angle(target, 0.0f);
             }
         }
     }
 
-    return n_servos == N_PWM_SERVOS;
+    // Return true only when target got attached to stop enumeration
+    return attached[target];
 }
 
 void pwm_servo_init (void)
@@ -210,7 +241,7 @@ void pwm_servo_init (void)
     grbl.user_mcode.validate = mcode_validate;
     grbl.user_mcode.execute = mcode_execute;
 
-    ioports_enumerate(Port_Analog, Port_Output, (pin_cap_t){ .pwm = On, .claimable = On }, servo_attach, NULL);
+    // Do not attach at startup; attach lazily on first M280 use
 
     on_report_options = grbl.on_report_options;
     grbl.on_report_options = onReportOptions;

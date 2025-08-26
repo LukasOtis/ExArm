@@ -62,14 +62,23 @@
 #define ENABLE_PORT             GPIO_OUTPUT
 #define STEPPERS_ENABLE_PIN     12
 
-// Define homing/hard limit switch input pins.
-#define X_LIMIT_PIN             13
-#define Y_LIMIT_PIN             14
-#define Z_LIMIT_PIN             15
+// Define homing/hard limit switch input pins (per hardware table)
+#define X_LIMIT_PIN             15
+#define Y_LIMIT_PIN             17
+#define Z_LIMIT_PIN             18
 // Provide limits for A and B via M3/M4 limit macros
-#define M3_LIMIT_PIN            16
-#define M4_LIMIT_PIN            17
+#define M3_LIMIT_PIN            19
+#define M4_LIMIT_PIN            20
 #define LIMIT_INMODE            GPIO_MAP
+
+
+// Map three PWM analog outputs for M280 plugin (P=0..2)
+// Note: enumeration assigns Servo 0 to the last-defined analog PWM, so order is reversed
+#define AUXOUTPUT0_PWM_PIN      13
+#define AUXOUTPUT1_PWM_PIN      14
+#define AUXOUTPUT2_PWM_PIN      16
+
+
 
 
 #if I2C_ENABLE
@@ -82,7 +91,7 @@
 #define AUXOUTPUT2_PORT         GPIO_OUTPUT
 #define AUXOUTPUT2_PIN          27
 #endif
-#define AUXOUTPUT3_PORT         GPIO_OUTPUT // Spindle PWM
+#define AUXOUTPUT3_PORT         GPIO_OUTPUT // Legacy spindle PWM (unused)
 #define AUXOUTPUT3_PIN          29
 #define AUXOUTPUT4_PORT         GPIO_OUTPUT // Spindle direction
 #define AUXOUTPUT4_PIN          18
@@ -92,6 +101,8 @@
 #define AUXOUTPUT6_PIN          20   
 #define AUXOUTPUT7_PORT         GPIO_OUTPUT // Coolant mist
 #define AUXOUTPUT7_PIN          22   
+
+
 
 // Define driver spindle pins
 #if DRIVER_SPINDLE_ENABLE

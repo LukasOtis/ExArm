@@ -22,7 +22,8 @@
 #define MPG_ENABLE              0
 #define EEPROM_ENABLE           0
 #define RGB_LED_ENABLE          0
-#define PWM_SERVO_ENABLE        0
+#define PWM_SERVO_ENABLE        1
+#define N_PWM_SERVOS            3
 #define BLTOUCH_ENABLE          0
 #define EVENTOUT_ENABLE         0
 

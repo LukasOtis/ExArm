@@ -1,13 +1,10 @@
 #pragma once
 
-// Define board identifier for 3-axis configuration
-#define BOARD_GENERIC
+// Define board identifier for 4-axis configuration
+#define BOARD_GENERIC_4AXIS
 
-// Use the 3-axis generic board map
-#include "boards/generic_map.h"
-
-// Set number of axes to 3 (X, Y, Z)
-#define N_AXIS                 3
+// Set number of axes to 4 (X, Y, Z, A)
+#define N_AXIS                 4
 
 // Basic configuration
 #ifndef USB_SERIAL_CDC

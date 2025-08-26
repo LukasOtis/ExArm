@@ -39,7 +39,7 @@ cmake --build firmware_minimal/build
 ### Verifying 5-axis
 
 This project is configured for 5 axes:
-- `BOARD_GENERIC_5AXIS` and `N_AXIS=5` are applied so the core and driver agree on axis count.
+- `BOARD_ROBOTARM_5AXIS` and `N_AXIS=5` are applied so the core and driver agree on axis count.
 - `$pins` should show steps on `PIO2/3/4/5/6` and directions on pins `7/8/9/10/11` (X/Y/Z/A/B).
 
 ### Common pitfalls and fixes

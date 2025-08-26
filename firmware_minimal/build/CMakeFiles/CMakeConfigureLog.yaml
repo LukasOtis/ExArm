@@ -5,7 +5,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     mode: "program"
     variable: "CMAKE_UNAME"
     description: "Path to a program."
@@ -47,6 +47,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -67,7 +79,7 @@ events:
       - "/Users/lukasnoll/.pico-sdk/sdk/2.1.1/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:25 (pico_find_compiler_with_triples)"
       - "/Users/lukasnoll/.pico-sdk/sdk/2.1.1/cmake/preload/toolchains/pico_arm_cortex_m33_gcc.cmake:10 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     mode: "program"
     variable: "PICO_COMPILER_CC"
     description: "Path to a program."
@@ -95,6 +107,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -115,7 +139,7 @@ events:
       - "/Users/lukasnoll/.pico-sdk/sdk/2.1.1/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:25 (pico_find_compiler_with_triples)"
       - "/Users/lukasnoll/.pico-sdk/sdk/2.1.1/cmake/preload/toolchains/pico_arm_cortex_m33_gcc.cmake:10 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     mode: "program"
     variable: "PICO_COMPILER_CC"
     description: "Path to a program."
@@ -151,6 +175,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -171,7 +207,7 @@ events:
       - "/Users/lukasnoll/.pico-sdk/sdk/2.1.1/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:26 (pico_find_compiler_with_triples)"
       - "/Users/lukasnoll/.pico-sdk/sdk/2.1.1/cmake/preload/toolchains/pico_arm_cortex_m33_gcc.cmake:10 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     mode: "program"
     variable: "PICO_COMPILER_CXX"
     description: "Path to a program."
@@ -199,6 +235,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -219,7 +267,7 @@ events:
       - "/Users/lukasnoll/.pico-sdk/sdk/2.1.1/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:26 (pico_find_compiler_with_triples)"
       - "/Users/lukasnoll/.pico-sdk/sdk/2.1.1/cmake/preload/toolchains/pico_arm_cortex_m33_gcc.cmake:10 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     mode: "program"
     variable: "PICO_COMPILER_CXX"
     description: "Path to a program."
@@ -255,6 +303,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -275,7 +335,7 @@ events:
       - "/Users/lukasnoll/.pico-sdk/sdk/2.1.1/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:28 (pico_find_compiler_with_triples)"
       - "/Users/lukasnoll/.pico-sdk/sdk/2.1.1/cmake/preload/toolchains/pico_arm_cortex_m33_gcc.cmake:10 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     mode: "program"
     variable: "PICO_OBJCOPY"
     description: "Path to a program."
@@ -303,6 +363,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -323,7 +395,7 @@ events:
       - "/Users/lukasnoll/.pico-sdk/sdk/2.1.1/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:28 (pico_find_compiler_with_triples)"
       - "/Users/lukasnoll/.pico-sdk/sdk/2.1.1/cmake/preload/toolchains/pico_arm_cortex_m33_gcc.cmake:10 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     mode: "program"
     variable: "PICO_OBJCOPY"
     description: "Path to a program."
@@ -359,6 +431,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -379,7 +463,7 @@ events:
       - "/Users/lukasnoll/.pico-sdk/sdk/2.1.1/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:29 (pico_find_compiler_with_triples)"
       - "/Users/lukasnoll/.pico-sdk/sdk/2.1.1/cmake/preload/toolchains/pico_arm_cortex_m33_gcc.cmake:10 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     mode: "program"
     variable: "PICO_OBJDUMP"
     description: "Path to a program."
@@ -407,6 +491,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -427,7 +523,7 @@ events:
       - "/Users/lukasnoll/.pico-sdk/sdk/2.1.1/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:29 (pico_find_compiler_with_triples)"
       - "/Users/lukasnoll/.pico-sdk/sdk/2.1.1/cmake/preload/toolchains/pico_arm_cortex_m33_gcc.cmake:10 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     mode: "program"
     variable: "PICO_OBJDUMP"
     description: "Path to a program."
@@ -463,6 +559,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -479,7 +587,7 @@ events:
     kind: "message-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:207 (message)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     message: |
       The target system is: PICO -  - cortex-m33
       The host system is: Darwin - 24.6.0 - arm64
@@ -487,7 +595,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     mode: "program"
     variable: "CMAKE_MAKE_PROGRAM"
     description: "Program used to build from build.ninja files."
@@ -530,6 +638,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -551,7 +671,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -576,6 +696,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -595,7 +727,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
       Compiler: /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc 
@@ -639,7 +771,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -664,6 +796,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -683,7 +827,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler: /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc 
@@ -704,7 +848,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     mode: "program"
     variable: "CMAKE_AR"
     description: "Path to a program."
@@ -741,6 +885,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -759,7 +915,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     mode: "program"
     variable: "CMAKE_RANLIB"
     description: "Path to a program."
@@ -796,6 +952,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -814,7 +982,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     mode: "program"
     variable: "CMAKE_STRIP"
     description: "Path to a program."
@@ -851,6 +1019,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -869,7 +1049,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     mode: "program"
     variable: "CMAKE_LINKER"
     description: "Path to a program."
@@ -906,6 +1086,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -924,7 +1116,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     mode: "program"
     variable: "CMAKE_NM"
     description: "Path to a program."
@@ -961,6 +1153,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -979,7 +1183,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     mode: "program"
     variable: "CMAKE_READELF"
     description: "Path to a program."
@@ -1016,6 +1220,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1034,7 +1250,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     mode: "program"
     variable: "CMAKE_DLLTOOL"
     description: "Path to a program."
@@ -1098,6 +1314,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1116,7 +1344,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     mode: "program"
     variable: "CMAKE_ADDR2LINE"
     description: "Path to a program."
@@ -1153,6 +1381,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1171,7 +1411,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     mode: "program"
     variable: "CMAKE_TAPI"
     description: "Path to a program."
@@ -1235,6 +1475,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1253,7 +1505,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     mode: "program"
     variable: "CMAKE_C_COMPILER_AR"
     description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
@@ -1332,6 +1584,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1350,7 +1614,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     mode: "program"
     variable: "CMAKE_C_COMPILER_RANLIB"
     description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
@@ -1429,6 +1693,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1450,7 +1726,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -1475,6 +1751,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1494,7 +1782,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
       Compiler: /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-g++ 
@@ -1538,7 +1826,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -1563,6 +1851,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1582,7 +1882,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler: /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-g++ 
@@ -1603,7 +1903,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_AR"
     description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
@@ -1682,6 +1982,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1700,7 +2012,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_RANLIB"
     description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
@@ -1779,6 +2091,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -1797,12 +2121,12 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/firmware_minimal/build/CMakeFiles/CMakeScratch/TryCompile-ysH6rU"
-      binary: "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/firmware_minimal/build/CMakeFiles/CMakeScratch/TryCompile-ysH6rU"
+      source: "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/firmware_minimal/build/CMakeFiles/CMakeScratch/TryCompile-Nq5OAi"
+      binary: "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/firmware_minimal/build/CMakeFiles/CMakeScratch/TryCompile-Nq5OAi"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse"
       CMAKE_C_FLAGS_DEBUG: "-Og -g"
@@ -1812,10 +2136,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/lukasnoll/Documents/builds/RobotArm/ExArm/firmware_minimal/build/CMakeFiles/CMakeScratch/TryCompile-ysH6rU'
+        Change Dir: '/Users/lukasnoll/Documents/builds/RobotArm/ExArm/firmware_minimal/build/CMakeFiles/CMakeScratch/TryCompile-Nq5OAi'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_4db44
-        [1/2] /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc   -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse    -v -o CMakeFiles/cmTC_4db44.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_bb82a
+        [1/2] /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc   -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse    -v -o CMakeFiles/cmTC_bb82a.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc
         Target: arm-none-eabi
@@ -1823,8 +2147,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 14.3.1 20250623 (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-v' '-o' 'CMakeFiles/cmTC_4db44.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_4db44.dir/'
-         /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/cc1 -quiet -v -imultilib thumb/v8-m.main+fp/softfp -iprefix /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/ -isysroot /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_4db44.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m33 -mthumb -mfloat-abi=softfp -mcmse -mlibarch=armv8-m.main+dsp+fp -march=armv8-m.main+dsp+fp -version -o /var/folders/m7/rdyggjxd5577r0qbbdp5f6pw0000gn/T//ccFQtFT0.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-v' '-o' 'CMakeFiles/cmTC_bb82a.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_bb82a.dir/'
+         /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/cc1 -quiet -v -imultilib thumb/v8-m.main+fp/softfp -iprefix /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/ -isysroot /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_bb82a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m33 -mthumb -mfloat-abi=softfp -mcmse -mlibarch=armv8-m.main+dsp+fp -march=armv8-m.main+dsp+fp -version -o /var/folders/m7/rdyggjxd5577r0qbbdp5f6pw0000gn/T//cccEkPbB.s
         GNU C17 (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) version 14.3.1 20250623 (arm-none-eabi)
         	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -1841,13 +2165,13 @@ events:
          /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: aca30029d367fa55c13cdf31776e198b
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-v' '-o' 'CMakeFiles/cmTC_4db44.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_4db44.dir/'
-         /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main+dsp+fp -mfloat-abi=softfp -meabi=5 -o CMakeFiles/cmTC_4db44.dir/CMakeCCompilerABI.c.o /var/folders/m7/rdyggjxd5577r0qbbdp5f6pw0000gn/T//ccFQtFT0.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-v' '-o' 'CMakeFiles/cmTC_bb82a.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_bb82a.dir/'
+         /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main+dsp+fp -mfloat-abi=softfp -meabi=5 -o CMakeFiles/cmTC_bb82a.dir/CMakeCCompilerABI.c.o /var/folders/m7/rdyggjxd5577r0qbbdp5f6pw0000gn/T//cccEkPbB.s
         GNU assembler version 2.44.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 2.44.0.20250616
         COMPILER_PATH=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v8-m.main+fp/softfp/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-v' '-o' 'CMakeFiles/cmTC_4db44.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_4db44.dir/CMakeCCompilerABI.c.'
-        [2/2] : && /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_4db44.dir/CMakeCCompilerABI.c.o -o cmTC_4db44.elf   && :
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-v' '-o' 'CMakeFiles/cmTC_bb82a.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_bb82a.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_bb82a.dir/CMakeCCompilerABI.c.o -o cmTC_bb82a.elf   && :
         Using built-in specs.
         COLLECT_GCC=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc
         COLLECT_LTO_WRAPPER=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/lto-wrapper
@@ -1858,10 +2182,10 @@ events:
         gcc version 14.3.1 20250623 (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 
         COMPILER_PATH=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v8-m.main+fp/softfp/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_4db44.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_4db44.elf.'
-         /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/collect2 -plugin /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/m7/rdyggjxd5577r0qbbdp5f6pw0000gn/T//cc5qVAe6.res --sysroot=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_4db44.elf -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v8-m.main+fp/softfp -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1 -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_4db44.dir/CMakeCCompilerABI.c.o
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_bb82a.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_bb82a.elf.'
+         /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/collect2 -plugin /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/m7/rdyggjxd5577r0qbbdp5f6pw0000gn/T//ccSdFbe5.res --sysroot=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_bb82a.elf -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v8-m.main+fp/softfp -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1 -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_bb82a.dir/CMakeCCompilerABI.c.o
         /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008000
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_4db44.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_4db44.elf.'
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_bb82a.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_bb82a.elf.'
         
       exitCode: 0
   -
@@ -1869,7 +2193,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
         found start of include info
@@ -1889,15 +2213,15 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/lukasnoll/Documents/builds/RobotArm/ExArm/firmware_minimal/build/CMakeFiles/CMakeScratch/TryCompile-ysH6rU']
+        ignore line: [Change Dir: '/Users/lukasnoll/Documents/builds/RobotArm/ExArm/firmware_minimal/build/CMakeFiles/CMakeScratch/TryCompile-Nq5OAi']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_4db44]
-        ignore line: [[1/2] /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc   -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse    -v -o CMakeFiles/cmTC_4db44.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_bb82a]
+        ignore line: [[1/2] /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc   -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse    -v -o CMakeFiles/cmTC_bb82a.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc]
         ignore line: [Target: arm-none-eabi]
@@ -1905,8 +2229,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.3.1 20250623 (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-v' '-o' 'CMakeFiles/cmTC_4db44.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_4db44.dir/']
-        ignore line: [ /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/cc1 -quiet -v -imultilib thumb/v8-m.main+fp/softfp -iprefix /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/ -isysroot /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_4db44.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m33 -mthumb -mfloat-abi=softfp -mcmse -mlibarch=armv8-m.main+dsp+fp -march=armv8-m.main+dsp+fp -version -o /var/folders/m7/rdyggjxd5577r0qbbdp5f6pw0000gn/T//ccFQtFT0.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-v' '-o' 'CMakeFiles/cmTC_bb82a.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_bb82a.dir/']
+        ignore line: [ /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/cc1 -quiet -v -imultilib thumb/v8-m.main+fp/softfp -iprefix /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/ -isysroot /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_bb82a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-m33 -mthumb -mfloat-abi=softfp -mcmse -mlibarch=armv8-m.main+dsp+fp -march=armv8-m.main+dsp+fp -version -o /var/folders/m7/rdyggjxd5577r0qbbdp5f6pw0000gn/T//cccEkPbB.s]
         ignore line: [GNU C17 (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) version 14.3.1 20250623 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -1923,13 +2247,13 @@ events:
         ignore line: [ /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: aca30029d367fa55c13cdf31776e198b]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-v' '-o' 'CMakeFiles/cmTC_4db44.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_4db44.dir/']
-        ignore line: [ /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main+dsp+fp -mfloat-abi=softfp -meabi=5 -o CMakeFiles/cmTC_4db44.dir/CMakeCCompilerABI.c.o /var/folders/m7/rdyggjxd5577r0qbbdp5f6pw0000gn/T//ccFQtFT0.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-v' '-o' 'CMakeFiles/cmTC_bb82a.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_bb82a.dir/']
+        ignore line: [ /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main+dsp+fp -mfloat-abi=softfp -meabi=5 -o CMakeFiles/cmTC_bb82a.dir/CMakeCCompilerABI.c.o /var/folders/m7/rdyggjxd5577r0qbbdp5f6pw0000gn/T//cccEkPbB.s]
         ignore line: [GNU assembler version 2.44.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 2.44.0.20250616]
         ignore line: [COMPILER_PATH=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v8-m.main+fp/softfp/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-v' '-o' 'CMakeFiles/cmTC_4db44.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_4db44.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] : && /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_4db44.dir/CMakeCCompilerABI.c.o -o cmTC_4db44.elf   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-v' '-o' 'CMakeFiles/cmTC_bb82a.dir/CMakeCCompilerABI.c.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_bb82a.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_bb82a.dir/CMakeCCompilerABI.c.o -o cmTC_bb82a.elf   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc]
         ignore line: [COLLECT_LTO_WRAPPER=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/lto-wrapper]
@@ -1940,17 +2264,17 @@ events:
         ignore line: [gcc version 14.3.1 20250623 (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) ]
         ignore line: [COMPILER_PATH=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v8-m.main+fp/softfp/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_4db44.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_4db44.elf.']
-        link line: [ /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/collect2 -plugin /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/m7/rdyggjxd5577r0qbbdp5f6pw0000gn/T//cc5qVAe6.res --sysroot=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_4db44.elf -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v8-m.main+fp/softfp -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1 -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_4db44.dir/CMakeCCompilerABI.c.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_bb82a.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_bb82a.elf.']
+        link line: [ /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/collect2 -plugin /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/m7/rdyggjxd5577r0qbbdp5f6pw0000gn/T//ccSdFbe5.res --sysroot=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_bb82a.elf -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v8-m.main+fp/softfp -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1 -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_bb82a.dir/CMakeCCompilerABI.c.o]
           arg [/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/m7/rdyggjxd5577r0qbbdp5f6pw0000gn/T//cc5qVAe6.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/m7/rdyggjxd5577r0qbbdp5f6pw0000gn/T//ccSdFbe5.res] ==> ignore
           arg [--sysroot=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_4db44.elf] ==> ignore
+          arg [cmTC_bb82a.elf] ==> ignore
           arg [-L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v8-m.main+fp/softfp] ==> dir [/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v8-m.main+fp/softfp]
           arg [-L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp] ==> dir [/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp]
           arg [-L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp] ==> dir [/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp]
@@ -1959,10 +2283,10 @@ events:
           arg [-L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib] ==> dir [/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib]
           arg [-L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib] ==> dir [/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib]
           arg [--build-id=none] ==> ignore
-          arg [CMakeFiles/cmTC_4db44.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_bb82a.dir/CMakeCCompilerABI.c.o] ==> ignore
         ignore line: [/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00008000]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_4db44.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_4db44.elf.']
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_bb82a.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_bb82a.elf.']
         ignore line: []
         ignore line: []
         collapse library dir [/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v8-m.main+fp/softfp] ==> [/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/thumb/v8-m.main+fp/softfp]
@@ -1983,12 +2307,12 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/firmware_minimal/build/CMakeFiles/CMakeScratch/TryCompile-GHSZJ7"
-      binary: "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/firmware_minimal/build/CMakeFiles/CMakeScratch/TryCompile-GHSZJ7"
+      source: "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/firmware_minimal/build/CMakeFiles/CMakeScratch/TryCompile-ZgbIln"
+      binary: "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/firmware_minimal/build/CMakeFiles/CMakeScratch/TryCompile-ZgbIln"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse"
       CMAKE_CXX_FLAGS_DEBUG: "-Og -g"
@@ -1999,10 +2323,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/lukasnoll/Documents/builds/RobotArm/ExArm/firmware_minimal/build/CMakeFiles/CMakeScratch/TryCompile-GHSZJ7'
+        Change Dir: '/Users/lukasnoll/Documents/builds/RobotArm/ExArm/firmware_minimal/build/CMakeFiles/CMakeScratch/TryCompile-ZgbIln'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_eedda
-        [1/2] /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-g++   -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse    -v -o CMakeFiles/cmTC_eedda.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_05e6d
+        [1/2] /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-g++   -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse    -v -o CMakeFiles/cmTC_05e6d.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-g++
         Target: arm-none-eabi
@@ -2010,8 +2334,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 14.3.1 20250623 (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-v' '-o' 'CMakeFiles/cmTC_eedda.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_eedda.dir/'
-         /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/cc1plus -quiet -v -imultilib thumb/v8-m.main+fp/softfp -iprefix /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/ -isysroot /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_eedda.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m33 -mthumb -mfloat-abi=softfp -mcmse -mlibarch=armv8-m.main+dsp+fp -march=armv8-m.main+dsp+fp -version -o /var/folders/m7/rdyggjxd5577r0qbbdp5f6pw0000gn/T//ccBaDyeS.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-v' '-o' 'CMakeFiles/cmTC_05e6d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_05e6d.dir/'
+         /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/cc1plus -quiet -v -imultilib thumb/v8-m.main+fp/softfp -iprefix /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/ -isysroot /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_05e6d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m33 -mthumb -mfloat-abi=softfp -mcmse -mlibarch=armv8-m.main+dsp+fp -march=armv8-m.main+dsp+fp -version -o /var/folders/m7/rdyggjxd5577r0qbbdp5f6pw0000gn/T//ccwP5DkG.s
         GNU C++17 (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) version 14.3.1 20250623 (arm-none-eabi)
         	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
         
@@ -2034,13 +2358,13 @@ events:
          /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/include
         End of search list.
         Compiler executable checksum: 6c57f900acea0c6900b46a1b286c42a8
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-v' '-o' 'CMakeFiles/cmTC_eedda.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_eedda.dir/'
-         /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main+dsp+fp -mfloat-abi=softfp -meabi=5 -o CMakeFiles/cmTC_eedda.dir/CMakeCXXCompilerABI.cpp.o /var/folders/m7/rdyggjxd5577r0qbbdp5f6pw0000gn/T//ccBaDyeS.s
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-v' '-o' 'CMakeFiles/cmTC_05e6d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_05e6d.dir/'
+         /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main+dsp+fp -mfloat-abi=softfp -meabi=5 -o CMakeFiles/cmTC_05e6d.dir/CMakeCXXCompilerABI.cpp.o /var/folders/m7/rdyggjxd5577r0qbbdp5f6pw0000gn/T//ccwP5DkG.s
         GNU assembler version 2.44.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 2.44.0.20250616
         COMPILER_PATH=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v8-m.main+fp/softfp/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-v' '-o' 'CMakeFiles/cmTC_eedda.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_eedda.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] : && /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-g++ -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_eedda.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_eedda.elf   && :
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-v' '-o' 'CMakeFiles/cmTC_05e6d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_05e6d.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-g++ -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse -Wl,--build-id=none -nostdlib  -v CMakeFiles/cmTC_05e6d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_05e6d.elf   && :
         Using built-in specs.
         COLLECT_GCC=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-g++
         COLLECT_LTO_WRAPPER=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/lto-wrapper
@@ -2051,10 +2375,10 @@ events:
         gcc version 14.3.1 20250623 (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 
         COMPILER_PATH=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/
         LIBRARY_PATH=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v8-m.main+fp/softfp/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_eedda.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_eedda.elf.'
-         /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/collect2 -plugin /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/m7/rdyggjxd5577r0qbbdp5f6pw0000gn/T//ccCd2ivJ.res --sysroot=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_eedda.elf -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v8-m.main+fp/softfp -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1 -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_eedda.dir/CMakeCXXCompilerABI.cpp.o
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_05e6d.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_05e6d.elf.'
+         /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/collect2 -plugin /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/m7/rdyggjxd5577r0qbbdp5f6pw0000gn/T//cclPDZRa.res --sysroot=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_05e6d.elf -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v8-m.main+fp/softfp -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1 -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_05e6d.dir/CMakeCXXCompilerABI.cpp.o
         /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start; defaulting to 00008000
-        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_eedda.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_eedda.elf.'
+        COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_05e6d.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_05e6d.elf.'
         
       exitCode: 0
   -
@@ -2062,7 +2386,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
         found start of include info
@@ -2088,15 +2412,15 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:60 (project)"
+      - "CMakeLists.txt:51 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/lukasnoll/Documents/builds/RobotArm/ExArm/firmware_minimal/build/CMakeFiles/CMakeScratch/TryCompile-GHSZJ7']
+        ignore line: [Change Dir: '/Users/lukasnoll/Documents/builds/RobotArm/ExArm/firmware_minimal/build/CMakeFiles/CMakeScratch/TryCompile-ZgbIln']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_eedda]
-        ignore line: [[1/2] /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-g++   -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse    -v -o CMakeFiles/cmTC_eedda.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_05e6d]
+        ignore line: [[1/2] /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-g++   -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse    -v -o CMakeFiles/cmTC_05e6d.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-g++]
         ignore line: [Target: arm-none-eabi]
@@ -2104,8 +2428,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.3.1 20250623 (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-v' '-o' 'CMakeFiles/cmTC_eedda.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_eedda.dir/']
-        ignore line: [ /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/cc1plus -quiet -v -imultilib thumb/v8-m.main+fp/softfp -iprefix /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/ -isysroot /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_eedda.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m33 -mthumb -mfloat-abi=softfp -mcmse -mlibarch=armv8-m.main+dsp+fp -march=armv8-m.main+dsp+fp -version -o /var/folders/m7/rdyggjxd5577r0qbbdp5f6pw0000gn/T//ccBaDyeS.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-v' '-o' 'CMakeFiles/cmTC_05e6d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_05e6d.dir/']
+        ignore line: [ /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/cc1plus -quiet -v -imultilib thumb/v8-m.main+fp/softfp -iprefix /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/ -isysroot /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi -D__USES_INITFINI__ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_05e6d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-m33 -mthumb -mfloat-abi=softfp -mcmse -mlibarch=armv8-m.main+dsp+fp -march=armv8-m.main+dsp+fp -version -o /var/folders/m7/rdyggjxd5577r0qbbdp5f6pw0000gn/T//ccwP5DkG.s]
         ignore line: [GNU C++17 (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) version 14.3.1 20250623 (arm-none-eabi)]
         ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.29.30)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
         ignore line: []
@@ -2128,13 +2452,13 @@ events:
         ignore line: [ /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 6c57f900acea0c6900b46a1b286c42a8]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-v' '-o' 'CMakeFiles/cmTC_eedda.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_eedda.dir/']
-        ignore line: [ /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main+dsp+fp -mfloat-abi=softfp -meabi=5 -o CMakeFiles/cmTC_eedda.dir/CMakeCXXCompilerABI.cpp.o /var/folders/m7/rdyggjxd5577r0qbbdp5f6pw0000gn/T//ccBaDyeS.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-v' '-o' 'CMakeFiles/cmTC_05e6d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_05e6d.dir/']
+        ignore line: [ /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/as -v -march=armv8-m.main+dsp+fp -mfloat-abi=softfp -meabi=5 -o CMakeFiles/cmTC_05e6d.dir/CMakeCXXCompilerABI.cpp.o /var/folders/m7/rdyggjxd5577r0qbbdp5f6pw0000gn/T//ccwP5DkG.s]
         ignore line: [GNU assembler version 2.44.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 2.44.0.20250616]
         ignore line: [COMPILER_PATH=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v8-m.main+fp/softfp/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-v' '-o' 'CMakeFiles/cmTC_eedda.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_eedda.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] : && /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-g++ -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_eedda.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_eedda.elf   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-v' '-o' 'CMakeFiles/cmTC_05e6d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'CMakeFiles/cmTC_05e6d.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-g++ -mcpu=cortex-m33 -mthumb -march=armv8-m.main+fp+dsp -mfloat-abi=softfp -mcmse -Wl --build-id=none -nostdlib  -v CMakeFiles/cmTC_05e6d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_05e6d.elf   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-g++]
         ignore line: [COLLECT_LTO_WRAPPER=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/lto-wrapper]
@@ -2145,17 +2469,17 @@ events:
         ignore line: [gcc version 14.3.1 20250623 (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) ]
         ignore line: [COMPILER_PATH=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v8-m.main+fp/softfp/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/:/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_eedda.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_eedda.elf.']
-        link line: [ /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/collect2 -plugin /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/m7/rdyggjxd5577r0qbbdp5f6pw0000gn/T//ccCd2ivJ.res --sysroot=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_eedda.elf -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v8-m.main+fp/softfp -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1 -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_eedda.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_05e6d.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_05e6d.elf.']
+        link line: [ /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/collect2 -plugin /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/liblto_plugin.so -plugin-opt=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/m7/rdyggjxd5577r0qbbdp5f6pw0000gn/T//cclPDZRa.res --sysroot=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi -X -o cmTC_05e6d.elf -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v8-m.main+fp/softfp -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1 -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib -L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib --build-id=none CMakeFiles/cmTC_05e6d.dir/CMakeCXXCompilerABI.cpp.o]
           arg [/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/14.3.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/m7/rdyggjxd5577r0qbbdp5f6pw0000gn/T//ccCd2ivJ.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/m7/rdyggjxd5577r0qbbdp5f6pw0000gn/T//cclPDZRa.res] ==> ignore
           arg [--sysroot=/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_eedda.elf] ==> ignore
+          arg [cmTC_05e6d.elf] ==> ignore
           arg [-L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v8-m.main+fp/softfp] ==> dir [/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v8-m.main+fp/softfp]
           arg [-L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp] ==> dir [/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp]
           arg [-L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp] ==> dir [/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp]
@@ -2164,10 +2488,10 @@ events:
           arg [-L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib] ==> dir [/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib]
           arg [-L/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib] ==> dir [/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../arm-none-eabi/lib]
           arg [--build-id=none] ==> ignore
-          arg [CMakeFiles/cmTC_eedda.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_05e6d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
         ignore line: [/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00008000]
-        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_eedda.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_eedda.elf.']
+        ignore line: [COLLECT_GCC_OPTIONS='-mcpu=cortex-m33' '-mthumb'  '-mfloat-abi=softfp' '-mcmse' '-nostdlib' '-v' '-o' 'cmTC_05e6d.elf' '-mlibarch=armv8-m.main+dsp+fp' '-march=armv8-m.main+dsp+fp' '-dumpdir' 'cmTC_05e6d.elf.']
         ignore line: []
         ignore line: []
         collapse library dir [/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/thumb/v8-m.main+fp/softfp] ==> [/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/thumb/v8-m.main+fp/softfp]
@@ -2327,6 +2651,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -2476,6 +2812,18 @@ events:
     found: "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-gcc-ranlib"
     search_context:
       ENV{PATH}:
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
@@ -2669,6 +3017,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -2811,6 +3171,18 @@ events:
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
         - "/usr/local/bin"
@@ -2932,6 +3304,18 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
@@ -3066,6 +3450,18 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
+        - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"
         - "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin"

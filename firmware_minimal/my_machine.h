@@ -1,7 +1,7 @@
 #pragma once
 
 // Define board identifier for 5-axis configuration
-#define BOARD_GENERIC_5AXIS
+#define BOARD_ROBOTARM_5AXIS
 
 // Set number of axes to 5 (X, Y, Z, A, B)
 #define N_AXIS                 5

@@ -3205,366 +3205,6 @@ Discarded input sections
  .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/spindle/vfd/nowforever.c.o
  .ARM.attributes
                 0x00000000       0x38 CMakeFiles/grblHAL.dir/spindle/vfd/nowforever.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/keypad/keypad.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/keypad/keypad.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/keypad/keypad.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/keypad/keypad.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/keypad/keypad.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/keypad/keypad.c.o
- .debug_line    0x00000000       0xc7 CMakeFiles/grblHAL.dir/keypad/keypad.c.o
- .debug_str     0x00000000     0x1108 CMakeFiles/grblHAL.dir/keypad/keypad.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/keypad/keypad.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/keypad/keypad.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/keypad/macros.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/keypad/macros.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/keypad/macros.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/keypad/macros.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/keypad/macros.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/keypad/macros.c.o
- .debug_line    0x00000000       0xc7 CMakeFiles/grblHAL.dir/keypad/macros.c.o
- .debug_str     0x00000000     0x1108 CMakeFiles/grblHAL.dir/keypad/macros.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/keypad/macros.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/keypad/macros.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/keypad/display/i2c_leds.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/keypad/display/i2c_leds.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/keypad/display/i2c_leds.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/keypad/display/i2c_leds.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/keypad/display/i2c_leds.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/keypad/display/i2c_leds.c.o
- .debug_line    0x00000000       0xd1 CMakeFiles/grblHAL.dir/keypad/display/i2c_leds.c.o
- .debug_str     0x00000000     0x1112 CMakeFiles/grblHAL.dir/keypad/display/i2c_leds.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/keypad/display/i2c_leds.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/keypad/display/i2c_leds.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/keypad/display/i2c_interface.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/keypad/display/i2c_interface.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/keypad/display/i2c_interface.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/keypad/display/i2c_interface.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/keypad/display/i2c_interface.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/keypad/display/i2c_interface.c.o
- .debug_line    0x00000000       0xd6 CMakeFiles/grblHAL.dir/keypad/display/i2c_interface.c.o
- .debug_str     0x00000000     0x1117 CMakeFiles/grblHAL.dir/keypad/display/i2c_interface.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/keypad/display/i2c_interface.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/keypad/display/i2c_interface.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/fans/fans.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/fans/fans.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/fans/fans.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/fans/fans.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/fans/fans.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/fans/fans.c.o
- .debug_line    0x00000000       0xc3 CMakeFiles/grblHAL.dir/fans/fans.c.o
- .debug_str     0x00000000     0x1104 CMakeFiles/grblHAL.dir/fans/fans.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/fans/fans.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/fans/fans.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/laser/coolant.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/laser/coolant.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/laser/coolant.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/laser/coolant.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/laser/coolant.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/laser/coolant.c.o
- .debug_line    0x00000000       0xc7 CMakeFiles/grblHAL.dir/laser/coolant.c.o
- .debug_str     0x00000000     0x1108 CMakeFiles/grblHAL.dir/laser/coolant.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/laser/coolant.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/laser/coolant.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/laser/lb_clusters.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/laser/lb_clusters.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/laser/lb_clusters.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/laser/lb_clusters.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/laser/lb_clusters.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/laser/lb_clusters.c.o
- .debug_line    0x00000000       0xcb CMakeFiles/grblHAL.dir/laser/lb_clusters.c.o
- .debug_str     0x00000000     0x110c CMakeFiles/grblHAL.dir/laser/lb_clusters.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/laser/lb_clusters.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/laser/lb_clusters.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/laser/ppi.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/laser/ppi.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/laser/ppi.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/laser/ppi.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/laser/ppi.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/laser/ppi.c.o
- .debug_line    0x00000000       0xc3 CMakeFiles/grblHAL.dir/laser/ppi.c.o
- .debug_str     0x00000000     0x1104 CMakeFiles/grblHAL.dir/laser/ppi.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/laser/ppi.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/laser/ppi.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/laser/co2.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/laser/co2.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/laser/co2.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/laser/co2.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/laser/co2.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/laser/co2.c.o
- .debug_line    0x00000000       0xc3 CMakeFiles/grblHAL.dir/laser/co2.c.o
- .debug_str     0x00000000     0x1104 CMakeFiles/grblHAL.dir/laser/co2.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/laser/co2.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/laser/co2.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/bluetooth/hc_05.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/bluetooth/hc_05.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/bluetooth/hc_05.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/bluetooth/hc_05.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/bluetooth/hc_05.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/bluetooth/hc_05.c.o
- .debug_line    0x00000000       0xc9 CMakeFiles/grblHAL.dir/bluetooth/hc_05.c.o
- .debug_str     0x00000000     0x110a CMakeFiles/grblHAL.dir/bluetooth/hc_05.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/bluetooth/hc_05.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/bluetooth/hc_05.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/eeprom/eeprom_24LC16B.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/eeprom/eeprom_24LC16B.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/eeprom/eeprom_24LC16B.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/eeprom/eeprom_24LC16B.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/eeprom/eeprom_24LC16B.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/eeprom/eeprom_24LC16B.c.o
- .debug_line    0x00000000       0xcf CMakeFiles/grblHAL.dir/eeprom/eeprom_24LC16B.c.o
- .debug_str     0x00000000     0x1110 CMakeFiles/grblHAL.dir/eeprom/eeprom_24LC16B.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/eeprom/eeprom_24LC16B.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/eeprom/eeprom_24LC16B.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/eeprom/eeprom_24AAxxx.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/eeprom/eeprom_24AAxxx.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/eeprom/eeprom_24AAxxx.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/eeprom/eeprom_24AAxxx.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/eeprom/eeprom_24AAxxx.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/eeprom/eeprom_24AAxxx.c.o
- .debug_line    0x00000000       0xcf CMakeFiles/grblHAL.dir/eeprom/eeprom_24AAxxx.c.o
- .debug_str     0x00000000     0x1110 CMakeFiles/grblHAL.dir/eeprom/eeprom_24AAxxx.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/eeprom/eeprom_24AAxxx.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/eeprom/eeprom_24AAxxx.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/plasma/thc.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/plasma/thc.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/plasma/thc.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/plasma/thc.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/plasma/thc.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/plasma/thc.c.o
- .debug_line    0x00000000       0xc4 CMakeFiles/grblHAL.dir/plasma/thc.c.o
- .debug_str     0x00000000     0x1105 CMakeFiles/grblHAL.dir/plasma/thc.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/plasma/thc.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/plasma/thc.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/plasma/linuxcnc.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/plasma/linuxcnc.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/plasma/linuxcnc.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/plasma/linuxcnc.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/plasma/linuxcnc.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/plasma/linuxcnc.c.o
- .debug_line    0x00000000       0xc9 CMakeFiles/grblHAL.dir/plasma/linuxcnc.c.o
- .debug_str     0x00000000     0x110a CMakeFiles/grblHAL.dir/plasma/linuxcnc.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/plasma/linuxcnc.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/plasma/linuxcnc.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/plasma/sheetcam.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/plasma/sheetcam.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/plasma/sheetcam.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/plasma/sheetcam.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/plasma/sheetcam.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/plasma/sheetcam.c.o
- .debug_line    0x00000000       0xc9 CMakeFiles/grblHAL.dir/plasma/sheetcam.c.o
- .debug_str     0x00000000     0x110a CMakeFiles/grblHAL.dir/plasma/sheetcam.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/plasma/sheetcam.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/plasma/sheetcam.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/bltouch.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/bltouch.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/bltouch.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/plugins/bltouch.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/plugins/bltouch.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/plugins/bltouch.c.o
- .debug_line    0x00000000       0xc9 CMakeFiles/grblHAL.dir/plugins/bltouch.c.o
- .debug_str     0x00000000     0x110a CMakeFiles/grblHAL.dir/plugins/bltouch.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/plugins/bltouch.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/plugins/bltouch.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/esp_at.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/esp_at.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/esp_at.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/plugins/esp_at.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/plugins/esp_at.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/plugins/esp_at.c.o
- .debug_line    0x00000000       0xc8 CMakeFiles/grblHAL.dir/plugins/esp_at.c.o
- .debug_str     0x00000000     0x1109 CMakeFiles/grblHAL.dir/plugins/esp_at.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/plugins/esp_at.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/plugins/esp_at.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/eventout.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/eventout.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/eventout.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/plugins/eventout.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/plugins/eventout.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/plugins/eventout.c.o
- .debug_line    0x00000000       0xca CMakeFiles/grblHAL.dir/plugins/eventout.c.o
- .debug_str     0x00000000     0x110b CMakeFiles/grblHAL.dir/plugins/eventout.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/plugins/eventout.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/plugins/eventout.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/feed_override_m220.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/feed_override_m220.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/feed_override_m220.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/plugins/feed_override_m220.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/plugins/feed_override_m220.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/plugins/feed_override_m220.c.o
- .debug_line    0x00000000       0xd4 CMakeFiles/grblHAL.dir/plugins/feed_override_m220.c.o
- .debug_str     0x00000000     0x1115 CMakeFiles/grblHAL.dir/plugins/feed_override_m220.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/plugins/feed_override_m220.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/plugins/feed_override_m220.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/homing_pulloff.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/homing_pulloff.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/homing_pulloff.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/plugins/homing_pulloff.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/plugins/homing_pulloff.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/plugins/homing_pulloff.c.o
- .debug_line    0x00000000       0xd0 CMakeFiles/grblHAL.dir/plugins/homing_pulloff.c.o
- .debug_str     0x00000000     0x1111 CMakeFiles/grblHAL.dir/plugins/homing_pulloff.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/plugins/homing_pulloff.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/plugins/homing_pulloff.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/pca9654e.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/pca9654e.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/pca9654e.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/plugins/pca9654e.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/plugins/pca9654e.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/plugins/pca9654e.c.o
- .debug_line    0x00000000       0xca CMakeFiles/grblHAL.dir/plugins/pca9654e.c.o
- .debug_str     0x00000000     0x110b CMakeFiles/grblHAL.dir/plugins/pca9654e.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/plugins/pca9654e.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/plugins/pca9654e.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/mcp3221.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/mcp3221.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/mcp3221.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/plugins/mcp3221.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/plugins/mcp3221.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/plugins/mcp3221.c.o
- .debug_line    0x00000000       0xc9 CMakeFiles/grblHAL.dir/plugins/mcp3221.c.o
- .debug_str     0x00000000     0x110a CMakeFiles/grblHAL.dir/plugins/mcp3221.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/plugins/mcp3221.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/plugins/mcp3221.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/mcp4725.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/mcp4725.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/mcp4725.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/plugins/mcp4725.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/plugins/mcp4725.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/plugins/mcp4725.c.o
- .debug_line    0x00000000       0xc9 CMakeFiles/grblHAL.dir/plugins/mcp4725.c.o
- .debug_str     0x00000000     0x110a CMakeFiles/grblHAL.dir/plugins/mcp4725.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/plugins/mcp4725.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/plugins/mcp4725.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/pwm_servo_m280.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/pwm_servo_m280.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/pwm_servo_m280.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/plugins/pwm_servo_m280.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/plugins/pwm_servo_m280.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/plugins/pwm_servo_m280.c.o
- .debug_line    0x00000000       0xd0 CMakeFiles/grblHAL.dir/plugins/pwm_servo_m280.c.o
- .debug_str     0x00000000     0x1111 CMakeFiles/grblHAL.dir/plugins/pwm_servo_m280.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/plugins/pwm_servo_m280.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/plugins/pwm_servo_m280.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/rgb_led_m150.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/rgb_led_m150.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/rgb_led_m150.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/plugins/rgb_led_m150.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/plugins/rgb_led_m150.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/plugins/rgb_led_m150.c.o
- .debug_line    0x00000000       0xce CMakeFiles/grblHAL.dir/plugins/rgb_led_m150.c.o
- .debug_str     0x00000000     0x110f CMakeFiles/grblHAL.dir/plugins/rgb_led_m150.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/plugins/rgb_led_m150.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/plugins/rgb_led_m150.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/rgb_led_strips.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/rgb_led_strips.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/rgb_led_strips.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/plugins/rgb_led_strips.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/plugins/rgb_led_strips.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/plugins/rgb_led_strips.c.o
- .debug_line    0x00000000       0xd0 CMakeFiles/grblHAL.dir/plugins/rgb_led_strips.c.o
- .debug_str     0x00000000     0x1111 CMakeFiles/grblHAL.dir/plugins/rgb_led_strips.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/plugins/rgb_led_strips.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/plugins/rgb_led_strips.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/tooltable.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/tooltable.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/tooltable.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/plugins/tooltable.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/plugins/tooltable.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/plugins/tooltable.c.o
- .debug_line    0x00000000       0xcb CMakeFiles/grblHAL.dir/plugins/tooltable.c.o
- .debug_str     0x00000000     0x110c CMakeFiles/grblHAL.dir/plugins/tooltable.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/plugins/tooltable.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/plugins/tooltable.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/embroidery/embroidery.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/embroidery/embroidery.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/embroidery/embroidery.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/embroidery/embroidery.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/embroidery/embroidery.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/embroidery/embroidery.c.o
- .debug_line    0x00000000       0xcf CMakeFiles/grblHAL.dir/embroidery/embroidery.c.o
- .debug_str     0x00000000     0x1110 CMakeFiles/grblHAL.dir/embroidery/embroidery.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/embroidery/embroidery.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/embroidery/embroidery.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/embroidery/brother.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/embroidery/brother.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/embroidery/brother.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/embroidery/brother.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/embroidery/brother.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/embroidery/brother.c.o
- .debug_line    0x00000000       0xcc CMakeFiles/grblHAL.dir/embroidery/brother.c.o
- .debug_str     0x00000000     0x110d CMakeFiles/grblHAL.dir/embroidery/brother.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/embroidery/brother.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/embroidery/brother.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/embroidery/tajima.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/embroidery/tajima.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/embroidery/tajima.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/embroidery/tajima.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/embroidery/tajima.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/embroidery/tajima.c.o
- .debug_line    0x00000000       0xcb CMakeFiles/grblHAL.dir/embroidery/tajima.c.o
- .debug_str     0x00000000     0x110c CMakeFiles/grblHAL.dir/embroidery/tajima.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/embroidery/tajima.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/embroidery/tajima.c.o
  .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
  .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
  .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
@@ -4747,6 +4387,198 @@ Discarded input sections
  .debug_frame   0x00000000      0x230 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_i2c/i2c.c.o
  .ARM.attributes
                 0x00000000       0x38 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_i2c/i2c.c.o
+ .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/fans/fans.c.o
+ .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/fans/fans.c.o
+ .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/fans/fans.c.o
+ .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/fans/fans.c.o
+ .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/fans/fans.c.o
+ .debug_aranges
+                0x00000000       0x18 CMakeFiles/grblHAL.dir/fans/fans.c.o
+ .debug_line    0x00000000       0xc3 CMakeFiles/grblHAL.dir/fans/fans.c.o
+ .debug_str     0x00000000     0x1104 CMakeFiles/grblHAL.dir/fans/fans.c.o
+ .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/fans/fans.c.o
+ .ARM.attributes
+                0x00000000       0x38 CMakeFiles/grblHAL.dir/fans/fans.c.o
+ .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/bluetooth/hc_05.c.o
+ .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/bluetooth/hc_05.c.o
+ .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/bluetooth/hc_05.c.o
+ .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/bluetooth/hc_05.c.o
+ .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/bluetooth/hc_05.c.o
+ .debug_aranges
+                0x00000000       0x18 CMakeFiles/grblHAL.dir/bluetooth/hc_05.c.o
+ .debug_line    0x00000000       0xc9 CMakeFiles/grblHAL.dir/bluetooth/hc_05.c.o
+ .debug_str     0x00000000     0x110a CMakeFiles/grblHAL.dir/bluetooth/hc_05.c.o
+ .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/bluetooth/hc_05.c.o
+ .ARM.attributes
+                0x00000000       0x38 CMakeFiles/grblHAL.dir/bluetooth/hc_05.c.o
+ .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/eeprom/eeprom_24LC16B.c.o
+ .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/eeprom/eeprom_24LC16B.c.o
+ .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/eeprom/eeprom_24LC16B.c.o
+ .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/eeprom/eeprom_24LC16B.c.o
+ .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/eeprom/eeprom_24LC16B.c.o
+ .debug_aranges
+                0x00000000       0x18 CMakeFiles/grblHAL.dir/eeprom/eeprom_24LC16B.c.o
+ .debug_line    0x00000000       0xcf CMakeFiles/grblHAL.dir/eeprom/eeprom_24LC16B.c.o
+ .debug_str     0x00000000     0x1110 CMakeFiles/grblHAL.dir/eeprom/eeprom_24LC16B.c.o
+ .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/eeprom/eeprom_24LC16B.c.o
+ .ARM.attributes
+                0x00000000       0x38 CMakeFiles/grblHAL.dir/eeprom/eeprom_24LC16B.c.o
+ .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/eeprom/eeprom_24AAxxx.c.o
+ .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/eeprom/eeprom_24AAxxx.c.o
+ .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/eeprom/eeprom_24AAxxx.c.o
+ .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/eeprom/eeprom_24AAxxx.c.o
+ .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/eeprom/eeprom_24AAxxx.c.o
+ .debug_aranges
+                0x00000000       0x18 CMakeFiles/grblHAL.dir/eeprom/eeprom_24AAxxx.c.o
+ .debug_line    0x00000000       0xcf CMakeFiles/grblHAL.dir/eeprom/eeprom_24AAxxx.c.o
+ .debug_str     0x00000000     0x1110 CMakeFiles/grblHAL.dir/eeprom/eeprom_24AAxxx.c.o
+ .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/eeprom/eeprom_24AAxxx.c.o
+ .ARM.attributes
+                0x00000000       0x38 CMakeFiles/grblHAL.dir/eeprom/eeprom_24AAxxx.c.o
+ .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/bltouch.c.o
+ .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/bltouch.c.o
+ .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/bltouch.c.o
+ .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/plugins/bltouch.c.o
+ .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/plugins/bltouch.c.o
+ .debug_aranges
+                0x00000000       0x18 CMakeFiles/grblHAL.dir/plugins/bltouch.c.o
+ .debug_line    0x00000000       0xc9 CMakeFiles/grblHAL.dir/plugins/bltouch.c.o
+ .debug_str     0x00000000     0x110a CMakeFiles/grblHAL.dir/plugins/bltouch.c.o
+ .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/plugins/bltouch.c.o
+ .ARM.attributes
+                0x00000000       0x38 CMakeFiles/grblHAL.dir/plugins/bltouch.c.o
+ .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/esp_at.c.o
+ .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/esp_at.c.o
+ .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/esp_at.c.o
+ .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/plugins/esp_at.c.o
+ .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/plugins/esp_at.c.o
+ .debug_aranges
+                0x00000000       0x18 CMakeFiles/grblHAL.dir/plugins/esp_at.c.o
+ .debug_line    0x00000000       0xc8 CMakeFiles/grblHAL.dir/plugins/esp_at.c.o
+ .debug_str     0x00000000     0x1109 CMakeFiles/grblHAL.dir/plugins/esp_at.c.o
+ .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/plugins/esp_at.c.o
+ .ARM.attributes
+                0x00000000       0x38 CMakeFiles/grblHAL.dir/plugins/esp_at.c.o
+ .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/eventout.c.o
+ .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/eventout.c.o
+ .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/eventout.c.o
+ .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/plugins/eventout.c.o
+ .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/plugins/eventout.c.o
+ .debug_aranges
+                0x00000000       0x18 CMakeFiles/grblHAL.dir/plugins/eventout.c.o
+ .debug_line    0x00000000       0xca CMakeFiles/grblHAL.dir/plugins/eventout.c.o
+ .debug_str     0x00000000     0x110b CMakeFiles/grblHAL.dir/plugins/eventout.c.o
+ .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/plugins/eventout.c.o
+ .ARM.attributes
+                0x00000000       0x38 CMakeFiles/grblHAL.dir/plugins/eventout.c.o
+ .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/feed_override_m220.c.o
+ .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/feed_override_m220.c.o
+ .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/feed_override_m220.c.o
+ .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/plugins/feed_override_m220.c.o
+ .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/plugins/feed_override_m220.c.o
+ .debug_aranges
+                0x00000000       0x18 CMakeFiles/grblHAL.dir/plugins/feed_override_m220.c.o
+ .debug_line    0x00000000       0xd4 CMakeFiles/grblHAL.dir/plugins/feed_override_m220.c.o
+ .debug_str     0x00000000     0x1115 CMakeFiles/grblHAL.dir/plugins/feed_override_m220.c.o
+ .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/plugins/feed_override_m220.c.o
+ .ARM.attributes
+                0x00000000       0x38 CMakeFiles/grblHAL.dir/plugins/feed_override_m220.c.o
+ .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/homing_pulloff.c.o
+ .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/homing_pulloff.c.o
+ .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/homing_pulloff.c.o
+ .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/plugins/homing_pulloff.c.o
+ .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/plugins/homing_pulloff.c.o
+ .debug_aranges
+                0x00000000       0x18 CMakeFiles/grblHAL.dir/plugins/homing_pulloff.c.o
+ .debug_line    0x00000000       0xd0 CMakeFiles/grblHAL.dir/plugins/homing_pulloff.c.o
+ .debug_str     0x00000000     0x1111 CMakeFiles/grblHAL.dir/plugins/homing_pulloff.c.o
+ .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/plugins/homing_pulloff.c.o
+ .ARM.attributes
+                0x00000000       0x38 CMakeFiles/grblHAL.dir/plugins/homing_pulloff.c.o
+ .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/pca9654e.c.o
+ .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/pca9654e.c.o
+ .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/pca9654e.c.o
+ .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/plugins/pca9654e.c.o
+ .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/plugins/pca9654e.c.o
+ .debug_aranges
+                0x00000000       0x18 CMakeFiles/grblHAL.dir/plugins/pca9654e.c.o
+ .debug_line    0x00000000       0xca CMakeFiles/grblHAL.dir/plugins/pca9654e.c.o
+ .debug_str     0x00000000     0x110b CMakeFiles/grblHAL.dir/plugins/pca9654e.c.o
+ .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/plugins/pca9654e.c.o
+ .ARM.attributes
+                0x00000000       0x38 CMakeFiles/grblHAL.dir/plugins/pca9654e.c.o
+ .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/mcp3221.c.o
+ .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/mcp3221.c.o
+ .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/mcp3221.c.o
+ .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/plugins/mcp3221.c.o
+ .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/plugins/mcp3221.c.o
+ .debug_aranges
+                0x00000000       0x18 CMakeFiles/grblHAL.dir/plugins/mcp3221.c.o
+ .debug_line    0x00000000       0xc9 CMakeFiles/grblHAL.dir/plugins/mcp3221.c.o
+ .debug_str     0x00000000     0x110a CMakeFiles/grblHAL.dir/plugins/mcp3221.c.o
+ .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/plugins/mcp3221.c.o
+ .ARM.attributes
+                0x00000000       0x38 CMakeFiles/grblHAL.dir/plugins/mcp3221.c.o
+ .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/mcp4725.c.o
+ .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/mcp4725.c.o
+ .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/mcp4725.c.o
+ .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/plugins/mcp4725.c.o
+ .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/plugins/mcp4725.c.o
+ .debug_aranges
+                0x00000000       0x18 CMakeFiles/grblHAL.dir/plugins/mcp4725.c.o
+ .debug_line    0x00000000       0xc9 CMakeFiles/grblHAL.dir/plugins/mcp4725.c.o
+ .debug_str     0x00000000     0x110a CMakeFiles/grblHAL.dir/plugins/mcp4725.c.o
+ .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/plugins/mcp4725.c.o
+ .ARM.attributes
+                0x00000000       0x38 CMakeFiles/grblHAL.dir/plugins/mcp4725.c.o
+ .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/pwm_servo_m280.c.o
+ .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/pwm_servo_m280.c.o
+ .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/pwm_servo_m280.c.o
+ .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/plugins/pwm_servo_m280.c.o
+ .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/plugins/pwm_servo_m280.c.o
+ .debug_aranges
+                0x00000000       0x18 CMakeFiles/grblHAL.dir/plugins/pwm_servo_m280.c.o
+ .debug_line    0x00000000       0xd0 CMakeFiles/grblHAL.dir/plugins/pwm_servo_m280.c.o
+ .debug_str     0x00000000     0x1111 CMakeFiles/grblHAL.dir/plugins/pwm_servo_m280.c.o
+ .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/plugins/pwm_servo_m280.c.o
+ .ARM.attributes
+                0x00000000       0x38 CMakeFiles/grblHAL.dir/plugins/pwm_servo_m280.c.o
+ .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/rgb_led_m150.c.o
+ .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/rgb_led_m150.c.o
+ .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/rgb_led_m150.c.o
+ .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/plugins/rgb_led_m150.c.o
+ .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/plugins/rgb_led_m150.c.o
+ .debug_aranges
+                0x00000000       0x18 CMakeFiles/grblHAL.dir/plugins/rgb_led_m150.c.o
+ .debug_line    0x00000000       0xce CMakeFiles/grblHAL.dir/plugins/rgb_led_m150.c.o
+ .debug_str     0x00000000     0x110f CMakeFiles/grblHAL.dir/plugins/rgb_led_m150.c.o
+ .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/plugins/rgb_led_m150.c.o
+ .ARM.attributes
+                0x00000000       0x38 CMakeFiles/grblHAL.dir/plugins/rgb_led_m150.c.o
+ .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/rgb_led_strips.c.o
+ .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/rgb_led_strips.c.o
+ .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/rgb_led_strips.c.o
+ .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/plugins/rgb_led_strips.c.o
+ .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/plugins/rgb_led_strips.c.o
+ .debug_aranges
+                0x00000000       0x18 CMakeFiles/grblHAL.dir/plugins/rgb_led_strips.c.o
+ .debug_line    0x00000000       0xd0 CMakeFiles/grblHAL.dir/plugins/rgb_led_strips.c.o
+ .debug_str     0x00000000     0x1111 CMakeFiles/grblHAL.dir/plugins/rgb_led_strips.c.o
+ .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/plugins/rgb_led_strips.c.o
+ .ARM.attributes
+                0x00000000       0x38 CMakeFiles/grblHAL.dir/plugins/rgb_led_strips.c.o
+ .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/tooltable.c.o
+ .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/tooltable.c.o
+ .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/plugins/tooltable.c.o
+ .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/plugins/tooltable.c.o
+ .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/plugins/tooltable.c.o
+ .debug_aranges
+                0x00000000       0x18 CMakeFiles/grblHAL.dir/plugins/tooltable.c.o
+ .debug_line    0x00000000       0xcb CMakeFiles/grblHAL.dir/plugins/tooltable.c.o
+ .debug_str     0x00000000     0x110c CMakeFiles/grblHAL.dir/plugins/tooltable.c.o
+ .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/plugins/tooltable.c.o
+ .ARM.attributes
+                0x00000000       0x38 CMakeFiles/grblHAL.dir/plugins/tooltable.c.o
  .text          0x00000000        0x0 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/./bs2_default_padded_checksummed.S.o
  .data          0x00000000        0x0 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/./bs2_default_padded_checksummed.S.o
  .bss           0x00000000        0x0 pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/./bs2_default_padded_checksummed.S.o
@@ -9206,36 +9038,6 @@ LOAD CMakeFiles/grblHAL.dir/spindle/vfd/modvfd.c.o
 LOAD CMakeFiles/grblHAL.dir/spindle/vfd/gs20.c.o
 LOAD CMakeFiles/grblHAL.dir/spindle/vfd/yl620.c.o
 LOAD CMakeFiles/grblHAL.dir/spindle/vfd/nowforever.c.o
-LOAD CMakeFiles/grblHAL.dir/keypad/keypad.c.o
-LOAD CMakeFiles/grblHAL.dir/keypad/macros.c.o
-LOAD CMakeFiles/grblHAL.dir/keypad/display/i2c_leds.c.o
-LOAD CMakeFiles/grblHAL.dir/keypad/display/i2c_interface.c.o
-LOAD CMakeFiles/grblHAL.dir/fans/fans.c.o
-LOAD CMakeFiles/grblHAL.dir/laser/coolant.c.o
-LOAD CMakeFiles/grblHAL.dir/laser/lb_clusters.c.o
-LOAD CMakeFiles/grblHAL.dir/laser/ppi.c.o
-LOAD CMakeFiles/grblHAL.dir/laser/co2.c.o
-LOAD CMakeFiles/grblHAL.dir/bluetooth/hc_05.c.o
-LOAD CMakeFiles/grblHAL.dir/eeprom/eeprom_24LC16B.c.o
-LOAD CMakeFiles/grblHAL.dir/eeprom/eeprom_24AAxxx.c.o
-LOAD CMakeFiles/grblHAL.dir/plasma/thc.c.o
-LOAD CMakeFiles/grblHAL.dir/plasma/linuxcnc.c.o
-LOAD CMakeFiles/grblHAL.dir/plasma/sheetcam.c.o
-LOAD CMakeFiles/grblHAL.dir/plugins/bltouch.c.o
-LOAD CMakeFiles/grblHAL.dir/plugins/esp_at.c.o
-LOAD CMakeFiles/grblHAL.dir/plugins/eventout.c.o
-LOAD CMakeFiles/grblHAL.dir/plugins/feed_override_m220.c.o
-LOAD CMakeFiles/grblHAL.dir/plugins/homing_pulloff.c.o
-LOAD CMakeFiles/grblHAL.dir/plugins/pca9654e.c.o
-LOAD CMakeFiles/grblHAL.dir/plugins/mcp3221.c.o
-LOAD CMakeFiles/grblHAL.dir/plugins/mcp4725.c.o
-LOAD CMakeFiles/grblHAL.dir/plugins/pwm_servo_m280.c.o
-LOAD CMakeFiles/grblHAL.dir/plugins/rgb_led_m150.c.o
-LOAD CMakeFiles/grblHAL.dir/plugins/rgb_led_strips.c.o
-LOAD CMakeFiles/grblHAL.dir/plugins/tooltable.c.o
-LOAD CMakeFiles/grblHAL.dir/embroidery/embroidery.c.o
-LOAD CMakeFiles/grblHAL.dir/embroidery/brother.c.o
-LOAD CMakeFiles/grblHAL.dir/embroidery/tajima.c.o
 LOAD CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
 LOAD CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
 LOAD CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.o
@@ -9288,6 +9090,22 @@ LOAD CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/h
 LOAD CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_dma/dma.c.o
 LOAD CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pio/pio.c.o
 LOAD CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_i2c/i2c.c.o
+LOAD CMakeFiles/grblHAL.dir/fans/fans.c.o
+LOAD CMakeFiles/grblHAL.dir/bluetooth/hc_05.c.o
+LOAD CMakeFiles/grblHAL.dir/eeprom/eeprom_24LC16B.c.o
+LOAD CMakeFiles/grblHAL.dir/eeprom/eeprom_24AAxxx.c.o
+LOAD CMakeFiles/grblHAL.dir/plugins/bltouch.c.o
+LOAD CMakeFiles/grblHAL.dir/plugins/esp_at.c.o
+LOAD CMakeFiles/grblHAL.dir/plugins/eventout.c.o
+LOAD CMakeFiles/grblHAL.dir/plugins/feed_override_m220.c.o
+LOAD CMakeFiles/grblHAL.dir/plugins/homing_pulloff.c.o
+LOAD CMakeFiles/grblHAL.dir/plugins/pca9654e.c.o
+LOAD CMakeFiles/grblHAL.dir/plugins/mcp3221.c.o
+LOAD CMakeFiles/grblHAL.dir/plugins/mcp4725.c.o
+LOAD CMakeFiles/grblHAL.dir/plugins/pwm_servo_m280.c.o
+LOAD CMakeFiles/grblHAL.dir/plugins/rgb_led_m150.c.o
+LOAD CMakeFiles/grblHAL.dir/plugins/rgb_led_strips.c.o
+LOAD CMakeFiles/grblHAL.dir/plugins/tooltable.c.o
 LOAD pico-sdk/src/rp2350/boot_stage2/CMakeFiles/bs2_default_library.dir/./bs2_default_padded_checksummed.S.o
 LOAD /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libstdc++.a
 LOAD /Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/softfp/libm.a

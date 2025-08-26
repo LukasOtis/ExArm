@@ -39,20 +39,11 @@ if(ADD_WIFI OR ADD_ETHERNET)
     endif()
 endif()
 
-include(grbl/CMakeLists.txt)
-include(fatfs/CMakeLists.txt)
-include(motors/CMakeLists.txt)
-include(trinamic/CMakeLists.txt)
-include(spindle/CMakeLists.txt)
-include(sdcard/CMakeLists.txt)
-include(keypad/CMakeLists.txt)
-include(eeprom/CMakeLists.txt)
-include(fans/CMakeLists.txt)
-include(bluetooth/CMakeLists.txt)
-include(embroidery/CMakeLists.txt)
-include(plasma/CMakeLists.txt)
-include(laser/CMakeLists.txt)
-include(plugins/CMakeLists.txt)
+foreach(_comp IN ITEMS grbl fatfs motors trinamic spindle sdcard keypad eeprom fans bluetooth embroidery plasma laser plugins)
+    if(EXISTS ${CMAKE_CURRENT_LIST_DIR}/${_comp}/CMakeLists.txt)
+        include(${_comp}/CMakeLists.txt)
+    endif()
+endforeach()
 if(ADD_HPGL)
     include(hpgl/CMakeLists.txt)
 endif()
@@ -225,14 +216,6 @@ target_link_libraries(grblHAL PRIVATE
  motors
  trinamic
  spindle
- keypad
- fans
- laser
- bluetooth
- eeprom
- plasma
- misc_plugins
- embroidery
  tinyusb_device_unmarked
  pico_stdlib
  pico_unique_id
@@ -246,6 +229,13 @@ target_link_libraries(grblHAL PRIVATE
  hardware_clocks
  hardware_flash
 )
+
+# Optionals: link only if their targets exist
+foreach(_opt IN ITEMS keypad fans bluetooth eeprom misc_plugins embroidery)
+ if(TARGET ${_opt})
+  target_link_libraries(grblHAL PRIVATE ${_opt})
+ endif()
+endforeach()
 
 pico_add_extra_outputs(grblHAL)
 

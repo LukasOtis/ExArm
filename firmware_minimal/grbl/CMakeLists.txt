@@ -46,4 +46,4 @@ target_sources(grbl INTERFACE
  ${CMAKE_CURRENT_LIST_DIR}/kinematics/polar.c
 )
 
-target_compile_definitions(grbl INTERFACE N_AXIS=4)
+target_compile_definitions(grbl INTERFACE N_AXIS=5)

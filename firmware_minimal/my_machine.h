@@ -1,10 +1,10 @@
 #pragma once
 
-// Define board identifier for 4-axis configuration
-#define BOARD_GENERIC_4AXIS
+// Define board identifier for 5-axis configuration
+#define BOARD_GENERIC_5AXIS
 
-// Set number of axes to 4 (X, Y, Z, A)
-#define N_AXIS                 4
+// Set number of axes to 5 (X, Y, Z, A, B)
+#define N_AXIS                 5
 
 // Basic configuration
 #ifndef USB_SERIAL_CDC

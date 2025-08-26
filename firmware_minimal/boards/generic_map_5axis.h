@@ -24,7 +24,8 @@
 #error Trinamic plugin not supported!
 #endif
 
-#if N_ABC_MOTORS
+// Allow two ABC axes (A and B), no ganged axes in this map
+#if N_ABC_MOTORS > 2
 #error "Axis configuration is not supported!"
 #endif
 
@@ -34,20 +35,22 @@
 
 // Define step direction output pins.
 #define DIRECTION_PORT          GPIO_OUTPUT
-#define X_DIRECTION_PIN         5
-#define Y_DIRECTION_PIN         6
-#define Z_DIRECTION_PIN         7
-#define A_DIRECTION_PIN         8
-#define B_DIRECTION_PIN         9
-#define DIRECTION_OUTMODE       GPIO_SHIFT5
+#define X_DIRECTION_PIN         7
+#define Y_DIRECTION_PIN         8
+#define Z_DIRECTION_PIN         9
+#define DIRECTION_OUTMODE       GPIO_SHIFT7
+
+// Define availability and pins for A (M3) and B (M4) axes
+#define M3_AVAILABLE
+#define M4_AVAILABLE
 
 // Define M3/M4 step pins for A and B axes
 #define M3_STEP_PIN            (STEP_PINS_BASE + 3)  // A-axis step (PIO5)
 #define M4_STEP_PIN            (STEP_PINS_BASE + 4)  // B-axis step (PIO6)
 
-// Define M3/M4 direction pins
-#define M3_DIRECTION_PIN       A_DIRECTION_PIN
-#define M4_DIRECTION_PIN       B_DIRECTION_PIN
+// Define M3/M4 direction pins directly
+#define M3_DIRECTION_PIN       10
+#define M4_DIRECTION_PIN       11
 
 // Define M3/M4 ports
 #define M3_STEP_PORT           STEP_PORT
@@ -57,18 +60,18 @@
 
 // Define stepper driver enable/disable output pin.
 #define ENABLE_PORT             GPIO_OUTPUT
-#define STEPPERS_ENABLE_PIN     10
+#define STEPPERS_ENABLE_PIN     12
 
 // Define homing/hard limit switch input pins.
-#define X_LIMIT_PIN             11
-#define Y_LIMIT_PIN             12
-#define Z_LIMIT_PIN             13
-#define A_LIMIT_PIN             14
-#define B_LIMIT_PIN             15
+#define X_LIMIT_PIN             13
+#define Y_LIMIT_PIN             14
+#define Z_LIMIT_PIN             15
+// Provide limits for A and B via M3/M4 limit macros
+#define M3_LIMIT_PIN            16
+#define M4_LIMIT_PIN            17
 #define LIMIT_INMODE            GPIO_MAP
 
-#define AUXOUTPUT0_PORT         GPIO_OUTPUT
-#define AUXOUTPUT0_PIN          16
+
 #if I2C_ENABLE
 #define I2C_PORT                1
 #define I2C_SDA                 26
@@ -80,7 +83,7 @@
 #define AUXOUTPUT2_PIN          27
 #endif
 #define AUXOUTPUT3_PORT         GPIO_OUTPUT // Spindle PWM
-#define AUXOUTPUT3_PIN          17
+#define AUXOUTPUT3_PIN          29
 #define AUXOUTPUT4_PORT         GPIO_OUTPUT // Spindle direction
 #define AUXOUTPUT4_PIN          18
 #define AUXOUTPUT5_PORT         GPIO_OUTPUT // Spindle enable
@@ -88,7 +91,7 @@
 #define AUXOUTPUT6_PORT         GPIO_OUTPUT // Coolant flood
 #define AUXOUTPUT6_PIN          20   
 #define AUXOUTPUT7_PORT         GPIO_OUTPUT // Coolant mist
-#define AUXOUTPUT7_PIN          21   
+#define AUXOUTPUT7_PIN          22   
 
 // Define driver spindle pins
 #if DRIVER_SPINDLE_ENABLE

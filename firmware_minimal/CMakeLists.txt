@@ -76,8 +76,8 @@ if(AddMyPlugin)
     my_plugin.c
     usb_serial.c
     stdio_usb_descriptors.c
-    boards/pico_cnc.c
-    boards/btt_skr_pico_10.c
+    # Boards pruned: only generic maps used
+    
     littlefs/lfs.c
     littlefs/lfs_util.c
     littlefs_hal.c
@@ -97,8 +97,7 @@ else()
     ioports.c
     ioports_analog.c
     tmc_uart.c
-    boards/pico_cnc.c
-    boards/btt_skr_pico_10.c
+    # removed boards/pico_cnc.c and boards/btt_skr_pico_10.c
     littlefs/lfs.c
     littlefs/lfs_util.c
     littlefs_hal.c

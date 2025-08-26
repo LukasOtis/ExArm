@@ -327,30 +327,6 @@ Discarded input sections
  .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/tmc_uart.c.o
  .ARM.attributes
                 0x00000000       0x38 CMakeFiles/grblHAL.dir/tmc_uart.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/boards/pico_cnc.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/boards/pico_cnc.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/boards/pico_cnc.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/boards/pico_cnc.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/boards/pico_cnc.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/boards/pico_cnc.c.o
- .debug_line    0x00000000       0xc9 CMakeFiles/grblHAL.dir/boards/pico_cnc.c.o
- .debug_str     0x00000000     0x110a CMakeFiles/grblHAL.dir/boards/pico_cnc.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/boards/pico_cnc.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/boards/pico_cnc.c.o
- .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/boards/btt_skr_pico_10.c.o
- .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/boards/btt_skr_pico_10.c.o
- .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/boards/btt_skr_pico_10.c.o
- .debug_info    0x00000000      0x69d CMakeFiles/grblHAL.dir/boards/btt_skr_pico_10.c.o
- .debug_abbrev  0x00000000       0xa5 CMakeFiles/grblHAL.dir/boards/btt_skr_pico_10.c.o
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/grblHAL.dir/boards/btt_skr_pico_10.c.o
- .debug_line    0x00000000       0xd0 CMakeFiles/grblHAL.dir/boards/btt_skr_pico_10.c.o
- .debug_str     0x00000000     0x1111 CMakeFiles/grblHAL.dir/boards/btt_skr_pico_10.c.o
- .comment       0x00000000       0x47 CMakeFiles/grblHAL.dir/boards/btt_skr_pico_10.c.o
- .ARM.attributes
-                0x00000000       0x38 CMakeFiles/grblHAL.dir/boards/btt_skr_pico_10.c.o
  .text          0x00000000        0x0 CMakeFiles/grblHAL.dir/littlefs/lfs.c.o
  .data          0x00000000        0x0 CMakeFiles/grblHAL.dir/littlefs/lfs.c.o
  .bss           0x00000000        0x0 CMakeFiles/grblHAL.dir/littlefs/lfs.c.o
@@ -9119,8 +9095,6 @@ LOAD CMakeFiles/grblHAL.dir/sr16_out.c.o
 LOAD CMakeFiles/grblHAL.dir/ioports.c.o
 LOAD CMakeFiles/grblHAL.dir/ioports_analog.c.o
 LOAD CMakeFiles/grblHAL.dir/tmc_uart.c.o
-LOAD CMakeFiles/grblHAL.dir/boards/pico_cnc.c.o
-LOAD CMakeFiles/grblHAL.dir/boards/btt_skr_pico_10.c.o
 LOAD CMakeFiles/grblHAL.dir/littlefs/lfs.c.o
 LOAD CMakeFiles/grblHAL.dir/littlefs/lfs_util.c.o
 LOAD CMakeFiles/grblHAL.dir/littlefs_hal.c.o
@@ -9663,88 +9637,88 @@ LOAD linker stubs
  .comment       0x00000046       0x47 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_xip_cache/xip_cache.c.o
  .comment       0x00000046       0x47 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pio/pio.c.o
 
-.debug_info     0x00000000   0x141b3b
+.debug_info     0x00000000   0x141b03
  .debug_info    0x00000000       0x99 CMakeFiles/grblHAL.dir/main.c.o
- .debug_info    0x00000099     0xe6eb CMakeFiles/grblHAL.dir/driver.c.o
- .debug_info    0x0000e784     0x688c CMakeFiles/grblHAL.dir/serial.c.o
- .debug_info    0x00015010     0x9b6b CMakeFiles/grblHAL.dir/usb_serial.c.o
- .debug_info    0x0001eb7b      0x740 CMakeFiles/grblHAL.dir/stdio_usb_descriptors.c.o
- .debug_info    0x0001f2bb     0x5702 CMakeFiles/grblHAL.dir/flash.c.o
- .debug_info    0x000249bd     0x6c0c CMakeFiles/grblHAL.dir/ioports.c.o
- .debug_info    0x0002b5c9     0x6929 CMakeFiles/grblHAL.dir/ioports_analog.c.o
- .debug_info    0x00031ef2     0x9ab1 CMakeFiles/grblHAL.dir/grbl/grbllib.c.o
- .debug_info    0x0003b9a3     0x606d CMakeFiles/grblHAL.dir/grbl/coolant_control.c.o
- .debug_info    0x00041a10     0x570b CMakeFiles/grblHAL.dir/grbl/crossbar.c.o
- .debug_info    0x0004711b      0x1f0 CMakeFiles/grblHAL.dir/grbl/crc.c.o
- .debug_info    0x0004730b     0x88cb CMakeFiles/grblHAL.dir/grbl/nvs_buffer.c.o
- .debug_info    0x0004fbd6     0xb60e CMakeFiles/grblHAL.dir/grbl/gcode.c.o
- .debug_info    0x0005b1e4     0x966b CMakeFiles/grblHAL.dir/grbl/machine_limits.c.o
- .debug_info    0x0006484f      0x239 CMakeFiles/grblHAL.dir/grbl/messages.c.o
- .debug_info    0x00064a88     0xb925 CMakeFiles/grblHAL.dir/grbl/motion_control.c.o
- .debug_info    0x000703ad       0x39 CMakeFiles/grblHAL.dir/grbl/my_plugin.c.o
- .debug_info    0x000703e6     0x5ca3 CMakeFiles/grblHAL.dir/grbl/nuts_bolts.c.o
- .debug_info    0x00076089      0x290 CMakeFiles/grblHAL.dir/grbl/override.c.o
- .debug_info    0x00076319     0x6c65 CMakeFiles/grblHAL.dir/grbl/planner.c.o
- .debug_info    0x0007cf7e     0x9786 CMakeFiles/grblHAL.dir/grbl/protocol.c.o
- .debug_info    0x00086704     0xf141 CMakeFiles/grblHAL.dir/grbl/report.c.o
- .debug_info    0x00095845     0xcccc CMakeFiles/grblHAL.dir/grbl/settings.c.o
- .debug_info    0x000a2511     0x8772 CMakeFiles/grblHAL.dir/grbl/sleep.c.o
- .debug_info    0x000aac83     0xa41f CMakeFiles/grblHAL.dir/grbl/spindle_control.c.o
- .debug_info    0x000b50a2     0x9adf CMakeFiles/grblHAL.dir/grbl/state_machine.c.o
- .debug_info    0x000beb81     0x9f98 CMakeFiles/grblHAL.dir/grbl/stream.c.o
- .debug_info    0x000c8b19     0x6a0e CMakeFiles/grblHAL.dir/grbl/stepper.c.o
- .debug_info    0x000cf527     0xb777 CMakeFiles/grblHAL.dir/grbl/system.c.o
- .debug_info    0x000dac9e     0x9841 CMakeFiles/grblHAL.dir/grbl/tool_change.c.o
- .debug_info    0x000e44df     0x5446 CMakeFiles/grblHAL.dir/grbl/alarms.c.o
- .debug_info    0x000e9925     0x5446 CMakeFiles/grblHAL.dir/grbl/errors.c.o
- .debug_info    0x000eed6b     0xaa62 CMakeFiles/grblHAL.dir/grbl/ngc_params.c.o
- .debug_info    0x000f97cd      0x1fa CMakeFiles/grblHAL.dir/grbl/regex.c.o
- .debug_info    0x000f99c7     0xd384 CMakeFiles/grblHAL.dir/grbl/ioports.c.o
- .debug_info    0x00106d4b     0x374a CMakeFiles/grblHAL.dir/grbl/canbus.c.o
- .debug_info    0x0010a495      0x1be CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_platform_panic/panic.c.o
- .debug_info    0x0010a653      0xb78 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/common/hardware_claim/claim.c.o
- .debug_info    0x0010b1cb      0x46f CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync/sync.c.o
- .debug_info    0x0010b63a     0x145e CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
- .debug_info    0x0010ca98     0x28a2 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.o
- .debug_info    0x0010f33a     0x2446 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.o
- .debug_info    0x00111780     0x260d CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.o
- .debug_info    0x00113d8d      0x187 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/common/pico_sync/lock_core.c.o
- .debug_info    0x00113f14     0x1e7c CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/common/pico_sync/mutex.c.o
- .debug_info    0x00115d90      0x389 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/common/pico_sync/critical_section.c.o
- .debug_info    0x00116119     0x548f CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.o
- .debug_info    0x0011b5a8     0x30c6 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.o
- .debug_info    0x0011e66e      0x507 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pll/pll.c.o
- .debug_info    0x0011eb75      0x26c CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_ticks/ticks.c.o
- .debug_info    0x0011ede1      0x914 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.o
- .debug_info    0x0011f6f5      0x1c4 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom_lock.c.o
- .debug_info    0x0011f8b9      0x316 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_boot_lock/boot_lock.c.o
- .debug_info    0x0011fbcf      0x1b1 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_xosc/xosc.c.o
- .debug_info    0x0011fd80     0x2d28 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
- .debug_info    0x00122aa8     0x126b CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
- .debug_info    0x00123d13     0x4b20 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.o
- .debug_info    0x00128833      0xc13 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd_control.c.o
- .debug_info    0x00129446     0x212a CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.o
- .debug_info    0x0012b570     0x2081 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.o
- .debug_info    0x0012d5f1     0x288a CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.o
- .debug_info    0x0012fe7b     0x19a6 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_uart/uart.c.o
- .debug_info    0x00131821      0x21a CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.o
- .debug_info    0x00131a3b     0x1bcd CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.o
- .debug_info    0x00133608      0x7c9 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
- .debug_info    0x00133dd1       0x23 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_dcp.S.o
- .debug_info    0x00133df4       0x23 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_sci_m33.S.o
- .debug_info    0x00133e17     0x3946 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_math.c.o
- .debug_info    0x0013775d       0x23 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_common_m33.S.o
- .debug_info    0x00137780       0x23 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_sci_m33_vfp.S.o
- .debug_info    0x001377a3      0x3e4 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_malloc/malloc.c.o
- .debug_info    0x00137b87      0x2b8 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
- .debug_info    0x00137e3f     0x23a7 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.o
- .debug_info    0x0013a1e6       0x23 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_crt0/crt0.S.o
- .debug_info    0x0013a209      0xbdf CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.o
- .debug_info    0x0013ade8     0x1e1d CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.o
- .debug_info    0x0013cc05      0x2b7 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_unique_id/unique_id.c.o
- .debug_info    0x0013cebc     0x1332 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_flash/flash.c.o
- .debug_info    0x0013e1ee      0x360 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_xip_cache/xip_cache.c.o
- .debug_info    0x0013e54e     0x35ed CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pio/pio.c.o
+ .debug_info    0x00000099     0xe6d7 CMakeFiles/grblHAL.dir/driver.c.o
+ .debug_info    0x0000e770     0x688c CMakeFiles/grblHAL.dir/serial.c.o
+ .debug_info    0x00014ffc     0x9b6b CMakeFiles/grblHAL.dir/usb_serial.c.o
+ .debug_info    0x0001eb67      0x740 CMakeFiles/grblHAL.dir/stdio_usb_descriptors.c.o
+ .debug_info    0x0001f2a7     0x5702 CMakeFiles/grblHAL.dir/flash.c.o
+ .debug_info    0x000249a9     0x6bfa CMakeFiles/grblHAL.dir/ioports.c.o
+ .debug_info    0x0002b5a3     0x6917 CMakeFiles/grblHAL.dir/ioports_analog.c.o
+ .debug_info    0x00031eba     0x9ab1 CMakeFiles/grblHAL.dir/grbl/grbllib.c.o
+ .debug_info    0x0003b96b     0x606d CMakeFiles/grblHAL.dir/grbl/coolant_control.c.o
+ .debug_info    0x000419d8     0x570b CMakeFiles/grblHAL.dir/grbl/crossbar.c.o
+ .debug_info    0x000470e3      0x1f0 CMakeFiles/grblHAL.dir/grbl/crc.c.o
+ .debug_info    0x000472d3     0x88cb CMakeFiles/grblHAL.dir/grbl/nvs_buffer.c.o
+ .debug_info    0x0004fb9e     0xb60e CMakeFiles/grblHAL.dir/grbl/gcode.c.o
+ .debug_info    0x0005b1ac     0x966b CMakeFiles/grblHAL.dir/grbl/machine_limits.c.o
+ .debug_info    0x00064817      0x239 CMakeFiles/grblHAL.dir/grbl/messages.c.o
+ .debug_info    0x00064a50     0xb925 CMakeFiles/grblHAL.dir/grbl/motion_control.c.o
+ .debug_info    0x00070375       0x39 CMakeFiles/grblHAL.dir/grbl/my_plugin.c.o
+ .debug_info    0x000703ae     0x5ca3 CMakeFiles/grblHAL.dir/grbl/nuts_bolts.c.o
+ .debug_info    0x00076051      0x290 CMakeFiles/grblHAL.dir/grbl/override.c.o
+ .debug_info    0x000762e1     0x6c65 CMakeFiles/grblHAL.dir/grbl/planner.c.o
+ .debug_info    0x0007cf46     0x9786 CMakeFiles/grblHAL.dir/grbl/protocol.c.o
+ .debug_info    0x000866cc     0xf141 CMakeFiles/grblHAL.dir/grbl/report.c.o
+ .debug_info    0x0009580d     0xcccc CMakeFiles/grblHAL.dir/grbl/settings.c.o
+ .debug_info    0x000a24d9     0x8772 CMakeFiles/grblHAL.dir/grbl/sleep.c.o
+ .debug_info    0x000aac4b     0xa41f CMakeFiles/grblHAL.dir/grbl/spindle_control.c.o
+ .debug_info    0x000b506a     0x9adf CMakeFiles/grblHAL.dir/grbl/state_machine.c.o
+ .debug_info    0x000beb49     0x9f98 CMakeFiles/grblHAL.dir/grbl/stream.c.o
+ .debug_info    0x000c8ae1     0x6a0e CMakeFiles/grblHAL.dir/grbl/stepper.c.o
+ .debug_info    0x000cf4ef     0xb777 CMakeFiles/grblHAL.dir/grbl/system.c.o
+ .debug_info    0x000dac66     0x9841 CMakeFiles/grblHAL.dir/grbl/tool_change.c.o
+ .debug_info    0x000e44a7     0x5446 CMakeFiles/grblHAL.dir/grbl/alarms.c.o
+ .debug_info    0x000e98ed     0x5446 CMakeFiles/grblHAL.dir/grbl/errors.c.o
+ .debug_info    0x000eed33     0xaa62 CMakeFiles/grblHAL.dir/grbl/ngc_params.c.o
+ .debug_info    0x000f9795      0x1fa CMakeFiles/grblHAL.dir/grbl/regex.c.o
+ .debug_info    0x000f998f     0xd384 CMakeFiles/grblHAL.dir/grbl/ioports.c.o
+ .debug_info    0x00106d13     0x374a CMakeFiles/grblHAL.dir/grbl/canbus.c.o
+ .debug_info    0x0010a45d      0x1be CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_platform_panic/panic.c.o
+ .debug_info    0x0010a61b      0xb78 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/common/hardware_claim/claim.c.o
+ .debug_info    0x0010b193      0x46f CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync/sync.c.o
+ .debug_info    0x0010b602     0x145e CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o
+ .debug_info    0x0010ca60     0x28a2 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.o
+ .debug_info    0x0010f302     0x2446 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.o
+ .debug_info    0x00111748     0x260d CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.o
+ .debug_info    0x00113d55      0x187 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/common/pico_sync/lock_core.c.o
+ .debug_info    0x00113edc     0x1e7c CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/common/pico_sync/mutex.c.o
+ .debug_info    0x00115d58      0x389 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/common/pico_sync/critical_section.c.o
+ .debug_info    0x001160e1     0x548f CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.o
+ .debug_info    0x0011b570     0x30c6 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.o
+ .debug_info    0x0011e636      0x507 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pll/pll.c.o
+ .debug_info    0x0011eb3d      0x26c CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_ticks/ticks.c.o
+ .debug_info    0x0011eda9      0x914 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.o
+ .debug_info    0x0011f6bd      0x1c4 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom_lock.c.o
+ .debug_info    0x0011f881      0x316 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_boot_lock/boot_lock.c.o
+ .debug_info    0x0011fb97      0x1b1 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_xosc/xosc.c.o
+ .debug_info    0x0011fd48     0x2d28 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+ .debug_info    0x00122a70     0x126b CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+ .debug_info    0x00123cdb     0x4b20 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd.c.o
+ .debug_info    0x001287fb      0xc13 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/device/usbd_control.c.o
+ .debug_info    0x0012940e     0x212a CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/class/cdc/cdc_device.c.o
+ .debug_info    0x0012b538     0x2081 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/tusb.c.o
+ .debug_info    0x0012d5b9     0x288a CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/lib/tinyusb/src/common/tusb_fifo.c.o
+ .debug_info    0x0012fe43     0x19a6 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_uart/uart.c.o
+ .debug_info    0x001317e9      0x21a CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.o
+ .debug_info    0x00131a03     0x1bcd CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.o
+ .debug_info    0x001335d0      0x7c9 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o
+ .debug_info    0x00133d99       0x23 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_dcp.S.o
+ .debug_info    0x00133dbc       0x23 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_sci_m33.S.o
+ .debug_info    0x00133ddf     0x3946 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_math.c.o
+ .debug_info    0x00137725       0x23 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_common_m33.S.o
+ .debug_info    0x00137748       0x23 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_sci_m33_vfp.S.o
+ .debug_info    0x0013776b      0x3e4 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_malloc/malloc.c.o
+ .debug_info    0x00137b4f      0x2b8 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o
+ .debug_info    0x00137e07     0x23a7 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.o
+ .debug_info    0x0013a1ae       0x23 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_crt0/crt0.S.o
+ .debug_info    0x0013a1d1      0xbdf CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.o
+ .debug_info    0x0013adb0     0x1e1d CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.o
+ .debug_info    0x0013cbcd      0x2b7 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_unique_id/unique_id.c.o
+ .debug_info    0x0013ce84     0x1332 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_flash/flash.c.o
+ .debug_info    0x0013e1b6      0x360 CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+ .debug_info    0x0013e516     0x35ed CMakeFiles/grblHAL.dir/Users/lukasnoll/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pio/pio.c.o
 
 .debug_abbrev   0x00000000    0x15450
  .debug_abbrev  0x00000000       0x63 CMakeFiles/grblHAL.dir/main.c.o

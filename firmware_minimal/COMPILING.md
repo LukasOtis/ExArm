@@ -1,9 +1,9 @@
-## Compile the firmware (Pico2, 4-axis)
+## Compile the firmware (Pico2, 5-axis)
 
 ### Prerequisites
 
-- Arm GNU Toolchain installed at `\`/Applications/ArmGNUToolchain/14.3.rel1\`` (as used here)
-- Pico SDK installed (the VSCode Pico extension sets it under `\`~/.pico-sdk\``)
+- Arm GNU Toolchain installed at `/Applications/ArmGNUToolchain/14.3.rel1` (as used here)
+- Pico SDK installed (the VSCode Pico extension sets it under `~/.pico-sdk`)
 - CMake and Ninja
 
 ### One-time environment setup (new shell)
@@ -36,11 +36,11 @@ cmake --build firmware_minimal/build
 
 - Flashable UF2: `firmware_minimal/build/grblHAL.uf2`
 
-### Verifying 4-axis
+### Verifying 5-axis
 
-This project is configured for 4 axes:
-- `BOARD_GENERIC_4AXIS` and `N_AXIS=4` are applied so the core and driver agree on axis count.
-- `$pins` should show `PIO5` as `A step` and pin `9` as `A dir` after flashing.
+This project is configured for 5 axes:
+- `BOARD_GENERIC_5AXIS` and `N_AXIS=5` are applied so the core and driver agree on axis count.
+- `$pins` should show steps on `PIO2/3/4/5/6` and directions on pins `7/8/9/10/11` (X/Y/Z/A/B).
 
 ### Common pitfalls and fixes
 

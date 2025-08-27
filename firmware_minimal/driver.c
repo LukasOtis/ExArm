@@ -3258,7 +3258,9 @@ bool driver_init (void)
                 aux_outputs.pins.outputs = output;
             output->id = Output_Aux0 + aux_outputs.n_pins;
 
+            #ifndef AUX_OUTPUT_GENERIC
             aux_out_remap_explicit((void *)((uint32_t)output->port), output->pin, aux_outputs.n_pins, output);
+            #endif
 
             aux_outputs.n_pins++;
         } else if(output->group == PinGroup_AuxOutputAnalog) {

@@ -13,6 +13,7 @@ target_sources(misc_plugins INTERFACE
  ${CMAKE_CURRENT_LIST_DIR}/rgb_led_m150.c
  ${CMAKE_CURRENT_LIST_DIR}/rgb_led_strips.c
  ${CMAKE_CURRENT_LIST_DIR}/tooltable.c
+ ${CMAKE_CURRENT_LIST_DIR}/m281_digital_out.c
 )
 
 target_include_directories(misc_plugins INTERFACE ${CMAKE_CURRENT_LIST_DIR})

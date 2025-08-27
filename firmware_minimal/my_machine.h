@@ -24,6 +24,15 @@
 #define RGB_LED_ENABLE          0
 #define PWM_SERVO_ENABLE        1
 #define N_PWM_SERVOS            3
+// Enable built-in I/O M-codes (M64/M65, M67/M68)
+#define IO_ENABLE               1
+#define AUX_OUTPUT_GENERIC      1
+
+// Disable legacy coolant/spindle features so pins are not claimed/labeled
+#undef COOLANT_ENABLE
+#define COOLANT_ENABLE          0
+#undef SPINDLE_ENABLE
+#define SPINDLE_ENABLE          0
 #define BLTOUCH_ENABLE          0
 #define EVENTOUT_ENABLE         0
 

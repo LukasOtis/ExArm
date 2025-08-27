@@ -203,6 +203,10 @@
     pwm_servo_init();
 #endif
 
+    // Simple digital out plugin (M281)
+    extern void m281_digital_out_init (void);
+    m281_digital_out_init();
+
 #if BLTOUCH_ENABLE
     extern void bltouch_init (void);
     bltouch_init();

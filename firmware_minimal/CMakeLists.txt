@@ -109,6 +109,7 @@ target_compile_definitions(grblHAL PUBLIC RP2040)
 target_compile_definitions(grblHAL PUBLIC NEW_FATFS)
 #target_compile_definitions(grblHAL PUBLIC LITTLEFS_ENABLE=1)
 target_compile_definitions(grblHAL PUBLIC N_AXIS=5)
+target_compile_definitions(grblHAL PUBLIC SPINDLE_ENABLE=0 DRIVER_SPINDLE_ENABLE=0 COOLANT_ENABLE=0)
 
 if(ADD_WIFI)
     target_compile_definitions(grblHAL PUBLIC WIFI_ENABLE=1)

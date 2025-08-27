@@ -66,11 +66,11 @@
 #define X_LIMIT_PIN             15
 #define Y_LIMIT_PIN             17
 #define Z_LIMIT_PIN             18
-// Provide limits for A and B via M3/M4 limit macros
 #define M3_LIMIT_PIN            19
 #define M4_LIMIT_PIN            20
 #define LIMIT_INMODE            GPIO_MAP
-
+// generic input
+#define AUXINPUT2_PIN           21
 
 // Map three PWM analog outputs for M280 plugin (P=0..2)
 // Note: enumeration assigns Servo 0 to the last-defined analog PWM, so order is reversed
@@ -86,56 +86,48 @@
 #define I2C_SDA                 26
 #define I2C_SCL                 27
 #else
+#define AUXOUTPUT0_PORT         GPIO_OUTPUT
+#define AUXOUTPUT0_PIN          26
 #define AUXOUTPUT1_PORT         GPIO_OUTPUT
-#define AUXOUTPUT1_PIN          26
+#define AUXOUTPUT1_PIN          27
 #define AUXOUTPUT2_PORT         GPIO_OUTPUT
-#define AUXOUTPUT2_PIN          27
+#define AUXOUTPUT2_PIN          28
 #endif
-#define AUXOUTPUT3_PORT         GPIO_OUTPUT // Legacy spindle PWM (unused)
-#define AUXOUTPUT3_PIN          29
-#define AUXOUTPUT4_PORT         GPIO_OUTPUT // Spindle direction
-#define AUXOUTPUT4_PIN          18
-#define AUXOUTPUT5_PORT         GPIO_OUTPUT // Spindle enable
-#define AUXOUTPUT5_PIN          19   
-#define AUXOUTPUT6_PORT         GPIO_OUTPUT // Coolant flood
-#define AUXOUTPUT6_PIN          20   
-#define AUXOUTPUT7_PORT         GPIO_OUTPUT // Coolant mist
-#define AUXOUTPUT7_PIN          22   
 
+// Define auxiliary I/O
+#define AUXINPUT0_PIN           22
+#define AUXINPUT1_PIN           23
+
+#define AUXINPUT3_PIN           24 // Reset/EStop
+#define AUXINPUT4_PIN           25 // Feed hold
+#define AUXINPUT5_PIN           26 // Cycle start
+
+
+
+
+// Unused legacy in/outputs removed for this board
 
 
 // Define driver spindle pins
 #if DRIVER_SPINDLE_ENABLE
 #define SPINDLE_PORT            GPIO_OUTPUT
 #endif
-#if DRIVER_SPINDLE_ENABLE & SPINDLE_PWM
-#define SPINDLE_PWM_PIN         AUXOUTPUT3_PIN
-#endif
-#if DRIVER_SPINDLE_ENABLE & SPINDLE_DIR
-#define SPINDLE_DIRECTION_PIN   AUXOUTPUT4_PIN
-#endif
-#if DRIVER_SPINDLE_ENABLE & SPINDLE_ENA   
-#define SPINDLE_ENABLE_PIN      AUXOUTPUT5_PIN
-#endif
+// No spindle pins for this board
+// Stub definitions to satisfy driver.c references
+#define SPINDLE_PWM_PIN         255
+#define SPINDLE_DIRECTION_PIN   255
+#define SPINDLE_ENABLE_PIN      255
 
 // Define flood and mist coolant enable output pins.
 #if COOLANT_ENABLE
 #define COOLANT_PORT            GPIO_OUTPUT
 #endif
 #if COOLANT_ENABLE & COOLANT_FLOOD
-#define COOLANT_FLOOD_PIN       AUXOUTPUT6_PIN
+#define COOLANT_FLOOD_PIN       255
 #endif
 #if COOLANT_ENABLE & COOLANT_MIST
-#define COOLANT_MIST_PIN        AUXOUTPUT7_PIN
+#define COOLANT_MIST_PIN        255
 #endif
-
-// Define auxiliary I/O
-#define AUXINPUT0_PIN           22
-#define AUXINPUT1_PIN           23
-#define AUXINPUT2_PIN           28 // Probe
-#define AUXINPUT3_PIN           24 // Reset/EStop
-#define AUXINPUT4_PIN           25 // Feed hold
-#define AUXINPUT5_PIN           26 // Cycle start
 
 // Define user-control controls (cycle start, reset, feed hold) input pins.
 #if CONTROL_ENABLE & CONTROL_HALT

@@ -6,6 +6,29 @@
 // Set number of axes to 5 (X, Y, Z, A, B)
 #define N_AXIS                 5
 
+// Standardized 1:1 axis settings for ROS2 motion planning
+// All axes use 1 step = 1mm for simple, predictable behavior
+#define DEFAULT_X_STEPS_PER_MM  1.0f
+#define DEFAULT_Y_STEPS_PER_MM  1.0f
+#define DEFAULT_Z_STEPS_PER_MM  1.0f
+#define DEFAULT_A_STEPS_PER_MM  1.0f
+#define DEFAULT_B_STEPS_PER_MM  1.0f
+
+// Standardized max travel limits for all axes (in mm)
+// Set to reasonable values for a typical robot arm
+#define DEFAULT_X_MAX_TRAVEL    500.0f
+#define DEFAULT_Y_MAX_TRAVEL    500.0f
+#define DEFAULT_Z_MAX_TRAVEL    500.0f
+#define DEFAULT_A_MAX_TRAVEL    500.0f  
+#define DEFAULT_B_MAX_TRAVEL    500.0f  
+
+// Standardized max feed rates for all axes (in mm/min)
+#define DEFAULT_X_MAX_RATE      1000.0f
+#define DEFAULT_Y_MAX_RATE      1000.0f
+#define DEFAULT_Z_MAX_RATE      1000.0f
+#define DEFAULT_A_MAX_RATE      1000.0f
+#define DEFAULT_B_MAX_RATE      1000.0f
+
 // Basic configuration
 #ifndef USB_SERIAL_CDC
 #define USB_SERIAL_CDC          1 // Serial communication via native USB.
@@ -33,6 +56,10 @@
 #define COOLANT_ENABLE          0
 #undef SPINDLE_ENABLE
 #define SPINDLE_ENABLE          0
+
+// Force disable driver spindle functionality to prevent compilation errors
+#undef DRIVER_SPINDLE_ENABLE
+#define DRIVER_SPINDLE_ENABLE   0
 #define BLTOUCH_ENABLE          0
 #define EVENTOUT_ENABLE         0
 

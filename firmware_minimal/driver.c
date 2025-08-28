@@ -1909,6 +1909,8 @@ inline static void spindle_dir (bool ccw)
 
 #endif
 
+#if DRIVER_SPINDLE_ENABLE
+
 // Start or stop spindle
 static void spindleSetState (spindle_ptrs_t *spindle, spindle_state_t state, float rpm)
 {
@@ -1919,6 +1921,8 @@ static void spindleSetState (spindle_ptrs_t *spindle, spindle_state_t state, flo
         spindle_on(spindle);
     }
 }
+
+#endif
 
 #if DRIVER_SPINDLE_ENABLE & SPINDLE_PWM
 

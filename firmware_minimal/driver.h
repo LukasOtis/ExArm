@@ -66,6 +66,13 @@
 
 #include "grbl/driver_opts.h"
 
+// Force override any spindle definitions that might come from driver_opts.h
+// This ensures our disabled spindle configuration takes precedence
+#undef SPINDLE_ENABLE
+#define SPINDLE_ENABLE          0
+#undef DRIVER_SPINDLE_ENABLE
+#define DRIVER_SPINDLE_ENABLE   0
+
 #if ETHERNET_ENABLE && WIFI_ENABLE
 #error "WiFi and Ethernet cannot be enabled at the same time!"
 #endif
@@ -160,6 +167,9 @@
   #include "boards/generic_map_4axis.h"
 #elif defined(BOARD_ROBOTARM_5AXIS) || defined(BOARD_GENERIC_5AXIS)
   #include "boards/5axis_robotarm.h"
+  // Skip generic map for robot arm board - we have our own complete pin mapping
+#elif defined(BOARD_GENERIC_8AXIS)
+  #include "boards/generic_map_8axis.h"
 #else // default board
   #include "boards/generic_map.h"
 #endif

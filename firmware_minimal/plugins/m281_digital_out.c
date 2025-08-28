@@ -1,5 +1,5 @@
 /*
-  m281_digital_out.c - simple plugin for digital outputs on Aux out 0/1/2
+  m281_digital_out.c - simple plugin for digital outputs on Aux out 3/4/5
 
   Usage:
     M281 P<n> S0|1   -> set Aux out <n> low/high (n = 0..2)
@@ -10,10 +10,24 @@
 #if 1
 
 #include <string.h>
+#include "hardware/gpio.h"
 
 #include "grbl/hal.h"
 #include "grbl/protocol.h"
 #include "grbl/ioports.h"
+
+// Define the GPIO pins for digital outputs
+#define M281_OUT0_PIN AUXOUTPUT1_PIN
+#define M281_OUT1_PIN AUXOUTPUT2_PIN
+#define M281_OUT2_PIN AUXOUTPUT3_PIN
+
+// Array to hold the GPIO pins
+static const uint8_t m281_pins[] = {
+    M281_OUT0_PIN,
+    M281_OUT1_PIN,
+    M281_OUT2_PIN
+};
+#define N_M281_PINS (sizeof(m281_pins) / sizeof(m281_pins[0]))
 
 static user_mcode_ptrs_t user_mcode;
 static on_report_options_ptr on_report_options;
@@ -52,7 +66,11 @@ static void mcode_execute (uint_fast16_t state, parser_block_t *gc_block)
     if(gc_block->user_mcode == (user_mcode_t)281) {
         uint8_t port = (uint8_t)gc_block->values.p;   // Aux out port index
         uint8_t on = (uint8_t)gc_block->values.s;     // 0/1
-        ioport_digital_out(port, on);
+        
+        if(port < N_M281_PINS) {
+            // Directly control the GPIO pin using hardware functions
+            gpio_put(m281_pins[port], on);
+        }
     } else if(user_mcode.execute)
         user_mcode.execute(state, gc_block);
 }
@@ -66,6 +84,13 @@ void m281_digital_out_init (void)
 
     on_report_options = grbl.on_report_options;
     grbl.on_report_options = report_options_cb;
+    
+    // Initialize GPIO pins as outputs
+    for(uint_fast8_t i = 0; i < N_M281_PINS; i++) {
+        gpio_init(m281_pins[i]);
+        gpio_set_dir(m281_pins[i], GPIO_OUT);
+        gpio_put(m281_pins[i], 0); // Set to off by default
+    }
 }
 
 #endif

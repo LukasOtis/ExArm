@@ -71745,7 +71745,7 @@
 		)
 	)
 	(gr_text "V+ S G"
-		(at 85.6 59.1 0)
+		(at 84.9 59 0)
 		(layer "F.SilkS")
 		(uuid "16c0e1c8-281e-4b62-a021-aab76a3ae209")
 		(effects
@@ -71866,6 +71866,18 @@
 			(font
 				(size 1.5 1.5)
 				(thickness 0.1875)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Otis \nRobotics\n08/25"
+		(at 50.1 58.7 0)
+		(layer "F.SilkS")
+		(uuid "344f67ec-f972-4264-bfd8-003cd2a61a8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
@@ -72164,6 +72176,18 @@
 			)
 		)
 	)
+	(gr_text "Pico-RArmBoard V1"
+		(at 162.9 138.9 0)
+		(layer "F.SilkS")
+		(uuid "868dd743-68c1-44ae-ae2e-64ef8fd7b2eb")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "+ s -"
 		(at 100.3 43.5 0)
 		(layer "F.SilkS")
@@ -72439,7 +72463,7 @@
 		)
 	)
 	(gr_text "S- S+ D- D+"
-		(at 186.4 128.2 270)
+		(at 186.7 123.2 270)
 		(layer "F.SilkS")
 		(uuid "a43d07d8-d4a3-4a9b-b503-894f89be10fc")
 		(effects
@@ -72451,7 +72475,7 @@
 		)
 	)
 	(gr_text "5V GND E- E+\n"
-		(at 187.9 127.85 270)
+		(at 188 122.8 270)
 		(layer "F.SilkS")
 		(uuid "a8b63eb9-d58d-46b6-a149-fc5f1836ad83")
 		(effects

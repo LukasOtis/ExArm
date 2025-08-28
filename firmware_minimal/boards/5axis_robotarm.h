@@ -79,66 +79,43 @@
 #define AUXOUTPUT2_PWM_PIN      16
 
 
-
-
-#if I2C_ENABLE
-#define I2C_PORT                1
-#define I2C_SDA                 26
-#define I2C_SCL                 27
-#else
-#define AUXOUTPUT0_PORT         GPIO_OUTPUT
-#define AUXOUTPUT0_PIN          26
 #define AUXOUTPUT1_PORT         GPIO_OUTPUT
-#define AUXOUTPUT1_PIN          27
+#define AUXOUTPUT1_PIN          26
 #define AUXOUTPUT2_PORT         GPIO_OUTPUT
-#define AUXOUTPUT2_PIN          28
-#endif
+#define AUXOUTPUT2_PIN          27
+#define AUXOUTPUT3_PORT         GPIO_OUTPUT
+#define AUXOUTPUT3_PIN          28
 
-// Define auxiliary I/O
-#define AUXINPUT0_PIN           22
-#define AUXINPUT1_PIN           23
-
-#define AUXINPUT3_PIN           24 // Reset/EStop
-#define AUXINPUT4_PIN           25 // Feed hold
-#define AUXINPUT5_PIN           26 // Cycle start
-
-
-
-
-// Unused legacy in/outputs removed for this board
 
 
 // Define driver spindle pins
 #if DRIVER_SPINDLE_ENABLE
-#define SPINDLE_PORT            GPIO_OUTPUT
+#define SPINDLE_PORT            255
 #endif
-// No spindle pins for this board
-// Stub definitions to satisfy driver.c references
+
+// Ensure no spindle functions are mapped to our AUXOUTPUT pins
+#undef AUX_CONTROL_SPINDLE
+#define AUX_CONTROL_SPINDLE     0
+#undef AUX_CONTROLS
+#define AUX_CONTROLS            0
+
+// Disable all spindle functionality completely
+#undef SPINDLE_ENABLE
+#define SPINDLE_ENABLE          0
+#undef DRIVER_SPINDLE_ENABLE
+#define DRIVER_SPINDLE_ENABLE   0
+
+// Prevent any spindle pin mappings from generic map
+#undef SPINDLE_PWM_PIN
+#undef SPINDLE_DIRECTION_PIN
+#undef SPINDLE_ENABLE_PIN
 #define SPINDLE_PWM_PIN         255
 #define SPINDLE_DIRECTION_PIN   255
 #define SPINDLE_ENABLE_PIN      255
+#define SPINDLE_PORT            255
 
-// Define flood and mist coolant enable output pins.
-#if COOLANT_ENABLE
-#define COOLANT_PORT            GPIO_OUTPUT
-#endif
-#if COOLANT_ENABLE & COOLANT_FLOOD
-#define COOLANT_FLOOD_PIN       255
-#endif
-#if COOLANT_ENABLE & COOLANT_MIST
-#define COOLANT_MIST_PIN        255
-#endif
 
 // Define user-control controls (cycle start, reset, feed hold) input pins.
-#if CONTROL_ENABLE & CONTROL_HALT
-#define RESET_PIN               AUXINPUT3_PIN
-#endif
-#if CONTROL_ENABLE & CONTROL_FEED_HOLD
-#define FEED_HOLD_PIN           AUXINPUT4_PIN
-#endif
-#if CONTROL_ENABLE & CONTROL_CYCLE_START
-#define CYCLE_START_PIN         AUXINPUT5_PIN
-#endif
 
 #if PROBE_ENABLE
 #define PROBE_PIN               AUXINPUT2_PIN
@@ -153,3 +130,18 @@
 #elif MOTOR_FAULT_ENABLE
 #define MOTOR_FAULT_PIN         AUXINPUT0_PIN
 #endif
+
+
+// CRITICAL: Completely undefine spindle pins to prevent pin labeling system from seeing them
+// This prevents pin_bits_masks.h from creating spindle pin entries
+#ifdef SPINDLE_PWM_PIN
+#undef SPINDLE_PWM_PIN
+#endif
+#ifdef SPINDLE_DIRECTION_PIN  
+#undef SPINDLE_DIRECTION_PIN
+#endif
+#ifdef SPINDLE_ENABLE_PIN
+#undef SPINDLE_ENABLE_PIN
+#endif
+
+// Do NOT redefine them - leave them completely undefined

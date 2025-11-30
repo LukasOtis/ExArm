@@ -2335,8 +2335,24 @@
 		(uuid "bb406171-168c-4263-a8de-1be8ccb62fd6")
 	)
 	(no_connect
+		(at 189.23 88.9)
+		(uuid "28717a61-bb6a-4560-ae69-829507c39ac9")
+	)
+	(no_connect
+		(at 189.23 104.14)
+		(uuid "4bf0b085-9771-495e-8cf9-a73530b2462e")
+	)
+	(no_connect
 		(at 166.37 43.18)
 		(uuid "6d5d2165-3efb-4580-88fc-a18db9b549ff")
+	)
+	(no_connect
+		(at 143.51 58.42)
+		(uuid "aaecd9d4-67e0-4ff5-a77b-6f962f790aac")
+	)
+	(no_connect
+		(at 143.51 60.96)
+		(uuid "f756a786-490c-4479-a2a4-8ff32ff75328")
 	)
 	(wire
 		(pts
@@ -3988,7 +4004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
+		(property "Value" "GND2"
 			(at 144.78 45.212 0)
 			(effects
 				(font

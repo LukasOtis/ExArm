@@ -5,7 +5,7 @@ A 5-6 DOF excavator-style robot arm with linear acutators, controlled via ROS2 o
 
 ## System Architecture
 - **Control System**: Raspberry Pi running ROS2 Humble
-- **Motor Control**: Raspberry Pi Pico with GRBL-like firmware
+- **Motor Control**: Raspberry Pi Pico (V2: RP2350B) with custom GRBL firmware
 - **Actuators**: Stepper motors with integrated drivers and encoders
 - **Workspace**: 0.75-1m reach, 2-3kg payload capacity
 - **Communication**: Serial UART between RPi and Pico
@@ -14,6 +14,7 @@ A 5-6 DOF excavator-style robot arm with linear acutators, controlled via ROS2 o
 ```
 robot_arm_control/
 ├── docs/                          # Documentation
+├── grblhal_integration            # GRBL Frimware files (customized)
 ├── hardware/                      # Hardware design files
 ├── simulation/                    # Gazebo simulation files
 ├── ros2_workspace/               # ROS2 workspace
@@ -28,33 +29,39 @@ robot_arm_control/
 
 ## Development Timeline
 
-### Phase 1: Environment Setup (Week 1-2)
+### Phase 0: Environment Setup 
 - [ ] Set up ROS2 Humble in virtual environment
 - [ ] Create ROS2 workspace structure
 - [ ] Install development tools (Gazebo, RViz, etc.)
-- [ ] Set up version control and project structure
+- [x] Set up version control and project structure
+- [x] Setup grblHAL on RP2350
 
-### Phase 2: Simulation & Design (Week 3-6)
+### Phase 1: Desing & Layout MVP
+- [ ] Draft mechanical desing (±5 axis setup)
+- [x] Desing custom controll board (PICO 2 based)
+
+
+
+### Phase 2: Simulation & Controll
 - [ ] Create robot description (URDF/XACRO)
 - [ ] Set up Gazebo simulation environment
 - [ ] Implement basic kinematics
-- [ ] Design hardware interface architecture
 - [ ] Create visualization tools
 
-### Phase 3: Core Control System (Week 7-10)
+### Phase 3: Core Control System 
 - [ ] Implement hardware interface package
 - [ ] Create joint trajectory controller
 - [ ] Set up serial communication protocol
 - [ ] Implement safety limits and end stops
 - [ ] Basic manual control interface
 
-### Phase 4: Advanced Features (Week 11-14)
+### Phase 4: Advanced Features 
 - [ ] Path planning implementation
 - [ ] GUI development for manual control
 - [ ] Trajectory optimization
 - [ ] Error handling and recovery
 
-### Phase 5: Testing & Integration (Week 15-18)
+### Phase 5: Testing & Integration 
 - [ ] Hardware integration testing
 - [ ] Performance optimization
 - [ ] Documentation completion

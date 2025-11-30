@@ -1,5 +1,5 @@
 /*
-  generic_map_5axis.h - driver code for RP2040 ARM processors - 5 Axis Version
+  driver code for RP2040 ARM processors - 5 Axis Version
 
   Part of grblHAL
 

@@ -10,18 +10,18 @@ if(NOT EXISTS "/Users/lukasnoll/.pico-sdk/sdk/2.1.1/tools/pioasm")
   file(MAKE_DIRECTORY "/Users/lukasnoll/.pico-sdk/sdk/2.1.1/tools/pioasm")
 endif()
 file(MAKE_DIRECTORY
-  "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/firmware_minimal/build/pioasm"
-  "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/firmware_minimal/build/pioasm-install"
-  "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/firmware_minimal/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp"
-  "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/firmware_minimal/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp"
-  "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/firmware_minimal/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src"
-  "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/firmware_minimal/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp"
+  "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/pioasm"
+  "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/pioasm-install"
+  "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp"
+  "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp"
+  "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src"
+  "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/firmware_minimal/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/firmware_minimal/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp${cfgdir}") # cfgdir has leading slash
 endif()

@@ -107,7 +107,7 @@ static xbar_t *get_pin_info (io_port_direction_t dir, uint8_t port)
             if(port < analog.out.n_ports) {
                 pin.id = port;
                 pin.mode = aux_out_analog[pin.id].mode;
-                pin.mode.pwm = !pin.mode.servo_pwm; //?? for easy filtering
+                // Don't override PWM mode - keep original settings
                 XBAR_SET_CAP(pin.cap, pin.mode);
                 pin.function = aux_out_analog[pin.id].id;
                 pin.group = aux_out_analog[pin.id].group;

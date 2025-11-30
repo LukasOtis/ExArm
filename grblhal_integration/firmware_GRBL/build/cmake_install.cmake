@@ -1,4 +1,4 @@
-# Install script for directory: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/firmware_minimal
+# Install script for directory: /Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,19 +34,19 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-objdump")
+  set(CMAKE_OBJDUMP "/opt/homebrew/bin/arm-none-eabi-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/lukasnoll/Documents/builds/RobotArm/ExArm/firmware_minimal/build/pico-sdk/cmake_install.cmake")
+  include("/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/pico-sdk/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/firmware_minimal/build/install_local_manifest.txt"
+  file(WRITE "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -62,6 +62,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/firmware_minimal/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

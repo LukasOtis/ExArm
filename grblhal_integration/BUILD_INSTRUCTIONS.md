@@ -1,27 +1,23 @@
 ### For Host Build (Testing)
 
-## Building the Firmware
+## Building the Firmware (Pico 2 / RP2350)
 
-### Step 1: Navigate to Firmware Directory
+See the authoritative guide: `grblhal_integration/firmware_GRBL/README.md`.
+
+Quick commands from repo root:
 ```bash
-cd grblhal_integration/firmware
+cmake -S grblhal_integration/firmware_GRBL -B grblhal_integration/firmware_GRBL/build -G Ninja -DPICO_BOARD=pico2
+cmake --build grblhal_integration/firmware_GRBL/build
 ```
 
-### Step 2: Build with CMake
+Flashing:
 ```bash
-mkdir -p build
-cd build
-cmake ..
-make -j4
+# Hold BOOTSEL while plugging in Pico 2
+cp grblhal_integration/firmware_GRBL/build/grblHAL.uf2 /Volumes/RP2350/
 ```
 
-### Step 3: Flash to Pico 2
-1. Hold BOOTSEL button on Pico 2 while connecting USB
-2. Pico 2 will appear as USB mass storage device
-3. Copy the generated `.uf2` file to the Pico 2 drive
-4. Pico 2 will automatically restart and run the firmware
-
-### Troubleshooting Build Issues
-- Ensure PICO_SDK_PATH is set correctly
-- Run `make clean` before rebuilding
-- Check that all source files are present in the grbl/ directory
+If needed, set environment:
+```bash
+export PICO_SDK_PATH="$HOME/.pico-sdk/sdk/2.1.1"
+export PATH="/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin:$PATH"
+```

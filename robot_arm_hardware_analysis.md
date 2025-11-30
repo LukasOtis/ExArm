@@ -149,7 +149,7 @@ class GRBLWatchdog(Node):
 
 ## ✅ Implementation Roadmap
 
-### **Phase 1: Validation (Week 1-2)**
+### **Phase 1: Validation **
 1. **Setup grblHAL on RP2350**
    - Download from: https://github.com/grblHAL/RP2040
    - Configure for 5-axis + PWM mode
@@ -165,7 +165,7 @@ class GRBLWatchdog(Node):
    - Safety circuit testing
    - Emergency response verification
 
-### **Phase 2: Integration (Week 3-4)**
+### **Phase 2: Integration **
 1. **ROS2-grblHAL bridge**
    - Joint trajectory to G-code conversion
    - Status monitoring and feedback
@@ -188,26 +188,6 @@ class GRBLWatchdog(Node):
    - Real-time monitoring
 
 ## 🎯 Configuration Examples
-
-### **grblHAL Configuration for Your Setup**
-
-```
-# Enable 5 stepper axes + 1 PWM servo
-$I=5        # Number of stepper axes
-$13=1       # PWM servo mode for axis 6
-$33=50      # PWM frequency (50Hz for servo)
-
-# Stepper motor settings (example)
-$100=80     # X steps/mm
-$101=80     # Y steps/mm  
-$102=200    # Z steps/mm
-$103=100    # A steps/degree
-$104=100    # B steps/degree
-
-# Servo settings
-$34=1       # Servo min pulse (1ms)
-$35=2       # Servo max pulse (2ms)
-```
 
 ### **ROS2 Integration Code**
 

@@ -27,45 +27,6 @@ robot_arm_control/
 └── scripts/                      # Setup and utility scripts
 ```
 
-## Development Timeline
-
-### Phase 0: Environment Setup 
-- [ ] Set up ROS2 Humble in virtual environment
-- [ ] Create ROS2 workspace structure
-- [ ] Install development tools (Gazebo, RViz, etc.)
-- [x] Set up version control and project structure
-- [x] Setup grblHAL on RP2350
-
-### Phase 1: Desing & Layout MVP
-- [ ] Draft mechanical desing (±5 axis setup)
-- [x] Desing custom controll board (PICO 2 based)
-
-
-
-### Phase 2: Simulation & Controll
-- [ ] Create robot description (URDF/XACRO)
-- [ ] Set up Gazebo simulation environment
-- [ ] Implement basic kinematics
-- [ ] Create visualization tools
-
-### Phase 3: Core Control System 
-- [ ] Implement hardware interface package
-- [ ] Create joint trajectory controller
-- [ ] Set up serial communication protocol
-- [ ] Implement safety limits and end stops
-- [ ] Basic manual control interface
-
-### Phase 4: Advanced Features 
-- [ ] Path planning implementation
-- [ ] GUI development for manual control
-- [ ] Trajectory optimization
-- [ ] Error handling and recovery
-
-### Phase 5: Testing & Integration 
-- [ ] Hardware integration testing
-- [ ] Performance optimization
-- [ ] Documentation completion
-- [ ] Final testing and validation
 
 ## Current Status
 - Hardware design in CAD (ongoing)

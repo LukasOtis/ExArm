@@ -36,9 +36,10 @@
 #define N_PWM_SERVOS 1
 #endif
 
-#if N_PWM_SERVOS > 4
+// Allow up to 6 PWM servos for 6-axis robot arm configuration
+#if N_PWM_SERVOS > 6
 #undef N_PWM_SERVOS
-#define N_PWM_SERVOS 4
+#define N_PWM_SERVOS 6
 #endif
 
 #define DEFAULT_MIN_ANGLE 0.0f
@@ -75,6 +76,12 @@ static const uint8_t servo_gpio[N_PWM_SERVOS] = {
 #if N_PWM_SERVOS > 3
     AUXOUTPUT3_PWM_PIN,
 #endif
+#if N_PWM_SERVOS > 4
+    AUXOUTPUT4_PWM_PIN,
+#endif
+#if N_PWM_SERVOS > 5
+    AUXOUTPUT5_PWM_PIN,
+#endif
 };
 
 // Forward declaration for lazy attach
@@ -89,17 +96,18 @@ static bool pwm_servo_set_angle(uint8_t servo, float angle)
     //Set the position/pwm
     //Servo position is defined from 0 to 180 degrees (left, right)
     //90 degree is the half duty cycle position
-    if(servo < n_servos) {
+    if(servo < N_PWM_SERVOS && attached[servo]) {
         servos[servo].angle = angle;
         ioport_analog_out(servos[servo].port, angle);
+        return true;
     }
 
-    return servo < n_servos;
+    return false;
 }
 
 static float pwm_servo_get_angle(uint8_t servo)
 {
-    return servo < n_servos ? (servos[servo].xport.get_value ? servos[servo].xport.get_value(&servos[servo].xport) : servos[servo].angle) : -1.0f;
+    return (servo < N_PWM_SERVOS && attached[servo]) ? (servos[servo].xport.get_value ? servos[servo].xport.get_value(&servos[servo].xport) : servos[servo].angle) : -1.0f;
 }
 
 static user_mcode_type_t mcode_check (user_mcode_t mcode)
@@ -125,6 +133,8 @@ static status_code_t mcode_validate (parser_block_t *gc_block)
             if(gc_block->values.s < DEFAULT_MIN_ANGLE || gc_block->values.s > DEFAULT_MAX_ANGLE)
                 state = Status_GcodeValueOutOfRange;
         }
+        // Clear word flags to indicate they've been validated
+        // The parser will restore them before calling execute
         gc_block->words.s = gc_block->words.p = Off;
     } else
         state = Status_Unhandled;
@@ -137,19 +147,45 @@ static void mcode_execute (uint_fast16_t state, parser_block_t *gc_block)
     if(gc_block->user_mcode == PWMServo_SetPosition) {
         uint8_t servo = (uint8_t)gc_block->values.p;
 
+        // Validate servo index
+        if(servo >= N_PWM_SERVOS) {
+            if(user_mcode.execute)
+                user_mcode.execute(state, gc_block);
+            return;
+        }
+
         // Attach only the addressed channel, leave others in analog mode
-        if(servo < N_PWM_SERVOS && !attached[servo]) {
+        if(!attached[servo]) {
             uint8_t target = servo;
             ioports_enumerate(Port_Analog, Port_Output, (pin_cap_t){ .pwm = On, .claimable = On }, servo_attach, &target);
         }
 
+        // Check if servo is attached before trying to use it
+        if(!attached[servo]) {
+            // Servo attachment failed, cannot proceed
+            if(user_mcode.execute)
+                user_mcode.execute(state, gc_block);
+            return;
+        }
+
+        // Use the validated values (word flags are cleared by validation, but values remain)
+        // Check if S value was provided by checking if it's not the default (or use a different method)
+        // Since validation cleared words.s, we need to check the value differently
+        // For now, always try to set if we have a valid servo attached
+        // The original code checked words.s, but that's cleared by validation
+        // We'll use a different approach: check if values.s was set (non-zero or explicitly provided)
+        // Actually, let's just always set the angle if servo is attached, or read it if not provided
+        // But we need to know if S was provided... Let's check if values.s is valid
+        
+        // Check if S was provided (parser restores word flags before execute)
         if(gc_block->words.s) {
+            // S was provided, set the angle
 #ifdef DEBUGOUT
             debug_print("Setting servo position");
 #endif
             pwm_servo_set_angle(servo, gc_block->values.s);
         } else {
-            //Reads the position/pwm
+            // S was not provided, read the current position
             float value = pwm_servo_get_angle(servo);
             if (value >= 0.0f) {
                 char buf[40];
@@ -192,7 +228,9 @@ static bool servo_attach (xbar_t *pwm_pin, uint8_t port, void *data)
         "PWM Servo 0",
         "PWM Servo 1",
         "PWM Servo 2",
-        "PWM Servo 3"
+        "PWM Servo 3",
+        "PWM Servo 4",
+        "PWM Servo 5"
     };
     // Expected target servo index passed via data
     uint8_t target = data ? *(uint8_t *)data : 255;
@@ -220,7 +258,9 @@ static bool servo_attach (xbar_t *pwm_pin, uint8_t port, void *data)
                 if(pwm_pin->get_value)
                     memcpy(&servos[target].xport, pwm_pin, sizeof(xbar_t));
 
-                ioport_set_description(Port_Analog, Port_Output, port, descr[target]);
+                // Use description from array, but ensure we don't go out of bounds
+                const char *description = target < sizeof(descr) / sizeof(descr[0]) ? descr[target] : "PWM Servo";
+                ioport_set_description(Port_Analog, Port_Output, port, description);
 
                 attached[target] = true;
                 n_servos++;

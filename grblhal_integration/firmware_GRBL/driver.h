@@ -165,9 +165,12 @@
   #include "boards/my_machine_map.h"
 #elif defined(BOARD_GENERIC_4AXIS)
   #include "boards/generic_map_4axis.h"
+#elif defined(BOARD_ROBOTARM_6AXIS_RP2350B)
+  #include "boards/robotarm_6axis_rp2350b.h"
+  // Custom 6-axis robot arm board for RP2350B minimal hardware
 #elif defined(BOARD_ROBOTARM_5AXIS) || defined(BOARD_GENERIC_5AXIS)
   #include "boards/5axis_robotarm.h"
-  // Skip generic map for robot arm board - we have our own complete pin mapping
+  // 5-axis robot arm board - keep mapping separate from generic map
 #elif defined(BOARD_GENERIC_8AXIS)
   #include "boards/generic_map_8axis.h"
 #else // default board

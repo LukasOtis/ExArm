@@ -1,8 +1,8 @@
 /*
-  m281_digital_out.c - simple plugin for digital outputs on Aux out 3/4/5
+  m281_digital_out.c - simple plugin for digital outputs on Aux out ports
 
   Usage:
-    M281 P<n> S0|1   -> set Aux out <n> low/high (n = 0..2)
+    M281 P<n> S0|1   -> set Aux out <n> low/high (n = 0..5 for 6-axis board)
 */
 
 #include "driver.h"
@@ -16,16 +16,34 @@
 #include "grbl/protocol.h"
 #include "grbl/ioports.h"
 
-// Define the GPIO pins for digital outputs
+// Define the GPIO pins for digital outputs (P0-P5)
 #define M281_OUT0_PIN AUXOUTPUT1_PIN
 #define M281_OUT1_PIN AUXOUTPUT2_PIN
 #define M281_OUT2_PIN AUXOUTPUT3_PIN
+#ifdef AUXOUTPUT4_PIN
+#define M281_OUT3_PIN AUXOUTPUT4_PIN
+#endif
+#ifdef AUXOUTPUT5_PIN
+#define M281_OUT4_PIN AUXOUTPUT5_PIN
+#endif
+#ifdef AUXOUTPUT6_PIN
+#define M281_OUT5_PIN AUXOUTPUT6_PIN
+#endif
 
 // Array to hold the GPIO pins
 static const uint8_t m281_pins[] = {
     M281_OUT0_PIN,
     M281_OUT1_PIN,
-    M281_OUT2_PIN
+    M281_OUT2_PIN,
+#ifdef M281_OUT3_PIN
+    M281_OUT3_PIN,
+#endif
+#ifdef M281_OUT4_PIN
+    M281_OUT4_PIN,
+#endif
+#ifdef M281_OUT5_PIN
+    M281_OUT5_PIN,
+#endif
 };
 #define N_M281_PINS (sizeof(m281_pins) / sizeof(m281_pins[0]))
 
@@ -52,7 +70,7 @@ static status_code_t mcode_validate (parser_block_t *gc_block)
             state = Status_GcodeValueWordMissing;
         else if(!isintf(gc_block->values.p) || !isintf(gc_block->values.s))
             state = Status_BadNumberFormat;
-        else if((uint8_t)gc_block->values.p > 2 || ((uint8_t)gc_block->values.s > 1))
+        else if((uint8_t)gc_block->values.p >= N_M281_PINS || ((uint8_t)gc_block->values.s > 1))
             state = Status_GcodeValueOutOfRange;
         gc_block->words.p = gc_block->words.s = Off;
     } else

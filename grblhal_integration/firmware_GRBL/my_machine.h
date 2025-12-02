@@ -1,10 +1,10 @@
 #pragma once
 
-// Define board identifier for 5-axis configuration
-#define BOARD_ROBOTARM_5AXIS
+// Define board identifier for 6-axis RP2350B robot arm configuration
+#define BOARD_ROBOTARM_6AXIS_RP2350B
 
-// Set number of axes to 5 (X, Y, Z, A, B)
-#define N_AXIS                 5
+// Set number of axes to 6 (X, Y, Z, A, B, C)
+#define N_AXIS                 6
 
 // Standardized 1:1 axis settings for ROS2 motion planning
 // All axes use 1 step = 1mm for simple, predictable behavior
@@ -13,6 +13,7 @@
 #define DEFAULT_Z_STEPS_PER_MM  1.0f
 #define DEFAULT_A_STEPS_PER_MM  1.0f
 #define DEFAULT_B_STEPS_PER_MM  1.0f
+#define DEFAULT_C_STEPS_PER_MM  1.0f
 
 // Standardized max travel limits for all axes (in mm)
 // Set to reasonable values for a typical robot arm
@@ -21,6 +22,7 @@
 #define DEFAULT_Z_MAX_TRAVEL    500.0f
 #define DEFAULT_A_MAX_TRAVEL    500.0f  
 #define DEFAULT_B_MAX_TRAVEL    500.0f  
+#define DEFAULT_C_MAX_TRAVEL    500.0f  
 
 // Standardized max feed rates for all axes (in mm/min)
 #define DEFAULT_X_MAX_RATE      1000.0f
@@ -28,6 +30,7 @@
 #define DEFAULT_Z_MAX_RATE      1000.0f
 #define DEFAULT_A_MAX_RATE      1000.0f
 #define DEFAULT_B_MAX_RATE      1000.0f
+#define DEFAULT_C_MAX_RATE      1000.0f
 
 // Basic configuration
 #ifndef USB_SERIAL_CDC
@@ -46,7 +49,9 @@
 #define EEPROM_ENABLE           0
 #define RGB_LED_ENABLE          0
 #define PWM_SERVO_ENABLE        1
-#define N_PWM_SERVOS            3
+#define N_PWM_SERVOS            6
+// Enable per-axis fault monitoring plugin for RP2350B robot arm
+#define AXIS_FAULT_MONITOR_ENABLE 1
 // Enable built-in I/O M-codes (M64/M65, M67/M68)
 #define IO_ENABLE               1
 #define AUX_OUTPUT_GENERIC      1

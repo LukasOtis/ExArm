@@ -156,6 +156,11 @@
     probe_protect_init();
 #endif
 
+#if AXIS_FAULT_MONITOR_ENABLE
+    extern void axis_fault_monitor_init (void);
+    axis_fault_monitor_init();
+#endif
+
 #if WEBUI_ENABLE
     extern void webui_init (void);
     webui_init();

@@ -61,6 +61,7 @@
 #include "grbl/motor_pins.h"
 #include "grbl/pin_bits_masks.h"
 #include "grbl/protocol.h"
+#include "grbl/ioports.h"
 
 // Stub spindle functions removed - using built-in ones from driver
 #if NVSDATA_BUFFER_ENABLE
@@ -244,6 +245,7 @@ static periph_signal_t *periph_pins = NULL;
 #define add_in_pin(p) defined(p##_PIN)
 #define add_limit_pin(p) { .id = Input_Limit##p, .port = GPIO_INPUT, .pin = p##_LIMIT_PIN, .group = PinGroup_Limit },
 #define add_maxlimit_pin(p) { .id = Input_Limit##p##_Max, .port = GPIO_INPUT, .pin = p##_LIMIT_PIN_MAX, .group = PinGroup_Limit },
+#define add_fault_pin(p) { .id = Input_MotorFault##p, .port = GPIO_INPUT, .pin = p##_FAULT_PIN, .group = PinGroup_Motor_Fault },
 
 static input_signal_t inputpin[] = {
     add_limit_pin(X)
@@ -285,14 +287,10 @@ static input_signal_t inputpin[] = {
 #ifdef A_LIMIT_PIN_MAX
     { .id = Input_LimitA_Max,     .port = GPIO_INPUT, .pin = A_LIMIT_PIN_MAX,     .group = PinGroup_Limit },
 #endif
-#ifdef B_LIMIT_PIN
-    { .id = Input_LimitB,         .port = GPIO_INPUT, .pin = B_LIMIT_PIN,         .group = PinGroup_Limit },
-#endif
+// B_LIMIT_PIN and C_LIMIT_PIN are handled by add_limit_pin(B) and add_limit_pin(C) macros above
+// Only add MAX versions here if they exist
 #ifdef B_LIMIT_PIN_MAX
     { .id = Input_LimitB_Max,     .port = GPIO_INPUT, .pin = B_LIMIT_PIN_MAX,     .group = PinGroup_Limit },
-#endif
-#ifdef C_LIMIT_PIN
-    { .id = Input_LimitC,         .port = GPIO_INPUT, .pin = C_LIMIT_PIN,         .group = PinGroup_Limit },
 #endif
 #ifdef C_LIMIT_PIN_MAX
     { .id = Input_LimitC_Max,     .port = GPIO_INPUT, .pin = C_LIMIT_PIN_MAX,     .group = PinGroup_Limit },
@@ -302,6 +300,24 @@ static input_signal_t inputpin[] = {
 #endif
 #ifdef SPINDLE_INDEX_PIN
     { .id = Input_SpindleIndex,   .port = GPIO_INPUT, .pin = SPINDLE_INDEX_PIN,   .group = PinGroup_SpindleIndex },
+#endif
+#ifdef X_FAULT_PIN
+    add_fault_pin(X)
+#endif
+#ifdef Y_FAULT_PIN
+    add_fault_pin(Y)
+#endif
+#ifdef Z_FAULT_PIN
+    add_fault_pin(Z)
+#endif
+#ifdef M3_FAULT_PIN
+    { .id = Input_MotorFaultA, .port = GPIO_INPUT, .pin = M3_FAULT_PIN, .group = PinGroup_Motor_Fault },
+#endif
+#ifdef M4_FAULT_PIN
+    { .id = Input_MotorFaultB, .port = GPIO_INPUT, .pin = M4_FAULT_PIN, .group = PinGroup_Motor_Fault },
+#endif
+#ifdef M5_FAULT_PIN
+    { .id = Input_MotorFaultC, .port = GPIO_INPUT, .pin = M5_FAULT_PIN, .group = PinGroup_Motor_Fault },
 #endif
 #ifdef AUXINPUT0_PIN
     { .id = Input_Aux0, .port = GPIO_INPUT, .pin = AUXINPUT0_PIN, .group = PinGroup_AuxInput },
@@ -575,6 +591,12 @@ static output_signal_t outputpin[] = {
 #endif
 #ifdef AUXOUTPUT3_PWM_PIN
     { .id = Output_Analog_Aux3, .port = GPIO_OUTPUT, .pin = AUXOUTPUT3_PWM_PIN, .group = PinGroup_AuxOutputAnalog, .mode = { .pwm = On } },
+#endif
+#ifdef AUXOUTPUT4_PWM_PIN
+    { .id = Output_Analog_Aux4, .port = GPIO_OUTPUT, .pin = AUXOUTPUT4_PWM_PIN, .group = PinGroup_AuxOutputAnalog, .mode = { .pwm = On } },
+#endif
+#ifdef AUXOUTPUT5_PWM_PIN
+    { .id = Output_Analog_Aux5, .port = GPIO_OUTPUT, .pin = AUXOUTPUT5_PWM_PIN, .group = PinGroup_AuxOutputAnalog, .mode = { .pwm = On } },
 #endif
 };
 
@@ -1787,9 +1809,46 @@ static bool aux_claim_explicit (aux_ctrl_t *aux_ctrl)
     return aux_ctrl->aux_port != 0xFF;
 }
 
+// Custom callback to prevent disabled spindle pins (pin == 255) from claiming aux ports
+// This prevents GPIO 36-38 from being claimed by disabled spindle functions
+static bool aux_ctrl_claim_out_port_filtered (xbar_t *properties, uint8_t port, void *data)
+{
+    aux_ctrl_out_t *aux_ctrl = (aux_ctrl_out_t *)data;
+    
+    // Reject spindle functions when pins are disabled (255 = 0xFF)
+    // This prevents disabled spindle pins from claiming aux output ports
+    // Check BEFORE calling ioport_claim to prevent the port from being claimed
+    if(aux_ctrl->pin == 255 && 
+       (aux_ctrl->function == Output_SpindleOn || aux_ctrl->function == Output_SpindleDir || 
+        aux_ctrl->function == Output_SpindlePWM || aux_ctrl->function == Output_Spindle1On ||
+        aux_ctrl->function == Output_Spindle1Dir || aux_ctrl->function == Output_Spindle1PWM)) {
+        aux_ctrl->aux_port = 0xFF;
+        return false; // Don't claim ports for disabled spindle pins
+    }
+    
+    // Use default behavior for other pins
+    if(aux_ctrl->port == (void *)EXPANDER_PORT) {
+        if(aux_ctrl->pin == properties->pin && properties->set_value)
+            aux_ctrl->aux_port = port;
+    } else if(ioport_claim(Port_Digital, Port_Output, &port, xbar_fn_to_pinname(aux_ctrl->function)))
+        aux_ctrl->aux_port = port;
+    
+    return aux_ctrl->aux_port != 0xFF;
+}
+
 bool aux_out_claim_explicit (aux_ctrl_out_t *aux_ctrl)
 {
     xbar_t *pin;
+
+    // Reject spindle functions when pins are set to 255 (disabled)
+    // This prevents disabled spindle pins from claiming aux output ports
+    if(aux_ctrl->pin == 255 && 
+       (aux_ctrl->function == Output_SpindleOn || aux_ctrl->function == Output_SpindleDir || 
+        aux_ctrl->function == Output_SpindlePWM || aux_ctrl->function == Output_Spindle1On ||
+        aux_ctrl->function == Output_Spindle1Dir || aux_ctrl->function == Output_Spindle1PWM)) {
+        aux_ctrl->aux_port = 0xFF;
+        return false;
+    }
 
 #ifdef USE_EXPANDERS
     if(aux_ctrl->port == (void *)EXPANDER_PORT) {
@@ -3283,7 +3342,58 @@ bool driver_init (void)
 
     io_expanders_init();
     aux_ctrl_claim_ports(aux_claim_explicit, NULL);
-    aux_ctrl_claim_out_ports(aux_out_claim_explicit, NULL);
+    // Use filtered callback to prevent disabled spindle pins (255) from claiming aux ports
+    aux_ctrl_claim_out_ports(aux_out_claim_explicit, aux_ctrl_claim_out_port_filtered);
+
+    // Fix pin functions and descriptions for aux outputs that may have incorrect spindle assignments
+    // GPIO 36-38 should show "P2", "P3", "P4" instead of spindle names
+    // Note: Port numbers are 0-based, starting from AUXOUTPUT1 (if AUXOUTPUT0 is not defined)
+    // So AUXOUTPUT3 = port 2, AUXOUTPUT4 = port 3, AUXOUTPUT5 = port 4
+    // Must be called AFTER aux_ctrl_claim_out_ports to override any spindle assignments
+#ifdef AUXOUTPUT3_PIN
+    if(aux_outputs.n_pins > 2) {
+        xbar_t *pin = hal.port.get_pin_info(Port_Digital, Port_Output, 2);
+        if(pin) {
+            // Override function back to aux function if it was incorrectly set to spindle
+            if(pin->function == Output_SpindleDir || pin->function == Output_SpindleOn || pin->function == Output_SpindlePWM)
+                ioport_set_function(pin, Output_Aux2, NULL);
+            ioport_set_description(Port_Digital, Port_Output, 2, "P2");
+        }
+    }
+#endif
+#ifdef AUXOUTPUT4_PIN
+    if(aux_outputs.n_pins > 3) {
+        xbar_t *pin = hal.port.get_pin_info(Port_Digital, Port_Output, 3);
+        if(pin) {
+            // Override function back to aux function if it was incorrectly set to spindle
+            if(pin->function == Output_SpindleDir || pin->function == Output_SpindleOn || pin->function == Output_SpindlePWM)
+                ioport_set_function(pin, Output_Aux3, NULL);
+            ioport_set_description(Port_Digital, Port_Output, 3, "P3");
+        }
+    }
+#endif
+#ifdef AUXOUTPUT5_PIN
+    if(aux_outputs.n_pins > 4) {
+        xbar_t *pin = hal.port.get_pin_info(Port_Digital, Port_Output, 4);
+        if(pin) {
+            // Override function back to aux function if it was incorrectly set to spindle
+            if(pin->function == Output_SpindleDir || pin->function == Output_SpindleOn || pin->function == Output_SpindlePWM)
+                ioport_set_function(pin, Output_Aux4, NULL);
+            ioport_set_description(Port_Digital, Port_Output, 4, "P4");
+        }
+    }
+#endif
+#ifdef AUXOUTPUT6_PIN
+    if(aux_outputs.n_pins > 5) {
+        xbar_t *pin = hal.port.get_pin_info(Port_Digital, Port_Output, 5);
+        if(pin) {
+            // Override function back to aux function if it was incorrectly set to spindle
+            if(pin->function == Output_SpindleDir || pin->function == Output_SpindleOn || pin->function == Output_SpindlePWM)
+                ioport_set_function(pin, Output_Aux5, NULL);
+            ioport_set_description(Port_Digital, Port_Output, 5, "P5");
+        }
+    }
+#endif
 
 #if USB_SERIAL_CDC
 

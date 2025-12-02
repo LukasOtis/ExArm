@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/pioasm/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -34,7 +34,7 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/opt/homebrew/bin/arm-none-eabi-objdump")
+  set(CMAKE_OBJDUMP "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/bin/arm-none-eabi-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -104,22 +104,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/pico-sdk/src/rp2040/pico_platform/cmake_install.cmake")
+  include("/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/pico-sdk/src/rp2350/pico_platform/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/pico-sdk/src/rp2040/hardware_regs/cmake_install.cmake")
+  include("/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/pico-sdk/src/rp2350/hardware_regs/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/pico-sdk/src/rp2040/hardware_structs/cmake_install.cmake")
+  include("/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/pico-sdk/src/rp2350/hardware_structs/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/pico-sdk/src/rp2040/boot_stage2/cmake_install.cmake")
+  include("/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/pico-sdk/src/rp2350/boot_stage2/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -204,11 +204,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/pico-sdk/src/rp2_common/hardware_rtc/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/pico-sdk/src/rp2_common/hardware_spi/cmake_install.cmake")
 endif()
 
@@ -255,6 +250,31 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/pico-sdk/src/rp2_common/hardware_xosc/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/pico-sdk/src/rp2_common/hardware_powman/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/pico-sdk/src/rp2_common/hardware_riscv_platform_timer/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/pico-sdk/src/rp2_common/hardware_sha256/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/pico-sdk/src/rp2_common/hardware_dcp/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/pico-sdk/src/rp2_common/hardware_rcp/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -355,6 +375,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/pico-sdk/src/rp2_common/pico_rand/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/lukasnoll/Documents/builds/RobotArm/ExArm/grblhal_integration/firmware_GRBL/build/pico-sdk/src/rp2_common/pico_sha256/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

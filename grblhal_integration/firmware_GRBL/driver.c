@@ -3394,6 +3394,17 @@ bool driver_init (void)
         }
     }
 #endif
+#ifdef AUXOUTPUT7_PIN
+    if(aux_outputs.n_pins > 6) {
+        xbar_t *pin = hal.port.get_pin_info(Port_Digital, Port_Output, 6);
+        if(pin) {
+            // Override function back to aux function if it was incorrectly set to spindle
+            if(pin->function == Output_SpindleDir || pin->function == Output_SpindleOn || pin->function == Output_SpindlePWM)
+                ioport_set_function(pin, Output_Aux6, NULL);
+            ioport_set_description(Port_Digital, Port_Output, 6, "LED");
+        }
+    }
+#endif
 
 #if USB_SERIAL_CDC
 

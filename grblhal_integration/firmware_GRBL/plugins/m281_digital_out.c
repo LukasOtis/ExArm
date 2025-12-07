@@ -2,7 +2,7 @@
   m281_digital_out.c - simple plugin for digital outputs on Aux out ports
 
   Usage:
-    M281 P<n> S0|1   -> set Aux out <n> low/high (n = 0..5 for 6-axis board)
+    M281 P<n> S0|1   -> set Aux out <n> low/high (n = 0..6, P6=GPIO47 LED indicator)
 */
 
 #include "driver.h"
@@ -16,7 +16,7 @@
 #include "grbl/protocol.h"
 #include "grbl/ioports.h"
 
-// Define the GPIO pins for digital outputs (P0-P5)
+// Define the GPIO pins for digital outputs (P0-P6)
 #define M281_OUT0_PIN AUXOUTPUT1_PIN
 #define M281_OUT1_PIN AUXOUTPUT2_PIN
 #define M281_OUT2_PIN AUXOUTPUT3_PIN
@@ -28,6 +28,9 @@
 #endif
 #ifdef AUXOUTPUT6_PIN
 #define M281_OUT5_PIN AUXOUTPUT6_PIN
+#endif
+#ifdef AUXOUTPUT7_PIN
+#define M281_OUT6_PIN AUXOUTPUT7_PIN
 #endif
 
 // Array to hold the GPIO pins
@@ -43,6 +46,9 @@ static const uint8_t m281_pins[] = {
 #endif
 #ifdef M281_OUT5_PIN
     M281_OUT5_PIN,
+#endif
+#ifdef M281_OUT6_PIN
+    M281_OUT6_PIN,
 #endif
 };
 #define N_M281_PINS (sizeof(m281_pins) / sizeof(m281_pins[0]))

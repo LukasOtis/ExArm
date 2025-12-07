@@ -79,8 +79,9 @@
 #define SINGLE_BLOCK_ENABLE     0
 #define LIMITS_OVERRIDE_ENABLE  0
 
-// Disable control inputs to prevent alarms
-#define CONTROL_ENABLE          0
+// Enable E-stop input (GPIO 9, RESET_PIN)
+// Other control inputs remain disabled
+#define CONTROL_ENABLE          CONTROL_ESTOP
 
 // Disable limit switches for testing (they might be floating)
 #define LIMITS_ENABLE           0

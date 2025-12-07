@@ -95,7 +95,7 @@
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
@@ -544,7 +544,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "RP2350B_breakout.step",
       "svg": "",
       "vrml": ""
     },
@@ -680,7 +680,51 @@
     ],
     [
       "7a7f73bb-74e1-4dbe-9752-0049559eea3b",
-      "axis"
+      "axis_1"
+    ],
+    [
+      "f63a7234-dada-41bd-9bfd-f414294f9cdd",
+      "5V_converter"
+    ],
+    [
+      "8f5b0ff4-777a-4f04-b60e-fe0c8c637f75",
+      "12V_converter"
+    ],
+    [
+      "8d761fc9-1a4c-4ed5-ae72-797fc83ca7b0",
+      "axis_2"
+    ],
+    [
+      "ee8dfa6e-ded6-417b-a6ea-67ced9f91562",
+      "axis_3"
+    ],
+    [
+      "0efdde0f-d125-4bd8-af98-ed67740fa965",
+      "axis_4"
+    ],
+    [
+      "35a4d2ad-28be-48e1-b102-2f58a233ce81",
+      "axis_6"
+    ],
+    [
+      "158ea8c6-4623-4606-ae7c-41994a2f56df",
+      "axis_5"
+    ],
+    [
+      "f18f013a-ec2e-4890-92bc-6e5023852b69",
+      "PWMout_1"
+    ],
+    [
+      "693c4efc-0637-4ea7-9ee0-b0d94ec9c374",
+      "PWMout_2"
+    ],
+    [
+      "370999e9-6a1e-49f1-bb60-be5e21ff9974",
+      "outputRelay"
+    ],
+    [
+      "7ae03a2a-5da0-4713-a6fc-49e8196aeb38",
+      "Homing_Estop"
     ]
   ],
   "text_variables": {}

@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "MCU_RaspberryPi_RP2350")(type "KiCad")(uri "${KIPRJMOD}/MCU_RaspberryPi_RP2350.kicad_sym")(options "")(descr ""))
   (lib (name "Breakout_V1")(type "KiCad")(uri "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/hardware/pcb/libraries/My_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "WL-OCPT_SERIES_357")(type "KiCad")(uri "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/hardware/pcb/libraries/WL-OCPT_SERIES_357/WL-OCPT_SERIES_357.kicad_sym")(options "")(descr ""))
+  (lib (name "TLP291-4_TP_E_")(type "KiCad")(uri "/Users/lukasnoll/Documents/builds/RobotArm/ExArm/hardware/pcb/libraries/TLP291-4_TP_E_/TLP291-4_TP_E_.kicad_sym")(options "")(descr ""))
 )

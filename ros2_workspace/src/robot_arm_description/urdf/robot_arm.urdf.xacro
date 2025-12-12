@@ -1,252 +1,182 @@
 <?xml version="1.0"?>
 <robot name="robot_arm" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-  <!-- Robot Arm Parameters -->
-  <xacro:property name="base_height" value="0.1"/>
-  <xacro:property name="link1_length" value="0.3"/>
-  <xacro:property name="link2_length" value="0.25"/>
-  <xacro:property name="link3_length" value="0.2"/>
-  <xacro:property name="linear_actuator_max" value="0.1"/>
-  
-  <!-- Joint Limits -->
-  <xacro:property name="base_rotation_limit" value="3.14159"/>
-  <xacro:property name="shoulder_limit" value="1.5708"/>
-  <xacro:property name="elbow_limit" value="1.5708"/>
-  <xacro:property name="linear_actuator_limit" value="0.1"/>
-  <xacro:property name="end_effector_limit" value="3.14159"/>
+  <!-- Geometry -->
+  <xacro:property name="base_radius" value="0.10"/>
+  <xacro:property name="base_height" value="0.05"/>
+  <xacro:property name="stage_radius" value="0.08"/>
+  <xacro:property name="stage_thickness" value="0.02"/>
+  <xacro:property name="arm_length" value="0.40"/>
+  <xacro:property name="arm_width" value="0.05"/>
+  <xacro:property name="arm_thickness" value="0.04"/>
+  <xacro:property name="tool_length" value="0.05"/>
+  <xacro:property name="tool_radius" value="0.01"/>
 
-  <!-- Base Link -->
+  <!-- Mass approximations (kg) -->
+  <xacro:property name="base_mass" value="8.0"/>
+  <xacro:property name="stage_mass" value="3.0"/>
+  <xacro:property name="arm_mass" value="1.2"/>
+  <xacro:property name="tool_mass" value="0.2"/>
+
+  <!-- Joint limits -->
+  <xacro:property name="base_rotation_limit" value="3.14159"/>
+  <xacro:property name="pivot_min_deg" value="25.0"/>
+  <xacro:property name="pivot_max_deg" value="130.0"/>
+  <xacro:property name="pivot_min_rad" value="${pivot_min_deg * pi / 180.0}"/>
+  <xacro:property name="pivot_max_rad" value="${pivot_max_deg * pi / 180.0}"/>
+  <xacro:property name="pivot_mid_rad" value="${0.5 * (pivot_min_rad + pivot_max_rad)}"/>
+  <xacro:property name="pivot_span_half" value="${0.5 * (pivot_max_rad - pivot_min_rad)}"/>
+  <xacro:property name="pivot_lower" value="${-pivot_span_half}"/>
+  <xacro:property name="pivot_upper" value="${pivot_span_half}"/>
+
+  <!-- Helpers -->
+  <xacro:macro name="inertial_box" params="mass x y z">
+    <inertial>
+      <mass value="${mass}"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia
+        ixx="${mass / 12.0 * (y*y + z*z)}"
+        iyy="${mass / 12.0 * (x*x + z*z)}"
+        izz="${mass / 12.0 * (x*x + y*y)}"
+        ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </xacro:macro>
+
+  <xacro:macro name="inertial_cylinder" params="mass radius length">
+    <inertial>
+      <mass value="${mass}"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia
+        ixx="${mass / 12.0 * (3 * radius*radius + length*length)}"
+        iyy="${mass / 12.0 * (3 * radius*radius + length*length)}"
+        izz="${0.5 * mass * radius*radius}"
+        ixy="0" ixz="0" iyz="0"/>
+    </inertial>
+  </xacro:macro>
+
+  <!-- Base link -->
   <link name="base_link">
     <visual>
       <geometry>
-        <cylinder radius="0.05" length="${base_height}"/>
+        <cylinder radius="${base_radius}" length="${base_height}"/>
       </geometry>
-      <material name="blue">
-        <color rgba="0 0 0.8 1"/>
+      <material name="BaseGrey">
+        <color rgba="0.2 0.2 0.25 1.0"/>
       </material>
     </visual>
     <collision>
       <geometry>
-        <cylinder radius="0.05" length="${base_height}"/>
+        <cylinder radius="${base_radius}" length="${base_height}"/>
       </geometry>
     </collision>
-    <inertial>
-      <mass value="0.5"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
-    </inertial>
+    <xacro:inertial_cylinder mass="${base_mass}" radius="${base_radius}" length="${base_height}"/>
   </link>
 
-  <!-- Joint 1: Base Rotation -->
-  <joint name="base_rotation" type="revolute">
+  <!-- Rotating stage -->
+  <joint name="base_rotation" type="continuous">
     <parent link="base_link"/>
-    <child link="link1"/>
-    <origin xyz="0 0 ${base_height/2}" rpy="0 0 0"/>
+    <child link="rotating_stage"/>
+    <origin xyz="0 0 ${base_height/2 + stage_thickness/2}" rpy="0 0 0"/>
     <axis xyz="0 0 1"/>
-    <limit lower="-${base_rotation_limit}" upper="${base_rotation_limit}" 
-           velocity="1.0" effort="10.0"/>
-    <dynamics damping="0.1" friction="0.1"/>
+    <limit lower="-${base_rotation_limit}" upper="${base_rotation_limit}" effort="20.0" velocity="1.57"/>
+    <dynamics damping="0.05" friction="0.0"/>
   </joint>
 
-  <link name="link1">
+  <link name="rotating_stage">
     <visual>
       <geometry>
-        <box size="0.1 0.1 ${link1_length}"/>
+        <cylinder radius="${stage_radius}" length="${stage_thickness}"/>
       </geometry>
-      <material name="red">
-        <color rgba="0.8 0 0 1"/>
+      <material name="StageBlue">
+        <color rgba="0.0 0.25 0.6 1.0"/>
       </material>
     </visual>
     <collision>
       <geometry>
-        <box size="0.1 0.1 ${link1_length}"/>
+        <cylinder radius="${stage_radius}" length="${stage_thickness}"/>
       </geometry>
     </collision>
-    <inertial>
-      <mass value="0.3"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
-    </inertial>
+    <xacro:inertial_cylinder mass="${stage_mass}" radius="${stage_radius}" length="${stage_thickness}"/>
   </link>
 
-  <!-- Joint 2: Shoulder Rotation -->
-  <joint name="shoulder_rotation" type="revolute">
-    <parent link="link1"/>
-    <child link="link2"/>
-    <origin xyz="0 0 ${link1_length}" rpy="0 0 0"/>
+  <!-- Arm pivot located at stage perimeter -->
+  <joint name="arm_pivot" type="revolute">
+    <parent link="rotating_stage"/>
+    <child link="arm_link"/>
+    <origin
+      xyz="${stage_radius} 0 ${base_height/2 + stage_thickness}"
+      rpy="0 ${pivot_mid_rad} 0"/>
     <axis xyz="0 1 0"/>
-    <limit lower="-${shoulder_limit}" upper="${shoulder_limit}" 
-           velocity="1.0" effort="10.0"/>
-    <dynamics damping="0.1" friction="0.1"/>
+    <limit lower="${pivot_lower}" upper="${pivot_upper}" effort="15.0" velocity="1.0"/>
+    <dynamics damping="0.05" friction="0.0"/>
   </joint>
 
-  <link name="link2">
+  <link name="arm_link">
     <visual>
+      <origin xyz="${arm_length/2} 0 0" rpy="0 0 0"/>
       <geometry>
-        <box size="0.08 0.08 ${link2_length}"/>
+        <box size="${arm_length} ${arm_width} ${arm_thickness}"/>
       </geometry>
-      <material name="green">
-        <color rgba="0 0.8 0 1"/>
+      <material name="ArmOrange">
+        <color rgba="0.9 0.45 0.15 1.0"/>
       </material>
     </visual>
     <collision>
+      <origin xyz="${arm_length/2} 0 0" rpy="0 0 0"/>
       <geometry>
-        <box size="0.08 0.08 ${link2_length}"/>
+        <box size="${arm_length} ${arm_width} ${arm_thickness}"/>
       </geometry>
     </collision>
-    <inertial>
-      <mass value="0.25"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
-    </inertial>
+    <xacro:inertial_box mass="${arm_mass}" x="${arm_length}" y="${arm_width}" z="${arm_thickness}"/>
   </link>
 
-  <!-- Joint 3: Elbow Rotation -->
-  <joint name="elbow_rotation" type="revolute">
-    <parent link="link2"/>
-    <child link="link3"/>
-    <origin xyz="0 0 ${link2_length}" rpy="0 0 0"/>
-    <axis xyz="0 1 0"/>
-    <limit lower="-${elbow_limit}" upper="${elbow_limit}" 
-           velocity="1.0" effort="10.0"/>
-    <dynamics damping="0.1" friction="0.1"/>
-  </joint>
-
-  <link name="link3">
-    <visual>
-      <geometry>
-        <box size="0.06 0.06 ${link3_length}"/>
-      </geometry>
-      <material name="yellow">
-        <color rgba="0.8 0.8 0 1"/>
-      </material>
-    </visual>
-    <collision>
-      <geometry>
-        <box size="0.06 0.06 ${link3_length}"/>
-      </geometry>
-    </collision>
-    <inertial>
-      <mass value="0.2"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
-    </inertial>
-  </link>
-
-  <!-- Joint 4: Linear Actuator 1 -->
-  <joint name="linear_actuator1" type="prismatic">
-    <parent link="link3"/>
-    <child link="linear_link1"/>
-    <origin xyz="0 0 ${link3_length}" rpy="0 0 0"/>
-    <axis xyz="0 0 1"/>
-    <limit lower="0" upper="${linear_actuator_limit}" 
-           velocity="0.1" effort="20.0"/>
-    <dynamics damping="0.1" friction="0.1"/>
-  </joint>
-
-  <link name="linear_link1">
-    <visual>
-      <geometry>
-        <cylinder radius="0.02" length="0.05"/>
-      </geometry>
-      <material name="orange">
-        <color rgba="1 0.5 0 1"/>
-      </material>
-    </visual>
-    <collision>
-      <geometry>
-        <cylinder radius="0.02" length="0.05"/>
-      </geometry>
-    </collision>
-    <inertial>
-      <mass value="0.1"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
-    </inertial>
-  </link>
-
-  <!-- Joint 5: Linear Actuator 2 -->
-  <joint name="linear_actuator2" type="prismatic">
-    <parent link="linear_link1"/>
-    <child link="linear_link2"/>
-    <origin xyz="0 0 0.025" rpy="0 0 0"/>
-    <axis xyz="0 0 1"/>
-    <limit lower="0" upper="${linear_actuator_limit}" 
-           velocity="0.1" effort="20.0"/>
-    <dynamics damping="0.1" friction="0.1"/>
-  </joint>
-
-  <link name="linear_link2">
-    <visual>
-      <geometry>
-        <cylinder radius="0.015" length="0.04"/>
-      </geometry>
-      <material name="purple">
-        <color rgba="0.5 0 0.5 1"/>
-      </material>
-    </visual>
-    <collision>
-      <geometry>
-        <cylinder radius="0.015" length="0.04"/>
-      </geometry>
-    </collision>
-    <inertial>
-      <mass value="0.08"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
-    </inertial>
-  </link>
-
-  <!-- Joint 6: End Effector Rotation -->
-  <joint name="end_effector_rotation" type="revolute">
-    <parent link="linear_link2"/>
+  <!-- Tooling stub -->
+  <joint name="end_effector_joint" type="fixed">
+    <parent link="arm_link"/>
     <child link="end_effector"/>
-    <origin xyz="0 0 0.02" rpy="0 0 0"/>
-    <axis xyz="0 0 1"/>
-    <limit lower="-${end_effector_limit}" upper="${end_effector_limit}" 
-           velocity="2.0" effort="5.0"/>
-    <dynamics damping="0.1" friction="0.1"/>
+    <origin xyz="${arm_length} 0 0" rpy="0 0 0"/>
   </joint>
 
   <link name="end_effector">
     <visual>
+      <origin xyz="${tool_length/2} 0 0" rpy="0 ${pi/2} 0"/>
       <geometry>
-        <sphere radius="0.02"/>
+        <cylinder radius="${tool_radius}" length="${tool_length}"/>
       </geometry>
-      <material name="white">
-        <color rgba="1 1 1 1"/>
+      <material name="ToolBlack">
+        <color rgba="0.05 0.05 0.05 1.0"/>
       </material>
     </visual>
     <collision>
+      <origin xyz="${tool_length/2} 0 0" rpy="0 ${pi/2} 0"/>
       <geometry>
-        <sphere radius="0.02"/>
+        <cylinder radius="${tool_radius}" length="${tool_length}"/>
       </geometry>
     </collision>
-    <inertial>
-      <mass value="0.05"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
-    </inertial>
+    <xacro:inertial_cylinder mass="${tool_mass}" radius="${tool_radius}" length="${tool_length}"/>
   </link>
 
-  <!-- End Effector Tool -->
-  <link name="tool">
+  <joint name="tool_tip_joint" type="fixed">
+    <parent link="end_effector"/>
+    <child link="tool_tip"/>
+    <origin xyz="${tool_length} 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <link name="tool_tip">
     <visual>
       <geometry>
-        <cylinder radius="0.005" length="0.05"/>
+        <sphere radius="0.015"/>
       </geometry>
-      <material name="black">
-        <color rgba="0 0 0 1"/>
+      <material name="TipWhite">
+        <color rgba="0.95 0.95 0.95 1.0"/>
       </material>
     </visual>
     <collision>
       <geometry>
-        <cylinder radius="0.005" length="0.05"/>
+        <sphere radius="0.015"/>
       </geometry>
     </collision>
-    <inertial>
-      <mass value="0.01"/>
-      <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
-    </inertial>
+    <xacro:inertial_box mass="0.05" x="0.03" y="0.03" z="0.03"/>
   </link>
-
-  <joint name="tool_joint" type="fixed">
-    <parent link="end_effector"/>
-    <child link="tool"/>
-    <origin xyz="0 0 0.02" rpy="0 0 0"/>
-  </joint>
 
 </robot>
